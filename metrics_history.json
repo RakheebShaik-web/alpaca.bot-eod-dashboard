@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-10T14:38:58.094466+00:00",
+    "generated_at": "2026-07-10T14:47:36.618108+00:00",
     "latest_date": "2026-07-10",
     "days": [
         {
@@ -562,20 +562,29 @@
         {
             "date": "2026-07-10",
             "trade_metrics": {
-                "total_trades": 0,
+                "total_trades": 1,
                 "win_count": 0,
-                "loss_count": 0,
+                "loss_count": 1,
                 "breakeven_count": 0,
                 "win_rate_pct": 0.0,
-                "loss_rate_pct": 0.0,
-                "total_pnl": 0,
-                "closed_position_pnl": 0,
-                "avg_pnl_per_trade": 0.0,
+                "loss_rate_pct": 100.0,
+                "total_pnl": -47.0,
+                "closed_position_pnl": -47.0,
+                "avg_pnl_per_trade": -47.0,
                 "avg_win": 0.0,
-                "avg_loss": 0.0,
-                "realized_exit_count": 0,
+                "avg_loss": -47.0,
+                "realized_exit_count": 1,
                 "open_partial_count": 0,
-                "by_symbol": {},
+                "by_symbol": {
+                    "MSFT": {
+                        "trades": 1,
+                        "pnl": -47.0,
+                        "wins": 0,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    }
+                },
                 "recent_trades": [
                     {
                         "trade_id": "AAPL-4",
@@ -618,6 +627,20 @@
                         "total_pnl": "20.35",
                         "balance": "5020.35",
                         "notes": "TP1=208.05 TP2=208.26 TP3=208.78 SL=206.19 shares=48 risk\u00e2\u2030\u02c6$49.73 signal=2026-07-09 14:45:00 alpaca_order=ff64e4de-41a4-4ff4-9b6d-d71ea65d0fed status=submitted"
+                    },
+                    {
+                        "trade_id": "MSFT-4",
+                        "timestamp": "2026-07-10 14:22:41",
+                        "symbol": "MSFT",
+                        "event": "SL_HIT",
+                        "side": "LONG",
+                        "price": "384.44",
+                        "shares": "25.0",
+                        "usd_qty": "9611.0",
+                        "pnl": "-47.0",
+                        "total_pnl": "-47.0",
+                        "balance": "4953.0",
+                        "notes": "SL hit manual fix"
                     }
                 ]
             },
