@@ -1,0 +1,33 @@
+{
+  "date": "2026-07-01",
+  "trade_metrics": {
+    "total_trades": 0,
+    "win_count": 0,
+    "loss_count": 0,
+    "breakeven_count": 0,
+    "win_rate_pct": 0.0,
+    "loss_rate_pct": 0.0,
+    "total_pnl": 0,
+    "closed_position_pnl": 0,
+    "avg_pnl_per_trade": 0.0,
+    "avg_win": 0.0,
+    "avg_loss": 0.0,
+    "realized_exit_count": 0,
+    "open_partial_count": 0,
+    "by_symbol": {}
+  },
+  "signal_metrics": {
+    "risk_rejected_count": 0,
+    "risk_passed_count": 0,
+    "ai_accepted_count": 0,
+    "ai_rejected_count": 0,
+    "ai_accept_rate_pct": null,
+    "ml_gate_passed_count": 0,
+    "ml_gate_rejected_count": 0,
+    "by_filter": {},
+    "has_signal_data": false
+  },
+  "trend": {
+    "has_previous_day": false
+  }
+}

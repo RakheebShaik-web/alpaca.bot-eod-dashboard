@@ -1,0 +1,640 @@
+{
+    "generated_at": "2026-07-10T14:38:58.094466+00:00",
+    "latest_date": "2026-07-10",
+    "days": [
+        {
+            "date": "2026-06-26",
+            "trade_metrics": {
+                "total_trades": 0,
+                "win_count": 0,
+                "loss_count": 0,
+                "breakeven_count": 0,
+                "win_rate_pct": 0.0,
+                "loss_rate_pct": 0.0,
+                "total_pnl": 0,
+                "avg_pnl_per_trade": 0.0,
+                "avg_win": 0.0,
+                "avg_loss": 0.0,
+                "by_symbol": {}
+            },
+            "signal_metrics": {
+                "risk_rejected_count": 0,
+                "risk_passed_count": 0,
+                "ai_accepted_count": 0,
+                "ai_rejected_count": 0,
+                "ai_accept_rate_pct": null,
+                "ml_gate_passed_count": 0,
+                "ml_gate_rejected_count": 0,
+                "by_filter": {},
+                "has_signal_data": false
+            },
+            "trend": {
+                "has_previous_day": false
+            }
+        },
+        {
+            "date": "2026-06-29",
+            "trade_metrics": {
+                "total_trades": 987,
+                "win_count": 285,
+                "loss_count": 214,
+                "breakeven_count": 488,
+                "win_rate_pct": 28.88,
+                "loss_rate_pct": 21.68,
+                "total_pnl": 1991.86,
+                "avg_pnl_per_trade": 2.02,
+                "avg_win": 31.55,
+                "avg_loss": -32.72,
+                "by_symbol": {
+                    "AAPL": {
+                        "trades": 38,
+                        "pnl": 49.38,
+                        "wins": 11
+                    },
+                    "AMD": {
+                        "trades": 63,
+                        "pnl": 1063.19,
+                        "wins": 23
+                    },
+                    "AMZN": {
+                        "trades": 55,
+                        "pnl": 292.04,
+                        "wins": 16
+                    },
+                    "AVGO": {
+                        "trades": 55,
+                        "pnl": -64.57,
+                        "wins": 15
+                    },
+                    "BAC": {
+                        "trades": 40,
+                        "pnl": 10.23,
+                        "wins": 11
+                    },
+                    "COST": {
+                        "trades": 50,
+                        "pnl": 276.67,
+                        "wins": 15
+                    },
+                    "CRM": {
+                        "trades": 65,
+                        "pnl": -103.28,
+                        "wins": 18
+                    },
+                    "GOOGL": {
+                        "trades": 54,
+                        "pnl": -195.69,
+                        "wins": 11
+                    },
+                    "HD": {
+                        "trades": 61,
+                        "pnl": 8.41,
+                        "wins": 14
+                    },
+                    "JPM": {
+                        "trades": 42,
+                        "pnl": -272.4,
+                        "wins": 7
+                    },
+                    "LLY": {
+                        "trades": 44,
+                        "pnl": -162.56,
+                        "wins": 12
+                    },
+                    "MA": {
+                        "trades": 24,
+                        "pnl": 176.82,
+                        "wins": 8
+                    },
+                    "META": {
+                        "trades": 74,
+                        "pnl": 224.16,
+                        "wins": 20
+                    },
+                    "MSFT": {
+                        "trades": 51,
+                        "pnl": 476.06,
+                        "wins": 17
+                    },
+                    "NFLX": {
+                        "trades": 32,
+                        "pnl": 335.43,
+                        "wins": 12
+                    },
+                    "NVDA": {
+                        "trades": 47,
+                        "pnl": -677.21,
+                        "wins": 9
+                    },
+                    "TSLA": {
+                        "trades": 18,
+                        "pnl": 5.91,
+                        "wins": 7
+                    },
+                    "UNH": {
+                        "trades": 63,
+                        "pnl": 365.72,
+                        "wins": 22
+                    },
+                    "V": {
+                        "trades": 43,
+                        "pnl": 304.14,
+                        "wins": 15
+                    },
+                    "XOM": {
+                        "trades": 68,
+                        "pnl": -120.57,
+                        "wins": 22
+                    }
+                }
+            },
+            "signal_metrics": {
+                "risk_rejected_count": 0,
+                "risk_passed_count": 0,
+                "ai_accepted_count": 0,
+                "ai_rejected_count": 0,
+                "ai_accept_rate_pct": null,
+                "ml_gate_passed_count": 0,
+                "ml_gate_rejected_count": 0,
+                "by_filter": {},
+                "has_signal_data": false
+            },
+            "trend": {
+                "has_previous_day": false
+            }
+        },
+        {
+            "date": "2026-07-01",
+            "trade_metrics": {
+                "total_trades": 51,
+                "win_count": 26,
+                "loss_count": 25,
+                "breakeven_count": 0,
+                "win_rate_pct": 50.98,
+                "loss_rate_pct": 49.02,
+                "total_pnl": 1710.49,
+                "closed_position_pnl": 1280.6,
+                "avg_pnl_per_trade": 25.11,
+                "avg_win": 151.78,
+                "avg_loss": -106.63,
+                "realized_exit_count": 170,
+                "open_partial_count": 7,
+                "by_symbol": {
+                    "META": {
+                        "trades": 5,
+                        "pnl": 212.3,
+                        "wins": 3,
+                        "losses": 2,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "LLY": {
+                        "trades": 3,
+                        "pnl": 261.26,
+                        "wins": 2,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "TSLA": {
+                        "trades": 3,
+                        "pnl": 276.54,
+                        "wins": 2,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "JPM": {
+                        "trades": 1,
+                        "pnl": 87.25,
+                        "wins": 1,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 1
+                    },
+                    "BAC": {
+                        "trades": 1,
+                        "pnl": 337.5,
+                        "wins": 1,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 1
+                    },
+                    "AMZN": {
+                        "trades": 3,
+                        "pnl": 469.39,
+                        "wins": 2,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "AAPL": {
+                        "trades": 2,
+                        "pnl": -206.55,
+                        "wins": 0,
+                        "losses": 2,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "UNH": {
+                        "trades": 2,
+                        "pnl": 189.53,
+                        "wins": 2,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "HD": {
+                        "trades": 2,
+                        "pnl": -174.16,
+                        "wins": 0,
+                        "losses": 2,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "AMD": {
+                        "trades": 8,
+                        "pnl": -229.12,
+                        "wins": 4,
+                        "losses": 4,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "NVDA": {
+                        "trades": 2,
+                        "pnl": 74.52,
+                        "wins": 1,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "COST": {
+                        "trades": 2,
+                        "pnl": -200.03,
+                        "wins": 0,
+                        "losses": 2,
+                        "breakeven": 0,
+                        "open_partial": 1
+                    },
+                    "CRM": {
+                        "trades": 3,
+                        "pnl": 265.58,
+                        "wins": 2,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "MSFT": {
+                        "trades": 4,
+                        "pnl": -38.41,
+                        "wins": 1,
+                        "losses": 3,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "NFLX": {
+                        "trades": 2,
+                        "pnl": 208.2,
+                        "wins": 1,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 1
+                    },
+                    "GOOGL": {
+                        "trades": 2,
+                        "pnl": 184.1,
+                        "wins": 2,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "AVGO": {
+                        "trades": 2,
+                        "pnl": -197.44,
+                        "wins": 0,
+                        "losses": 2,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "V": {
+                        "trades": 2,
+                        "pnl": 35.8,
+                        "wins": 1,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 1
+                    },
+                    "XOM": {
+                        "trades": 1,
+                        "pnl": -159.09,
+                        "wins": 0,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 1
+                    },
+                    "MA": {
+                        "trades": 1,
+                        "pnl": 313.31,
+                        "wins": 1,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 1
+                    }
+                }
+            },
+            "signal_metrics": {
+                "risk_rejected_count": 0,
+                "risk_passed_count": 0,
+                "ai_accepted_count": 0,
+                "ai_rejected_count": 0,
+                "ai_accept_rate_pct": null,
+                "ml_gate_passed_count": 0,
+                "ml_gate_rejected_count": 0,
+                "by_filter": {},
+                "has_signal_data": false
+            },
+            "trend": {
+                "has_previous_day": true,
+                "win_rate_delta_pct": 14.31,
+                "total_pnl_delta": 3461.62,
+                "trade_count_delta": 21,
+                "direction": "improving"
+            }
+        },
+        {
+            "date": "2026-07-02",
+            "trade_metrics": {
+                "total_trades": 58,
+                "win_count": 37,
+                "loss_count": 21,
+                "breakeven_count": 0,
+                "win_rate_pct": 63.79,
+                "loss_rate_pct": 36.21,
+                "total_pnl": 3219.44,
+                "closed_position_pnl": 2842.84,
+                "avg_pnl_per_trade": 49.01,
+                "avg_win": 153.28,
+                "avg_loss": -134.69,
+                "realized_exit_count": 166,
+                "open_partial_count": 6,
+                "by_symbol": {
+                    "NFLX": {
+                        "trades": 3,
+                        "pnl": 499.37,
+                        "wins": 3,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 1
+                    },
+                    "CRM": {
+                        "trades": 3,
+                        "pnl": -74.59,
+                        "wins": 1,
+                        "losses": 2,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "LLY": {
+                        "trades": 3,
+                        "pnl": 307.81,
+                        "wins": 2,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 1
+                    },
+                    "AMD": {
+                        "trades": 8,
+                        "pnl": 7.63,
+                        "wins": 4,
+                        "losses": 4,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "HD": {
+                        "trades": 3,
+                        "pnl": 29.0,
+                        "wins": 2,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "JPM": {
+                        "trades": 1,
+                        "pnl": 93.66,
+                        "wins": 1,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "AAPL": {
+                        "trades": 3,
+                        "pnl": 227.98,
+                        "wins": 2,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "NVDA": {
+                        "trades": 4,
+                        "pnl": 456.83,
+                        "wins": 3,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "TSLA": {
+                        "trades": 6,
+                        "pnl": 917.97,
+                        "wins": 6,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 1
+                    },
+                    "XOM": {
+                        "trades": 3,
+                        "pnl": -277.7,
+                        "wins": 0,
+                        "losses": 3,
+                        "breakeven": 0,
+                        "open_partial": 1
+                    },
+                    "AVGO": {
+                        "trades": 6,
+                        "pnl": 544.7,
+                        "wins": 4,
+                        "losses": 2,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "MSFT": {
+                        "trades": 4,
+                        "pnl": -173.54,
+                        "wins": 1,
+                        "losses": 3,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "AMZN": {
+                        "trades": 1,
+                        "pnl": 27.78,
+                        "wins": 1,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "META": {
+                        "trades": 1,
+                        "pnl": 140.33,
+                        "wins": 1,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "V": {
+                        "trades": 1,
+                        "pnl": 150.29,
+                        "wins": 1,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "COST": {
+                        "trades": 2,
+                        "pnl": 145.7,
+                        "wins": 2,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 1
+                    },
+                    "GOOGL": {
+                        "trades": 3,
+                        "pnl": 67.46,
+                        "wins": 2,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "MA": {
+                        "trades": 1,
+                        "pnl": 32.1,
+                        "wins": 0,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 1
+                    },
+                    "BAC": {
+                        "trades": 1,
+                        "pnl": -57.04,
+                        "wins": 0,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "UNH": {
+                        "trades": 1,
+                        "pnl": 153.7,
+                        "wins": 1,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    }
+                }
+            },
+            "signal_metrics": {
+                "risk_rejected_count": 0,
+                "risk_passed_count": 0,
+                "ai_accepted_count": 0,
+                "ai_rejected_count": 0,
+                "ai_accept_rate_pct": null,
+                "ml_gate_passed_count": 0,
+                "ml_gate_rejected_count": 0,
+                "by_filter": {},
+                "has_signal_data": false
+            },
+            "trend": {
+                "has_previous_day": true,
+                "win_rate_delta_pct": 12.81,
+                "total_pnl_delta": 1508.95,
+                "trade_count_delta": 7,
+                "direction": "improving"
+            }
+        },
+        {
+            "date": "2026-07-10",
+            "trade_metrics": {
+                "total_trades": 0,
+                "win_count": 0,
+                "loss_count": 0,
+                "breakeven_count": 0,
+                "win_rate_pct": 0.0,
+                "loss_rate_pct": 0.0,
+                "total_pnl": 0,
+                "closed_position_pnl": 0,
+                "avg_pnl_per_trade": 0.0,
+                "avg_win": 0.0,
+                "avg_loss": 0.0,
+                "realized_exit_count": 0,
+                "open_partial_count": 0,
+                "by_symbol": {},
+                "recent_trades": [
+                    {
+                        "trade_id": "AAPL-4",
+                        "timestamp": "2026-07-10 14:34:41",
+                        "symbol": "AAPL",
+                        "event": "ENTRY_SHORT",
+                        "side": "SHORT",
+                        "price": "312.79",
+                        "shares": "31.0",
+                        "usd_qty": "9696.49",
+                        "pnl": "0.0",
+                        "total_pnl": "14.8",
+                        "balance": "5014.8",
+                        "notes": "TP1=311.54 TP2=311.23 TP3=310.44 SL=314.35 shares=31 risk\u00e2\u2030\u02c6$48.48 signal=2026-07-08 19:30:00 alpaca_order=cd84e373-823c-437e-8849-117583076758 status=submitted"
+                    },
+                    {
+                        "trade_id": "MSFT-4",
+                        "timestamp": "2026-07-10 14:34:45",
+                        "symbol": "MSFT",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "383.155",
+                        "shares": "26.0",
+                        "usd_qty": "9962.03",
+                        "pnl": "0.0",
+                        "total_pnl": "14.625",
+                        "balance": "5014.62",
+                        "notes": "TP1=384.69 TP2=385.07 TP3=386.03 SL=381.24 shares=26 risk\u00e2\u2030\u02c6$49.81 signal=2026-07-09 15:15:00 alpaca_order=45397b88-2f3d-44e1-8bc9-8326ff38f26f status=submitted"
+                    },
+                    {
+                        "trade_id": "NVDA-4",
+                        "timestamp": "2026-07-10 14:34:48",
+                        "symbol": "NVDA",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "207.225",
+                        "shares": "48.0",
+                        "usd_qty": "9946.8",
+                        "pnl": "0.0",
+                        "total_pnl": "20.35",
+                        "balance": "5020.35",
+                        "notes": "TP1=208.05 TP2=208.26 TP3=208.78 SL=206.19 shares=48 risk\u00e2\u2030\u02c6$49.73 signal=2026-07-09 14:45:00 alpaca_order=ff64e4de-41a4-4ff4-9b6d-d71ea65d0fed status=submitted"
+                    }
+                ]
+            },
+            "signal_metrics": {
+                "risk_rejected_count": 0,
+                "risk_passed_count": 0,
+                "ai_accepted_count": 0,
+                "ai_rejected_count": 0,
+                "ai_accept_rate_pct": null,
+                "ml_gate_passed_count": 0,
+                "ml_gate_rejected_count": 0,
+                "by_filter": {},
+                "has_signal_data": false
+            },
+            "trend": {
+                "has_previous_day": false
+            }
+        }
+    ]
+}
