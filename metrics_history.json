@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-13T17:39:32.220216+00:00",
+    "generated_at": "2026-07-13T17:53:54.256391+00:00",
     "latest_date": "2026-07-13",
     "days": [
         {
@@ -31447,14 +31447,23 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
+                        "total_pnl": 10.1,
                         "closed_position_pnl": 0,
                         "avg_pnl_per_trade": 0.0,
                         "avg_win": 0.0,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 0,
-                        "open_partial_count": 0,
-                        "by_symbol": {},
+                        "realized_exit_count": 1,
+                        "open_partial_count": 1,
+                        "by_symbol": {
+                            "LLY": {
+                                "trades": 0,
+                                "pnl": 10.1,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "NFLX-1",
@@ -31483,13 +31492,27 @@
                                 "total_pnl": "0.0",
                                 "balance": "100000.0",
                                 "notes": "TP1=1180.29 TP2=1176.13 TP3=1171.97 SL=1196.93 shares=6 risk\u00e2\u2030\u02c6$49.92 signal=2026-07-13 16:30:00 alpaca_order=df5ef314-a91e-4a92-8a43-7ab214df920c status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "LLY-1",
+                                "timestamp": "2026-07-13 17:53:53",
+                                "symbol": "LLY",
+                                "event": "TP1_HIT",
+                                "side": "SHORT",
+                                "price": "1183.56",
+                                "shares": "2.0",
+                                "usd_qty": "2367.12",
+                                "pnl": "10.1",
+                                "total_pnl": "10.1",
+                                "balance": "100010.1",
+                                "notes": "remaining=4 shares alpaca_order=66398ba1-584c-4805-8247-5b548cd6b848 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -36.36,
-                        "total_pnl_delta": 649.0,
+                        "total_pnl_delta": 659.1,
                         "trade_count_delta": -11,
                         "direction": "mixed"
                     }
@@ -31528,14 +31551,23 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
+                        "total_pnl": 10.1,
                         "closed_position_pnl": 0,
                         "avg_pnl_per_trade": 0.0,
                         "avg_win": 0.0,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 0,
-                        "open_partial_count": 0,
-                        "by_symbol": {},
+                        "realized_exit_count": 1,
+                        "open_partial_count": 1,
+                        "by_symbol": {
+                            "LLY": {
+                                "trades": 0,
+                                "pnl": 10.1,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "NFLX-1",
@@ -31564,13 +31596,27 @@
                                 "total_pnl": "0.0",
                                 "balance": "100000.0",
                                 "notes": "TP1=1180.29 TP2=1176.13 TP3=1171.97 SL=1196.93 shares=6 risk\u00e2\u2030\u02c6$49.92 signal=2026-07-13 16:30:00 alpaca_order=df5ef314-a91e-4a92-8a43-7ab214df920c status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "LLY-1",
+                                "timestamp": "2026-07-13 17:53:53",
+                                "symbol": "LLY",
+                                "event": "TP1_HIT",
+                                "side": "SHORT",
+                                "price": "1183.56",
+                                "shares": "2.0",
+                                "usd_qty": "2367.12",
+                                "pnl": "10.1",
+                                "total_pnl": "10.1",
+                                "balance": "100010.1",
+                                "notes": "remaining=4 shares alpaca_order=66398ba1-584c-4805-8247-5b548cd6b848 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -33.33,
-                        "total_pnl_delta": 753.12,
+                        "total_pnl_delta": 763.22,
                         "trade_count_delta": -12,
                         "direction": "mixed"
                     }
@@ -31583,14 +31629,23 @@
                 "breakeven_count": 0,
                 "win_rate_pct": 0.0,
                 "loss_rate_pct": 0.0,
-                "total_pnl": 0,
+                "total_pnl": 10.1,
                 "closed_position_pnl": 0,
                 "avg_pnl_per_trade": 0.0,
                 "avg_win": 0.0,
                 "avg_loss": 0.0,
-                "realized_exit_count": 0,
-                "open_partial_count": 0,
-                "by_symbol": {},
+                "realized_exit_count": 1,
+                "open_partial_count": 1,
+                "by_symbol": {
+                    "LLY": {
+                        "trades": 0,
+                        "pnl": 10.1,
+                        "wins": 0,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 1
+                    }
+                },
                 "recent_trades": [
                     {
                         "trade_id": "NFLX-1",
@@ -31619,6 +31674,20 @@
                         "total_pnl": "0.0",
                         "balance": "100000.0",
                         "notes": "TP1=1180.29 TP2=1176.13 TP3=1171.97 SL=1196.93 shares=6 risk\u00e2\u2030\u02c6$49.92 signal=2026-07-13 16:30:00 alpaca_order=df5ef314-a91e-4a92-8a43-7ab214df920c status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "LLY-1",
+                        "timestamp": "2026-07-13 17:53:53",
+                        "symbol": "LLY",
+                        "event": "TP1_HIT",
+                        "side": "SHORT",
+                        "price": "1183.56",
+                        "shares": "2.0",
+                        "usd_qty": "2367.12",
+                        "pnl": "10.1",
+                        "total_pnl": "10.1",
+                        "balance": "100010.1",
+                        "notes": "remaining=4 shares alpaca_order=66398ba1-584c-4805-8247-5b548cd6b848 status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -31636,7 +31705,7 @@
             "trend": {
                 "has_previous_day": true,
                 "win_rate_delta_pct": -33.33,
-                "total_pnl_delta": 753.12,
+                "total_pnl_delta": 763.22,
                 "trade_count_delta": -12,
                 "direction": "mixed"
             }
