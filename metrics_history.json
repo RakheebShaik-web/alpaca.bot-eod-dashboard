@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-13T19:05:02.986238+00:00",
+    "generated_at": "2026-07-13T19:08:32.608635+00:00",
     "latest_date": "2026-07-13",
     "days": [
         {
@@ -31441,20 +31441,28 @@
             "datasets": {
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 1,
-                        "win_count": 0,
+                        "total_trades": 2,
+                        "win_count": 1,
                         "loss_count": 1,
                         "breakeven_count": 0,
-                        "win_rate_pct": 0.0,
-                        "loss_rate_pct": 100.0,
-                        "total_pnl": -42.13,
-                        "closed_position_pnl": -52.23,
-                        "avg_pnl_per_trade": -52.23,
-                        "avg_win": 0.0,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": -43.33,
+                        "closed_position_pnl": -43.33,
+                        "avg_pnl_per_trade": -21.66,
+                        "avg_win": 8.9,
                         "avg_loss": -52.23,
-                        "realized_exit_count": 2,
-                        "open_partial_count": 1,
+                        "realized_exit_count": 3,
+                        "open_partial_count": 0,
                         "by_symbol": {
+                            "LLY": {
+                                "trades": 1,
+                                "pnl": 8.9,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "NFLX": {
                                 "trades": 1,
                                 "pnl": -52.23,
@@ -31462,14 +31470,6 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
-                            },
-                            "LLY": {
-                                "trades": 0,
-                                "pnl": 10.1,
-                                "wins": 0,
-                                "losses": 0,
-                                "breakeven": 0,
-                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -31528,15 +31528,29 @@
                                 "total_pnl": "-52.23",
                                 "balance": "99947.77",
                                 "notes": "entry=74.63 exit=74.08 alpaca_order=b65fac6d-0517-43cb-8322-c614f1b457cd status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "LLY-1",
+                                "timestamp": "2026-07-13 19:08:32",
+                                "symbol": "LLY",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "1188.91",
+                                "shares": "4.0",
+                                "usd_qty": "4755.64",
+                                "pnl": "-1.2",
+                                "total_pnl": "8.9",
+                                "balance": "100008.9",
+                                "notes": "entry=1188.61 exit=1188.91 alpaca_order=1fe4db72-dbb9-49f2-98e3-8b14e31eba89 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -36.36,
-                        "total_pnl_delta": 606.87,
-                        "trade_count_delta": -10,
-                        "direction": "mixed"
+                        "win_rate_delta_pct": 13.64,
+                        "total_pnl_delta": 605.67,
+                        "trade_count_delta": -9,
+                        "direction": "improving"
                     }
                 },
                 "legacy_simulation": {
@@ -31567,20 +31581,28 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 1,
-                        "win_count": 0,
+                        "total_trades": 2,
+                        "win_count": 1,
                         "loss_count": 1,
                         "breakeven_count": 0,
-                        "win_rate_pct": 0.0,
-                        "loss_rate_pct": 100.0,
-                        "total_pnl": -42.13,
-                        "closed_position_pnl": -52.23,
-                        "avg_pnl_per_trade": -52.23,
-                        "avg_win": 0.0,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": -43.33,
+                        "closed_position_pnl": -43.33,
+                        "avg_pnl_per_trade": -21.66,
+                        "avg_win": 8.9,
                         "avg_loss": -52.23,
-                        "realized_exit_count": 2,
-                        "open_partial_count": 1,
+                        "realized_exit_count": 3,
+                        "open_partial_count": 0,
                         "by_symbol": {
+                            "LLY": {
+                                "trades": 1,
+                                "pnl": 8.9,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "NFLX": {
                                 "trades": 1,
                                 "pnl": -52.23,
@@ -31588,14 +31610,6 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
-                            },
-                            "LLY": {
-                                "trades": 0,
-                                "pnl": 10.1,
-                                "wins": 0,
-                                "losses": 0,
-                                "breakeven": 0,
-                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -31654,33 +31668,55 @@
                                 "total_pnl": "-52.23",
                                 "balance": "99947.77",
                                 "notes": "entry=74.63 exit=74.08 alpaca_order=b65fac6d-0517-43cb-8322-c614f1b457cd status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "LLY-1",
+                                "timestamp": "2026-07-13 19:08:32",
+                                "symbol": "LLY",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "1188.91",
+                                "shares": "4.0",
+                                "usd_qty": "4755.64",
+                                "pnl": "-1.2",
+                                "total_pnl": "8.9",
+                                "balance": "100008.9",
+                                "notes": "entry=1188.61 exit=1188.91 alpaca_order=1fe4db72-dbb9-49f2-98e3-8b14e31eba89 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -33.33,
-                        "total_pnl_delta": 710.99,
-                        "trade_count_delta": -11,
-                        "direction": "mixed"
+                        "win_rate_delta_pct": 16.67,
+                        "total_pnl_delta": 709.79,
+                        "trade_count_delta": -10,
+                        "direction": "improving"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 1,
-                "win_count": 0,
+                "total_trades": 2,
+                "win_count": 1,
                 "loss_count": 1,
                 "breakeven_count": 0,
-                "win_rate_pct": 0.0,
-                "loss_rate_pct": 100.0,
-                "total_pnl": -42.13,
-                "closed_position_pnl": -52.23,
-                "avg_pnl_per_trade": -52.23,
-                "avg_win": 0.0,
+                "win_rate_pct": 50.0,
+                "loss_rate_pct": 50.0,
+                "total_pnl": -43.33,
+                "closed_position_pnl": -43.33,
+                "avg_pnl_per_trade": -21.66,
+                "avg_win": 8.9,
                 "avg_loss": -52.23,
-                "realized_exit_count": 2,
-                "open_partial_count": 1,
+                "realized_exit_count": 3,
+                "open_partial_count": 0,
                 "by_symbol": {
+                    "LLY": {
+                        "trades": 1,
+                        "pnl": 8.9,
+                        "wins": 1,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
                     "NFLX": {
                         "trades": 1,
                         "pnl": -52.23,
@@ -31688,14 +31724,6 @@
                         "losses": 1,
                         "breakeven": 0,
                         "open_partial": 0
-                    },
-                    "LLY": {
-                        "trades": 0,
-                        "pnl": 10.1,
-                        "wins": 0,
-                        "losses": 0,
-                        "breakeven": 0,
-                        "open_partial": 1
                     }
                 },
                 "recent_trades": [
@@ -31754,6 +31782,20 @@
                         "total_pnl": "-52.23",
                         "balance": "99947.77",
                         "notes": "entry=74.63 exit=74.08 alpaca_order=b65fac6d-0517-43cb-8322-c614f1b457cd status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "LLY-1",
+                        "timestamp": "2026-07-13 19:08:32",
+                        "symbol": "LLY",
+                        "event": "SL_HIT",
+                        "side": "SHORT",
+                        "price": "1188.91",
+                        "shares": "4.0",
+                        "usd_qty": "4755.64",
+                        "pnl": "-1.2",
+                        "total_pnl": "8.9",
+                        "balance": "100008.9",
+                        "notes": "entry=1188.61 exit=1188.91 alpaca_order=1fe4db72-dbb9-49f2-98e3-8b14e31eba89 status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -31770,10 +31812,10 @@
             },
             "trend": {
                 "has_previous_day": true,
-                "win_rate_delta_pct": -33.33,
-                "total_pnl_delta": 710.99,
-                "trade_count_delta": -11,
-                "direction": "mixed"
+                "win_rate_delta_pct": 16.67,
+                "total_pnl_delta": 709.79,
+                "trade_count_delta": -10,
+                "direction": "improving"
             }
         }
     ]
