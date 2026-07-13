@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-13T19:57:00.749520+00:00",
+    "generated_at": "2026-07-13T19:57:22.209697+00:00",
     "latest_date": "2026-07-13",
     "days": [
         {
@@ -31441,19 +31441,19 @@
             "datasets": {
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 3,
-                        "win_count": 2,
+                        "total_trades": 4,
+                        "win_count": 3,
                         "loss_count": 1,
                         "breakeven_count": 0,
-                        "win_rate_pct": 66.67,
-                        "loss_rate_pct": 33.33,
-                        "total_pnl": -32.11,
-                        "closed_position_pnl": -32.11,
-                        "avg_pnl_per_trade": -10.7,
-                        "avg_win": 10.06,
+                        "win_rate_pct": 75.0,
+                        "loss_rate_pct": 25.0,
+                        "total_pnl": -25.47,
+                        "closed_position_pnl": -25.47,
+                        "avg_pnl_per_trade": -6.37,
+                        "avg_win": 8.92,
                         "avg_loss": -52.23,
-                        "realized_exit_count": 4,
-                        "eod_close_count": 1,
+                        "realized_exit_count": 5,
+                        "eod_close_count": 2,
                         "open_partial_count": 0,
                         "by_symbol": {
                             "LLY": {
@@ -31475,6 +31475,14 @@
                             "AAPL": {
                                 "trades": 1,
                                 "pnl": 11.22,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "GOOGL": {
+                                "trades": 1,
+                                "pnl": 6.64,
                                 "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
@@ -31593,14 +31601,28 @@
                                 "total_pnl": "42.5052",
                                 "balance": "100042.51",
                                 "notes": "entry=316.99 exit=317.50 alpaca_order=ea34f94a-fac2-4c63-9809-4bec83532443 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "GOOGL-1",
+                                "timestamp": "2026-07-13 19:57:21",
+                                "symbol": "GOOGL",
+                                "event": "CLOSE_EOD",
+                                "side": "SHORT",
+                                "price": "352.6325",
+                                "shares": "20.0",
+                                "usd_qty": "7052.65",
+                                "pnl": "6.64",
+                                "total_pnl": "6.64",
+                                "balance": "100006.64",
+                                "notes": "entry=352.96 exit=352.63 alpaca_order=7a31a17f-8701-47b4-969a-827ef68b044c status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 30.31,
-                        "total_pnl_delta": 616.89,
-                        "trade_count_delta": -8,
+                        "win_rate_delta_pct": 38.64,
+                        "total_pnl_delta": 623.53,
+                        "trade_count_delta": -7,
                         "direction": "improving"
                     }
                 },
@@ -31633,19 +31655,19 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 3,
-                        "win_count": 2,
+                        "total_trades": 4,
+                        "win_count": 3,
                         "loss_count": 1,
                         "breakeven_count": 0,
-                        "win_rate_pct": 66.67,
-                        "loss_rate_pct": 33.33,
-                        "total_pnl": -32.11,
-                        "closed_position_pnl": -32.11,
-                        "avg_pnl_per_trade": -10.7,
-                        "avg_win": 10.06,
+                        "win_rate_pct": 75.0,
+                        "loss_rate_pct": 25.0,
+                        "total_pnl": -25.47,
+                        "closed_position_pnl": -25.47,
+                        "avg_pnl_per_trade": -6.37,
+                        "avg_win": 8.92,
                         "avg_loss": -52.23,
-                        "realized_exit_count": 4,
-                        "eod_close_count": 1,
+                        "realized_exit_count": 5,
+                        "eod_close_count": 2,
                         "open_partial_count": 0,
                         "by_symbol": {
                             "LLY": {
@@ -31667,6 +31689,14 @@
                             "AAPL": {
                                 "trades": 1,
                                 "pnl": 11.22,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "GOOGL": {
+                                "trades": 1,
+                                "pnl": 6.64,
                                 "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
@@ -31785,32 +31815,46 @@
                                 "total_pnl": "42.5052",
                                 "balance": "100042.51",
                                 "notes": "entry=316.99 exit=317.50 alpaca_order=ea34f94a-fac2-4c63-9809-4bec83532443 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "GOOGL-1",
+                                "timestamp": "2026-07-13 19:57:21",
+                                "symbol": "GOOGL",
+                                "event": "CLOSE_EOD",
+                                "side": "SHORT",
+                                "price": "352.6325",
+                                "shares": "20.0",
+                                "usd_qty": "7052.65",
+                                "pnl": "6.64",
+                                "total_pnl": "6.64",
+                                "balance": "100006.64",
+                                "notes": "entry=352.96 exit=352.63 alpaca_order=7a31a17f-8701-47b4-969a-827ef68b044c status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 33.34,
-                        "total_pnl_delta": 721.01,
-                        "trade_count_delta": -9,
+                        "win_rate_delta_pct": 41.67,
+                        "total_pnl_delta": 727.65,
+                        "trade_count_delta": -8,
                         "direction": "improving"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 3,
-                "win_count": 2,
+                "total_trades": 4,
+                "win_count": 3,
                 "loss_count": 1,
                 "breakeven_count": 0,
-                "win_rate_pct": 66.67,
-                "loss_rate_pct": 33.33,
-                "total_pnl": -32.11,
-                "closed_position_pnl": -32.11,
-                "avg_pnl_per_trade": -10.7,
-                "avg_win": 10.06,
+                "win_rate_pct": 75.0,
+                "loss_rate_pct": 25.0,
+                "total_pnl": -25.47,
+                "closed_position_pnl": -25.47,
+                "avg_pnl_per_trade": -6.37,
+                "avg_win": 8.92,
                 "avg_loss": -52.23,
-                "realized_exit_count": 4,
-                "eod_close_count": 1,
+                "realized_exit_count": 5,
+                "eod_close_count": 2,
                 "open_partial_count": 0,
                 "by_symbol": {
                     "LLY": {
@@ -31832,6 +31876,14 @@
                     "AAPL": {
                         "trades": 1,
                         "pnl": 11.22,
+                        "wins": 1,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "GOOGL": {
+                        "trades": 1,
+                        "pnl": 6.64,
                         "wins": 1,
                         "losses": 0,
                         "breakeven": 0,
@@ -31950,6 +32002,20 @@
                         "total_pnl": "42.5052",
                         "balance": "100042.51",
                         "notes": "entry=316.99 exit=317.50 alpaca_order=ea34f94a-fac2-4c63-9809-4bec83532443 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "GOOGL-1",
+                        "timestamp": "2026-07-13 19:57:21",
+                        "symbol": "GOOGL",
+                        "event": "CLOSE_EOD",
+                        "side": "SHORT",
+                        "price": "352.6325",
+                        "shares": "20.0",
+                        "usd_qty": "7052.65",
+                        "pnl": "6.64",
+                        "total_pnl": "6.64",
+                        "balance": "100006.64",
+                        "notes": "entry=352.96 exit=352.63 alpaca_order=7a31a17f-8701-47b4-969a-827ef68b044c status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -31966,9 +32032,9 @@
             },
             "trend": {
                 "has_previous_day": true,
-                "win_rate_delta_pct": 33.34,
-                "total_pnl_delta": 721.01,
-                "trade_count_delta": -9,
+                "win_rate_delta_pct": 41.67,
+                "total_pnl_delta": 727.65,
+                "trade_count_delta": -8,
                 "direction": "improving"
             }
         }
