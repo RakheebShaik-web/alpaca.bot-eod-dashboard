@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-13T19:46:13.026524+00:00",
+    "generated_at": "2026-07-13T19:46:45.299844+00:00",
     "latest_date": "2026-07-13",
     "days": [
         {
@@ -31556,6 +31556,20 @@
                                 "total_pnl": "31.2852",
                                 "balance": "100031.29",
                                 "notes": "TP1=318.77 TP2=319.21 TP3=320.32 SL=314.77 shares=22 risk\u00e2\u2030\u02c6$48.82 signal=2026-07-13 19:45:00 alpaca_order=1d018e9c-c6be-4aa9-bba7-5a4c5e5d0858 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "GOOGL-1",
+                                "timestamp": "2026-07-13 19:46:44",
+                                "symbol": "GOOGL",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "352.9645",
+                                "shares": "20.0",
+                                "usd_qty": "7059.29",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=350.99 TP2=350.49 TP3=349.26 SL=355.44 shares=20 risk\u00e2\u2030\u02c6$49.42 signal=2026-07-13 19:45:00 alpaca_order=947f351d-f09f-470e-bf07-02003ff7a40e status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -31710,6 +31724,20 @@
                                 "total_pnl": "31.2852",
                                 "balance": "100031.29",
                                 "notes": "TP1=318.77 TP2=319.21 TP3=320.32 SL=314.77 shares=22 risk\u00e2\u2030\u02c6$48.82 signal=2026-07-13 19:45:00 alpaca_order=1d018e9c-c6be-4aa9-bba7-5a4c5e5d0858 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "GOOGL-1",
+                                "timestamp": "2026-07-13 19:46:44",
+                                "symbol": "GOOGL",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "352.9645",
+                                "shares": "20.0",
+                                "usd_qty": "7059.29",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=350.99 TP2=350.49 TP3=349.26 SL=355.44 shares=20 risk\u00e2\u2030\u02c6$49.42 signal=2026-07-13 19:45:00 alpaca_order=947f351d-f09f-470e-bf07-02003ff7a40e status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -31838,6 +31866,20 @@
                         "total_pnl": "31.2852",
                         "balance": "100031.29",
                         "notes": "TP1=318.77 TP2=319.21 TP3=320.32 SL=314.77 shares=22 risk\u00e2\u2030\u02c6$48.82 signal=2026-07-13 19:45:00 alpaca_order=1d018e9c-c6be-4aa9-bba7-5a4c5e5d0858 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "GOOGL-1",
+                        "timestamp": "2026-07-13 19:46:44",
+                        "symbol": "GOOGL",
+                        "event": "ENTRY_SHORT",
+                        "side": "SHORT",
+                        "price": "352.9645",
+                        "shares": "20.0",
+                        "usd_qty": "7059.29",
+                        "pnl": "0.0",
+                        "total_pnl": "0.0",
+                        "balance": "100000.0",
+                        "notes": "TP1=350.99 TP2=350.49 TP3=349.26 SL=355.44 shares=20 risk\u00e2\u2030\u02c6$49.42 signal=2026-07-13 19:45:00 alpaca_order=947f351d-f09f-470e-bf07-02003ff7a40e status=OrderStatus.FILLED"
                     }
                 ]
             },
