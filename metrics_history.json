@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-13T16:16:12.116905+00:00",
+    "generated_at": "2026-07-13T16:35:24.868857+00:00",
     "latest_date": "2026-07-13",
     "days": [
         {
@@ -726,6 +726,20 @@
                         "total_pnl": "0.0",
                         "balance": "100000.0",
                         "notes": "TP1=75.15 TP2=75.41 TP3=75.67 SL=74.11 shares=95 risk\u00e2\u2030\u02c6$49.63 signal=2026-07-13 16:15:00 alpaca_order=b5374ba2-7cb2-4836-aff4-48a658e6a9b3 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "LLY-1",
+                        "timestamp": "2026-07-13 16:35:24",
+                        "symbol": "LLY",
+                        "event": "ENTRY_SHORT",
+                        "side": "SHORT",
+                        "price": "1188.61",
+                        "shares": "6.0",
+                        "usd_qty": "7131.66",
+                        "pnl": "0.0",
+                        "total_pnl": "0.0",
+                        "balance": "100000.0",
+                        "notes": "TP1=1180.29 TP2=1176.13 TP3=1171.97 SL=1196.93 shares=6 risk\u00e2\u2030\u02c6$49.92 signal=2026-07-13 16:30:00 alpaca_order=df5ef314-a91e-4a92-8a43-7ab214df920c status=OrderStatus.FILLED"
                     }
                 ]
             },
