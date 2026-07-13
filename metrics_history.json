@@ -1,6 +1,6 @@
 {
-    "generated_at": "2026-07-10T17:55:14.566973+00:00",
-    "latest_date": "2026-07-10",
+    "generated_at": "2026-07-13T16:16:12.116905+00:00",
+    "latest_date": "2026-07-13",
     "days": [
         {
             "date": "2026-06-26",
@@ -693,6 +693,59 @@
             },
             "trend": {
                 "has_previous_day": false
+            }
+        },
+        {
+            "date": "2026-07-13",
+            "trade_metrics": {
+                "total_trades": 0,
+                "win_count": 0,
+                "loss_count": 0,
+                "breakeven_count": 0,
+                "win_rate_pct": 0.0,
+                "loss_rate_pct": 0.0,
+                "total_pnl": 0,
+                "closed_position_pnl": 0,
+                "avg_pnl_per_trade": 0.0,
+                "avg_win": 0.0,
+                "avg_loss": 0.0,
+                "realized_exit_count": 0,
+                "open_partial_count": 0,
+                "by_symbol": {},
+                "recent_trades": [
+                    {
+                        "trade_id": "NFLX-1",
+                        "timestamp": "2026-07-13 16:16:11",
+                        "symbol": "NFLX",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "74.6298",
+                        "shares": "95.0",
+                        "usd_qty": "7089.83",
+                        "pnl": "0.0",
+                        "total_pnl": "0.0",
+                        "balance": "100000.0",
+                        "notes": "TP1=75.15 TP2=75.41 TP3=75.67 SL=74.11 shares=95 risk\u00e2\u2030\u02c6$49.63 signal=2026-07-13 16:15:00 alpaca_order=b5374ba2-7cb2-4836-aff4-48a658e6a9b3 status=OrderStatus.FILLED"
+                    }
+                ]
+            },
+            "signal_metrics": {
+                "risk_rejected_count": 0,
+                "risk_passed_count": 0,
+                "ai_accepted_count": 0,
+                "ai_rejected_count": 0,
+                "ai_accept_rate_pct": null,
+                "ml_gate_passed_count": 0,
+                "ml_gate_rejected_count": 0,
+                "by_filter": {},
+                "has_signal_data": false
+            },
+            "trend": {
+                "has_previous_day": true,
+                "win_rate_delta_pct": -33.33,
+                "total_pnl_delta": 753.12,
+                "trade_count_delta": -12,
+                "direction": "mixed"
             }
         }
     ]
