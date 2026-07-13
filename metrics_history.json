@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-13T19:08:32.608635+00:00",
+    "generated_at": "2026-07-13T19:46:13.026524+00:00",
     "latest_date": "2026-07-13",
     "days": [
         {
@@ -31542,6 +31542,20 @@
                                 "total_pnl": "8.9",
                                 "balance": "100008.9",
                                 "notes": "entry=1188.61 exit=1188.91 alpaca_order=1fe4db72-dbb9-49f2-98e3-8b14e31eba89 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AAPL-4",
+                                "timestamp": "2026-07-13 19:46:12",
+                                "symbol": "AAPL",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "316.99",
+                                "shares": "22.0",
+                                "usd_qty": "6973.78",
+                                "pnl": "0.0",
+                                "total_pnl": "31.2852",
+                                "balance": "100031.29",
+                                "notes": "TP1=318.77 TP2=319.21 TP3=320.32 SL=314.77 shares=22 risk\u00e2\u2030\u02c6$48.82 signal=2026-07-13 19:45:00 alpaca_order=1d018e9c-c6be-4aa9-bba7-5a4c5e5d0858 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -31682,6 +31696,20 @@
                                 "total_pnl": "8.9",
                                 "balance": "100008.9",
                                 "notes": "entry=1188.61 exit=1188.91 alpaca_order=1fe4db72-dbb9-49f2-98e3-8b14e31eba89 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AAPL-4",
+                                "timestamp": "2026-07-13 19:46:12",
+                                "symbol": "AAPL",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "316.99",
+                                "shares": "22.0",
+                                "usd_qty": "6973.78",
+                                "pnl": "0.0",
+                                "total_pnl": "31.2852",
+                                "balance": "100031.29",
+                                "notes": "TP1=318.77 TP2=319.21 TP3=320.32 SL=314.77 shares=22 risk\u00e2\u2030\u02c6$48.82 signal=2026-07-13 19:45:00 alpaca_order=1d018e9c-c6be-4aa9-bba7-5a4c5e5d0858 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -31796,6 +31824,20 @@
                         "total_pnl": "8.9",
                         "balance": "100008.9",
                         "notes": "entry=1188.61 exit=1188.91 alpaca_order=1fe4db72-dbb9-49f2-98e3-8b14e31eba89 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "AAPL-4",
+                        "timestamp": "2026-07-13 19:46:12",
+                        "symbol": "AAPL",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "316.99",
+                        "shares": "22.0",
+                        "usd_qty": "6973.78",
+                        "pnl": "0.0",
+                        "total_pnl": "31.2852",
+                        "balance": "100031.29",
+                        "notes": "TP1=318.77 TP2=319.21 TP3=320.32 SL=314.77 shares=22 risk\u00e2\u2030\u02c6$48.82 signal=2026-07-13 19:45:00 alpaca_order=1d018e9c-c6be-4aa9-bba7-5a4c5e5d0858 status=OrderStatus.FILLED"
                     }
                 ]
             },
