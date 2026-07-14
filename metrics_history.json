@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-14T16:31:07.392833+00:00",
+    "generated_at": "2026-07-14T16:45:49.791140+00:00",
     "latest_date": "2026-07-14",
     "days": [
         {
@@ -32138,315 +32138,16 @@
                                 "tp1": 171.85,
                                 "tp2": 172.68,
                                 "last_event": "ENTRY_LONG"
-                            }
-                        ],
-                        "by_symbol": {
-                            "AAPL": {
-                                "trades": 1,
-                                "pnl": -0.09,
-                                "wins": 0,
-                                "losses": 1,
-                                "breakeven": 0,
-                                "open_partial": 0
-                            },
-                            "MSFT": {
-                                "trades": 1,
-                                "pnl": -47.97,
-                                "wins": 0,
-                                "losses": 1,
-                                "breakeven": 0,
-                                "open_partial": 0
-                            },
-                            "NVDA": {
-                                "trades": 1,
-                                "pnl": -52.23,
-                                "wins": 0,
-                                "losses": 1,
-                                "breakeven": 0,
-                                "open_partial": 0
-                            },
-                            "LLY": {
-                                "trades": 1,
-                                "pnl": -49.47,
-                                "wins": 0,
-                                "losses": 1,
-                                "breakeven": 0,
-                                "open_partial": 0
-                            },
-                            "AMD": {
-                                "trades": 1,
-                                "pnl": 2.86,
-                                "wins": 1,
-                                "losses": 0,
-                                "breakeven": 0,
-                                "open_partial": 0
-                            }
-                        },
-                        "recent_trades": [
-                            {
-                                "trade_id": "AAPL-5",
-                                "timestamp": "2026-07-14 14:20:50",
-                                "symbol": "AAPL",
-                                "event": "ENTRY_SHORT",
-                                "side": "SHORT",
-                                "price": "313.975",
-                                "shares": "22.0",
-                                "usd_qty": "6907.45",
-                                "pnl": "0.0",
-                                "total_pnl": "42.5052",
-                                "balance": "100042.51",
-                                "notes": "TP1=312.22 TP2=311.78 TP3=310.68 SL=316.17 shares=22 risk\u00e2\u2030\u02c6$48.35 signal=2026-07-14 14:15:00 alpaca_order=d2279238-751a-4b8b-bcfb-4e4c10609f99 status=OrderStatus.FILLED"
                             },
                             {
-                                "trade_id": "MSFT-6",
-                                "timestamp": "2026-07-14 14:21:14",
-                                "symbol": "MSFT",
-                                "event": "ENTRY_SHORT",
-                                "side": "SHORT",
-                                "price": "383.855",
-                                "shares": "18.0",
-                                "usd_qty": "6909.39",
-                                "pnl": "0.0",
-                                "total_pnl": "-63.425",
-                                "balance": "99936.57",
-                                "notes": "TP1=381.71 TP2=381.17 TP3=379.82 SL=386.54 shares=18 risk\u00e2\u2030\u02c6$48.37 signal=2026-07-14 14:15:00 alpaca_order=a40fe5f6-61af-464e-9586-12c108ca542e status=OrderStatus.FILLED"
-                            },
-                            {
-                                "trade_id": "NVDA-5",
-                                "timestamp": "2026-07-14 14:21:48",
-                                "symbol": "NVDA",
-                                "event": "ENTRY_SHORT",
-                                "side": "SHORT",
-                                "price": "205.6537",
-                                "shares": "34.0",
-                                "usd_qty": "6992.23",
-                                "pnl": "0.0",
-                                "total_pnl": "8.9904",
-                                "balance": "100008.99",
-                                "notes": "TP1=204.50 TP2=204.21 TP3=203.49 SL=207.09 shares=34 risk\u00e2\u2030\u02c6$48.95 signal=2026-07-14 14:15:00 alpaca_order=efca0c4c-256d-46b1-aca7-7c158698a617 status=OrderStatus.FILLED"
-                            },
-                            {
-                                "trade_id": "MSFT-6",
-                                "timestamp": "2026-07-14 14:49:32",
-                                "symbol": "MSFT",
-                                "event": "SL_HIT",
-                                "side": "SHORT",
-                                "price": "386.52",
-                                "shares": "18.0",
-                                "usd_qty": "6957.36",
-                                "pnl": "-47.97",
-                                "total_pnl": "-111.395",
-                                "balance": "99888.6",
-                                "notes": "entry=383.86 exit=386.52 alpaca_order=98d499a3-a437-4224-9053-635b5d8ac462 status=OrderStatus.FILLED"
-                            },
-                            {
-                                "trade_id": "NVDA-5",
-                                "timestamp": "2026-07-14 14:53:26",
-                                "symbol": "NVDA",
-                                "event": "SL_HIT",
-                                "side": "SHORT",
-                                "price": "207.1898",
-                                "shares": "34.0",
-                                "usd_qty": "7044.45",
-                                "pnl": "-52.2274",
-                                "total_pnl": "-43.237",
-                                "balance": "99956.76",
-                                "notes": "entry=205.65 exit=207.19 alpaca_order=ff7b5136-549e-4e72-9397-10985ce89aae status=OrderStatus.FILLED"
-                            },
-                            {
-                                "trade_id": "LLY-2",
-                                "timestamp": "2026-07-14 15:16:41",
-                                "symbol": "LLY",
-                                "event": "ENTRY_SHORT",
-                                "side": "SHORT",
-                                "price": "1148.2869",
-                                "shares": "6.0",
-                                "usd_qty": "6889.72",
-                                "pnl": "0.0",
-                                "total_pnl": "8.9",
-                                "balance": "100008.9",
-                                "notes": "TP1=1141.86 TP2=1140.25 TP3=1136.23 SL=1156.32 shares=6 risk\u00e2\u2030\u02c6$48.23 signal=2026-07-14 15:15:00 alpaca_order=85b32109-c700-42bc-b278-ad26155dc4a8 status=OrderStatus.FILLED"
-                            },
-                            {
-                                "trade_id": "AMD-1",
-                                "timestamp": "2026-07-14 15:17:23",
-                                "symbol": "AMD",
-                                "event": "ENTRY_LONG",
+                                "trade_id": "META-2",
+                                "symbol": "META",
                                 "side": "LONG",
-                                "price": "563.185",
-                                "shares": "12.0",
-                                "usd_qty": "6758.22",
-                                "pnl": "0.0",
-                                "total_pnl": "0.0",
-                                "balance": "100000.0",
-                                "notes": "TP1=566.34 TP2=567.13 TP3=569.10 SL=559.24 shares=12 risk\u00e2\u2030\u02c6$47.31 signal=2026-07-14 15:15:00 alpaca_order=8be0b900-e4ba-4a71-9dce-9dc4f3ff80ea status=OrderStatus.FILLED"
-                            },
-                            {
-                                "trade_id": "AMD-1",
-                                "timestamp": "2026-07-14 15:27:49",
-                                "symbol": "AMD",
-                                "event": "TP1_HIT",
-                                "side": "LONG",
-                                "price": "566.6954",
-                                "shares": "4.0",
-                                "usd_qty": "2266.78",
-                                "pnl": "14.0416",
-                                "total_pnl": "14.0416",
-                                "balance": "100014.04",
-                                "notes": "remaining=8 shares alpaca_order=aa783f90-7761-48fd-987c-3cc99b484d1f status=OrderStatus.FILLED"
-                            },
-                            {
-                                "trade_id": "AMD-1",
-                                "timestamp": "2026-07-14 15:52:23",
-                                "symbol": "AMD",
-                                "event": "SL_HIT",
-                                "side": "LONG",
-                                "price": "561.7875",
-                                "shares": "8.0",
-                                "usd_qty": "4494.3",
-                                "pnl": "-11.18",
-                                "total_pnl": "2.8616",
-                                "balance": "100002.86",
-                                "notes": "entry=563.18 exit=561.79 alpaca_order=9c769686-a734-4970-88f2-6b3b7b7c0478 status=OrderStatus.FILLED"
-                            },
-                            {
-                                "trade_id": "LLY-2",
-                                "timestamp": "2026-07-14 15:59:19",
-                                "symbol": "LLY",
-                                "event": "SL_HIT",
-                                "side": "SHORT",
-                                "price": "1156.5316",
-                                "shares": "6.0",
-                                "usd_qty": "6939.19",
-                                "pnl": "-49.4682",
-                                "total_pnl": "-40.5682",
-                                "balance": "99959.43",
-                                "notes": "entry=1148.29 exit=1156.53 alpaca_order=38e358fa-7622-4309-8b9d-c3d5078fd980 status=OrderStatus.FILLED"
-                            },
-                            {
-                                "trade_id": "AAPL-5",
-                                "timestamp": "2026-07-14 16:10:39",
-                                "symbol": "AAPL",
-                                "event": "SL_BE_HIT",
-                                "side": "SHORT",
-                                "price": "313.979",
-                                "shares": "22.0",
-                                "usd_qty": "6907.54",
-                                "pnl": "-0.088",
-                                "total_pnl": "42.4172",
-                                "balance": "100042.42",
-                                "notes": "entry=313.975 exit=313.979 manual_close_at_breakeven alpaca_order=e9c3aa00-8694-4a29-9841-0086fb78e91a status=FILLED"
-                            },
-                            {
-                                "trade_id": "CRM-1",
-                                "timestamp": "2026-07-14 16:31:06",
-                                "symbol": "CRM",
-                                "event": "ENTRY_LONG",
-                                "side": "LONG",
-                                "price": "170.89",
-                                "shares": "41.0",
-                                "usd_qty": "7006.49",
-                                "pnl": "0.0",
-                                "total_pnl": "0.0",
-                                "balance": "100000.0",
-                                "notes": "TP1=171.85 TP2=172.68 SL=169.69 shares=41 risk\u00e2\u2030\u02c6$49.05 signal=2026-07-14 16:30:00 alpaca_order=8e35f7f3-dd93-4f05-aae5-2e4cdd8c8ba4 status=OrderStatus.FILLED"
-                            }
-                        ]
-                    },
-                    "trend": {
-                        "has_previous_day": false
-                    }
-                },
-                "alpaca_paper": {
-                    "trade_metrics": {
-                        "total_trades": 0,
-                        "win_count": 0,
-                        "loss_count": 0,
-                        "breakeven_count": 0,
-                        "win_rate_pct": 0.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
-                        "closed_position_pnl": 0,
-                        "avg_pnl_per_trade": 0.0,
-                        "avg_win": 0.0,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 0,
-                        "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
-                        "tp2_hit_count": 0,
-                        "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
-                        "open_positions": [],
-                        "by_symbol": {},
-                        "recent_trades": []
-                    },
-                    "trend": {
-                        "has_previous_day": true,
-                        "win_rate_delta_pct": -60.0,
-                        "total_pnl_delta": 40.25,
-                        "trade_count_delta": -5,
-                        "direction": "mixed"
-                    }
-                },
-                "legacy_simulation": {
-                    "trade_metrics": {
-                        "total_trades": 0,
-                        "win_count": 0,
-                        "loss_count": 0,
-                        "breakeven_count": 0,
-                        "win_rate_pct": 0.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
-                        "closed_position_pnl": 0,
-                        "avg_pnl_per_trade": 0.0,
-                        "avg_win": 0.0,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 0,
-                        "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
-                        "tp2_hit_count": 0,
-                        "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
-                        "open_positions": [],
-                        "by_symbol": {},
-                        "recent_trades": []
-                    },
-                    "trend": {
-                        "has_previous_day": false
-                    }
-                },
-                "all": {
-                    "trade_metrics": {
-                        "total_trades": 5,
-                        "win_count": 1,
-                        "loss_count": 4,
-                        "breakeven_count": 0,
-                        "win_rate_pct": 20.0,
-                        "loss_rate_pct": 80.0,
-                        "total_pnl": -146.89,
-                        "closed_position_pnl": -146.89,
-                        "avg_pnl_per_trade": -29.38,
-                        "avg_win": 2.86,
-                        "avg_loss": -37.44,
-                        "realized_exit_count": 6,
-                        "eod_close_count": 0,
-                        "tp1_hit_count": 1,
-                        "tp1_realized_pnl": 14.04,
-                        "tp2_hit_count": 0,
-                        "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "CRM-1",
-                                "symbol": "CRM",
-                                "side": "LONG",
-                                "entry_price": 170.89,
-                                "remaining": 41.0,
-                                "sl": 169.69,
-                                "tp1": 171.85,
-                                "tp2": 172.68,
+                                "entry_price": 664.125,
+                                "remaining": 10.0,
+                                "sl": 659.48,
+                                "tp1": 667.84,
+                                "tp2": 671.1,
                                 "last_event": "ENTRY_LONG"
                             }
                         ],
@@ -32660,6 +32361,355 @@
                                 "total_pnl": "0.0",
                                 "balance": "100000.0",
                                 "notes": "TP1=171.85 TP2=172.68 SL=169.69 shares=41 risk\u00e2\u2030\u02c6$49.05 signal=2026-07-14 16:30:00 alpaca_order=8e35f7f3-dd93-4f05-aae5-2e4cdd8c8ba4 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "META-2",
+                                "timestamp": "2026-07-14 16:45:48",
+                                "symbol": "META",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "664.125",
+                                "shares": "10.0",
+                                "usd_qty": "6641.25",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=667.84 TP2=671.10 SL=659.48 shares=10 risk\u00e2\u2030\u02c6$46.49 signal=2026-07-14 16:45:00 alpaca_order=288c558f-a3e9-4407-8854-2996df5ef449 status=OrderStatus.FILLED"
+                            }
+                        ]
+                    },
+                    "trend": {
+                        "has_previous_day": false
+                    }
+                },
+                "alpaca_paper": {
+                    "trade_metrics": {
+                        "total_trades": 0,
+                        "win_count": 0,
+                        "loss_count": 0,
+                        "breakeven_count": 0,
+                        "win_rate_pct": 0.0,
+                        "loss_rate_pct": 0.0,
+                        "total_pnl": 0,
+                        "closed_position_pnl": 0,
+                        "avg_pnl_per_trade": 0.0,
+                        "avg_win": 0.0,
+                        "avg_loss": 0.0,
+                        "realized_exit_count": 0,
+                        "eod_close_count": 0,
+                        "tp1_hit_count": 0,
+                        "tp1_realized_pnl": 0,
+                        "tp2_hit_count": 0,
+                        "tp2_realized_pnl": 0,
+                        "open_partial_count": 0,
+                        "open_positions": [],
+                        "by_symbol": {},
+                        "recent_trades": []
+                    },
+                    "trend": {
+                        "has_previous_day": true,
+                        "win_rate_delta_pct": -60.0,
+                        "total_pnl_delta": 40.25,
+                        "trade_count_delta": -5,
+                        "direction": "mixed"
+                    }
+                },
+                "legacy_simulation": {
+                    "trade_metrics": {
+                        "total_trades": 0,
+                        "win_count": 0,
+                        "loss_count": 0,
+                        "breakeven_count": 0,
+                        "win_rate_pct": 0.0,
+                        "loss_rate_pct": 0.0,
+                        "total_pnl": 0,
+                        "closed_position_pnl": 0,
+                        "avg_pnl_per_trade": 0.0,
+                        "avg_win": 0.0,
+                        "avg_loss": 0.0,
+                        "realized_exit_count": 0,
+                        "eod_close_count": 0,
+                        "tp1_hit_count": 0,
+                        "tp1_realized_pnl": 0,
+                        "tp2_hit_count": 0,
+                        "tp2_realized_pnl": 0,
+                        "open_partial_count": 0,
+                        "open_positions": [],
+                        "by_symbol": {},
+                        "recent_trades": []
+                    },
+                    "trend": {
+                        "has_previous_day": false
+                    }
+                },
+                "all": {
+                    "trade_metrics": {
+                        "total_trades": 5,
+                        "win_count": 1,
+                        "loss_count": 4,
+                        "breakeven_count": 0,
+                        "win_rate_pct": 20.0,
+                        "loss_rate_pct": 80.0,
+                        "total_pnl": -146.89,
+                        "closed_position_pnl": -146.89,
+                        "avg_pnl_per_trade": -29.38,
+                        "avg_win": 2.86,
+                        "avg_loss": -37.44,
+                        "realized_exit_count": 6,
+                        "eod_close_count": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 14.04,
+                        "tp2_hit_count": 0,
+                        "tp2_realized_pnl": 0,
+                        "open_partial_count": 0,
+                        "open_positions": [
+                            {
+                                "trade_id": "CRM-1",
+                                "symbol": "CRM",
+                                "side": "LONG",
+                                "entry_price": 170.89,
+                                "remaining": 41.0,
+                                "sl": 169.69,
+                                "tp1": 171.85,
+                                "tp2": 172.68,
+                                "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "META-2",
+                                "symbol": "META",
+                                "side": "LONG",
+                                "entry_price": 664.125,
+                                "remaining": 10.0,
+                                "sl": 659.48,
+                                "tp1": 667.84,
+                                "tp2": 671.1,
+                                "last_event": "ENTRY_LONG"
+                            }
+                        ],
+                        "by_symbol": {
+                            "AAPL": {
+                                "trades": 1,
+                                "pnl": -0.09,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "MSFT": {
+                                "trades": 1,
+                                "pnl": -47.97,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "NVDA": {
+                                "trades": 1,
+                                "pnl": -52.23,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "LLY": {
+                                "trades": 1,
+                                "pnl": -49.47,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "AMD": {
+                                "trades": 1,
+                                "pnl": 2.86,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            }
+                        },
+                        "recent_trades": [
+                            {
+                                "trade_id": "AAPL-5",
+                                "timestamp": "2026-07-14 14:20:50",
+                                "symbol": "AAPL",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "313.975",
+                                "shares": "22.0",
+                                "usd_qty": "6907.45",
+                                "pnl": "0.0",
+                                "total_pnl": "42.5052",
+                                "balance": "100042.51",
+                                "notes": "TP1=312.22 TP2=311.78 TP3=310.68 SL=316.17 shares=22 risk\u00e2\u2030\u02c6$48.35 signal=2026-07-14 14:15:00 alpaca_order=d2279238-751a-4b8b-bcfb-4e4c10609f99 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-6",
+                                "timestamp": "2026-07-14 14:21:14",
+                                "symbol": "MSFT",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "383.855",
+                                "shares": "18.0",
+                                "usd_qty": "6909.39",
+                                "pnl": "0.0",
+                                "total_pnl": "-63.425",
+                                "balance": "99936.57",
+                                "notes": "TP1=381.71 TP2=381.17 TP3=379.82 SL=386.54 shares=18 risk\u00e2\u2030\u02c6$48.37 signal=2026-07-14 14:15:00 alpaca_order=a40fe5f6-61af-464e-9586-12c108ca542e status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-5",
+                                "timestamp": "2026-07-14 14:21:48",
+                                "symbol": "NVDA",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "205.6537",
+                                "shares": "34.0",
+                                "usd_qty": "6992.23",
+                                "pnl": "0.0",
+                                "total_pnl": "8.9904",
+                                "balance": "100008.99",
+                                "notes": "TP1=204.50 TP2=204.21 TP3=203.49 SL=207.09 shares=34 risk\u00e2\u2030\u02c6$48.95 signal=2026-07-14 14:15:00 alpaca_order=efca0c4c-256d-46b1-aca7-7c158698a617 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-6",
+                                "timestamp": "2026-07-14 14:49:32",
+                                "symbol": "MSFT",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "386.52",
+                                "shares": "18.0",
+                                "usd_qty": "6957.36",
+                                "pnl": "-47.97",
+                                "total_pnl": "-111.395",
+                                "balance": "99888.6",
+                                "notes": "entry=383.86 exit=386.52 alpaca_order=98d499a3-a437-4224-9053-635b5d8ac462 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-5",
+                                "timestamp": "2026-07-14 14:53:26",
+                                "symbol": "NVDA",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "207.1898",
+                                "shares": "34.0",
+                                "usd_qty": "7044.45",
+                                "pnl": "-52.2274",
+                                "total_pnl": "-43.237",
+                                "balance": "99956.76",
+                                "notes": "entry=205.65 exit=207.19 alpaca_order=ff7b5136-549e-4e72-9397-10985ce89aae status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "LLY-2",
+                                "timestamp": "2026-07-14 15:16:41",
+                                "symbol": "LLY",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "1148.2869",
+                                "shares": "6.0",
+                                "usd_qty": "6889.72",
+                                "pnl": "0.0",
+                                "total_pnl": "8.9",
+                                "balance": "100008.9",
+                                "notes": "TP1=1141.86 TP2=1140.25 TP3=1136.23 SL=1156.32 shares=6 risk\u00e2\u2030\u02c6$48.23 signal=2026-07-14 15:15:00 alpaca_order=85b32109-c700-42bc-b278-ad26155dc4a8 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMD-1",
+                                "timestamp": "2026-07-14 15:17:23",
+                                "symbol": "AMD",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "563.185",
+                                "shares": "12.0",
+                                "usd_qty": "6758.22",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=566.34 TP2=567.13 TP3=569.10 SL=559.24 shares=12 risk\u00e2\u2030\u02c6$47.31 signal=2026-07-14 15:15:00 alpaca_order=8be0b900-e4ba-4a71-9dce-9dc4f3ff80ea status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMD-1",
+                                "timestamp": "2026-07-14 15:27:49",
+                                "symbol": "AMD",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "566.6954",
+                                "shares": "4.0",
+                                "usd_qty": "2266.78",
+                                "pnl": "14.0416",
+                                "total_pnl": "14.0416",
+                                "balance": "100014.04",
+                                "notes": "remaining=8 shares alpaca_order=aa783f90-7761-48fd-987c-3cc99b484d1f status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMD-1",
+                                "timestamp": "2026-07-14 15:52:23",
+                                "symbol": "AMD",
+                                "event": "SL_HIT",
+                                "side": "LONG",
+                                "price": "561.7875",
+                                "shares": "8.0",
+                                "usd_qty": "4494.3",
+                                "pnl": "-11.18",
+                                "total_pnl": "2.8616",
+                                "balance": "100002.86",
+                                "notes": "entry=563.18 exit=561.79 alpaca_order=9c769686-a734-4970-88f2-6b3b7b7c0478 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "LLY-2",
+                                "timestamp": "2026-07-14 15:59:19",
+                                "symbol": "LLY",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "1156.5316",
+                                "shares": "6.0",
+                                "usd_qty": "6939.19",
+                                "pnl": "-49.4682",
+                                "total_pnl": "-40.5682",
+                                "balance": "99959.43",
+                                "notes": "entry=1148.29 exit=1156.53 alpaca_order=38e358fa-7622-4309-8b9d-c3d5078fd980 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AAPL-5",
+                                "timestamp": "2026-07-14 16:10:39",
+                                "symbol": "AAPL",
+                                "event": "SL_BE_HIT",
+                                "side": "SHORT",
+                                "price": "313.979",
+                                "shares": "22.0",
+                                "usd_qty": "6907.54",
+                                "pnl": "-0.088",
+                                "total_pnl": "42.4172",
+                                "balance": "100042.42",
+                                "notes": "entry=313.975 exit=313.979 manual_close_at_breakeven alpaca_order=e9c3aa00-8694-4a29-9841-0086fb78e91a status=FILLED"
+                            },
+                            {
+                                "trade_id": "CRM-1",
+                                "timestamp": "2026-07-14 16:31:06",
+                                "symbol": "CRM",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "170.89",
+                                "shares": "41.0",
+                                "usd_qty": "7006.49",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=171.85 TP2=172.68 SL=169.69 shares=41 risk\u00e2\u2030\u02c6$49.05 signal=2026-07-14 16:30:00 alpaca_order=8e35f7f3-dd93-4f05-aae5-2e4cdd8c8ba4 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "META-2",
+                                "timestamp": "2026-07-14 16:45:48",
+                                "symbol": "META",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "664.125",
+                                "shares": "10.0",
+                                "usd_qty": "6641.25",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=667.84 TP2=671.10 SL=659.48 shares=10 risk\u00e2\u2030\u02c6$46.49 signal=2026-07-14 16:45:00 alpaca_order=288c558f-a3e9-4407-8854-2996df5ef449 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -32701,6 +32751,17 @@
                         "sl": 169.69,
                         "tp1": 171.85,
                         "tp2": 172.68,
+                        "last_event": "ENTRY_LONG"
+                    },
+                    {
+                        "trade_id": "META-2",
+                        "symbol": "META",
+                        "side": "LONG",
+                        "entry_price": 664.125,
+                        "remaining": 10.0,
+                        "sl": 659.48,
+                        "tp1": 667.84,
+                        "tp2": 671.1,
                         "last_event": "ENTRY_LONG"
                     }
                 ],
@@ -32914,6 +32975,20 @@
                         "total_pnl": "0.0",
                         "balance": "100000.0",
                         "notes": "TP1=171.85 TP2=172.68 SL=169.69 shares=41 risk\u00e2\u2030\u02c6$49.05 signal=2026-07-14 16:30:00 alpaca_order=8e35f7f3-dd93-4f05-aae5-2e4cdd8c8ba4 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "META-2",
+                        "timestamp": "2026-07-14 16:45:48",
+                        "symbol": "META",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "664.125",
+                        "shares": "10.0",
+                        "usd_qty": "6641.25",
+                        "pnl": "0.0",
+                        "total_pnl": "0.0",
+                        "balance": "100000.0",
+                        "notes": "TP1=667.84 TP2=671.10 SL=659.48 shares=10 risk\u00e2\u2030\u02c6$46.49 signal=2026-07-14 16:45:00 alpaca_order=288c558f-a3e9-4407-8854-2996df5ef449 status=OrderStatus.FILLED"
                     }
                 ]
             },
