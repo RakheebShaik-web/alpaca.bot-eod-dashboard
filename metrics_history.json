@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-14T16:15:45.446665+00:00",
+    "generated_at": "2026-07-14T16:31:07.392833+00:00",
     "latest_date": "2026-07-14",
     "days": [
         {
@@ -32127,7 +32127,19 @@
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
-                        "open_positions": [],
+                        "open_positions": [
+                            {
+                                "trade_id": "CRM-1",
+                                "symbol": "CRM",
+                                "side": "LONG",
+                                "entry_price": 170.89,
+                                "remaining": 41.0,
+                                "sl": 169.69,
+                                "tp1": 171.85,
+                                "tp2": 172.68,
+                                "last_event": "ENTRY_LONG"
+                            }
+                        ],
                         "by_symbol": {
                             "AAPL": {
                                 "trades": 1,
@@ -32324,6 +32336,20 @@
                                 "total_pnl": "42.4172",
                                 "balance": "100042.42",
                                 "notes": "entry=313.975 exit=313.979 manual_close_at_breakeven alpaca_order=e9c3aa00-8694-4a29-9841-0086fb78e91a status=FILLED"
+                            },
+                            {
+                                "trade_id": "CRM-1",
+                                "timestamp": "2026-07-14 16:31:06",
+                                "symbol": "CRM",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "170.89",
+                                "shares": "41.0",
+                                "usd_qty": "7006.49",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=171.85 TP2=172.68 SL=169.69 shares=41 risk\u00e2\u2030\u02c6$49.05 signal=2026-07-14 16:30:00 alpaca_order=8e35f7f3-dd93-4f05-aae5-2e4cdd8c8ba4 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -32411,7 +32437,19 @@
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
-                        "open_positions": [],
+                        "open_positions": [
+                            {
+                                "trade_id": "CRM-1",
+                                "symbol": "CRM",
+                                "side": "LONG",
+                                "entry_price": 170.89,
+                                "remaining": 41.0,
+                                "sl": 169.69,
+                                "tp1": 171.85,
+                                "tp2": 172.68,
+                                "last_event": "ENTRY_LONG"
+                            }
+                        ],
                         "by_symbol": {
                             "AAPL": {
                                 "trades": 1,
@@ -32608,6 +32646,20 @@
                                 "total_pnl": "42.4172",
                                 "balance": "100042.42",
                                 "notes": "entry=313.975 exit=313.979 manual_close_at_breakeven alpaca_order=e9c3aa00-8694-4a29-9841-0086fb78e91a status=FILLED"
+                            },
+                            {
+                                "trade_id": "CRM-1",
+                                "timestamp": "2026-07-14 16:31:06",
+                                "symbol": "CRM",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "170.89",
+                                "shares": "41.0",
+                                "usd_qty": "7006.49",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=171.85 TP2=172.68 SL=169.69 shares=41 risk\u00e2\u2030\u02c6$49.05 signal=2026-07-14 16:30:00 alpaca_order=8e35f7f3-dd93-4f05-aae5-2e4cdd8c8ba4 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -32639,7 +32691,19 @@
                 "tp2_hit_count": 0,
                 "tp2_realized_pnl": 0,
                 "open_partial_count": 0,
-                "open_positions": [],
+                "open_positions": [
+                    {
+                        "trade_id": "CRM-1",
+                        "symbol": "CRM",
+                        "side": "LONG",
+                        "entry_price": 170.89,
+                        "remaining": 41.0,
+                        "sl": 169.69,
+                        "tp1": 171.85,
+                        "tp2": 172.68,
+                        "last_event": "ENTRY_LONG"
+                    }
+                ],
                 "by_symbol": {
                     "AAPL": {
                         "trades": 1,
@@ -32836,6 +32900,20 @@
                         "total_pnl": "42.4172",
                         "balance": "100042.42",
                         "notes": "entry=313.975 exit=313.979 manual_close_at_breakeven alpaca_order=e9c3aa00-8694-4a29-9841-0086fb78e91a status=FILLED"
+                    },
+                    {
+                        "trade_id": "CRM-1",
+                        "timestamp": "2026-07-14 16:31:06",
+                        "symbol": "CRM",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "170.89",
+                        "shares": "41.0",
+                        "usd_qty": "7006.49",
+                        "pnl": "0.0",
+                        "total_pnl": "0.0",
+                        "balance": "100000.0",
+                        "notes": "TP1=171.85 TP2=172.68 SL=169.69 shares=41 risk\u00e2\u2030\u02c6$49.05 signal=2026-07-14 16:30:00 alpaca_order=8e35f7f3-dd93-4f05-aae5-2e4cdd8c8ba4 status=OrderStatus.FILLED"
                     }
                 ]
             },
