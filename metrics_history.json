@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-14T18:39:25.483381+00:00",
+    "generated_at": "2026-07-14T20:07:51.294683+00:00",
     "latest_date": "2026-07-14",
     "days": [
         {
@@ -32109,48 +32109,25 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 6,
+                        "total_trades": 8,
                         "win_count": 1,
-                        "loss_count": 5,
+                        "loss_count": 7,
                         "breakeven_count": 0,
-                        "win_rate_pct": 16.67,
-                        "loss_rate_pct": 83.33,
-                        "total_pnl": -198.13,
-                        "closed_position_pnl": -198.13,
-                        "avg_pnl_per_trade": -33.02,
+                        "win_rate_pct": 12.5,
+                        "loss_rate_pct": 87.5,
+                        "total_pnl": -239.59,
+                        "closed_position_pnl": -239.59,
+                        "avg_pnl_per_trade": -29.95,
                         "avg_win": 2.86,
-                        "avg_loss": -40.2,
-                        "realized_exit_count": 7,
+                        "avg_loss": -34.64,
+                        "realized_exit_count": 9,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 14.04,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "META-2",
-                                "symbol": "META",
-                                "side": "LONG",
-                                "entry_price": 664.125,
-                                "remaining": 10.0,
-                                "sl": 659.48,
-                                "tp1": 667.84,
-                                "tp2": 671.1,
-                                "last_event": "ENTRY_LONG"
-                            },
-                            {
-                                "trade_id": "NFLX-2",
-                                "symbol": "NFLX",
-                                "side": "SHORT",
-                                "entry_price": 73.7934,
-                                "remaining": 96.0,
-                                "sl": 74.31,
-                                "tp1": 73.38,
-                                "tp2": 73.02,
-                                "last_event": "ENTRY_SHORT"
-                            }
-                        ],
+                        "open_positions": [],
                         "by_symbol": {
                             "AAPL": {
                                 "trades": 1,
@@ -32195,6 +32172,22 @@
                             "CRM": {
                                 "trades": 1,
                                 "pnl": -51.24,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "META": {
+                                "trades": 1,
+                                "pnl": -35.07,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "NFLX": {
+                                "trades": 1,
+                                "pnl": -6.38,
                                 "wins": 0,
                                 "losses": 1,
                                 "breakeven": 0,
@@ -32411,6 +32404,34 @@
                                 "total_pnl": "-52.23",
                                 "balance": "99947.77",
                                 "notes": "TP1=73.38 TP2=73.02 SL=74.31 shares=96 risk\u00e2\u2030\u02c6$49.59 signal=2026-07-14 18:00:00 alpaca_order=4989c24c-a23f-41d9-b0e4-437572d6102e status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "META-2",
+                                "timestamp": "2026-07-14 18:04:47",
+                                "symbol": "META",
+                                "event": "CLOSE_MANUAL",
+                                "side": "LONG",
+                                "price": "660.618",
+                                "shares": "10.0",
+                                "usd_qty": "6606.18",
+                                "pnl": "-35.07",
+                                "total_pnl": "-35.07",
+                                "balance": "99964.93",
+                                "notes": "entry=664.1250 exit=660.6180 reason=choppy_market_conditions alpaca_order=eb0c6665-d107-4e10-aea6-3303fab5beee status=FILLED"
+                            },
+                            {
+                                "trade_id": "NFLX-2",
+                                "timestamp": "2026-07-14 18:04:47",
+                                "symbol": "NFLX",
+                                "event": "CLOSE_MANUAL",
+                                "side": "SHORT",
+                                "price": "73.8599",
+                                "shares": "96.0",
+                                "usd_qty": "7090.55",
+                                "pnl": "-6.384",
+                                "total_pnl": "-58.614",
+                                "balance": "99941.39",
+                                "notes": "entry=73.7934 exit=73.8599 reason=choppy_market_conditions alpaca_order=2af78d37-db2c-496c-85b5-2a6a27777704 status=FILLED"
                             }
                         ]
                     },
@@ -32553,48 +32574,25 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 6,
+                        "total_trades": 8,
                         "win_count": 1,
-                        "loss_count": 5,
+                        "loss_count": 7,
                         "breakeven_count": 0,
-                        "win_rate_pct": 16.67,
-                        "loss_rate_pct": 83.33,
-                        "total_pnl": -198.13,
-                        "closed_position_pnl": -198.13,
-                        "avg_pnl_per_trade": -33.02,
+                        "win_rate_pct": 12.5,
+                        "loss_rate_pct": 87.5,
+                        "total_pnl": -239.59,
+                        "closed_position_pnl": -239.59,
+                        "avg_pnl_per_trade": -29.95,
                         "avg_win": 2.86,
-                        "avg_loss": -40.2,
-                        "realized_exit_count": 7,
+                        "avg_loss": -34.64,
+                        "realized_exit_count": 9,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 14.04,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "META-2",
-                                "symbol": "META",
-                                "side": "LONG",
-                                "entry_price": 664.125,
-                                "remaining": 10.0,
-                                "sl": 659.48,
-                                "tp1": 667.84,
-                                "tp2": 671.1,
-                                "last_event": "ENTRY_LONG"
-                            },
-                            {
-                                "trade_id": "NFLX-2",
-                                "symbol": "NFLX",
-                                "side": "SHORT",
-                                "entry_price": 73.7934,
-                                "remaining": 96.0,
-                                "sl": 74.31,
-                                "tp1": 73.38,
-                                "tp2": 73.02,
-                                "last_event": "ENTRY_SHORT"
-                            }
-                        ],
+                        "open_positions": [],
                         "by_symbol": {
                             "AAPL": {
                                 "trades": 1,
@@ -32639,6 +32637,22 @@
                             "CRM": {
                                 "trades": 1,
                                 "pnl": -51.24,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "META": {
+                                "trades": 1,
+                                "pnl": -35.07,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "NFLX": {
+                                "trades": 1,
+                                "pnl": -6.38,
                                 "wins": 0,
                                 "losses": 1,
                                 "breakeven": 0,
@@ -32855,61 +32869,66 @@
                                 "total_pnl": "-52.23",
                                 "balance": "99947.77",
                                 "notes": "TP1=73.38 TP2=73.02 SL=74.31 shares=96 risk\u00e2\u2030\u02c6$49.59 signal=2026-07-14 18:00:00 alpaca_order=4989c24c-a23f-41d9-b0e4-437572d6102e status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "META-2",
+                                "timestamp": "2026-07-14 18:04:47",
+                                "symbol": "META",
+                                "event": "CLOSE_MANUAL",
+                                "side": "LONG",
+                                "price": "660.618",
+                                "shares": "10.0",
+                                "usd_qty": "6606.18",
+                                "pnl": "-35.07",
+                                "total_pnl": "-35.07",
+                                "balance": "99964.93",
+                                "notes": "entry=664.1250 exit=660.6180 reason=choppy_market_conditions alpaca_order=eb0c6665-d107-4e10-aea6-3303fab5beee status=FILLED"
+                            },
+                            {
+                                "trade_id": "NFLX-2",
+                                "timestamp": "2026-07-14 18:04:47",
+                                "symbol": "NFLX",
+                                "event": "CLOSE_MANUAL",
+                                "side": "SHORT",
+                                "price": "73.8599",
+                                "shares": "96.0",
+                                "usd_qty": "7090.55",
+                                "pnl": "-6.384",
+                                "total_pnl": "-58.614",
+                                "balance": "99941.39",
+                                "notes": "entry=73.7934 exit=73.8599 reason=choppy_market_conditions alpaca_order=2af78d37-db2c-496c-85b5-2a6a27777704 status=FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -43.33,
-                        "total_pnl_delta": -157.88,
-                        "trade_count_delta": 1,
+                        "win_rate_delta_pct": -47.5,
+                        "total_pnl_delta": -199.34,
+                        "trade_count_delta": 3,
                         "direction": "declining"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 6,
+                "total_trades": 8,
                 "win_count": 1,
-                "loss_count": 5,
+                "loss_count": 7,
                 "breakeven_count": 0,
-                "win_rate_pct": 16.67,
-                "loss_rate_pct": 83.33,
-                "total_pnl": -198.13,
-                "closed_position_pnl": -198.13,
-                "avg_pnl_per_trade": -33.02,
+                "win_rate_pct": 12.5,
+                "loss_rate_pct": 87.5,
+                "total_pnl": -239.59,
+                "closed_position_pnl": -239.59,
+                "avg_pnl_per_trade": -29.95,
                 "avg_win": 2.86,
-                "avg_loss": -40.2,
-                "realized_exit_count": 7,
+                "avg_loss": -34.64,
+                "realized_exit_count": 9,
                 "eod_close_count": 0,
                 "tp1_hit_count": 1,
                 "tp1_realized_pnl": 14.04,
                 "tp2_hit_count": 0,
                 "tp2_realized_pnl": 0,
                 "open_partial_count": 0,
-                "open_positions": [
-                    {
-                        "trade_id": "META-2",
-                        "symbol": "META",
-                        "side": "LONG",
-                        "entry_price": 664.125,
-                        "remaining": 10.0,
-                        "sl": 659.48,
-                        "tp1": 667.84,
-                        "tp2": 671.1,
-                        "last_event": "ENTRY_LONG"
-                    },
-                    {
-                        "trade_id": "NFLX-2",
-                        "symbol": "NFLX",
-                        "side": "SHORT",
-                        "entry_price": 73.7934,
-                        "remaining": 96.0,
-                        "sl": 74.31,
-                        "tp1": 73.38,
-                        "tp2": 73.02,
-                        "last_event": "ENTRY_SHORT"
-                    }
-                ],
+                "open_positions": [],
                 "by_symbol": {
                     "AAPL": {
                         "trades": 1,
@@ -32954,6 +32973,22 @@
                     "CRM": {
                         "trades": 1,
                         "pnl": -51.24,
+                        "wins": 0,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "META": {
+                        "trades": 1,
+                        "pnl": -35.07,
+                        "wins": 0,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "NFLX": {
+                        "trades": 1,
+                        "pnl": -6.38,
                         "wins": 0,
                         "losses": 1,
                         "breakeven": 0,
@@ -33170,6 +33205,34 @@
                         "total_pnl": "-52.23",
                         "balance": "99947.77",
                         "notes": "TP1=73.38 TP2=73.02 SL=74.31 shares=96 risk\u00e2\u2030\u02c6$49.59 signal=2026-07-14 18:00:00 alpaca_order=4989c24c-a23f-41d9-b0e4-437572d6102e status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "META-2",
+                        "timestamp": "2026-07-14 18:04:47",
+                        "symbol": "META",
+                        "event": "CLOSE_MANUAL",
+                        "side": "LONG",
+                        "price": "660.618",
+                        "shares": "10.0",
+                        "usd_qty": "6606.18",
+                        "pnl": "-35.07",
+                        "total_pnl": "-35.07",
+                        "balance": "99964.93",
+                        "notes": "entry=664.1250 exit=660.6180 reason=choppy_market_conditions alpaca_order=eb0c6665-d107-4e10-aea6-3303fab5beee status=FILLED"
+                    },
+                    {
+                        "trade_id": "NFLX-2",
+                        "timestamp": "2026-07-14 18:04:47",
+                        "symbol": "NFLX",
+                        "event": "CLOSE_MANUAL",
+                        "side": "SHORT",
+                        "price": "73.8599",
+                        "shares": "96.0",
+                        "usd_qty": "7090.55",
+                        "pnl": "-6.384",
+                        "total_pnl": "-58.614",
+                        "balance": "99941.39",
+                        "notes": "entry=73.7934 exit=73.8599 reason=choppy_market_conditions alpaca_order=2af78d37-db2c-496c-85b5-2a6a27777704 status=FILLED"
                     }
                 ]
             },
@@ -33186,9 +33249,9 @@
             },
             "trend": {
                 "has_previous_day": true,
-                "win_rate_delta_pct": -43.33,
-                "total_pnl_delta": -157.88,
-                "trade_count_delta": 1,
+                "win_rate_delta_pct": -47.5,
+                "total_pnl_delta": -199.34,
+                "trade_count_delta": 3,
                 "direction": "declining"
             }
         }
