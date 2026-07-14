@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-14T20:07:51.294683+00:00",
+    "generated_at": "2026-07-14T20:15:19.830725+00:00",
     "latest_date": "2026-07-14",
     "days": [
         {
@@ -32441,60 +32441,51 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 0,
-                        "win_count": 0,
+                        "total_trades": 3,
+                        "win_count": 3,
                         "loss_count": 0,
                         "breakeven_count": 0,
-                        "win_rate_pct": 0.0,
+                        "win_rate_pct": 100.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
-                        "closed_position_pnl": 0,
-                        "avg_pnl_per_trade": 0.0,
-                        "avg_win": 0.0,
+                        "total_pnl": 42.63,
+                        "closed_position_pnl": 42.63,
+                        "avg_pnl_per_trade": 14.21,
+                        "avg_win": 14.21,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 0,
-                        "eod_close_count": 0,
+                        "realized_exit_count": 3,
+                        "eod_close_count": 3,
                         "tp1_hit_count": 0,
                         "tp1_realized_pnl": 0,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "MSFT-1",
-                                "symbol": "MSFT",
-                                "side": "SHORT",
-                                "entry_price": 386.49,
-                                "remaining": 18.0,
-                                "sl": 389.2,
-                                "tp1": 384.33,
-                                "tp2": 382.43,
-                                "last_event": "ENTRY_SHORT"
+                        "open_positions": [],
+                        "by_symbol": {
+                            "MSFT": {
+                                "trades": 1,
+                                "pnl": 16.82,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
                             },
-                            {
-                                "trade_id": "NVDA-1",
-                                "symbol": "NVDA",
-                                "side": "LONG",
-                                "entry_price": 211.49,
-                                "remaining": 33.0,
-                                "sl": 210.01,
-                                "tp1": 212.67,
-                                "tp2": 213.71,
-                                "last_event": "ENTRY_LONG"
+                            "NVDA": {
+                                "trades": 1,
+                                "pnl": 12.87,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
                             },
-                            {
-                                "trade_id": "GOOGL-1",
-                                "symbol": "GOOGL",
-                                "side": "LONG",
-                                "entry_price": 358.9489,
-                                "remaining": 19.0,
-                                "sl": 356.44,
-                                "tp1": 360.96,
-                                "tp2": 362.72,
-                                "last_event": "ENTRY_LONG"
+                            "GOOGL": {
+                                "trades": 1,
+                                "pnl": 12.94,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
                             }
-                        ],
-                        "by_symbol": {},
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "MSFT-1",
@@ -32537,6 +32528,48 @@
                                 "total_pnl": "0.0",
                                 "balance": "100000.0",
                                 "notes": "TP1=360.96 TP2=362.72 SL=356.44 shares=19 risk\u00e2\u2030\u02c6$47.74 signal=2026-07-14 17:30:00 alpaca_order=53c9ad83-12d5-4b7b-9500-c5bf6bb82d30 status=OrderStatus.FILLED broker_mode=paper"
+                            },
+                            {
+                                "trade_id": "MSFT-1",
+                                "timestamp": "2026-07-14 19:51:50",
+                                "symbol": "MSFT",
+                                "event": "CLOSE_EOD",
+                                "side": "SHORT",
+                                "price": "385.5556",
+                                "shares": "18.0",
+                                "usd_qty": "6940.0",
+                                "pnl": "16.82",
+                                "total_pnl": "16.82",
+                                "balance": "100016.82",
+                                "notes": "entry=386.49 exit=385.56 alpaca_order=dbbc45e4-fd02-4717-bc86-7321a291795c status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-1",
+                                "timestamp": "2026-07-14 19:52:12",
+                                "symbol": "NVDA",
+                                "event": "CLOSE_EOD",
+                                "side": "LONG",
+                                "price": "211.88",
+                                "shares": "33.0",
+                                "usd_qty": "6992.04",
+                                "pnl": "12.87",
+                                "total_pnl": "12.87",
+                                "balance": "100012.87",
+                                "notes": "entry=211.49 exit=211.88 alpaca_order=b87b5555-9b7e-43df-8855-f6c8024e3b69 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "GOOGL-1",
+                                "timestamp": "2026-07-14 19:52:34",
+                                "symbol": "GOOGL",
+                                "event": "CLOSE_EOD",
+                                "side": "LONG",
+                                "price": "359.63",
+                                "shares": "19.0",
+                                "usd_qty": "6832.97",
+                                "pnl": "12.94",
+                                "total_pnl": "12.94",
+                                "balance": "100012.94",
+                                "notes": "entry=358.95 exit=359.63 alpaca_order=870093a0-b613-4995-923b-c937617e1b33 status=OrderStatus.FILLED"
                             }
                         ]
                     },
