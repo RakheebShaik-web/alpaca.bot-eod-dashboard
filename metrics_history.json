@@ -1,6 +1,6 @@
 {
-    "generated_at": "2026-07-13T19:57:44.079381+00:00",
-    "latest_date": "2026-07-13",
+    "generated_at": "2026-07-14T14:20:50.956169+00:00",
+    "latest_date": "2026-07-14",
     "days": [
         {
             "date": "2026-06-26",
@@ -32102,6 +32102,192 @@
                 "total_pnl_delta": 712.87,
                 "trade_count_delta": -7,
                 "direction": "improving"
+            }
+        },
+        {
+            "date": "2026-07-14",
+            "datasets": {
+                "alpaca_live": {
+                    "trade_metrics": {
+                        "total_trades": 0,
+                        "win_count": 0,
+                        "loss_count": 0,
+                        "breakeven_count": 0,
+                        "win_rate_pct": 0.0,
+                        "loss_rate_pct": 0.0,
+                        "total_pnl": 0,
+                        "closed_position_pnl": 0,
+                        "avg_pnl_per_trade": 0.0,
+                        "avg_win": 0.0,
+                        "avg_loss": 0.0,
+                        "realized_exit_count": 0,
+                        "eod_close_count": 0,
+                        "open_partial_count": 0,
+                        "by_symbol": {},
+                        "recent_trades": [
+                            {
+                                "trade_id": "AAPL-5",
+                                "timestamp": "2026-07-14 14:20:50",
+                                "symbol": "AAPL",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "313.975",
+                                "shares": "22.0",
+                                "usd_qty": "6907.45",
+                                "pnl": "0.0",
+                                "total_pnl": "42.5052",
+                                "balance": "100042.51",
+                                "notes": "TP1=312.22 TP2=311.78 TP3=310.68 SL=316.17 shares=22 risk\u00e2\u2030\u02c6$48.35 signal=2026-07-14 14:15:00 alpaca_order=d2279238-751a-4b8b-bcfb-4e4c10609f99 status=OrderStatus.FILLED"
+                            }
+                        ]
+                    },
+                    "trend": {
+                        "has_previous_day": false
+                    }
+                },
+                "alpaca_paper": {
+                    "trade_metrics": {
+                        "total_trades": 0,
+                        "win_count": 0,
+                        "loss_count": 0,
+                        "breakeven_count": 0,
+                        "win_rate_pct": 0.0,
+                        "loss_rate_pct": 0.0,
+                        "total_pnl": 0,
+                        "closed_position_pnl": 0,
+                        "avg_pnl_per_trade": 0.0,
+                        "avg_win": 0.0,
+                        "avg_loss": 0.0,
+                        "realized_exit_count": 0,
+                        "eod_close_count": 0,
+                        "open_partial_count": 0,
+                        "by_symbol": {},
+                        "recent_trades": []
+                    },
+                    "trend": {
+                        "has_previous_day": true,
+                        "win_rate_delta_pct": -60.0,
+                        "total_pnl_delta": 40.25,
+                        "trade_count_delta": -5,
+                        "direction": "mixed"
+                    }
+                },
+                "legacy_simulation": {
+                    "trade_metrics": {
+                        "total_trades": 0,
+                        "win_count": 0,
+                        "loss_count": 0,
+                        "breakeven_count": 0,
+                        "win_rate_pct": 0.0,
+                        "loss_rate_pct": 0.0,
+                        "total_pnl": 0,
+                        "closed_position_pnl": 0,
+                        "avg_pnl_per_trade": 0.0,
+                        "avg_win": 0.0,
+                        "avg_loss": 0.0,
+                        "realized_exit_count": 0,
+                        "eod_close_count": 0,
+                        "open_partial_count": 0,
+                        "by_symbol": {},
+                        "recent_trades": []
+                    },
+                    "trend": {
+                        "has_previous_day": false
+                    }
+                },
+                "all": {
+                    "trade_metrics": {
+                        "total_trades": 0,
+                        "win_count": 0,
+                        "loss_count": 0,
+                        "breakeven_count": 0,
+                        "win_rate_pct": 0.0,
+                        "loss_rate_pct": 0.0,
+                        "total_pnl": 0,
+                        "closed_position_pnl": 0,
+                        "avg_pnl_per_trade": 0.0,
+                        "avg_win": 0.0,
+                        "avg_loss": 0.0,
+                        "realized_exit_count": 0,
+                        "eod_close_count": 0,
+                        "open_partial_count": 0,
+                        "by_symbol": {},
+                        "recent_trades": [
+                            {
+                                "trade_id": "AAPL-5",
+                                "timestamp": "2026-07-14 14:20:50",
+                                "symbol": "AAPL",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "313.975",
+                                "shares": "22.0",
+                                "usd_qty": "6907.45",
+                                "pnl": "0.0",
+                                "total_pnl": "42.5052",
+                                "balance": "100042.51",
+                                "notes": "TP1=312.22 TP2=311.78 TP3=310.68 SL=316.17 shares=22 risk\u00e2\u2030\u02c6$48.35 signal=2026-07-14 14:15:00 alpaca_order=d2279238-751a-4b8b-bcfb-4e4c10609f99 status=OrderStatus.FILLED"
+                            }
+                        ]
+                    },
+                    "trend": {
+                        "has_previous_day": true,
+                        "win_rate_delta_pct": -60.0,
+                        "total_pnl_delta": 40.25,
+                        "trade_count_delta": -5,
+                        "direction": "mixed"
+                    }
+                }
+            },
+            "trade_metrics": {
+                "total_trades": 0,
+                "win_count": 0,
+                "loss_count": 0,
+                "breakeven_count": 0,
+                "win_rate_pct": 0.0,
+                "loss_rate_pct": 0.0,
+                "total_pnl": 0,
+                "closed_position_pnl": 0,
+                "avg_pnl_per_trade": 0.0,
+                "avg_win": 0.0,
+                "avg_loss": 0.0,
+                "realized_exit_count": 0,
+                "eod_close_count": 0,
+                "open_partial_count": 0,
+                "by_symbol": {},
+                "recent_trades": [
+                    {
+                        "trade_id": "AAPL-5",
+                        "timestamp": "2026-07-14 14:20:50",
+                        "symbol": "AAPL",
+                        "event": "ENTRY_SHORT",
+                        "side": "SHORT",
+                        "price": "313.975",
+                        "shares": "22.0",
+                        "usd_qty": "6907.45",
+                        "pnl": "0.0",
+                        "total_pnl": "42.5052",
+                        "balance": "100042.51",
+                        "notes": "TP1=312.22 TP2=311.78 TP3=310.68 SL=316.17 shares=22 risk\u00e2\u2030\u02c6$48.35 signal=2026-07-14 14:15:00 alpaca_order=d2279238-751a-4b8b-bcfb-4e4c10609f99 status=OrderStatus.FILLED"
+                    }
+                ]
+            },
+            "signal_metrics": {
+                "risk_rejected_count": 0,
+                "risk_passed_count": 0,
+                "ai_accepted_count": 0,
+                "ai_rejected_count": 0,
+                "ai_accept_rate_pct": null,
+                "ml_gate_passed_count": 0,
+                "ml_gate_rejected_count": 0,
+                "by_filter": {},
+                "has_signal_data": false
+            },
+            "trend": {
+                "has_previous_day": true,
+                "win_rate_delta_pct": -60.0,
+                "total_pnl_delta": 40.25,
+                "trade_count_delta": -5,
+                "direction": "mixed"
             }
         }
     ]
