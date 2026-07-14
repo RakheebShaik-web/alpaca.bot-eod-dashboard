@@ -21,7 +21,7 @@
 </head>
 <body>
 <div class="wrap">
-  <header><div><h1>Alpaca Bot EOD Dashboard</h1><div class="sub" id="subtitle">Loading metrics history...</div></div><div class="controls"><select id="datasetSelect" aria-label="Trading data source"><option value="alpaca_paper">Alpaca Paper</option><option value="legacy_simulation">Legacy Simulation</option><option value="all">All Data</option></select><select id="dateSelect" aria-label="Trading day"></select><button id="latestBtn">Latest</button></div></header>
+  <header><div><h1>Alpaca Bot EOD Dashboard</h1><div class="sub" id="subtitle">Loading metrics history...</div></div><div class="controls"><select id="datasetSelect" aria-label="Trading data source"><option value="alpaca_live">Alpaca Live</option><option value="alpaca_paper">Alpaca Paper</option><option value="legacy_simulation">Legacy Simulation</option><option value="all">All Data</option></select><select id="dateSelect" aria-label="Trading day"></select><button id="latestBtn">Latest</button></div></header>
   <div class="status" id="status">Loading metrics_history.json...</div>
   <main id="dashboard" style="display:none">
     <div class="grid4"><div class="stat"><div class="label">Closed Positions</div><div class="value" id="totalTrades">-</div><div class="small" id="exitCount"></div></div><div class="stat"><div class="label">Win Rate</div><div class="value" id="winRate">-</div><div class="small" id="winSub"></div></div><div class="stat"><div class="label">Total P&L</div><div class="value" id="totalPnl">-</div><div class="small" id="closedPnl"></div></div><div class="stat"><div class="label">Avg P&L / Position</div><div class="value" id="avgPnl">-</div><div class="small" id="avgSub"></div></div></div>
@@ -32,7 +32,7 @@
   </main>
 </div>
 <script>
-let historyData=null,selectedDate=null,selectedDataset='alpaca_paper';const $=id=>document.getElementById(id);const usd=v=>`${Number(v||0)<0?'-':'+'}$${Math.abs(Number(v||0)).toFixed(2)}`;const pct=v=>`${Number(v||0).toFixed(2)}%`;const cls=v=>Number(v||0)>0?'up':Number(v||0)<0?'down':'';const datasetLabels={alpaca_paper:'Alpaca Paper',legacy_simulation:'Legacy Simulation',all:'All Data'};
+let historyData=null,selectedDate=null,selectedDataset='alpaca_live';const $=id=>document.getElementById(id);const usd=v=>`${Number(v||0)<0?'-':'+'}$${Math.abs(Number(v||0)).toFixed(2)}`;const pct=v=>`${Number(v||0).toFixed(2)}%`;const cls=v=>Number(v||0)>0?'up':Number(v||0)<0?'down':'';const datasetLabels={alpaca_live:'Alpaca Live',alpaca_paper:'Alpaca Paper',legacy_simulation:'Legacy Simulation',all:'All Data'};
 function bundle(day){return (day.datasets&&day.datasets[selectedDataset])||(selectedDataset==='all'?{trade_metrics:day.trade_metrics||{},trend:day.trend||{}}:{trade_metrics:{},trend:{}})}
 function datasetDays(){return (historyData.days||[]).filter(day=>{const tm=bundle(day).trade_metrics||{};return (tm.recent_trades||[]).length>0||(tm.realized_exit_count||0)>0})}
 function refreshDates(){const days=datasetDays(),dates=days.map(d=>d.date);$('dateSelect').innerHTML=dates.map(d=>`<option value="${d}">${d}</option>`).join('');selectedDate=dates.includes(selectedDate)?selectedDate:dates[dates.length-1];$('dateSelect').value=selectedDate||'';$('subtitle').textContent=`Generated ${historyData.generated_at||''} | ${dates.length} ${datasetLabels[selectedDataset]} trading days`;if(selectedDate)render(selectedDate);else{$('dashboard').style.display='none';$('status').textContent=`No ${datasetLabels[selectedDataset]} trades found.`;$('status').className='status'}}
