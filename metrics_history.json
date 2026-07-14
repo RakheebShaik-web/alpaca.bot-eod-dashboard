@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-14T14:20:50.956169+00:00",
+    "generated_at": "2026-07-14T14:21:15.022018+00:00",
     "latest_date": "2026-07-14",
     "days": [
         {
@@ -32138,6 +32138,20 @@
                                 "total_pnl": "42.5052",
                                 "balance": "100042.51",
                                 "notes": "TP1=312.22 TP2=311.78 TP3=310.68 SL=316.17 shares=22 risk\u00e2\u2030\u02c6$48.35 signal=2026-07-14 14:15:00 alpaca_order=d2279238-751a-4b8b-bcfb-4e4c10609f99 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-6",
+                                "timestamp": "2026-07-14 14:21:14",
+                                "symbol": "MSFT",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "383.855",
+                                "shares": "18.0",
+                                "usd_qty": "6909.39",
+                                "pnl": "0.0",
+                                "total_pnl": "-63.425",
+                                "balance": "99936.57",
+                                "notes": "TP1=381.71 TP2=381.17 TP3=379.82 SL=386.54 shares=18 risk\u00e2\u2030\u02c6$48.37 signal=2026-07-14 14:15:00 alpaca_order=a40fe5f6-61af-464e-9586-12c108ca542e status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -32226,6 +32240,20 @@
                                 "total_pnl": "42.5052",
                                 "balance": "100042.51",
                                 "notes": "TP1=312.22 TP2=311.78 TP3=310.68 SL=316.17 shares=22 risk\u00e2\u2030\u02c6$48.35 signal=2026-07-14 14:15:00 alpaca_order=d2279238-751a-4b8b-bcfb-4e4c10609f99 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-6",
+                                "timestamp": "2026-07-14 14:21:14",
+                                "symbol": "MSFT",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "383.855",
+                                "shares": "18.0",
+                                "usd_qty": "6909.39",
+                                "pnl": "0.0",
+                                "total_pnl": "-63.425",
+                                "balance": "99936.57",
+                                "notes": "TP1=381.71 TP2=381.17 TP3=379.82 SL=386.54 shares=18 risk\u00e2\u2030\u02c6$48.37 signal=2026-07-14 14:15:00 alpaca_order=a40fe5f6-61af-464e-9586-12c108ca542e status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -32268,6 +32296,20 @@
                         "total_pnl": "42.5052",
                         "balance": "100042.51",
                         "notes": "TP1=312.22 TP2=311.78 TP3=310.68 SL=316.17 shares=22 risk\u00e2\u2030\u02c6$48.35 signal=2026-07-14 14:15:00 alpaca_order=d2279238-751a-4b8b-bcfb-4e4c10609f99 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "MSFT-6",
+                        "timestamp": "2026-07-14 14:21:14",
+                        "symbol": "MSFT",
+                        "event": "ENTRY_SHORT",
+                        "side": "SHORT",
+                        "price": "383.855",
+                        "shares": "18.0",
+                        "usd_qty": "6909.39",
+                        "pnl": "0.0",
+                        "total_pnl": "-63.425",
+                        "balance": "99936.57",
+                        "notes": "TP1=381.71 TP2=381.17 TP3=379.82 SL=386.54 shares=18 risk\u00e2\u2030\u02c6$48.37 signal=2026-07-14 14:15:00 alpaca_order=a40fe5f6-61af-464e-9586-12c108ca542e status=OrderStatus.FILLED"
                     }
                 ]
             },
