@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-14T16:11:36.697527+00:00",
+    "generated_at": "2026-07-14T16:15:45.446665+00:00",
     "latest_date": "2026-07-14",
     "days": [
         {
@@ -32122,6 +32122,10 @@
                         "avg_loss": -37.44,
                         "realized_exit_count": 6,
                         "eod_close_count": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 14.04,
+                        "tp2_hit_count": 0,
+                        "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
                         "open_positions": [],
                         "by_symbol": {
@@ -32342,6 +32346,10 @@
                         "avg_loss": 0.0,
                         "realized_exit_count": 0,
                         "eod_close_count": 0,
+                        "tp1_hit_count": 0,
+                        "tp1_realized_pnl": 0,
+                        "tp2_hit_count": 0,
+                        "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
                         "open_positions": [],
                         "by_symbol": {},
@@ -32370,6 +32378,10 @@
                         "avg_loss": 0.0,
                         "realized_exit_count": 0,
                         "eod_close_count": 0,
+                        "tp1_hit_count": 0,
+                        "tp1_realized_pnl": 0,
+                        "tp2_hit_count": 0,
+                        "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
                         "open_positions": [],
                         "by_symbol": {},
@@ -32394,6 +32406,10 @@
                         "avg_loss": -37.44,
                         "realized_exit_count": 6,
                         "eod_close_count": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 14.04,
+                        "tp2_hit_count": 0,
+                        "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
                         "open_positions": [],
                         "by_symbol": {
@@ -32618,6 +32634,10 @@
                 "avg_loss": -37.44,
                 "realized_exit_count": 6,
                 "eod_close_count": 0,
+                "tp1_hit_count": 1,
+                "tp1_realized_pnl": 14.04,
+                "tp2_hit_count": 0,
+                "tp2_realized_pnl": 0,
                 "open_partial_count": 0,
                 "open_positions": [],
                 "by_symbol": {
