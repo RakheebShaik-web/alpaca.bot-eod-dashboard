@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-14T15:59:20.005660+00:00",
+    "generated_at": "2026-07-14T16:11:36.697527+00:00",
     "latest_date": "2026-07-14",
     "days": [
         {
@@ -32109,35 +32109,30 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 4,
+                        "total_trades": 5,
                         "win_count": 1,
-                        "loss_count": 3,
+                        "loss_count": 4,
                         "breakeven_count": 0,
-                        "win_rate_pct": 25.0,
-                        "loss_rate_pct": 75.0,
-                        "total_pnl": -146.8,
-                        "closed_position_pnl": -146.8,
-                        "avg_pnl_per_trade": -36.7,
+                        "win_rate_pct": 20.0,
+                        "loss_rate_pct": 80.0,
+                        "total_pnl": -146.89,
+                        "closed_position_pnl": -146.89,
+                        "avg_pnl_per_trade": -29.38,
                         "avg_win": 2.86,
-                        "avg_loss": -49.89,
-                        "realized_exit_count": 5,
+                        "avg_loss": -37.44,
+                        "realized_exit_count": 6,
                         "eod_close_count": 0,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "AAPL-5",
-                                "symbol": "AAPL",
-                                "side": "SHORT",
-                                "entry_price": 313.975,
-                                "remaining": 22.0,
-                                "sl": 316.17,
-                                "tp1": 312.22,
-                                "tp2": 311.78,
-                                "tp3": 310.68,
-                                "last_event": "ENTRY_SHORT"
-                            }
-                        ],
+                        "open_positions": [],
                         "by_symbol": {
+                            "AAPL": {
+                                "trades": 1,
+                                "pnl": -0.09,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "MSFT": {
                                 "trades": 1,
                                 "pnl": -47.97,
@@ -32311,6 +32306,20 @@
                                 "total_pnl": "-40.5682",
                                 "balance": "99959.43",
                                 "notes": "entry=1148.29 exit=1156.53 alpaca_order=38e358fa-7622-4309-8b9d-c3d5078fd980 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AAPL-5",
+                                "timestamp": "2026-07-14 16:10:39",
+                                "symbol": "AAPL",
+                                "event": "SL_BE_HIT",
+                                "side": "SHORT",
+                                "price": "313.979",
+                                "shares": "22.0",
+                                "usd_qty": "6907.54",
+                                "pnl": "-0.088",
+                                "total_pnl": "42.4172",
+                                "balance": "100042.42",
+                                "notes": "entry=313.975 exit=313.979 manual_close_at_breakeven alpaca_order=e9c3aa00-8694-4a29-9841-0086fb78e91a status=FILLED"
                             }
                         ]
                     },
@@ -32372,35 +32381,30 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 4,
+                        "total_trades": 5,
                         "win_count": 1,
-                        "loss_count": 3,
+                        "loss_count": 4,
                         "breakeven_count": 0,
-                        "win_rate_pct": 25.0,
-                        "loss_rate_pct": 75.0,
-                        "total_pnl": -146.8,
-                        "closed_position_pnl": -146.8,
-                        "avg_pnl_per_trade": -36.7,
+                        "win_rate_pct": 20.0,
+                        "loss_rate_pct": 80.0,
+                        "total_pnl": -146.89,
+                        "closed_position_pnl": -146.89,
+                        "avg_pnl_per_trade": -29.38,
                         "avg_win": 2.86,
-                        "avg_loss": -49.89,
-                        "realized_exit_count": 5,
+                        "avg_loss": -37.44,
+                        "realized_exit_count": 6,
                         "eod_close_count": 0,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "AAPL-5",
-                                "symbol": "AAPL",
-                                "side": "SHORT",
-                                "entry_price": 313.975,
-                                "remaining": 22.0,
-                                "sl": 316.17,
-                                "tp1": 312.22,
-                                "tp2": 311.78,
-                                "tp3": 310.68,
-                                "last_event": "ENTRY_SHORT"
-                            }
-                        ],
+                        "open_positions": [],
                         "by_symbol": {
+                            "AAPL": {
+                                "trades": 1,
+                                "pnl": -0.09,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "MSFT": {
                                 "trades": 1,
                                 "pnl": -47.97,
@@ -32574,48 +32578,57 @@
                                 "total_pnl": "-40.5682",
                                 "balance": "99959.43",
                                 "notes": "entry=1148.29 exit=1156.53 alpaca_order=38e358fa-7622-4309-8b9d-c3d5078fd980 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AAPL-5",
+                                "timestamp": "2026-07-14 16:10:39",
+                                "symbol": "AAPL",
+                                "event": "SL_BE_HIT",
+                                "side": "SHORT",
+                                "price": "313.979",
+                                "shares": "22.0",
+                                "usd_qty": "6907.54",
+                                "pnl": "-0.088",
+                                "total_pnl": "42.4172",
+                                "balance": "100042.42",
+                                "notes": "entry=313.975 exit=313.979 manual_close_at_breakeven alpaca_order=e9c3aa00-8694-4a29-9841-0086fb78e91a status=FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -35.0,
-                        "total_pnl_delta": -106.55,
-                        "trade_count_delta": -1,
+                        "win_rate_delta_pct": -40.0,
+                        "total_pnl_delta": -106.64,
+                        "trade_count_delta": 0,
                         "direction": "declining"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 4,
+                "total_trades": 5,
                 "win_count": 1,
-                "loss_count": 3,
+                "loss_count": 4,
                 "breakeven_count": 0,
-                "win_rate_pct": 25.0,
-                "loss_rate_pct": 75.0,
-                "total_pnl": -146.8,
-                "closed_position_pnl": -146.8,
-                "avg_pnl_per_trade": -36.7,
+                "win_rate_pct": 20.0,
+                "loss_rate_pct": 80.0,
+                "total_pnl": -146.89,
+                "closed_position_pnl": -146.89,
+                "avg_pnl_per_trade": -29.38,
                 "avg_win": 2.86,
-                "avg_loss": -49.89,
-                "realized_exit_count": 5,
+                "avg_loss": -37.44,
+                "realized_exit_count": 6,
                 "eod_close_count": 0,
                 "open_partial_count": 0,
-                "open_positions": [
-                    {
-                        "trade_id": "AAPL-5",
-                        "symbol": "AAPL",
-                        "side": "SHORT",
-                        "entry_price": 313.975,
-                        "remaining": 22.0,
-                        "sl": 316.17,
-                        "tp1": 312.22,
-                        "tp2": 311.78,
-                        "tp3": 310.68,
-                        "last_event": "ENTRY_SHORT"
-                    }
-                ],
+                "open_positions": [],
                 "by_symbol": {
+                    "AAPL": {
+                        "trades": 1,
+                        "pnl": -0.09,
+                        "wins": 0,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
                     "MSFT": {
                         "trades": 1,
                         "pnl": -47.97,
@@ -32789,6 +32802,20 @@
                         "total_pnl": "-40.5682",
                         "balance": "99959.43",
                         "notes": "entry=1148.29 exit=1156.53 alpaca_order=38e358fa-7622-4309-8b9d-c3d5078fd980 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "AAPL-5",
+                        "timestamp": "2026-07-14 16:10:39",
+                        "symbol": "AAPL",
+                        "event": "SL_BE_HIT",
+                        "side": "SHORT",
+                        "price": "313.979",
+                        "shares": "22.0",
+                        "usd_qty": "6907.54",
+                        "pnl": "-0.088",
+                        "total_pnl": "42.4172",
+                        "balance": "100042.42",
+                        "notes": "entry=313.975 exit=313.979 manual_close_at_breakeven alpaca_order=e9c3aa00-8694-4a29-9841-0086fb78e91a status=FILLED"
                     }
                 ]
             },
@@ -32805,9 +32832,9 @@
             },
             "trend": {
                 "has_previous_day": true,
-                "win_rate_delta_pct": -35.0,
-                "total_pnl_delta": -106.55,
-                "trade_count_delta": -1,
+                "win_rate_delta_pct": -40.0,
+                "total_pnl_delta": -106.64,
+                "trade_count_delta": 0,
                 "direction": "declining"
             }
         }
