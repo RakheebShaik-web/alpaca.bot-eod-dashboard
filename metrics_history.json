@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-14T14:21:49.422606+00:00",
+    "generated_at": "2026-07-14T14:49:33.405319+00:00",
     "latest_date": "2026-07-14",
     "days": [
         {
@@ -32109,21 +32109,56 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 0,
+                        "total_trades": 1,
                         "win_count": 0,
-                        "loss_count": 0,
+                        "loss_count": 1,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
-                        "closed_position_pnl": 0,
-                        "avg_pnl_per_trade": 0.0,
+                        "loss_rate_pct": 100.0,
+                        "total_pnl": -47.97,
+                        "closed_position_pnl": -47.97,
+                        "avg_pnl_per_trade": -47.97,
                         "avg_win": 0.0,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "avg_loss": -47.97,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
                         "open_partial_count": 0,
-                        "by_symbol": {},
+                        "open_positions": [
+                            {
+                                "trade_id": "AAPL-5",
+                                "symbol": "AAPL",
+                                "side": "SHORT",
+                                "entry_price": 313.975,
+                                "remaining": 22.0,
+                                "sl": 316.17,
+                                "tp1": 312.22,
+                                "tp2": 311.78,
+                                "tp3": 310.68,
+                                "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "NVDA-5",
+                                "symbol": "NVDA",
+                                "side": "SHORT",
+                                "entry_price": 205.6537,
+                                "remaining": 34.0,
+                                "sl": 207.09,
+                                "tp1": 204.5,
+                                "tp2": 204.21,
+                                "tp3": 203.49,
+                                "last_event": "ENTRY_SHORT"
+                            }
+                        ],
+                        "by_symbol": {
+                            "MSFT": {
+                                "trades": 1,
+                                "pnl": -47.97,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "AAPL-5",
@@ -32166,6 +32201,20 @@
                                 "total_pnl": "8.9904",
                                 "balance": "100008.99",
                                 "notes": "TP1=204.50 TP2=204.21 TP3=203.49 SL=207.09 shares=34 risk\u00e2\u2030\u02c6$48.95 signal=2026-07-14 14:15:00 alpaca_order=efca0c4c-256d-46b1-aca7-7c158698a617 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-6",
+                                "timestamp": "2026-07-14 14:49:32",
+                                "symbol": "MSFT",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "386.52",
+                                "shares": "18.0",
+                                "usd_qty": "6957.36",
+                                "pnl": "-47.97",
+                                "total_pnl": "-111.395",
+                                "balance": "99888.6",
+                                "notes": "entry=383.86 exit=386.52 alpaca_order=98d499a3-a437-4224-9053-635b5d8ac462 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -32189,6 +32238,7 @@
                         "realized_exit_count": 0,
                         "eod_close_count": 0,
                         "open_partial_count": 0,
+                        "open_positions": [],
                         "by_symbol": {},
                         "recent_trades": []
                     },
@@ -32216,6 +32266,7 @@
                         "realized_exit_count": 0,
                         "eod_close_count": 0,
                         "open_partial_count": 0,
+                        "open_positions": [],
                         "by_symbol": {},
                         "recent_trades": []
                     },
@@ -32225,21 +32276,56 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 0,
+                        "total_trades": 1,
                         "win_count": 0,
-                        "loss_count": 0,
+                        "loss_count": 1,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
-                        "closed_position_pnl": 0,
-                        "avg_pnl_per_trade": 0.0,
+                        "loss_rate_pct": 100.0,
+                        "total_pnl": -47.97,
+                        "closed_position_pnl": -47.97,
+                        "avg_pnl_per_trade": -47.97,
                         "avg_win": 0.0,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "avg_loss": -47.97,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
                         "open_partial_count": 0,
-                        "by_symbol": {},
+                        "open_positions": [
+                            {
+                                "trade_id": "AAPL-5",
+                                "symbol": "AAPL",
+                                "side": "SHORT",
+                                "entry_price": 313.975,
+                                "remaining": 22.0,
+                                "sl": 316.17,
+                                "tp1": 312.22,
+                                "tp2": 311.78,
+                                "tp3": 310.68,
+                                "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "NVDA-5",
+                                "symbol": "NVDA",
+                                "side": "SHORT",
+                                "entry_price": 205.6537,
+                                "remaining": 34.0,
+                                "sl": 207.09,
+                                "tp1": 204.5,
+                                "tp2": 204.21,
+                                "tp3": 203.49,
+                                "last_event": "ENTRY_SHORT"
+                            }
+                        ],
+                        "by_symbol": {
+                            "MSFT": {
+                                "trades": 1,
+                                "pnl": -47.97,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "AAPL-5",
@@ -32282,34 +32368,83 @@
                                 "total_pnl": "8.9904",
                                 "balance": "100008.99",
                                 "notes": "TP1=204.50 TP2=204.21 TP3=203.49 SL=207.09 shares=34 risk\u00e2\u2030\u02c6$48.95 signal=2026-07-14 14:15:00 alpaca_order=efca0c4c-256d-46b1-aca7-7c158698a617 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-6",
+                                "timestamp": "2026-07-14 14:49:32",
+                                "symbol": "MSFT",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "386.52",
+                                "shares": "18.0",
+                                "usd_qty": "6957.36",
+                                "pnl": "-47.97",
+                                "total_pnl": "-111.395",
+                                "balance": "99888.6",
+                                "notes": "entry=383.86 exit=386.52 alpaca_order=98d499a3-a437-4224-9053-635b5d8ac462 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -60.0,
-                        "total_pnl_delta": 40.25,
-                        "trade_count_delta": -5,
-                        "direction": "mixed"
+                        "total_pnl_delta": -7.72,
+                        "trade_count_delta": -4,
+                        "direction": "declining"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 0,
+                "total_trades": 1,
                 "win_count": 0,
-                "loss_count": 0,
+                "loss_count": 1,
                 "breakeven_count": 0,
                 "win_rate_pct": 0.0,
-                "loss_rate_pct": 0.0,
-                "total_pnl": 0,
-                "closed_position_pnl": 0,
-                "avg_pnl_per_trade": 0.0,
+                "loss_rate_pct": 100.0,
+                "total_pnl": -47.97,
+                "closed_position_pnl": -47.97,
+                "avg_pnl_per_trade": -47.97,
                 "avg_win": 0.0,
-                "avg_loss": 0.0,
-                "realized_exit_count": 0,
+                "avg_loss": -47.97,
+                "realized_exit_count": 1,
                 "eod_close_count": 0,
                 "open_partial_count": 0,
-                "by_symbol": {},
+                "open_positions": [
+                    {
+                        "trade_id": "AAPL-5",
+                        "symbol": "AAPL",
+                        "side": "SHORT",
+                        "entry_price": 313.975,
+                        "remaining": 22.0,
+                        "sl": 316.17,
+                        "tp1": 312.22,
+                        "tp2": 311.78,
+                        "tp3": 310.68,
+                        "last_event": "ENTRY_SHORT"
+                    },
+                    {
+                        "trade_id": "NVDA-5",
+                        "symbol": "NVDA",
+                        "side": "SHORT",
+                        "entry_price": 205.6537,
+                        "remaining": 34.0,
+                        "sl": 207.09,
+                        "tp1": 204.5,
+                        "tp2": 204.21,
+                        "tp3": 203.49,
+                        "last_event": "ENTRY_SHORT"
+                    }
+                ],
+                "by_symbol": {
+                    "MSFT": {
+                        "trades": 1,
+                        "pnl": -47.97,
+                        "wins": 0,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    }
+                },
                 "recent_trades": [
                     {
                         "trade_id": "AAPL-5",
@@ -32352,6 +32487,20 @@
                         "total_pnl": "8.9904",
                         "balance": "100008.99",
                         "notes": "TP1=204.50 TP2=204.21 TP3=203.49 SL=207.09 shares=34 risk\u00e2\u2030\u02c6$48.95 signal=2026-07-14 14:15:00 alpaca_order=efca0c4c-256d-46b1-aca7-7c158698a617 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "MSFT-6",
+                        "timestamp": "2026-07-14 14:49:32",
+                        "symbol": "MSFT",
+                        "event": "SL_HIT",
+                        "side": "SHORT",
+                        "price": "386.52",
+                        "shares": "18.0",
+                        "usd_qty": "6957.36",
+                        "pnl": "-47.97",
+                        "total_pnl": "-111.395",
+                        "balance": "99888.6",
+                        "notes": "entry=383.86 exit=386.52 alpaca_order=98d499a3-a437-4224-9053-635b5d8ac462 status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -32369,9 +32518,9 @@
             "trend": {
                 "has_previous_day": true,
                 "win_rate_delta_pct": -60.0,
-                "total_pnl_delta": 40.25,
-                "trade_count_delta": -5,
-                "direction": "mixed"
+                "total_pnl_delta": -7.72,
+                "trade_count_delta": -4,
+                "direction": "declining"
             }
         }
     ]
