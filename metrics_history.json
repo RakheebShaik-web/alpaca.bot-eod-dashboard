@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-14T15:17:23.530352+00:00",
+    "generated_at": "2026-07-14T15:27:50.096266+00:00",
     "latest_date": "2026-07-14",
     "days": [
         {
@@ -32115,14 +32115,14 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -100.2,
+                        "total_pnl": -86.16,
                         "closed_position_pnl": -100.2,
                         "avg_pnl_per_trade": -50.1,
                         "avg_win": 0.0,
                         "avg_loss": -50.1,
-                        "realized_exit_count": 2,
+                        "realized_exit_count": 3,
                         "eod_close_count": 0,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "AAPL-5",
@@ -32153,12 +32153,12 @@
                                 "symbol": "AMD",
                                 "side": "LONG",
                                 "entry_price": 563.185,
-                                "remaining": 12.0,
+                                "remaining": 8.0,
                                 "sl": 559.24,
                                 "tp1": 566.34,
                                 "tp2": 567.13,
                                 "tp3": 569.1,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "TP1_HIT"
                             }
                         ],
                         "by_symbol": {
@@ -32177,6 +32177,14 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
+                            },
+                            "AMD": {
+                                "trades": 0,
+                                "pnl": 14.04,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -32277,6 +32285,20 @@
                                 "total_pnl": "0.0",
                                 "balance": "100000.0",
                                 "notes": "TP1=566.34 TP2=567.13 TP3=569.10 SL=559.24 shares=12 risk\u00e2\u2030\u02c6$47.31 signal=2026-07-14 15:15:00 alpaca_order=8be0b900-e4ba-4a71-9dce-9dc4f3ff80ea status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMD-1",
+                                "timestamp": "2026-07-14 15:27:49",
+                                "symbol": "AMD",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "566.6954",
+                                "shares": "4.0",
+                                "usd_qty": "2266.78",
+                                "pnl": "14.0416",
+                                "total_pnl": "14.0416",
+                                "balance": "100014.04",
+                                "notes": "remaining=8 shares alpaca_order=aa783f90-7761-48fd-987c-3cc99b484d1f status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -32344,14 +32366,14 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -100.2,
+                        "total_pnl": -86.16,
                         "closed_position_pnl": -100.2,
                         "avg_pnl_per_trade": -50.1,
                         "avg_win": 0.0,
                         "avg_loss": -50.1,
-                        "realized_exit_count": 2,
+                        "realized_exit_count": 3,
                         "eod_close_count": 0,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "AAPL-5",
@@ -32382,12 +32404,12 @@
                                 "symbol": "AMD",
                                 "side": "LONG",
                                 "entry_price": 563.185,
-                                "remaining": 12.0,
+                                "remaining": 8.0,
                                 "sl": 559.24,
                                 "tp1": 566.34,
                                 "tp2": 567.13,
                                 "tp3": 569.1,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "TP1_HIT"
                             }
                         ],
                         "by_symbol": {
@@ -32406,6 +32428,14 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
+                            },
+                            "AMD": {
+                                "trades": 0,
+                                "pnl": 14.04,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -32506,13 +32536,27 @@
                                 "total_pnl": "0.0",
                                 "balance": "100000.0",
                                 "notes": "TP1=566.34 TP2=567.13 TP3=569.10 SL=559.24 shares=12 risk\u00e2\u2030\u02c6$47.31 signal=2026-07-14 15:15:00 alpaca_order=8be0b900-e4ba-4a71-9dce-9dc4f3ff80ea status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMD-1",
+                                "timestamp": "2026-07-14 15:27:49",
+                                "symbol": "AMD",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "566.6954",
+                                "shares": "4.0",
+                                "usd_qty": "2266.78",
+                                "pnl": "14.0416",
+                                "total_pnl": "14.0416",
+                                "balance": "100014.04",
+                                "notes": "remaining=8 shares alpaca_order=aa783f90-7761-48fd-987c-3cc99b484d1f status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -60.0,
-                        "total_pnl_delta": -59.95,
+                        "total_pnl_delta": -45.91,
                         "trade_count_delta": -3,
                         "direction": "declining"
                     }
@@ -32525,14 +32569,14 @@
                 "breakeven_count": 0,
                 "win_rate_pct": 0.0,
                 "loss_rate_pct": 100.0,
-                "total_pnl": -100.2,
+                "total_pnl": -86.16,
                 "closed_position_pnl": -100.2,
                 "avg_pnl_per_trade": -50.1,
                 "avg_win": 0.0,
                 "avg_loss": -50.1,
-                "realized_exit_count": 2,
+                "realized_exit_count": 3,
                 "eod_close_count": 0,
-                "open_partial_count": 0,
+                "open_partial_count": 1,
                 "open_positions": [
                     {
                         "trade_id": "AAPL-5",
@@ -32563,12 +32607,12 @@
                         "symbol": "AMD",
                         "side": "LONG",
                         "entry_price": 563.185,
-                        "remaining": 12.0,
+                        "remaining": 8.0,
                         "sl": 559.24,
                         "tp1": 566.34,
                         "tp2": 567.13,
                         "tp3": 569.1,
-                        "last_event": "ENTRY_LONG"
+                        "last_event": "TP1_HIT"
                     }
                 ],
                 "by_symbol": {
@@ -32587,6 +32631,14 @@
                         "losses": 1,
                         "breakeven": 0,
                         "open_partial": 0
+                    },
+                    "AMD": {
+                        "trades": 0,
+                        "pnl": 14.04,
+                        "wins": 0,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 1
                     }
                 },
                 "recent_trades": [
@@ -32687,6 +32739,20 @@
                         "total_pnl": "0.0",
                         "balance": "100000.0",
                         "notes": "TP1=566.34 TP2=567.13 TP3=569.10 SL=559.24 shares=12 risk\u00e2\u2030\u02c6$47.31 signal=2026-07-14 15:15:00 alpaca_order=8be0b900-e4ba-4a71-9dce-9dc4f3ff80ea status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "AMD-1",
+                        "timestamp": "2026-07-14 15:27:49",
+                        "symbol": "AMD",
+                        "event": "TP1_HIT",
+                        "side": "LONG",
+                        "price": "566.6954",
+                        "shares": "4.0",
+                        "usd_qty": "2266.78",
+                        "pnl": "14.0416",
+                        "total_pnl": "14.0416",
+                        "balance": "100014.04",
+                        "notes": "remaining=8 shares alpaca_order=aa783f90-7761-48fd-987c-3cc99b484d1f status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -32704,7 +32770,7 @@
             "trend": {
                 "has_previous_day": true,
                 "win_rate_delta_pct": -60.0,
-                "total_pnl_delta": -59.95,
+                "total_pnl_delta": -45.91,
                 "trade_count_delta": -3,
                 "direction": "declining"
             }
