@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-15T14:16:37.305325+00:00",
+    "generated_at": "2026-07-15T14:19:38.380915+00:00",
     "latest_date": "2026-07-15",
     "days": [
         {
@@ -33311,7 +33311,19 @@
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 53.72,
                         "open_partial_count": 0,
-                        "open_positions": [],
+                        "open_positions": [
+                            {
+                                "trade_id": "AAPL-7",
+                                "symbol": "AAPL",
+                                "side": "LONG",
+                                "entry_price": 325.48,
+                                "remaining": 21.0,
+                                "sl": 323.16,
+                                "tp1": 327.8,
+                                "tp2": 328.96,
+                                "last_event": "ENTRY_LONG"
+                            }
+                        ],
                         "by_symbol": {
                             "NVDA": {
                                 "trades": 1,
@@ -33400,6 +33412,20 @@
                                 "total_pnl": "114.6534",
                                 "balance": "100114.65",
                                 "notes": "entry=251.16 exit=254.14 alpaca_order=be46acab-435f-4961-8c3d-a32248b6202a status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AAPL-7",
+                                "timestamp": "2026-07-15 14:19:37",
+                                "symbol": "AAPL",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "325.48",
+                                "shares": "21.0",
+                                "usd_qty": "6835.08",
+                                "pnl": "0.0",
+                                "total_pnl": "42.4172",
+                                "balance": "100042.42",
+                                "notes": "TP1=327.80 TP2=328.96 SL=323.16 shares=21 risk\u00e2\u2030\u02c6$48.65 signal=2026-07-15 14:15:00 atr=1.3239 atr_pct=0.4076 volume_ratio=1.9808 ema_sep_atr=0.6557 ema_slope_atr=0.4713 alpaca_order=5a91f82a-6518-49c9-9bff-190add9102de status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -33630,7 +33656,19 @@
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 53.72,
                         "open_partial_count": 0,
-                        "open_positions": [],
+                        "open_positions": [
+                            {
+                                "trade_id": "AAPL-7",
+                                "symbol": "AAPL",
+                                "side": "LONG",
+                                "entry_price": 325.48,
+                                "remaining": 21.0,
+                                "sl": 323.16,
+                                "tp1": 327.8,
+                                "tp2": 328.96,
+                                "last_event": "ENTRY_LONG"
+                            }
+                        ],
                         "by_symbol": {
                             "NVDA": {
                                 "trades": 1,
@@ -33719,6 +33757,20 @@
                                 "total_pnl": "114.6534",
                                 "balance": "100114.65",
                                 "notes": "entry=251.16 exit=254.14 alpaca_order=be46acab-435f-4961-8c3d-a32248b6202a status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AAPL-7",
+                                "timestamp": "2026-07-15 14:19:37",
+                                "symbol": "AAPL",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "325.48",
+                                "shares": "21.0",
+                                "usd_qty": "6835.08",
+                                "pnl": "0.0",
+                                "total_pnl": "42.4172",
+                                "balance": "100042.42",
+                                "notes": "TP1=327.80 TP2=328.96 SL=323.16 shares=21 risk\u00e2\u2030\u02c6$48.65 signal=2026-07-15 14:15:00 atr=1.3239 atr_pct=0.4076 volume_ratio=1.9808 ema_sep_atr=0.6557 ema_slope_atr=0.4713 alpaca_order=5a91f82a-6518-49c9-9bff-190add9102de status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -33750,7 +33802,19 @@
                 "tp2_hit_count": 1,
                 "tp2_realized_pnl": 53.72,
                 "open_partial_count": 0,
-                "open_positions": [],
+                "open_positions": [
+                    {
+                        "trade_id": "AAPL-7",
+                        "symbol": "AAPL",
+                        "side": "LONG",
+                        "entry_price": 325.48,
+                        "remaining": 21.0,
+                        "sl": 323.16,
+                        "tp1": 327.8,
+                        "tp2": 328.96,
+                        "last_event": "ENTRY_LONG"
+                    }
+                ],
                 "by_symbol": {
                     "NVDA": {
                         "trades": 1,
@@ -33839,6 +33903,20 @@
                         "total_pnl": "114.6534",
                         "balance": "100114.65",
                         "notes": "entry=251.16 exit=254.14 alpaca_order=be46acab-435f-4961-8c3d-a32248b6202a status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "AAPL-7",
+                        "timestamp": "2026-07-15 14:19:37",
+                        "symbol": "AAPL",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "325.48",
+                        "shares": "21.0",
+                        "usd_qty": "6835.08",
+                        "pnl": "0.0",
+                        "total_pnl": "42.4172",
+                        "balance": "100042.42",
+                        "notes": "TP1=327.80 TP2=328.96 SL=323.16 shares=21 risk\u00e2\u2030\u02c6$48.65 signal=2026-07-15 14:15:00 atr=1.3239 atr_pct=0.4076 volume_ratio=1.9808 ema_sep_atr=0.6557 ema_slope_atr=0.4713 alpaca_order=5a91f82a-6518-49c9-9bff-190add9102de status=OrderStatus.FILLED"
                     }
                 ]
             },
