@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-15T14:14:22.973807+00:00",
+    "generated_at": "2026-07-15T14:15:36.503554+00:00",
     "latest_date": "2026-07-15",
     "days": [
         {
@@ -33431,7 +33431,19 @@
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 33.65,
                         "open_partial_count": 0,
-                        "open_positions": [],
+                        "open_positions": [
+                            {
+                                "trade_id": "BAC-1",
+                                "symbol": "BAC",
+                                "side": "LONG",
+                                "entry_price": 61.83,
+                                "remaining": 90.0,
+                                "sl": 61.28,
+                                "tp1": 62.38,
+                                "tp2": 62.66,
+                                "last_event": "ENTRY_LONG"
+                            }
+                        ],
                         "by_symbol": {
                             "NVDA": {
                                 "trades": 1,
@@ -33520,6 +33532,20 @@
                                 "total_pnl": "46.5633",
                                 "balance": "100046.56",
                                 "notes": "entry=250.80 exit=253.60 alpaca_order=aaf3fb0a-d388-43f9-ae5c-0cb37aa35bbc status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "BAC-1",
+                                "timestamp": "2026-07-15 14:15:30",
+                                "symbol": "BAC",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "61.83",
+                                "shares": "90.0",
+                                "usd_qty": "5564.7",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=62.38 TP2=62.66 SL=61.28 shares=90 risk\u00e2\u2030\u02c6$49.56 signal=2026-07-15 14:15:00 atr=0.3146 atr_pct=0.5094 volume_ratio=1.5071 ema_sep_atr=1.4726 ema_slope_atr=0.3670 alpaca_order=610f2160-2328-4a1f-ad93-975536934243 status=OrderStatus.FILLED"
                             }
                         ]
                     },
