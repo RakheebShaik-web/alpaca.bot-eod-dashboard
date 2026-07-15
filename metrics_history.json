@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-15T14:03:46.027559+00:00",
+    "generated_at": "2026-07-15T14:04:07.956591+00:00",
     "latest_date": "2026-07-15",
     "days": [
         {
@@ -33406,18 +33406,18 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
+                        "total_pnl": 12.91,
                         "closed_position_pnl": 0,
                         "avg_pnl_per_trade": 0.0,
                         "avg_win": 0.0,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 12.91,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "NVDA-2",
@@ -33435,14 +33435,23 @@
                                 "symbol": "AMZN",
                                 "side": "LONG",
                                 "entry_price": 250.7981,
-                                "remaining": 27.0,
+                                "remaining": 21.0,
                                 "sl": 248.98,
                                 "tp1": 252.61,
                                 "tp2": 253.52,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "TP1_HIT"
                             }
                         ],
-                        "by_symbol": {},
+                        "by_symbol": {
+                            "AMZN": {
+                                "trades": 0,
+                                "pnl": 12.91,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "NVDA-2",
@@ -33471,13 +33480,27 @@
                                 "total_pnl": "0.0",
                                 "balance": "100000.0",
                                 "notes": "TP1=252.61 TP2=253.52 SL=248.98 shares=27 risk\u00e2\u2030\u02c6$49.00 signal=2026-07-15 13:45:00 atr=1.0371 atr_pct=0.4133 volume_ratio=2.2189 ema_sep_atr=0.5128 ema_slope_atr=0.2104 alpaca_order=2f1f4d1e-9803-4d46-88e2-f86023cfcd8b status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMZN-1",
+                                "timestamp": "2026-07-15 14:04:01",
+                                "symbol": "AMZN",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "252.95",
+                                "shares": "6.0",
+                                "usd_qty": "1517.7",
+                                "pnl": "12.9111",
+                                "total_pnl": "12.9111",
+                                "balance": "100012.91",
+                                "notes": "remaining=12 shares alpaca_order=176e1bdb-6713-42e1-8431-3e40b075c5bf status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -100.0,
-                        "total_pnl_delta": -42.63,
+                        "total_pnl_delta": -29.72,
                         "trade_count_delta": -3,
                         "direction": "declining"
                     }
