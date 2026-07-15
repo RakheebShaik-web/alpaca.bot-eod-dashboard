@@ -17,3 +17,11 @@ Deploy steps:
 
 To refresh the dashboard after each EOD report, regenerate `metrics_history.json` from the JSON files in `../metrics_history` and push the updated file.
 
+## Filters
+
+The dashboard filters by Alpaca account, crypto/trading symbol, and trading day.
+The symbol selector is populated from each account dataset's `by_symbol` keys;
+the bot's internal `BTCUSDT` feed identifier is displayed as the executed
+Alpaca pair `BTC/USD`, and all cards, charts, positions, and trade logs are
+recalculated for the selected symbol.
+
