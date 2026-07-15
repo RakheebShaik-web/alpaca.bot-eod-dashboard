@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-15T14:04:07.956591+00:00",
+    "generated_at": "2026-07-15T14:05:48.751698+00:00",
     "latest_date": "2026-07-15",
     "days": [
         {
@@ -33293,18 +33293,18 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 0,
+                        "total_trades": 1,
                         "win_count": 0,
-                        "loss_count": 0,
+                        "loss_count": 1,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 15.66,
-                        "closed_position_pnl": 0,
-                        "avg_pnl_per_trade": 0.0,
+                        "loss_rate_pct": 100.0,
+                        "total_pnl": -43.55,
+                        "closed_position_pnl": -59.21,
+                        "avg_pnl_per_trade": -59.21,
                         "avg_win": 0.0,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 1,
+                        "avg_loss": -59.21,
+                        "realized_exit_count": 2,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 15.66,
@@ -33312,17 +33312,6 @@
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 1,
                         "open_positions": [
-                            {
-                                "trade_id": "NVDA-6",
-                                "symbol": "NVDA",
-                                "side": "LONG",
-                                "entry_price": 211.9705,
-                                "remaining": 37.0,
-                                "sl": 210.62,
-                                "tp1": 213.32,
-                                "tp2": 214.0,
-                                "last_event": "ENTRY_LONG"
-                            },
                             {
                                 "trade_id": "AMZN-3",
                                 "symbol": "AMZN",
@@ -33336,6 +33325,14 @@
                             }
                         ],
                         "by_symbol": {
+                            "NVDA": {
+                                "trades": 1,
+                                "pnl": -59.21,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "AMZN": {
                                 "trades": 0,
                                 "pnl": 15.66,
@@ -33387,14 +33384,28 @@
                                 "total_pnl": "60.936",
                                 "balance": "100060.94",
                                 "notes": "remaining=18 shares alpaca_order=27527d92-2d2c-4651-a236-142e59d8e886 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-6",
+                                "timestamp": "2026-07-15 14:05:47",
+                                "symbol": "NVDA",
+                                "event": "SL_HIT",
+                                "side": "LONG",
+                                "price": "210.3701",
+                                "shares": "37.0",
+                                "usd_qty": "7783.69",
+                                "pnl": "-59.2148",
+                                "total_pnl": "-102.4518",
+                                "balance": "99897.55",
+                                "notes": "entry=211.97 exit=210.37 alpaca_order=d935b97a-4a18-464b-aea3-6eff063ffe14 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -12.5,
-                        "total_pnl_delta": 255.25,
-                        "trade_count_delta": -8,
+                        "total_pnl_delta": 196.04,
+                        "trade_count_delta": -7,
                         "direction": "mixed"
                     }
                 },
@@ -33535,18 +33546,18 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 0,
+                        "total_trades": 1,
                         "win_count": 0,
-                        "loss_count": 0,
+                        "loss_count": 1,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 15.66,
-                        "closed_position_pnl": 0,
-                        "avg_pnl_per_trade": 0.0,
+                        "loss_rate_pct": 100.0,
+                        "total_pnl": -43.55,
+                        "closed_position_pnl": -59.21,
+                        "avg_pnl_per_trade": -59.21,
                         "avg_win": 0.0,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 1,
+                        "avg_loss": -59.21,
+                        "realized_exit_count": 2,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 15.66,
@@ -33554,17 +33565,6 @@
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 1,
                         "open_positions": [
-                            {
-                                "trade_id": "NVDA-6",
-                                "symbol": "NVDA",
-                                "side": "LONG",
-                                "entry_price": 211.9705,
-                                "remaining": 37.0,
-                                "sl": 210.62,
-                                "tp1": 213.32,
-                                "tp2": 214.0,
-                                "last_event": "ENTRY_LONG"
-                            },
                             {
                                 "trade_id": "AMZN-3",
                                 "symbol": "AMZN",
@@ -33578,6 +33578,14 @@
                             }
                         ],
                         "by_symbol": {
+                            "NVDA": {
+                                "trades": 1,
+                                "pnl": -59.21,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "AMZN": {
                                 "trades": 0,
                                 "pnl": 15.66,
@@ -33629,31 +33637,45 @@
                                 "total_pnl": "60.936",
                                 "balance": "100060.94",
                                 "notes": "remaining=18 shares alpaca_order=27527d92-2d2c-4651-a236-142e59d8e886 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-6",
+                                "timestamp": "2026-07-15 14:05:47",
+                                "symbol": "NVDA",
+                                "event": "SL_HIT",
+                                "side": "LONG",
+                                "price": "210.3701",
+                                "shares": "37.0",
+                                "usd_qty": "7783.69",
+                                "pnl": "-59.2148",
+                                "total_pnl": "-102.4518",
+                                "balance": "99897.55",
+                                "notes": "entry=211.97 exit=210.37 alpaca_order=d935b97a-4a18-464b-aea3-6eff063ffe14 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -12.5,
-                        "total_pnl_delta": 255.25,
-                        "trade_count_delta": -8,
+                        "total_pnl_delta": 196.04,
+                        "trade_count_delta": -7,
                         "direction": "mixed"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 0,
+                "total_trades": 1,
                 "win_count": 0,
-                "loss_count": 0,
+                "loss_count": 1,
                 "breakeven_count": 0,
                 "win_rate_pct": 0.0,
-                "loss_rate_pct": 0.0,
-                "total_pnl": 15.66,
-                "closed_position_pnl": 0,
-                "avg_pnl_per_trade": 0.0,
+                "loss_rate_pct": 100.0,
+                "total_pnl": -43.55,
+                "closed_position_pnl": -59.21,
+                "avg_pnl_per_trade": -59.21,
                 "avg_win": 0.0,
-                "avg_loss": 0.0,
-                "realized_exit_count": 1,
+                "avg_loss": -59.21,
+                "realized_exit_count": 2,
                 "eod_close_count": 0,
                 "tp1_hit_count": 1,
                 "tp1_realized_pnl": 15.66,
@@ -33661,17 +33683,6 @@
                 "tp2_realized_pnl": 0,
                 "open_partial_count": 1,
                 "open_positions": [
-                    {
-                        "trade_id": "NVDA-6",
-                        "symbol": "NVDA",
-                        "side": "LONG",
-                        "entry_price": 211.9705,
-                        "remaining": 37.0,
-                        "sl": 210.62,
-                        "tp1": 213.32,
-                        "tp2": 214.0,
-                        "last_event": "ENTRY_LONG"
-                    },
                     {
                         "trade_id": "AMZN-3",
                         "symbol": "AMZN",
@@ -33685,6 +33696,14 @@
                     }
                 ],
                 "by_symbol": {
+                    "NVDA": {
+                        "trades": 1,
+                        "pnl": -59.21,
+                        "wins": 0,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
                     "AMZN": {
                         "trades": 0,
                         "pnl": 15.66,
@@ -33736,6 +33755,20 @@
                         "total_pnl": "60.936",
                         "balance": "100060.94",
                         "notes": "remaining=18 shares alpaca_order=27527d92-2d2c-4651-a236-142e59d8e886 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "NVDA-6",
+                        "timestamp": "2026-07-15 14:05:47",
+                        "symbol": "NVDA",
+                        "event": "SL_HIT",
+                        "side": "LONG",
+                        "price": "210.3701",
+                        "shares": "37.0",
+                        "usd_qty": "7783.69",
+                        "pnl": "-59.2148",
+                        "total_pnl": "-102.4518",
+                        "balance": "99897.55",
+                        "notes": "entry=211.97 exit=210.37 alpaca_order=d935b97a-4a18-464b-aea3-6eff063ffe14 status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -33753,8 +33786,8 @@
             "trend": {
                 "has_previous_day": true,
                 "win_rate_delta_pct": -12.5,
-                "total_pnl_delta": 255.25,
-                "trade_count_delta": -8,
+                "total_pnl_delta": 196.04,
+                "trade_count_delta": -7,
                 "direction": "mixed"
             }
         }
