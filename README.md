@@ -23,4 +23,6 @@ The primary data-source dropdown includes Alpaca Live, Alpaca Paper, and Alpaca
 Crypto. Crypto metrics use the `alpaca_crypto` dataset and the executed Alpaca
 pair is `BTC/USD`.
 The crypto strategy uses one take-profit at 1.5R and closes 100% at that target.
+Crypto metrics are loaded from `crypto_metrics_history.json` so the independent
+equities metrics automation cannot overwrite them.
 
