@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-15T16:01:08.424516+00:00",
+    "generated_at": "2026-07-15T16:09:25.331038+00:00",
     "latest_date": "2026-07-15",
     "days": [
         {
@@ -33293,18 +33293,18 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 2,
+                        "total_trades": 3,
                         "win_count": 1,
-                        "loss_count": 1,
+                        "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 50.0,
-                        "loss_rate_pct": 50.0,
-                        "total_pnl": 10.16,
-                        "closed_position_pnl": 10.16,
-                        "avg_pnl_per_trade": 5.08,
+                        "win_rate_pct": 33.33,
+                        "loss_rate_pct": 66.67,
+                        "total_pnl": -64.39,
+                        "closed_position_pnl": -64.39,
+                        "avg_pnl_per_trade": -21.46,
                         "avg_win": 69.38,
-                        "avg_loss": -59.21,
-                        "realized_exit_count": 3,
+                        "avg_loss": -66.89,
+                        "realized_exit_count": 4,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 15.66,
@@ -33322,17 +33322,6 @@
                                 "tp1": 327.8,
                                 "tp2": 328.96,
                                 "last_event": "ENTRY_LONG"
-                            },
-                            {
-                                "trade_id": "LLY-3",
-                                "symbol": "LLY",
-                                "side": "SHORT",
-                                "entry_price": 1137.5871,
-                                "remaining": 7.0,
-                                "sl": 1144.31,
-                                "tp1": 1130.87,
-                                "tp2": 1127.51,
-                                "last_event": "ENTRY_SHORT"
                             },
                             {
                                 "trade_id": "JPM-2",
@@ -33360,6 +33349,14 @@
                                 "pnl": 69.38,
                                 "wins": 1,
                                 "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "LLY": {
+                                "trades": 1,
+                                "pnl": -74.56,
+                                "wins": 0,
+                                "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
                             }
@@ -33476,14 +33473,28 @@
                                 "total_pnl": "16.1704",
                                 "balance": "100016.17",
                                 "notes": "TP1=352.76 TP2=354.63 SL=345.28 shares=13 risk\u00e2\u2030\u02c6$48.60 signal=2026-07-15 16:00:00 atr=2.1364 atr_pct=0.6120 volume_ratio=1.2432 ema_sep_atr=1.5577 ema_slope_atr=0.1687 alpaca_order=86e94a8c-5191-4307-8737-5cd31d632169 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "LLY-3",
+                                "timestamp": "2026-07-15 15:59:59",
+                                "symbol": "LLY",
+                                "event": "CLOSE_MANUAL",
+                                "side": "SHORT",
+                                "price": "1148.238",
+                                "shares": "7.0",
+                                "usd_qty": "8037.67",
+                                "pnl": "-74.5563",
+                                "total_pnl": "-115.1245",
+                                "balance": "99884.88",
+                                "notes": "entry=1137.5871 exit=1148.2380 broker-confirmed user-requested close alpaca_order=efcf55f7-4fa5-481e-b41f-a6fc468fc901 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 37.5,
-                        "total_pnl_delta": 249.75,
-                        "trade_count_delta": -6,
+                        "win_rate_delta_pct": 20.83,
+                        "total_pnl_delta": 175.2,
+                        "trade_count_delta": -5,
                         "direction": "improving"
                     }
                 },
@@ -33774,18 +33785,18 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 2,
+                        "total_trades": 3,
                         "win_count": 1,
-                        "loss_count": 1,
+                        "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 50.0,
-                        "loss_rate_pct": 50.0,
-                        "total_pnl": 10.16,
-                        "closed_position_pnl": 10.16,
-                        "avg_pnl_per_trade": 5.08,
+                        "win_rate_pct": 33.33,
+                        "loss_rate_pct": 66.67,
+                        "total_pnl": -64.39,
+                        "closed_position_pnl": -64.39,
+                        "avg_pnl_per_trade": -21.46,
                         "avg_win": 69.38,
-                        "avg_loss": -59.21,
-                        "realized_exit_count": 3,
+                        "avg_loss": -66.89,
+                        "realized_exit_count": 4,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 15.66,
@@ -33803,17 +33814,6 @@
                                 "tp1": 327.8,
                                 "tp2": 328.96,
                                 "last_event": "ENTRY_LONG"
-                            },
-                            {
-                                "trade_id": "LLY-3",
-                                "symbol": "LLY",
-                                "side": "SHORT",
-                                "entry_price": 1137.5871,
-                                "remaining": 7.0,
-                                "sl": 1144.31,
-                                "tp1": 1130.87,
-                                "tp2": 1127.51,
-                                "last_event": "ENTRY_SHORT"
                             },
                             {
                                 "trade_id": "JPM-2",
@@ -33841,6 +33841,14 @@
                                 "pnl": 69.38,
                                 "wins": 1,
                                 "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "LLY": {
+                                "trades": 1,
+                                "pnl": -74.56,
+                                "wins": 0,
+                                "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
                             }
@@ -33957,31 +33965,45 @@
                                 "total_pnl": "16.1704",
                                 "balance": "100016.17",
                                 "notes": "TP1=352.76 TP2=354.63 SL=345.28 shares=13 risk\u00e2\u2030\u02c6$48.60 signal=2026-07-15 16:00:00 atr=2.1364 atr_pct=0.6120 volume_ratio=1.2432 ema_sep_atr=1.5577 ema_slope_atr=0.1687 alpaca_order=86e94a8c-5191-4307-8737-5cd31d632169 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "LLY-3",
+                                "timestamp": "2026-07-15 15:59:59",
+                                "symbol": "LLY",
+                                "event": "CLOSE_MANUAL",
+                                "side": "SHORT",
+                                "price": "1148.238",
+                                "shares": "7.0",
+                                "usd_qty": "8037.67",
+                                "pnl": "-74.5563",
+                                "total_pnl": "-115.1245",
+                                "balance": "99884.88",
+                                "notes": "entry=1137.5871 exit=1148.2380 broker-confirmed user-requested close alpaca_order=efcf55f7-4fa5-481e-b41f-a6fc468fc901 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 37.5,
-                        "total_pnl_delta": 249.75,
-                        "trade_count_delta": -6,
+                        "win_rate_delta_pct": 20.83,
+                        "total_pnl_delta": 175.2,
+                        "trade_count_delta": -5,
                         "direction": "improving"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 2,
+                "total_trades": 3,
                 "win_count": 1,
-                "loss_count": 1,
+                "loss_count": 2,
                 "breakeven_count": 0,
-                "win_rate_pct": 50.0,
-                "loss_rate_pct": 50.0,
-                "total_pnl": 10.16,
-                "closed_position_pnl": 10.16,
-                "avg_pnl_per_trade": 5.08,
+                "win_rate_pct": 33.33,
+                "loss_rate_pct": 66.67,
+                "total_pnl": -64.39,
+                "closed_position_pnl": -64.39,
+                "avg_pnl_per_trade": -21.46,
                 "avg_win": 69.38,
-                "avg_loss": -59.21,
-                "realized_exit_count": 3,
+                "avg_loss": -66.89,
+                "realized_exit_count": 4,
                 "eod_close_count": 0,
                 "tp1_hit_count": 1,
                 "tp1_realized_pnl": 15.66,
@@ -33999,17 +34021,6 @@
                         "tp1": 327.8,
                         "tp2": 328.96,
                         "last_event": "ENTRY_LONG"
-                    },
-                    {
-                        "trade_id": "LLY-3",
-                        "symbol": "LLY",
-                        "side": "SHORT",
-                        "entry_price": 1137.5871,
-                        "remaining": 7.0,
-                        "sl": 1144.31,
-                        "tp1": 1130.87,
-                        "tp2": 1127.51,
-                        "last_event": "ENTRY_SHORT"
                     },
                     {
                         "trade_id": "JPM-2",
@@ -34037,6 +34048,14 @@
                         "pnl": 69.38,
                         "wins": 1,
                         "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "LLY": {
+                        "trades": 1,
+                        "pnl": -74.56,
+                        "wins": 0,
+                        "losses": 1,
                         "breakeven": 0,
                         "open_partial": 0
                     }
@@ -34153,6 +34172,20 @@
                         "total_pnl": "16.1704",
                         "balance": "100016.17",
                         "notes": "TP1=352.76 TP2=354.63 SL=345.28 shares=13 risk\u00e2\u2030\u02c6$48.60 signal=2026-07-15 16:00:00 atr=2.1364 atr_pct=0.6120 volume_ratio=1.2432 ema_sep_atr=1.5577 ema_slope_atr=0.1687 alpaca_order=86e94a8c-5191-4307-8737-5cd31d632169 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "LLY-3",
+                        "timestamp": "2026-07-15 15:59:59",
+                        "symbol": "LLY",
+                        "event": "CLOSE_MANUAL",
+                        "side": "SHORT",
+                        "price": "1148.238",
+                        "shares": "7.0",
+                        "usd_qty": "8037.67",
+                        "pnl": "-74.5563",
+                        "total_pnl": "-115.1245",
+                        "balance": "99884.88",
+                        "notes": "entry=1137.5871 exit=1148.2380 broker-confirmed user-requested close alpaca_order=efcf55f7-4fa5-481e-b41f-a6fc468fc901 status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -34169,9 +34202,9 @@
             },
             "trend": {
                 "has_previous_day": true,
-                "win_rate_delta_pct": 37.5,
-                "total_pnl_delta": 249.75,
-                "trade_count_delta": -6,
+                "win_rate_delta_pct": 20.83,
+                "total_pnl_delta": 175.2,
+                "trade_count_delta": -5,
                 "direction": "improving"
             }
         }
