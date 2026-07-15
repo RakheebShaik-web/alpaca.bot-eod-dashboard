@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-15T14:20:22.385455+00:00",
+    "generated_at": "2026-07-15T14:50:23.702387+00:00",
     "latest_date": "2026-07-15",
     "days": [
         {
@@ -33464,18 +33464,18 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 2,
+                        "total_trades": 3,
                         "win_count": 1,
-                        "loss_count": 1,
+                        "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 50.0,
-                        "loss_rate_pct": 50.0,
-                        "total_pnl": -6.72,
-                        "closed_position_pnl": -6.72,
-                        "avg_pnl_per_trade": -3.36,
+                        "win_rate_pct": 33.33,
+                        "loss_rate_pct": 66.67,
+                        "total_pnl": -59.92,
+                        "closed_position_pnl": -59.92,
+                        "avg_pnl_per_trade": -19.97,
                         "avg_win": 46.56,
-                        "avg_loss": -53.28,
-                        "realized_exit_count": 3,
+                        "avg_loss": -53.24,
+                        "realized_exit_count": 4,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 12.91,
@@ -33493,17 +33493,6 @@
                                 "tp1": 62.38,
                                 "tp2": 62.66,
                                 "last_event": "ENTRY_LONG"
-                            },
-                            {
-                                "trade_id": "CRM-1",
-                                "symbol": "CRM",
-                                "side": "LONG",
-                                "entry_price": 171.59,
-                                "remaining": 28.0,
-                                "sl": 169.83,
-                                "tp1": 173.35,
-                                "tp2": 174.23,
-                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -33520,6 +33509,14 @@
                                 "pnl": 46.56,
                                 "wins": 1,
                                 "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "CRM": {
+                                "trades": 1,
+                                "pnl": -53.2,
+                                "wins": 0,
+                                "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
                             }
@@ -33622,14 +33619,28 @@
                                 "total_pnl": "0.0",
                                 "balance": "100000.0",
                                 "notes": "TP1=173.35 TP2=174.23 SL=169.83 shares=28 risk\u00e2\u2030\u02c6$49.28 signal=2026-07-15 14:15:00 atr=1.0057 atr_pct=0.5867 volume_ratio=1.0367 ema_sep_atr=0.5660 ema_slope_atr=0.1211 alpaca_order=bd6652c3-062c-4172-83ab-4b1c1f5dff57 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "CRM-1",
+                                "timestamp": "2026-07-15 14:50:17",
+                                "symbol": "CRM",
+                                "event": "SL_HIT",
+                                "side": "LONG",
+                                "price": "169.69",
+                                "shares": "28.0",
+                                "usd_qty": "4751.32",
+                                "pnl": "-53.2",
+                                "total_pnl": "-53.2",
+                                "balance": "99946.8",
+                                "notes": "entry=171.59 exit=169.69 alpaca_order=2e2dfdeb-2cc8-4a8a-a91d-22eb38348ab3 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -50.0,
-                        "total_pnl_delta": -49.35,
-                        "trade_count_delta": -1,
+                        "win_rate_delta_pct": -66.67,
+                        "total_pnl_delta": -102.55,
+                        "trade_count_delta": 0,
                         "direction": "declining"
                     }
                 },
