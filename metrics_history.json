@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-15T14:19:38.380915+00:00",
+    "generated_at": "2026-07-15T14:20:22.385455+00:00",
     "latest_date": "2026-07-15",
     "days": [
         {
@@ -33322,6 +33322,17 @@
                                 "tp1": 327.8,
                                 "tp2": 328.96,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "LLY-3",
+                                "symbol": "LLY",
+                                "side": "SHORT",
+                                "entry_price": 1137.5871,
+                                "remaining": 7.0,
+                                "sl": 1144.31,
+                                "tp1": 1130.87,
+                                "tp2": 1127.51,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -33426,6 +33437,20 @@
                                 "total_pnl": "42.4172",
                                 "balance": "100042.42",
                                 "notes": "TP1=327.80 TP2=328.96 SL=323.16 shares=21 risk\u00e2\u2030\u02c6$48.65 signal=2026-07-15 14:15:00 atr=1.3239 atr_pct=0.4076 volume_ratio=1.9808 ema_sep_atr=0.6557 ema_slope_atr=0.4713 alpaca_order=5a91f82a-6518-49c9-9bff-190add9102de status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "LLY-3",
+                                "timestamp": "2026-07-15 14:20:21",
+                                "symbol": "LLY",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "1137.5871",
+                                "shares": "7.0",
+                                "usd_qty": "7963.11",
+                                "pnl": "0.0",
+                                "total_pnl": "-40.5682",
+                                "balance": "99959.43",
+                                "notes": "TP1=1130.87 TP2=1127.51 SL=1144.31 shares=7 risk\u00e2\u2030\u02c6$47.04 signal=2026-07-15 14:15:00 atr=3.8400 atr_pct=0.3376 volume_ratio=1.2916 ema_sep_atr=3.0036 ema_slope_atr=-0.3859 alpaca_order=73a1daaa-8231-46cf-bd36-55059736d31b status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -33667,6 +33692,17 @@
                                 "tp1": 327.8,
                                 "tp2": 328.96,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "LLY-3",
+                                "symbol": "LLY",
+                                "side": "SHORT",
+                                "entry_price": 1137.5871,
+                                "remaining": 7.0,
+                                "sl": 1144.31,
+                                "tp1": 1130.87,
+                                "tp2": 1127.51,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -33771,6 +33807,20 @@
                                 "total_pnl": "42.4172",
                                 "balance": "100042.42",
                                 "notes": "TP1=327.80 TP2=328.96 SL=323.16 shares=21 risk\u00e2\u2030\u02c6$48.65 signal=2026-07-15 14:15:00 atr=1.3239 atr_pct=0.4076 volume_ratio=1.9808 ema_sep_atr=0.6557 ema_slope_atr=0.4713 alpaca_order=5a91f82a-6518-49c9-9bff-190add9102de status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "LLY-3",
+                                "timestamp": "2026-07-15 14:20:21",
+                                "symbol": "LLY",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "1137.5871",
+                                "shares": "7.0",
+                                "usd_qty": "7963.11",
+                                "pnl": "0.0",
+                                "total_pnl": "-40.5682",
+                                "balance": "99959.43",
+                                "notes": "TP1=1130.87 TP2=1127.51 SL=1144.31 shares=7 risk\u00e2\u2030\u02c6$47.04 signal=2026-07-15 14:15:00 atr=3.8400 atr_pct=0.3376 volume_ratio=1.2916 ema_sep_atr=3.0036 ema_slope_atr=-0.3859 alpaca_order=73a1daaa-8231-46cf-bd36-55059736d31b status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -33813,6 +33863,17 @@
                         "tp1": 327.8,
                         "tp2": 328.96,
                         "last_event": "ENTRY_LONG"
+                    },
+                    {
+                        "trade_id": "LLY-3",
+                        "symbol": "LLY",
+                        "side": "SHORT",
+                        "entry_price": 1137.5871,
+                        "remaining": 7.0,
+                        "sl": 1144.31,
+                        "tp1": 1130.87,
+                        "tp2": 1127.51,
+                        "last_event": "ENTRY_SHORT"
                     }
                 ],
                 "by_symbol": {
@@ -33917,6 +33978,20 @@
                         "total_pnl": "42.4172",
                         "balance": "100042.42",
                         "notes": "TP1=327.80 TP2=328.96 SL=323.16 shares=21 risk\u00e2\u2030\u02c6$48.65 signal=2026-07-15 14:15:00 atr=1.3239 atr_pct=0.4076 volume_ratio=1.9808 ema_sep_atr=0.6557 ema_slope_atr=0.4713 alpaca_order=5a91f82a-6518-49c9-9bff-190add9102de status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "LLY-3",
+                        "timestamp": "2026-07-15 14:20:21",
+                        "symbol": "LLY",
+                        "event": "ENTRY_SHORT",
+                        "side": "SHORT",
+                        "price": "1137.5871",
+                        "shares": "7.0",
+                        "usd_qty": "7963.11",
+                        "pnl": "0.0",
+                        "total_pnl": "-40.5682",
+                        "balance": "99959.43",
+                        "notes": "TP1=1130.87 TP2=1127.51 SL=1144.31 shares=7 risk\u00e2\u2030\u02c6$47.04 signal=2026-07-15 14:15:00 atr=3.8400 atr_pct=0.3376 volume_ratio=1.2916 ema_sep_atr=3.0036 ema_slope_atr=-0.3859 alpaca_order=73a1daaa-8231-46cf-bd36-55059736d31b status=OrderStatus.FILLED"
                     }
                 ]
             },
