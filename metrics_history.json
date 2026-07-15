@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-15T15:26:33.961286+00:00",
+    "generated_at": "2026-07-15T15:33:38.593933+00:00",
     "latest_date": "2026-07-15",
     "days": [
         {
@@ -33464,24 +33464,24 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 3,
-                        "win_count": 1,
+                        "total_trades": 4,
+                        "win_count": 2,
                         "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 33.33,
-                        "loss_rate_pct": 66.67,
-                        "total_pnl": -29.21,
-                        "closed_position_pnl": -59.92,
-                        "avg_pnl_per_trade": -19.97,
-                        "avg_win": 46.56,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": 9.85,
+                        "closed_position_pnl": 9.85,
+                        "avg_pnl_per_trade": 2.46,
+                        "avg_win": 58.17,
                         "avg_loss": -53.24,
-                        "realized_exit_count": 5,
+                        "realized_exit_count": 6,
                         "eod_close_count": 0,
                         "tp1_hit_count": 2,
                         "tp1_realized_pnl": 43.62,
-                        "tp2_hit_count": 1,
-                        "tp2_realized_pnl": 33.65,
-                        "open_partial_count": 1,
+                        "tp2_hit_count": 2,
+                        "tp2_realized_pnl": 72.72,
+                        "open_partial_count": 0,
                         "open_positions": [
                             {
                                 "trade_id": "BAC-1",
@@ -33493,17 +33493,6 @@
                                 "tp1": 62.38,
                                 "tp2": 62.66,
                                 "last_event": "ENTRY_LONG"
-                            },
-                            {
-                                "trade_id": "GOOGL-2",
-                                "symbol": "GOOGL",
-                                "side": "LONG",
-                                "entry_price": 366.8969,
-                                "remaining": 8.0,
-                                "sl": 363.9,
-                                "tp1": 369.89,
-                                "tp2": 371.39,
-                                "last_event": "TP1_HIT"
                             }
                         ],
                         "by_symbol": {
@@ -33532,12 +33521,12 @@
                                 "open_partial": 0
                             },
                             "GOOGL": {
-                                "trades": 0,
-                                "pnl": 30.7,
-                                "wins": 0,
+                                "trades": 1,
+                                "pnl": 69.77,
+                                "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
-                                "open_partial": 1
+                                "open_partial": 0
                             }
                         },
                         "recent_trades": [
@@ -33680,14 +33669,28 @@
                                 "total_pnl": "43.645",
                                 "balance": "100043.64",
                                 "notes": "remaining=8 shares alpaca_order=a3ccd1af-1076-4bce-a1d2-e2d24cbceffb status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "GOOGL-2",
+                                "timestamp": "2026-07-15 15:33:33",
+                                "symbol": "GOOGL",
+                                "event": "TP2_HIT",
+                                "side": "LONG",
+                                "price": "371.78",
+                                "shares": "8.0",
+                                "usd_qty": "2974.24",
+                                "pnl": "39.065",
+                                "total_pnl": "82.71",
+                                "balance": "100082.71",
+                                "notes": "entry=366.90 exit=371.78 alpaca_order=51dd6869-0bfc-4c0c-b809-4b124650395b status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -66.67,
-                        "total_pnl_delta": -71.84,
-                        "trade_count_delta": 0,
+                        "win_rate_delta_pct": -50.0,
+                        "total_pnl_delta": -32.78,
+                        "trade_count_delta": 1,
                         "direction": "declining"
                     }
                 },
