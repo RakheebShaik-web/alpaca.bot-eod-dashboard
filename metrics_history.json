@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T17:15:11.624763+00:00",
+  "generated_at": "2026-07-15T17:25:28.322855+00:00",
   "latest_date": "2026-07-15",
   "days": [
     {
@@ -34056,14 +34056,14 @@
             "open_partial_count": 1,
             "open_positions": [
               {
-                "trade_id": "1",
+                "trade_id": "1-1",
                 "symbol": "BTC/USD",
-                "side": "SHORT",
-                "entry_price": 64894.01,
+                "side": "LONG",
+                "entry_price": 65035.99,
                 "remaining": 0.015376101755351153,
-                "sl": 65407.92,
-                "tp1": 64374.85,
-                "tp2": 63855.7,
+                "sl": 64525.35,
+                "tp1": 65556.28,
+                "tp2": 66076.57,
                 "last_event": "ENTRY_LONG"
               }
             ],
@@ -34079,36 +34079,7 @@
             },
             "recent_trades": [
               {
-                "trade_id": "1",
-                "timestamp": "2026-07-15 16:43:26",
-                "symbol": "BTC/USD",
-                "mode": "paper",
-                "exchange": "alpaca",
-                "account": "paper",
-                "event": "ENTRY_SHORT",
-                "side": "SHORT",
-                "price": "64894.01",
-                "usd_qty": "1000.0",
-                "pnl": "0.0",
-                "total_pnl": "0.0",
-                "balance": "1000.0",
-                "adx": "28.06",
-                "rsi": "49.09",
-                "volume_ratio": "1.1925",
-                "atr_pct": "0.39596",
-                "ema200_dist_pct": "0.0",
-                "mtf_rsi4h": "0.0",
-                "mtf_ema_ok": "0",
-                "alma_cross_strength": "0.21583",
-                "strategy": "alma_cross",
-                "funding_rate": "",
-                "hold_bars": "",
-                "exit_reason": "",
-                "outcome": "",
-                "notes": "TP1=64374.85  TP2=63855.70  TP3=63206.76  SL=65407.92"
-              },
-              {
-                "trade_id": "1",
+                "trade_id": "1-1",
                 "timestamp": "2026-07-15 17:15:05",
                 "symbol": "BTC/USD",
                 "mode": "paper",
@@ -34134,7 +34105,8 @@
                 "hold_bars": "",
                 "exit_reason": "",
                 "outcome": "",
-                "notes": "TP1=65556.28  TP2=66076.57  TP3=66726.93  SL=64525.35"
+                "notes": "TP1=65556.28  TP2=66076.57  TP3=66726.93  SL=64525.35",
+                "shares": 0.015376101755351153
               }
             ]
           },
