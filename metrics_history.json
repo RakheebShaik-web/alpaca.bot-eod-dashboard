@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-15T13:46:51.843774+00:00",
+    "generated_at": "2026-07-15T14:03:46.027559+00:00",
     "latest_date": "2026-07-15",
     "days": [
         {
@@ -33299,18 +33299,18 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
+                        "total_pnl": 15.66,
                         "closed_position_pnl": 0,
                         "avg_pnl_per_trade": 0.0,
                         "avg_win": 0.0,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 15.66,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "NVDA-6",
@@ -33328,14 +33328,23 @@
                                 "symbol": "AMZN",
                                 "side": "LONG",
                                 "entry_price": 251.16,
-                                "remaining": 27.0,
+                                "remaining": 18.0,
                                 "sl": 249.34,
                                 "tp1": 252.97,
                                 "tp2": 253.88,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "TP1_HIT"
                             }
                         ],
-                        "by_symbol": {},
+                        "by_symbol": {
+                            "AMZN": {
+                                "trades": 0,
+                                "pnl": 15.66,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "NVDA-6",
@@ -33364,13 +33373,27 @@
                                 "total_pnl": "45.276",
                                 "balance": "100045.28",
                                 "notes": "TP1=252.97 TP2=253.88 SL=249.34 shares=27 risk\u00e2\u2030\u02c6$49.00 signal=2026-07-15 13:45:00 atr=1.0371 atr_pct=0.4133 volume_ratio=2.2189 ema_sep_atr=0.5128 ema_slope_atr=0.2104 alpaca_order=f5f70968-9b53-4ae9-8b6f-bc39a97a72fa status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMZN-3",
+                                "timestamp": "2026-07-15 14:03:45",
+                                "symbol": "AMZN",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "252.9",
+                                "shares": "9.0",
+                                "usd_qty": "2276.1",
+                                "pnl": "15.66",
+                                "total_pnl": "60.936",
+                                "balance": "100060.94",
+                                "notes": "remaining=18 shares alpaca_order=27527d92-2d2c-4651-a236-142e59d8e886 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -12.5,
-                        "total_pnl_delta": 239.59,
+                        "total_pnl_delta": 255.25,
                         "trade_count_delta": -8,
                         "direction": "mixed"
                     }
@@ -33495,18 +33518,18 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
+                        "total_pnl": 15.66,
                         "closed_position_pnl": 0,
                         "avg_pnl_per_trade": 0.0,
                         "avg_win": 0.0,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 15.66,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "NVDA-6",
@@ -33524,14 +33547,23 @@
                                 "symbol": "AMZN",
                                 "side": "LONG",
                                 "entry_price": 251.16,
-                                "remaining": 27.0,
+                                "remaining": 18.0,
                                 "sl": 249.34,
                                 "tp1": 252.97,
                                 "tp2": 253.88,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "TP1_HIT"
                             }
                         ],
-                        "by_symbol": {},
+                        "by_symbol": {
+                            "AMZN": {
+                                "trades": 0,
+                                "pnl": 15.66,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "NVDA-6",
@@ -33560,13 +33592,27 @@
                                 "total_pnl": "45.276",
                                 "balance": "100045.28",
                                 "notes": "TP1=252.97 TP2=253.88 SL=249.34 shares=27 risk\u00e2\u2030\u02c6$49.00 signal=2026-07-15 13:45:00 atr=1.0371 atr_pct=0.4133 volume_ratio=2.2189 ema_sep_atr=0.5128 ema_slope_atr=0.2104 alpaca_order=f5f70968-9b53-4ae9-8b6f-bc39a97a72fa status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMZN-3",
+                                "timestamp": "2026-07-15 14:03:45",
+                                "symbol": "AMZN",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "252.9",
+                                "shares": "9.0",
+                                "usd_qty": "2276.1",
+                                "pnl": "15.66",
+                                "total_pnl": "60.936",
+                                "balance": "100060.94",
+                                "notes": "remaining=18 shares alpaca_order=27527d92-2d2c-4651-a236-142e59d8e886 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -12.5,
-                        "total_pnl_delta": 239.59,
+                        "total_pnl_delta": 255.25,
                         "trade_count_delta": -8,
                         "direction": "mixed"
                     }
@@ -33579,18 +33625,18 @@
                 "breakeven_count": 0,
                 "win_rate_pct": 0.0,
                 "loss_rate_pct": 0.0,
-                "total_pnl": 0,
+                "total_pnl": 15.66,
                 "closed_position_pnl": 0,
                 "avg_pnl_per_trade": 0.0,
                 "avg_win": 0.0,
                 "avg_loss": 0.0,
-                "realized_exit_count": 0,
+                "realized_exit_count": 1,
                 "eod_close_count": 0,
-                "tp1_hit_count": 0,
-                "tp1_realized_pnl": 0,
+                "tp1_hit_count": 1,
+                "tp1_realized_pnl": 15.66,
                 "tp2_hit_count": 0,
                 "tp2_realized_pnl": 0,
-                "open_partial_count": 0,
+                "open_partial_count": 1,
                 "open_positions": [
                     {
                         "trade_id": "NVDA-6",
@@ -33608,14 +33654,23 @@
                         "symbol": "AMZN",
                         "side": "LONG",
                         "entry_price": 251.16,
-                        "remaining": 27.0,
+                        "remaining": 18.0,
                         "sl": 249.34,
                         "tp1": 252.97,
                         "tp2": 253.88,
-                        "last_event": "ENTRY_LONG"
+                        "last_event": "TP1_HIT"
                     }
                 ],
-                "by_symbol": {},
+                "by_symbol": {
+                    "AMZN": {
+                        "trades": 0,
+                        "pnl": 15.66,
+                        "wins": 0,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 1
+                    }
+                },
                 "recent_trades": [
                     {
                         "trade_id": "NVDA-6",
@@ -33644,6 +33699,20 @@
                         "total_pnl": "45.276",
                         "balance": "100045.28",
                         "notes": "TP1=252.97 TP2=253.88 SL=249.34 shares=27 risk\u00e2\u2030\u02c6$49.00 signal=2026-07-15 13:45:00 atr=1.0371 atr_pct=0.4133 volume_ratio=2.2189 ema_sep_atr=0.5128 ema_slope_atr=0.2104 alpaca_order=f5f70968-9b53-4ae9-8b6f-bc39a97a72fa status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "AMZN-3",
+                        "timestamp": "2026-07-15 14:03:45",
+                        "symbol": "AMZN",
+                        "event": "TP1_HIT",
+                        "side": "LONG",
+                        "price": "252.9",
+                        "shares": "9.0",
+                        "usd_qty": "2276.1",
+                        "pnl": "15.66",
+                        "total_pnl": "60.936",
+                        "balance": "100060.94",
+                        "notes": "remaining=18 shares alpaca_order=27527d92-2d2c-4651-a236-142e59d8e886 status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -33661,7 +33730,7 @@
             "trend": {
                 "has_previous_day": true,
                 "win_rate_delta_pct": -12.5,
-                "total_pnl_delta": 239.59,
+                "total_pnl_delta": 255.25,
                 "trade_count_delta": -8,
                 "direction": "mixed"
             }
