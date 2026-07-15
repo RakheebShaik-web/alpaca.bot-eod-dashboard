@@ -1,6 +1,6 @@
 {
-    "generated_at": "2026-07-14T20:15:19.830725+00:00",
-    "latest_date": "2026-07-14",
+    "generated_at": "2026-07-15T13:45:51.708246+00:00",
+    "latest_date": "2026-07-15",
     "days": [
         {
             "date": "2026-06-26",
@@ -33286,6 +33286,70 @@
                 "total_pnl_delta": -199.34,
                 "trade_count_delta": 3,
                 "direction": "declining"
+            }
+        },
+        {
+            "date": "2026-07-15",
+            "datasets": {
+                "alpaca_paper": {
+                    "trade_metrics": {
+                        "total_trades": 0,
+                        "win_count": 0,
+                        "loss_count": 0,
+                        "breakeven_count": 0,
+                        "win_rate_pct": 0.0,
+                        "loss_rate_pct": 0.0,
+                        "total_pnl": 0,
+                        "closed_position_pnl": 0,
+                        "avg_pnl_per_trade": 0.0,
+                        "avg_win": 0.0,
+                        "avg_loss": 0.0,
+                        "realized_exit_count": 0,
+                        "eod_close_count": 0,
+                        "tp1_hit_count": 0,
+                        "tp1_realized_pnl": 0,
+                        "tp2_hit_count": 0,
+                        "tp2_realized_pnl": 0,
+                        "open_partial_count": 0,
+                        "open_positions": [
+                            {
+                                "trade_id": "NVDA-2",
+                                "symbol": "NVDA",
+                                "side": "LONG",
+                                "entry_price": 211.87,
+                                "remaining": 37.0,
+                                "sl": 210.52,
+                                "tp1": 213.22,
+                                "tp2": 213.9,
+                                "last_event": "ENTRY_LONG"
+                            }
+                        ],
+                        "by_symbol": {},
+                        "recent_trades": [
+                            {
+                                "trade_id": "NVDA-2",
+                                "timestamp": "2026-07-15 13:45:44",
+                                "symbol": "NVDA",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "211.87",
+                                "shares": "37.0",
+                                "usd_qty": "7839.19",
+                                "pnl": "0.0",
+                                "total_pnl": "12.87",
+                                "balance": "100012.87",
+                                "notes": "TP1=213.22 TP2=213.90 SL=210.52 shares=37 risk\u00e2\u2030\u02c6$49.95 signal=2026-07-15 13:45:00 atr=0.7714 atr_pct=0.3639 volume_ratio=2.8102 ema_sep_atr=2.2675 ema_slope_atr=0.0997 alpaca_order=5f7f7e0f-e40b-45f7-a2dd-b0c6cb7412ab status=OrderStatus.FILLED"
+                            }
+                        ]
+                    },
+                    "trend": {
+                        "has_previous_day": true,
+                        "win_rate_delta_pct": -100.0,
+                        "total_pnl_delta": -42.63,
+                        "trade_count_delta": -3,
+                        "direction": "declining"
+                    }
+                }
             }
         }
     ]
