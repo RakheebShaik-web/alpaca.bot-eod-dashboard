@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-15T15:01:39.518249+00:00",
+    "generated_at": "2026-07-15T15:26:33.961286+00:00",
     "latest_date": "2026-07-15",
     "days": [
         {
@@ -33470,18 +33470,18 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 33.33,
                         "loss_rate_pct": 66.67,
-                        "total_pnl": -59.92,
+                        "total_pnl": -29.21,
                         "closed_position_pnl": -59.92,
                         "avg_pnl_per_trade": -19.97,
                         "avg_win": 46.56,
                         "avg_loss": -53.24,
-                        "realized_exit_count": 4,
+                        "realized_exit_count": 5,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 1,
-                        "tp1_realized_pnl": 12.91,
+                        "tp1_hit_count": 2,
+                        "tp1_realized_pnl": 43.62,
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 33.65,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "BAC-1",
@@ -33499,11 +33499,11 @@
                                 "symbol": "GOOGL",
                                 "side": "LONG",
                                 "entry_price": 366.8969,
-                                "remaining": 16.0,
+                                "remaining": 8.0,
                                 "sl": 363.9,
                                 "tp1": 369.89,
                                 "tp2": 371.39,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "TP1_HIT"
                             }
                         ],
                         "by_symbol": {
@@ -33530,6 +33530,14 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
+                            },
+                            "GOOGL": {
+                                "trades": 0,
+                                "pnl": 30.7,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -33658,13 +33666,27 @@
                                 "total_pnl": "12.94",
                                 "balance": "100012.94",
                                 "notes": "TP1=369.89 TP2=371.39 SL=363.90 shares=16 risk\u00e2\u2030\u02c6$47.96 signal=2026-07-15 15:00:00 atr=1.7129 atr_pct=0.4668 volume_ratio=1.3486 ema_sep_atr=1.5697 ema_slope_atr=0.3654 alpaca_order=8d8eb056-809e-471b-82df-e8d3242c6ea9 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "GOOGL-2",
+                                "timestamp": "2026-07-15 15:26:28",
+                                "symbol": "GOOGL",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "370.735",
+                                "shares": "8.0",
+                                "usd_qty": "2965.88",
+                                "pnl": "30.705",
+                                "total_pnl": "43.645",
+                                "balance": "100043.64",
+                                "notes": "remaining=8 shares alpaca_order=a3ccd1af-1076-4bce-a1d2-e2d24cbceffb status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -66.67,
-                        "total_pnl_delta": -102.55,
+                        "total_pnl_delta": -71.84,
                         "trade_count_delta": 0,
                         "direction": "declining"
                     }
