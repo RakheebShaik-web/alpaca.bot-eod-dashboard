@@ -19,9 +19,7 @@ To refresh the dashboard after each EOD report, regenerate `metrics_history.json
 
 ## Filters
 
-The dashboard filters by Alpaca account, crypto/trading symbol, and trading day.
-The symbol selector is populated from each account dataset's `by_symbol` keys;
-the bot's internal `BTCUSDT` feed identifier is displayed as the executed
-Alpaca pair `BTC/USD`, and all cards, charts, positions, and trade logs are
-recalculated for the selected symbol.
+The primary data-source dropdown includes Alpaca Live, Alpaca Paper, and Alpaca
+Crypto. Crypto metrics use the `alpaca_crypto` dataset and the executed Alpaca
+pair is `BTC/USD`.
 
