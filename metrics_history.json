@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-16T15:21:07.971212+00:00",
+    "generated_at": "2026-07-16T15:40:51.156375+00:00",
     "latest_date": "2026-07-16",
     "days": [
         {
@@ -34375,18 +34375,18 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 1,
+                        "total_trades": 2,
                         "win_count": 0,
-                        "loss_count": 1,
+                        "loss_count": 2,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -28.08,
-                        "closed_position_pnl": -55.89,
-                        "avg_pnl_per_trade": -55.89,
+                        "total_pnl": -77.98,
+                        "closed_position_pnl": -105.79,
+                        "avg_pnl_per_trade": -52.9,
                         "avg_win": 0.0,
-                        "avg_loss": -55.89,
-                        "realized_exit_count": 2,
+                        "avg_loss": -52.9,
+                        "realized_exit_count": 3,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 27.81,
@@ -34404,23 +34404,20 @@
                                 "tp1": 547.62,
                                 "tp2": 549.31,
                                 "last_event": "TP1_HIT"
-                            },
-                            {
-                                "trade_id": "NFLX-3",
-                                "symbol": "NFLX",
-                                "side": "SHORT",
-                                "entry_price": 73.1301,
-                                "remaining": 78.0,
-                                "sl": 73.77,
-                                "tp1": 72.49,
-                                "tp2": 72.18,
-                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
                             "XOM": {
                                 "trades": 1,
                                 "pnl": -55.89,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "NFLX": {
+                                "trades": 1,
+                                "pnl": -49.9,
                                 "wins": 0,
                                 "losses": 1,
                                 "breakeven": 0,
@@ -34505,15 +34502,29 @@
                                 "total_pnl": "27.811",
                                 "balance": "100027.81",
                                 "notes": "remaining=7 shares alpaca_order=273710de-74d5-4483-b765-d2e12cdbe7fd status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NFLX-3",
+                                "timestamp": "2026-07-16 15:40:50",
+                                "symbol": "NFLX",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "73.7699",
+                                "shares": "78.0",
+                                "usd_qty": "5754.05",
+                                "pnl": "-49.9044",
+                                "total_pnl": "-108.5184",
+                                "balance": "99891.48",
+                                "notes": "entry=73.13 exit=73.77 alpaca_order=35e93ee1-68a1-4f3d-8f64-a982d1d8223f status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -40.0,
-                        "total_pnl_delta": 29.34,
-                        "trade_count_delta": -4,
-                        "direction": "mixed"
+                        "total_pnl_delta": -20.56,
+                        "trade_count_delta": -3,
+                        "direction": "declining"
                     }
                 },
                 "alpaca_paper": {
@@ -34725,18 +34736,18 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 1,
+                        "total_trades": 2,
                         "win_count": 0,
-                        "loss_count": 1,
+                        "loss_count": 2,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -28.08,
-                        "closed_position_pnl": -55.89,
-                        "avg_pnl_per_trade": -55.89,
+                        "total_pnl": -77.98,
+                        "closed_position_pnl": -105.79,
+                        "avg_pnl_per_trade": -52.9,
                         "avg_win": 0.0,
-                        "avg_loss": -55.89,
-                        "realized_exit_count": 2,
+                        "avg_loss": -52.9,
+                        "realized_exit_count": 3,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 27.81,
@@ -34754,23 +34765,20 @@
                                 "tp1": 547.62,
                                 "tp2": 549.31,
                                 "last_event": "TP1_HIT"
-                            },
-                            {
-                                "trade_id": "NFLX-3",
-                                "symbol": "NFLX",
-                                "side": "SHORT",
-                                "entry_price": 73.1301,
-                                "remaining": 78.0,
-                                "sl": 73.77,
-                                "tp1": 72.49,
-                                "tp2": 72.18,
-                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
                             "XOM": {
                                 "trades": 1,
                                 "pnl": -55.89,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "NFLX": {
+                                "trades": 1,
+                                "pnl": -49.9,
                                 "wins": 0,
                                 "losses": 1,
                                 "breakeven": 0,
@@ -34855,31 +34863,45 @@
                                 "total_pnl": "27.811",
                                 "balance": "100027.81",
                                 "notes": "remaining=7 shares alpaca_order=273710de-74d5-4483-b765-d2e12cdbe7fd status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NFLX-3",
+                                "timestamp": "2026-07-16 15:40:50",
+                                "symbol": "NFLX",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "73.7699",
+                                "shares": "78.0",
+                                "usd_qty": "5754.05",
+                                "pnl": "-49.9044",
+                                "total_pnl": "-108.5184",
+                                "balance": "99891.48",
+                                "notes": "entry=73.13 exit=73.77 alpaca_order=35e93ee1-68a1-4f3d-8f64-a982d1d8223f status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -40.0,
-                        "total_pnl_delta": 29.34,
-                        "trade_count_delta": -4,
-                        "direction": "mixed"
+                        "total_pnl_delta": -20.56,
+                        "trade_count_delta": -3,
+                        "direction": "declining"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 1,
+                "total_trades": 2,
                 "win_count": 0,
-                "loss_count": 1,
+                "loss_count": 2,
                 "breakeven_count": 0,
                 "win_rate_pct": 0.0,
                 "loss_rate_pct": 100.0,
-                "total_pnl": -28.08,
-                "closed_position_pnl": -55.89,
-                "avg_pnl_per_trade": -55.89,
+                "total_pnl": -77.98,
+                "closed_position_pnl": -105.79,
+                "avg_pnl_per_trade": -52.9,
                 "avg_win": 0.0,
-                "avg_loss": -55.89,
-                "realized_exit_count": 2,
+                "avg_loss": -52.9,
+                "realized_exit_count": 3,
                 "eod_close_count": 0,
                 "tp1_hit_count": 1,
                 "tp1_realized_pnl": 27.81,
@@ -34897,23 +34919,20 @@
                         "tp1": 547.62,
                         "tp2": 549.31,
                         "last_event": "TP1_HIT"
-                    },
-                    {
-                        "trade_id": "NFLX-3",
-                        "symbol": "NFLX",
-                        "side": "SHORT",
-                        "entry_price": 73.1301,
-                        "remaining": 78.0,
-                        "sl": 73.77,
-                        "tp1": 72.49,
-                        "tp2": 72.18,
-                        "last_event": "ENTRY_SHORT"
                     }
                 ],
                 "by_symbol": {
                     "XOM": {
                         "trades": 1,
                         "pnl": -55.89,
+                        "wins": 0,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "NFLX": {
+                        "trades": 1,
+                        "pnl": -49.9,
                         "wins": 0,
                         "losses": 1,
                         "breakeven": 0,
@@ -34998,6 +35017,20 @@
                         "total_pnl": "27.811",
                         "balance": "100027.81",
                         "notes": "remaining=7 shares alpaca_order=273710de-74d5-4483-b765-d2e12cdbe7fd status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "NFLX-3",
+                        "timestamp": "2026-07-16 15:40:50",
+                        "symbol": "NFLX",
+                        "event": "SL_HIT",
+                        "side": "SHORT",
+                        "price": "73.7699",
+                        "shares": "78.0",
+                        "usd_qty": "5754.05",
+                        "pnl": "-49.9044",
+                        "total_pnl": "-108.5184",
+                        "balance": "99891.48",
+                        "notes": "entry=73.13 exit=73.77 alpaca_order=35e93ee1-68a1-4f3d-8f64-a982d1d8223f status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -35015,9 +35048,9 @@
             "trend": {
                 "has_previous_day": true,
                 "win_rate_delta_pct": -40.0,
-                "total_pnl_delta": 29.34,
-                "trade_count_delta": -4,
-                "direction": "mixed"
+                "total_pnl_delta": -20.56,
+                "trade_count_delta": -3,
+                "direction": "declining"
             }
         }
     ]
