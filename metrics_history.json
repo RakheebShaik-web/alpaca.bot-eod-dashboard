@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-16T13:44:55.412343+00:00",
+    "generated_at": "2026-07-16T13:45:33.799950+00:00",
     "latest_date": "2026-07-16",
     "days": [
         {
@@ -34425,12 +34425,43 @@
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
-                        "open_positions": [],
+                        "open_positions": [
+                            {
+                                "trade_id": "XOM-1",
+                                "symbol": "XOM",
+                                "side": "LONG",
+                                "entry_price": 146.3,
+                                "remaining": 68.0,
+                                "sl": 145.57,
+                                "tp1": 147.03,
+                                "tp2": 147.39,
+                                "last_event": "ENTRY_LONG"
+                            }
+                        ],
                         "by_symbol": {},
-                        "recent_trades": []
+                        "recent_trades": [
+                            {
+                                "trade_id": "XOM-1",
+                                "timestamp": "2026-07-16 13:45:27",
+                                "symbol": "XOM",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "146.3",
+                                "shares": "68.0",
+                                "usd_qty": "9948.4",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=147.03 TP2=147.39 SL=145.57 shares=68 risk\u00e2\u2030\u02c6$49.38 signal=2026-07-16 13:45:00 atr=0.4150 atr_pct=0.2839 volume_ratio=1.0023 ema_sep_atr=0.5042 ema_slope_atr=0.3003 alpaca_order=5656619f-f9ec-4d6e-952e-cc9ece467cb7 status=OrderStatus.FILLED"
+                            }
+                        ]
                     },
                     "trend": {
-                        "has_previous_day": false
+                        "has_previous_day": true,
+                        "win_rate_delta_pct": -42.86,
+                        "total_pnl_delta": 85.85,
+                        "trade_count_delta": -7,
+                        "direction": "mixed"
                     }
                 },
                 "legacy_simulation": {
