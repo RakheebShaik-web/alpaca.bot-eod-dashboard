@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-16T19:52:13.526266+00:00",
+    "generated_at": "2026-07-16T19:53:34.865182+00:00",
     "latest_date": "2026-07-16",
     "days": [
         {
@@ -34375,37 +34375,25 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 5,
-                        "win_count": 2,
+                        "total_trades": 6,
+                        "win_count": 3,
                         "loss_count": 3,
                         "breakeven_count": 0,
-                        "win_rate_pct": 40.0,
-                        "loss_rate_pct": 60.0,
-                        "total_pnl": -100.42,
-                        "closed_position_pnl": -100.42,
-                        "avg_pnl_per_trade": -20.08,
-                        "avg_win": 28.71,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": -95.77,
+                        "closed_position_pnl": -95.77,
+                        "avg_pnl_per_trade": -15.96,
+                        "avg_win": 20.69,
                         "avg_loss": -52.61,
-                        "realized_exit_count": 6,
-                        "eod_close_count": 0,
+                        "realized_exit_count": 7,
+                        "eod_close_count": 1,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 27.81,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "NVDA-7",
-                                "symbol": "NVDA",
-                                "side": "SHORT",
-                                "entry_price": 206.6009,
-                                "remaining": 18.0,
-                                "sl": 209.3,
-                                "tp1": 203.9,
-                                "tp2": 202.55,
-                                "last_event": "ENTRY_SHORT"
-                            }
-                        ],
+                        "open_positions": [],
                         "by_symbol": {
                             "XOM": {
                                 "trades": 1,
@@ -34428,6 +34416,14 @@
                                 "pnl": -49.9,
                                 "wins": 0,
                                 "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "NVDA": {
+                                "trades": 1,
+                                "pnl": 4.65,
+                                "wins": 1,
+                                "losses": 0,
                                 "breakeven": 0,
                                 "open_partial": 0
                             },
@@ -34608,14 +34604,28 @@
                                 "total_pnl": "-163.4431",
                                 "balance": "99836.56",
                                 "notes": "entry=403.07 exit=399.07 alpaca_order=b157bb54-ecc1-43b2-8c32-3c87886dd8ad status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-7",
+                                "timestamp": "2026-07-16 19:51:04",
+                                "symbol": "NVDA",
+                                "event": "CLOSE_EOD",
+                                "side": "SHORT",
+                                "price": "206.3424",
+                                "shares": "18.0",
+                                "usd_qty": "3714.16",
+                                "pnl": "4.653",
+                                "total_pnl": "-97.7988",
+                                "balance": "99902.2",
+                                "notes": "entry=206.60 exit=206.34 alpaca_order=4173b409-2737-45d3-a3cf-35a5be14cdd9 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 0.0,
-                        "total_pnl_delta": -43.0,
-                        "trade_count_delta": 0,
+                        "win_rate_delta_pct": 10.0,
+                        "total_pnl_delta": -38.35,
+                        "trade_count_delta": 1,
                         "direction": "mixed"
                     }
                 },
@@ -34891,37 +34901,25 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 5,
-                        "win_count": 2,
+                        "total_trades": 6,
+                        "win_count": 3,
                         "loss_count": 3,
                         "breakeven_count": 0,
-                        "win_rate_pct": 40.0,
-                        "loss_rate_pct": 60.0,
-                        "total_pnl": -100.42,
-                        "closed_position_pnl": -100.42,
-                        "avg_pnl_per_trade": -20.08,
-                        "avg_win": 28.71,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": -95.77,
+                        "closed_position_pnl": -95.77,
+                        "avg_pnl_per_trade": -15.96,
+                        "avg_win": 20.69,
                         "avg_loss": -52.61,
-                        "realized_exit_count": 6,
-                        "eod_close_count": 0,
+                        "realized_exit_count": 7,
+                        "eod_close_count": 1,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 27.81,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "NVDA-7",
-                                "symbol": "NVDA",
-                                "side": "SHORT",
-                                "entry_price": 206.6009,
-                                "remaining": 18.0,
-                                "sl": 209.3,
-                                "tp1": 203.9,
-                                "tp2": 202.55,
-                                "last_event": "ENTRY_SHORT"
-                            }
-                        ],
+                        "open_positions": [],
                         "by_symbol": {
                             "XOM": {
                                 "trades": 1,
@@ -34944,6 +34942,14 @@
                                 "pnl": -49.9,
                                 "wins": 0,
                                 "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "NVDA": {
+                                "trades": 1,
+                                "pnl": 4.65,
+                                "wins": 1,
+                                "losses": 0,
                                 "breakeven": 0,
                                 "open_partial": 0
                             },
@@ -35124,50 +35130,52 @@
                                 "total_pnl": "-163.4431",
                                 "balance": "99836.56",
                                 "notes": "entry=403.07 exit=399.07 alpaca_order=b157bb54-ecc1-43b2-8c32-3c87886dd8ad status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-7",
+                                "timestamp": "2026-07-16 19:51:04",
+                                "symbol": "NVDA",
+                                "event": "CLOSE_EOD",
+                                "side": "SHORT",
+                                "price": "206.3424",
+                                "shares": "18.0",
+                                "usd_qty": "3714.16",
+                                "pnl": "4.653",
+                                "total_pnl": "-97.7988",
+                                "balance": "99902.2",
+                                "notes": "entry=206.60 exit=206.34 alpaca_order=4173b409-2737-45d3-a3cf-35a5be14cdd9 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 0.0,
-                        "total_pnl_delta": -43.0,
-                        "trade_count_delta": 0,
+                        "win_rate_delta_pct": 10.0,
+                        "total_pnl_delta": -38.35,
+                        "trade_count_delta": 1,
                         "direction": "mixed"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 5,
-                "win_count": 2,
+                "total_trades": 6,
+                "win_count": 3,
                 "loss_count": 3,
                 "breakeven_count": 0,
-                "win_rate_pct": 40.0,
-                "loss_rate_pct": 60.0,
-                "total_pnl": -100.42,
-                "closed_position_pnl": -100.42,
-                "avg_pnl_per_trade": -20.08,
-                "avg_win": 28.71,
+                "win_rate_pct": 50.0,
+                "loss_rate_pct": 50.0,
+                "total_pnl": -95.77,
+                "closed_position_pnl": -95.77,
+                "avg_pnl_per_trade": -15.96,
+                "avg_win": 20.69,
                 "avg_loss": -52.61,
-                "realized_exit_count": 6,
-                "eod_close_count": 0,
+                "realized_exit_count": 7,
+                "eod_close_count": 1,
                 "tp1_hit_count": 1,
                 "tp1_realized_pnl": 27.81,
                 "tp2_hit_count": 0,
                 "tp2_realized_pnl": 0,
                 "open_partial_count": 0,
-                "open_positions": [
-                    {
-                        "trade_id": "NVDA-7",
-                        "symbol": "NVDA",
-                        "side": "SHORT",
-                        "entry_price": 206.6009,
-                        "remaining": 18.0,
-                        "sl": 209.3,
-                        "tp1": 203.9,
-                        "tp2": 202.55,
-                        "last_event": "ENTRY_SHORT"
-                    }
-                ],
+                "open_positions": [],
                 "by_symbol": {
                     "XOM": {
                         "trades": 1,
@@ -35190,6 +35198,14 @@
                         "pnl": -49.9,
                         "wins": 0,
                         "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "NVDA": {
+                        "trades": 1,
+                        "pnl": 4.65,
+                        "wins": 1,
+                        "losses": 0,
                         "breakeven": 0,
                         "open_partial": 0
                     },
@@ -35370,6 +35386,20 @@
                         "total_pnl": "-163.4431",
                         "balance": "99836.56",
                         "notes": "entry=403.07 exit=399.07 alpaca_order=b157bb54-ecc1-43b2-8c32-3c87886dd8ad status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "NVDA-7",
+                        "timestamp": "2026-07-16 19:51:04",
+                        "symbol": "NVDA",
+                        "event": "CLOSE_EOD",
+                        "side": "SHORT",
+                        "price": "206.3424",
+                        "shares": "18.0",
+                        "usd_qty": "3714.16",
+                        "pnl": "4.653",
+                        "total_pnl": "-97.7988",
+                        "balance": "99902.2",
+                        "notes": "entry=206.60 exit=206.34 alpaca_order=4173b409-2737-45d3-a3cf-35a5be14cdd9 status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -35386,9 +35416,9 @@
             },
             "trend": {
                 "has_previous_day": true,
-                "win_rate_delta_pct": 0.0,
-                "total_pnl_delta": -43.0,
-                "trade_count_delta": 0,
+                "win_rate_delta_pct": 10.0,
+                "total_pnl_delta": -38.35,
+                "trade_count_delta": 1,
                 "direction": "mixed"
             }
         }
