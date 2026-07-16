@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-16T14:52:32.473433+00:00",
+    "generated_at": "2026-07-16T14:54:55.409235+00:00",
     "latest_date": "2026-07-16",
     "days": [
         {
@@ -34381,29 +34381,29 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -55.89,
+                        "total_pnl": -28.08,
                         "closed_position_pnl": -55.89,
                         "avg_pnl_per_trade": -55.89,
                         "avg_win": 0.0,
                         "avg_loss": -55.89,
-                        "realized_exit_count": 1,
+                        "realized_exit_count": 2,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 27.81,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "MA-1",
                                 "symbol": "MA",
                                 "side": "LONG",
                                 "entry_price": 544.229,
-                                "remaining": 14.0,
+                                "remaining": 7.0,
                                 "sl": 540.84,
                                 "tp1": 547.62,
                                 "tp2": 549.31,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "TP1_HIT"
                             },
                             {
                                 "trade_id": "NFLX-3",
@@ -34425,6 +34425,14 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
+                            },
+                            "MA": {
+                                "trades": 0,
+                                "pnl": 27.81,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -34483,13 +34491,27 @@
                                 "total_pnl": "-58.614",
                                 "balance": "99941.39",
                                 "notes": "TP1=72.49 TP2=72.18 SL=73.77 shares=78 risk\u00e2\u2030\u02c6$49.63 signal=2026-07-16 14:15:00 atr=0.3636 atr_pct=0.4976 volume_ratio=1.2378 ema_sep_atr=0.4591 ema_slope_atr=-0.1184 alpaca_order=765da269-7b6e-4049-a03e-47fadb96ddf5 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MA-1",
+                                "timestamp": "2026-07-16 14:52:16",
+                                "symbol": "MA",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "548.202",
+                                "shares": "7.0",
+                                "usd_qty": "3837.41",
+                                "pnl": "27.811",
+                                "total_pnl": "27.811",
+                                "balance": "100027.81",
+                                "notes": "remaining=7 shares alpaca_order=273710de-74d5-4483-b765-d2e12cdbe7fd status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -40.0,
-                        "total_pnl_delta": 1.53,
+                        "total_pnl_delta": 29.34,
                         "trade_count_delta": -4,
                         "direction": "mixed"
                     }
@@ -34673,29 +34695,29 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -55.89,
+                        "total_pnl": -28.08,
                         "closed_position_pnl": -55.89,
                         "avg_pnl_per_trade": -55.89,
                         "avg_win": 0.0,
                         "avg_loss": -55.89,
-                        "realized_exit_count": 1,
+                        "realized_exit_count": 2,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 27.81,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "MA-1",
                                 "symbol": "MA",
                                 "side": "LONG",
                                 "entry_price": 544.229,
-                                "remaining": 14.0,
+                                "remaining": 7.0,
                                 "sl": 540.84,
                                 "tp1": 547.62,
                                 "tp2": 549.31,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "TP1_HIT"
                             },
                             {
                                 "trade_id": "NFLX-3",
@@ -34717,6 +34739,14 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
+                            },
+                            "MA": {
+                                "trades": 0,
+                                "pnl": 27.81,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -34775,13 +34805,27 @@
                                 "total_pnl": "-58.614",
                                 "balance": "99941.39",
                                 "notes": "TP1=72.49 TP2=72.18 SL=73.77 shares=78 risk\u00e2\u2030\u02c6$49.63 signal=2026-07-16 14:15:00 atr=0.3636 atr_pct=0.4976 volume_ratio=1.2378 ema_sep_atr=0.4591 ema_slope_atr=-0.1184 alpaca_order=765da269-7b6e-4049-a03e-47fadb96ddf5 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MA-1",
+                                "timestamp": "2026-07-16 14:52:16",
+                                "symbol": "MA",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "548.202",
+                                "shares": "7.0",
+                                "usd_qty": "3837.41",
+                                "pnl": "27.811",
+                                "total_pnl": "27.811",
+                                "balance": "100027.81",
+                                "notes": "remaining=7 shares alpaca_order=273710de-74d5-4483-b765-d2e12cdbe7fd status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -40.0,
-                        "total_pnl_delta": 1.53,
+                        "total_pnl_delta": 29.34,
                         "trade_count_delta": -4,
                         "direction": "mixed"
                     }
@@ -34794,29 +34838,29 @@
                 "breakeven_count": 0,
                 "win_rate_pct": 0.0,
                 "loss_rate_pct": 100.0,
-                "total_pnl": -55.89,
+                "total_pnl": -28.08,
                 "closed_position_pnl": -55.89,
                 "avg_pnl_per_trade": -55.89,
                 "avg_win": 0.0,
                 "avg_loss": -55.89,
-                "realized_exit_count": 1,
+                "realized_exit_count": 2,
                 "eod_close_count": 0,
-                "tp1_hit_count": 0,
-                "tp1_realized_pnl": 0,
+                "tp1_hit_count": 1,
+                "tp1_realized_pnl": 27.81,
                 "tp2_hit_count": 0,
                 "tp2_realized_pnl": 0,
-                "open_partial_count": 0,
+                "open_partial_count": 1,
                 "open_positions": [
                     {
                         "trade_id": "MA-1",
                         "symbol": "MA",
                         "side": "LONG",
                         "entry_price": 544.229,
-                        "remaining": 14.0,
+                        "remaining": 7.0,
                         "sl": 540.84,
                         "tp1": 547.62,
                         "tp2": 549.31,
-                        "last_event": "ENTRY_LONG"
+                        "last_event": "TP1_HIT"
                     },
                     {
                         "trade_id": "NFLX-3",
@@ -34838,6 +34882,14 @@
                         "losses": 1,
                         "breakeven": 0,
                         "open_partial": 0
+                    },
+                    "MA": {
+                        "trades": 0,
+                        "pnl": 27.81,
+                        "wins": 0,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 1
                     }
                 },
                 "recent_trades": [
@@ -34896,6 +34948,20 @@
                         "total_pnl": "-58.614",
                         "balance": "99941.39",
                         "notes": "TP1=72.49 TP2=72.18 SL=73.77 shares=78 risk\u00e2\u2030\u02c6$49.63 signal=2026-07-16 14:15:00 atr=0.3636 atr_pct=0.4976 volume_ratio=1.2378 ema_sep_atr=0.4591 ema_slope_atr=-0.1184 alpaca_order=765da269-7b6e-4049-a03e-47fadb96ddf5 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "MA-1",
+                        "timestamp": "2026-07-16 14:52:16",
+                        "symbol": "MA",
+                        "event": "TP1_HIT",
+                        "side": "LONG",
+                        "price": "548.202",
+                        "shares": "7.0",
+                        "usd_qty": "3837.41",
+                        "pnl": "27.811",
+                        "total_pnl": "27.811",
+                        "balance": "100027.81",
+                        "notes": "remaining=7 shares alpaca_order=273710de-74d5-4483-b765-d2e12cdbe7fd status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -34913,7 +34979,7 @@
             "trend": {
                 "has_previous_day": true,
                 "win_rate_delta_pct": -40.0,
-                "total_pnl_delta": 1.53,
+                "total_pnl_delta": 29.34,
                 "trade_count_delta": -4,
                 "direction": "mixed"
             }
