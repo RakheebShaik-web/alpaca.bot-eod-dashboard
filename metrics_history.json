@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-16T16:16:22.723165+00:00",
+    "generated_at": "2026-07-16T16:22:52.737940+00:00",
     "latest_date": "2026-07-16",
     "days": [
         {
@@ -34375,36 +34375,25 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 2,
-                        "win_count": 0,
+                        "total_trades": 3,
+                        "win_count": 1,
                         "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 0.0,
-                        "loss_rate_pct": 100.0,
-                        "total_pnl": -77.98,
-                        "closed_position_pnl": -105.79,
-                        "avg_pnl_per_trade": -52.9,
-                        "avg_win": 0.0,
+                        "win_rate_pct": 33.33,
+                        "loss_rate_pct": 66.67,
+                        "total_pnl": -53.38,
+                        "closed_position_pnl": -53.38,
+                        "avg_pnl_per_trade": -17.79,
+                        "avg_win": 52.41,
                         "avg_loss": -52.9,
-                        "realized_exit_count": 3,
+                        "realized_exit_count": 4,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 27.81,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 1,
+                        "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "MA-1",
-                                "symbol": "MA",
-                                "side": "LONG",
-                                "entry_price": 544.229,
-                                "remaining": 7.0,
-                                "sl": 540.84,
-                                "tp1": 547.62,
-                                "tp2": 549.31,
-                                "last_event": "TP1_HIT"
-                            },
                             {
                                 "trade_id": "NVDA-7",
                                 "symbol": "NVDA",
@@ -34426,6 +34415,14 @@
                                 "breakeven": 0,
                                 "open_partial": 0
                             },
+                            "MA": {
+                                "trades": 1,
+                                "pnl": 52.41,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "NFLX": {
                                 "trades": 1,
                                 "pnl": -49.9,
@@ -34433,14 +34430,6 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
-                            },
-                            "MA": {
-                                "trades": 0,
-                                "pnl": 27.81,
-                                "wins": 0,
-                                "losses": 0,
-                                "breakeven": 0,
-                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -34541,15 +34530,29 @@
                                 "total_pnl": "-102.4518",
                                 "balance": "99897.55",
                                 "notes": "TP1=203.90 TP2=202.55 SL=209.30 shares=18 risk\u00e2\u2030\u02c6$48.62 signal=2026-07-16 16:15:00 atr=1.5436 atr_pct=0.7469 volume_ratio=1.2767 ema_sep_atr=0.2667 ema_slope_atr=-0.0822 alpaca_order=152838f5-86bc-45da-8419-f0ed5ebacf8e status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MA-1",
+                                "timestamp": "2026-07-16 16:21:33",
+                                "symbol": "MA",
+                                "event": "CLOSE_MANUAL",
+                                "side": "LONG",
+                                "price": "547.743",
+                                "shares": "7.0",
+                                "usd_qty": "3834.2",
+                                "pnl": "24.598",
+                                "total_pnl": "52.409",
+                                "balance": "100052.41",
+                                "notes": "broker-confirmed user-requested close alpaca_order=8ff0c4d6-6200-426f-b98c-2dc6a8026e63 status=FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -40.0,
-                        "total_pnl_delta": -20.56,
-                        "trade_count_delta": -3,
-                        "direction": "declining"
+                        "win_rate_delta_pct": -6.67,
+                        "total_pnl_delta": 4.04,
+                        "trade_count_delta": -2,
+                        "direction": "mixed"
                     }
                 },
                 "alpaca_paper": {
@@ -34761,36 +34764,25 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 2,
-                        "win_count": 0,
+                        "total_trades": 3,
+                        "win_count": 1,
                         "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 0.0,
-                        "loss_rate_pct": 100.0,
-                        "total_pnl": -77.98,
-                        "closed_position_pnl": -105.79,
-                        "avg_pnl_per_trade": -52.9,
-                        "avg_win": 0.0,
+                        "win_rate_pct": 33.33,
+                        "loss_rate_pct": 66.67,
+                        "total_pnl": -53.38,
+                        "closed_position_pnl": -53.38,
+                        "avg_pnl_per_trade": -17.79,
+                        "avg_win": 52.41,
                         "avg_loss": -52.9,
-                        "realized_exit_count": 3,
+                        "realized_exit_count": 4,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 27.81,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 1,
+                        "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "MA-1",
-                                "symbol": "MA",
-                                "side": "LONG",
-                                "entry_price": 544.229,
-                                "remaining": 7.0,
-                                "sl": 540.84,
-                                "tp1": 547.62,
-                                "tp2": 549.31,
-                                "last_event": "TP1_HIT"
-                            },
                             {
                                 "trade_id": "NVDA-7",
                                 "symbol": "NVDA",
@@ -34812,6 +34804,14 @@
                                 "breakeven": 0,
                                 "open_partial": 0
                             },
+                            "MA": {
+                                "trades": 1,
+                                "pnl": 52.41,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "NFLX": {
                                 "trades": 1,
                                 "pnl": -49.9,
@@ -34819,14 +34819,6 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
-                            },
-                            "MA": {
-                                "trades": 0,
-                                "pnl": 27.81,
-                                "wins": 0,
-                                "losses": 0,
-                                "breakeven": 0,
-                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -34927,49 +34919,52 @@
                                 "total_pnl": "-102.4518",
                                 "balance": "99897.55",
                                 "notes": "TP1=203.90 TP2=202.55 SL=209.30 shares=18 risk\u00e2\u2030\u02c6$48.62 signal=2026-07-16 16:15:00 atr=1.5436 atr_pct=0.7469 volume_ratio=1.2767 ema_sep_atr=0.2667 ema_slope_atr=-0.0822 alpaca_order=152838f5-86bc-45da-8419-f0ed5ebacf8e status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MA-1",
+                                "timestamp": "2026-07-16 16:21:33",
+                                "symbol": "MA",
+                                "event": "CLOSE_MANUAL",
+                                "side": "LONG",
+                                "price": "547.743",
+                                "shares": "7.0",
+                                "usd_qty": "3834.2",
+                                "pnl": "24.598",
+                                "total_pnl": "52.409",
+                                "balance": "100052.41",
+                                "notes": "broker-confirmed user-requested close alpaca_order=8ff0c4d6-6200-426f-b98c-2dc6a8026e63 status=FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -40.0,
-                        "total_pnl_delta": -20.56,
-                        "trade_count_delta": -3,
-                        "direction": "declining"
+                        "win_rate_delta_pct": -6.67,
+                        "total_pnl_delta": 4.04,
+                        "trade_count_delta": -2,
+                        "direction": "mixed"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 2,
-                "win_count": 0,
+                "total_trades": 3,
+                "win_count": 1,
                 "loss_count": 2,
                 "breakeven_count": 0,
-                "win_rate_pct": 0.0,
-                "loss_rate_pct": 100.0,
-                "total_pnl": -77.98,
-                "closed_position_pnl": -105.79,
-                "avg_pnl_per_trade": -52.9,
-                "avg_win": 0.0,
+                "win_rate_pct": 33.33,
+                "loss_rate_pct": 66.67,
+                "total_pnl": -53.38,
+                "closed_position_pnl": -53.38,
+                "avg_pnl_per_trade": -17.79,
+                "avg_win": 52.41,
                 "avg_loss": -52.9,
-                "realized_exit_count": 3,
+                "realized_exit_count": 4,
                 "eod_close_count": 0,
                 "tp1_hit_count": 1,
                 "tp1_realized_pnl": 27.81,
                 "tp2_hit_count": 0,
                 "tp2_realized_pnl": 0,
-                "open_partial_count": 1,
+                "open_partial_count": 0,
                 "open_positions": [
-                    {
-                        "trade_id": "MA-1",
-                        "symbol": "MA",
-                        "side": "LONG",
-                        "entry_price": 544.229,
-                        "remaining": 7.0,
-                        "sl": 540.84,
-                        "tp1": 547.62,
-                        "tp2": 549.31,
-                        "last_event": "TP1_HIT"
-                    },
                     {
                         "trade_id": "NVDA-7",
                         "symbol": "NVDA",
@@ -34991,6 +34986,14 @@
                         "breakeven": 0,
                         "open_partial": 0
                     },
+                    "MA": {
+                        "trades": 1,
+                        "pnl": 52.41,
+                        "wins": 1,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
                     "NFLX": {
                         "trades": 1,
                         "pnl": -49.9,
@@ -34998,14 +35001,6 @@
                         "losses": 1,
                         "breakeven": 0,
                         "open_partial": 0
-                    },
-                    "MA": {
-                        "trades": 0,
-                        "pnl": 27.81,
-                        "wins": 0,
-                        "losses": 0,
-                        "breakeven": 0,
-                        "open_partial": 1
                     }
                 },
                 "recent_trades": [
@@ -35106,6 +35101,20 @@
                         "total_pnl": "-102.4518",
                         "balance": "99897.55",
                         "notes": "TP1=203.90 TP2=202.55 SL=209.30 shares=18 risk\u00e2\u2030\u02c6$48.62 signal=2026-07-16 16:15:00 atr=1.5436 atr_pct=0.7469 volume_ratio=1.2767 ema_sep_atr=0.2667 ema_slope_atr=-0.0822 alpaca_order=152838f5-86bc-45da-8419-f0ed5ebacf8e status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "MA-1",
+                        "timestamp": "2026-07-16 16:21:33",
+                        "symbol": "MA",
+                        "event": "CLOSE_MANUAL",
+                        "side": "LONG",
+                        "price": "547.743",
+                        "shares": "7.0",
+                        "usd_qty": "3834.2",
+                        "pnl": "24.598",
+                        "total_pnl": "52.409",
+                        "balance": "100052.41",
+                        "notes": "broker-confirmed user-requested close alpaca_order=8ff0c4d6-6200-426f-b98c-2dc6a8026e63 status=FILLED"
                     }
                 ]
             },
@@ -35122,10 +35131,10 @@
             },
             "trend": {
                 "has_previous_day": true,
-                "win_rate_delta_pct": -40.0,
-                "total_pnl_delta": -20.56,
-                "trade_count_delta": -3,
-                "direction": "declining"
+                "win_rate_delta_pct": -6.67,
+                "total_pnl_delta": 4.04,
+                "trade_count_delta": -2,
+                "direction": "mixed"
             }
         }
     ]
