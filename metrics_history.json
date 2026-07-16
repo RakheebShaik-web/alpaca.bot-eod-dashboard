@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-16T16:22:52.737940+00:00",
+    "generated_at": "2026-07-16T16:31:18.856975+00:00",
     "latest_date": "2026-07-16",
     "days": [
         {
@@ -34563,12 +34563,12 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -84.71,
+                        "total_pnl": -69.03,
                         "closed_position_pnl": -107.74,
                         "avg_pnl_per_trade": -53.87,
                         "avg_win": 0.0,
                         "avg_loss": -53.87,
-                        "realized_exit_count": 3,
+                        "realized_exit_count": 4,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 23.03,
@@ -34581,11 +34581,11 @@
                                 "symbol": "MA",
                                 "side": "LONG",
                                 "entry_price": 544.76,
-                                "remaining": 7.0,
+                                "remaining": 0.0,
                                 "sl": 541.37,
                                 "tp1": 548.15,
                                 "tp2": 549.84,
-                                "last_event": "TP1_HIT"
+                                "last_event": "CLOSE_MANUAL"
                             },
                             {
                                 "trade_id": "ASTS-1",
@@ -34596,6 +34596,17 @@
                                 "sl": 58.1,
                                 "tp1": 53.82,
                                 "tp2": 52.75,
+                                "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "AMD-2",
+                                "symbol": "AMD",
+                                "side": "SHORT",
+                                "entry_price": 499.5375,
+                                "remaining": 4.0,
+                                "sl": 510.55,
+                                "tp1": 488.52,
+                                "tp2": 483.02,
                                 "last_event": "ENTRY_SHORT"
                             }
                         ],
@@ -34618,7 +34629,7 @@
                             },
                             "MA": {
                                 "trades": 0,
-                                "pnl": 23.03,
+                                "pnl": 38.71,
                                 "wins": 0,
                                 "losses": 0,
                                 "breakeven": 0,
@@ -34723,13 +34734,41 @@
                                 "total_pnl": "0.0",
                                 "balance": "100000.0",
                                 "notes": "TP1=53.82 TP2=52.75 SL=58.10 shares=23 risk\u00e2\u2030\u02c6$49.23 signal=2026-07-16 15:15:00 atr=1.2232 atr_pct=2.1828 volume_ratio=1.0966 ema_sep_atr=2.6590 ema_slope_atr=-0.5208 alpaca_order=d16d69e6-7c62-4f84-96f2-91afd7adc04f status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MA-1",
+                                "timestamp": "2026-07-16 16:27:49",
+                                "symbol": "MA",
+                                "event": "CLOSE_MANUAL",
+                                "side": "LONG",
+                                "price": "547.0",
+                                "shares": "7.0",
+                                "usd_qty": "3829.0",
+                                "pnl": "15.68",
+                                "total_pnl": "38.71",
+                                "balance": "100038.71",
+                                "notes": "broker-confirmed user-requested close alpaca_order=6d5dab2f-fc94-47e8-84e8-1460a4c811b4 status=FILLED"
+                            },
+                            {
+                                "trade_id": "AMD-2",
+                                "timestamp": "2026-07-16 16:31:11",
+                                "symbol": "AMD",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "499.5375",
+                                "shares": "4.0",
+                                "usd_qty": "1998.15",
+                                "pnl": "0.0",
+                                "total_pnl": "-50.88",
+                                "balance": "99949.12",
+                                "notes": "TP1=488.52 TP2=483.02 SL=510.55 shares=4 risk\u00e2\u2030\u02c6$44.05 signal=2026-07-16 16:30:00 atr=6.2932 atr_pct=1.2571 volume_ratio=1.1569 ema_sep_atr=1.7117 ema_slope_atr=-0.2004 alpaca_order=5e230325-32f9-45e8-afb3-cf2480486249 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -42.86,
-                        "total_pnl_delta": 1.14,
+                        "total_pnl_delta": 16.82,
                         "trade_count_delta": -5,
                         "direction": "mixed"
                     }
