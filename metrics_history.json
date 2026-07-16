@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-16T16:43:37.022736+00:00",
+    "generated_at": "2026-07-16T16:47:00.907054+00:00",
     "latest_date": "2026-07-16",
     "days": [
         {
@@ -34404,6 +34404,17 @@
                                 "tp1": 203.9,
                                 "tp2": 202.55,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "MA-2",
+                                "symbol": "MA",
+                                "side": "LONG",
+                                "entry_price": 546.98,
+                                "remaining": 13.0,
+                                "sl": 543.23,
+                                "tp1": 550.73,
+                                "tp2": 552.61,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -34544,6 +34555,20 @@
                                 "total_pnl": "52.409",
                                 "balance": "100052.41",
                                 "notes": "broker-confirmed user-requested close alpaca_order=8ff0c4d6-6200-426f-b98c-2dc6a8026e63 status=FILLED"
+                            },
+                            {
+                                "trade_id": "MA-2",
+                                "timestamp": "2026-07-16 16:47:00",
+                                "symbol": "MA",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "546.98",
+                                "shares": "13.0",
+                                "usd_qty": "7110.74",
+                                "pnl": "0.0",
+                                "total_pnl": "52.409",
+                                "balance": "100052.41",
+                                "notes": "TP1=550.73 TP2=552.61 SL=543.23 shares=13 risk\u00e2\u2030\u02c6$48.81 signal=2026-07-16 16:45:00 atr=2.1454 atr_pct=0.3920 volume_ratio=1.4425 ema_sep_atr=1.5141 ema_slope_atr=0.1612 alpaca_order=e9b827ad-6236-4a11-abd4-ff8931a98ffb status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -34821,6 +34846,17 @@
                                 "tp1": 203.9,
                                 "tp2": 202.55,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "MA-2",
+                                "symbol": "MA",
+                                "side": "LONG",
+                                "entry_price": 546.98,
+                                "remaining": 13.0,
+                                "sl": 543.23,
+                                "tp1": 550.73,
+                                "tp2": 552.61,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -34961,6 +34997,20 @@
                                 "total_pnl": "52.409",
                                 "balance": "100052.41",
                                 "notes": "broker-confirmed user-requested close alpaca_order=8ff0c4d6-6200-426f-b98c-2dc6a8026e63 status=FILLED"
+                            },
+                            {
+                                "trade_id": "MA-2",
+                                "timestamp": "2026-07-16 16:47:00",
+                                "symbol": "MA",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "546.98",
+                                "shares": "13.0",
+                                "usd_qty": "7110.74",
+                                "pnl": "0.0",
+                                "total_pnl": "52.409",
+                                "balance": "100052.41",
+                                "notes": "TP1=550.73 TP2=552.61 SL=543.23 shares=13 risk\u00e2\u2030\u02c6$48.81 signal=2026-07-16 16:45:00 atr=2.1454 atr_pct=0.3920 volume_ratio=1.4425 ema_sep_atr=1.5141 ema_slope_atr=0.1612 alpaca_order=e9b827ad-6236-4a11-abd4-ff8931a98ffb status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -35003,6 +35053,17 @@
                         "tp1": 203.9,
                         "tp2": 202.55,
                         "last_event": "ENTRY_SHORT"
+                    },
+                    {
+                        "trade_id": "MA-2",
+                        "symbol": "MA",
+                        "side": "LONG",
+                        "entry_price": 546.98,
+                        "remaining": 13.0,
+                        "sl": 543.23,
+                        "tp1": 550.73,
+                        "tp2": 552.61,
+                        "last_event": "ENTRY_LONG"
                     }
                 ],
                 "by_symbol": {
@@ -35143,6 +35204,20 @@
                         "total_pnl": "52.409",
                         "balance": "100052.41",
                         "notes": "broker-confirmed user-requested close alpaca_order=8ff0c4d6-6200-426f-b98c-2dc6a8026e63 status=FILLED"
+                    },
+                    {
+                        "trade_id": "MA-2",
+                        "timestamp": "2026-07-16 16:47:00",
+                        "symbol": "MA",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "546.98",
+                        "shares": "13.0",
+                        "usd_qty": "7110.74",
+                        "pnl": "0.0",
+                        "total_pnl": "52.409",
+                        "balance": "100052.41",
+                        "notes": "TP1=550.73 TP2=552.61 SL=543.23 shares=13 risk\u00e2\u2030\u02c6$48.81 signal=2026-07-16 16:45:00 atr=2.1454 atr_pct=0.3920 volume_ratio=1.4425 ema_sep_atr=1.5141 ema_slope_atr=0.1612 alpaca_order=e9b827ad-6236-4a11-abd4-ff8931a98ffb status=OrderStatus.FILLED"
                     }
                 ]
             },
