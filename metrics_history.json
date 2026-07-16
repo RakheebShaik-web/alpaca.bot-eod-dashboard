@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-16T14:14:55.350734+00:00",
+    "generated_at": "2026-07-16T14:16:22.114812+00:00",
     "latest_date": "2026-07-16",
     "days": [
         {
@@ -34500,6 +34500,17 @@
                                 "tp1": 548.15,
                                 "tp2": 549.84,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "NFLX-1",
+                                "symbol": "NFLX",
+                                "side": "SHORT",
+                                "entry_price": 73.1,
+                                "remaining": 78.0,
+                                "sl": 73.74,
+                                "tp1": 72.46,
+                                "tp2": 72.15,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -34554,6 +34565,20 @@
                                 "total_pnl": "-57.82",
                                 "balance": "99942.18",
                                 "notes": "entry=146.30 exit=145.45 alpaca_order=76e20ea7-9756-4d83-a03e-b17649a5ba13 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NFLX-1",
+                                "timestamp": "2026-07-16 14:16:16",
+                                "symbol": "NFLX",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "73.1",
+                                "shares": "78.0",
+                                "usd_qty": "5701.8",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=72.46 TP2=72.15 SL=73.74 shares=78 risk\u00e2\u2030\u02c6$49.63 signal=2026-07-16 14:15:00 atr=0.3636 atr_pct=0.4976 volume_ratio=1.2378 ema_sep_atr=0.4591 ema_slope_atr=-0.1184 alpaca_order=e85a60c1-195e-4273-a059-14c615d37654 status=OrderStatus.FILLED"
                             }
                         ]
                     },
