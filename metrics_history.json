@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-16T16:47:00.907054+00:00",
+    "generated_at": "2026-07-16T17:01:00.908173+00:00",
     "latest_date": "2026-07-16",
     "days": [
         {
@@ -34375,18 +34375,18 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 3,
-                        "win_count": 1,
+                        "total_trades": 4,
+                        "win_count": 2,
                         "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 33.33,
-                        "loss_rate_pct": 66.67,
-                        "total_pnl": -53.38,
-                        "closed_position_pnl": -53.38,
-                        "avg_pnl_per_trade": -17.79,
-                        "avg_win": 52.41,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": -48.37,
+                        "closed_position_pnl": -48.37,
+                        "avg_pnl_per_trade": -12.09,
+                        "avg_win": 28.71,
                         "avg_loss": -52.9,
-                        "realized_exit_count": 4,
+                        "realized_exit_count": 5,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 27.81,
@@ -34406,14 +34406,14 @@
                                 "last_event": "ENTRY_SHORT"
                             },
                             {
-                                "trade_id": "MA-2",
-                                "symbol": "MA",
+                                "trade_id": "MSFT-7",
+                                "symbol": "MSFT",
                                 "side": "LONG",
-                                "entry_price": 546.98,
+                                "entry_price": 403.0738,
                                 "remaining": 13.0,
-                                "sl": 543.23,
-                                "tp1": 550.73,
-                                "tp2": 552.61,
+                                "sl": 399.3,
+                                "tp1": 406.85,
+                                "tp2": 408.74,
                                 "last_event": "ENTRY_LONG"
                             }
                         ],
@@ -34427,9 +34427,9 @@
                                 "open_partial": 0
                             },
                             "MA": {
-                                "trades": 1,
-                                "pnl": 52.41,
-                                "wins": 1,
+                                "trades": 2,
+                                "pnl": 57.42,
+                                "wins": 2,
                                 "losses": 0,
                                 "breakeven": 0,
                                 "open_partial": 0
@@ -34569,15 +34569,43 @@
                                 "total_pnl": "52.409",
                                 "balance": "100052.41",
                                 "notes": "TP1=550.73 TP2=552.61 SL=543.23 shares=13 risk\u00e2\u2030\u02c6$48.81 signal=2026-07-16 16:45:00 atr=2.1454 atr_pct=0.3920 volume_ratio=1.4425 ema_sep_atr=1.5141 ema_slope_atr=0.1612 alpaca_order=e9b827ad-6236-4a11-abd4-ff8931a98ffb status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MA-2",
+                                "timestamp": "2026-07-16 16:50:24",
+                                "symbol": "MA",
+                                "event": "CLOSE_MANUAL",
+                                "side": "LONG",
+                                "price": "547.3656",
+                                "shares": "13.0",
+                                "usd_qty": "7115.75",
+                                "pnl": "5.0128",
+                                "total_pnl": "57.4218",
+                                "balance": "100057.42",
+                                "notes": "broker-confirmed user-requested close alpaca_order=1e883d5c-39cc-4007-a524-b6ef61f34b03 status=FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-7",
+                                "timestamp": "2026-07-16 17:01:00",
+                                "symbol": "MSFT",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "403.0738",
+                                "shares": "13.0",
+                                "usd_qty": "5239.96",
+                                "pnl": "0.0",
+                                "total_pnl": "-111.395",
+                                "balance": "99888.6",
+                                "notes": "TP1=406.85 TP2=408.74 SL=399.30 shares=13 risk\u00e2\u2030\u02c6$49.08 signal=2026-07-16 17:00:00 atr=2.1571 atr_pct=0.5352 volume_ratio=1.1539 ema_sep_atr=1.4154 ema_slope_atr=0.1994 alpaca_order=5cc2720b-681a-4c38-9a4d-ce6b9090c7c1 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -6.67,
-                        "total_pnl_delta": 4.04,
-                        "trade_count_delta": -2,
-                        "direction": "mixed"
+                        "win_rate_delta_pct": 10.0,
+                        "total_pnl_delta": 9.05,
+                        "trade_count_delta": -1,
+                        "direction": "improving"
                     }
                 },
                 "alpaca_paper": {
@@ -34817,18 +34845,18 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 3,
-                        "win_count": 1,
+                        "total_trades": 4,
+                        "win_count": 2,
                         "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 33.33,
-                        "loss_rate_pct": 66.67,
-                        "total_pnl": -53.38,
-                        "closed_position_pnl": -53.38,
-                        "avg_pnl_per_trade": -17.79,
-                        "avg_win": 52.41,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": -48.37,
+                        "closed_position_pnl": -48.37,
+                        "avg_pnl_per_trade": -12.09,
+                        "avg_win": 28.71,
                         "avg_loss": -52.9,
-                        "realized_exit_count": 4,
+                        "realized_exit_count": 5,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 27.81,
@@ -34848,14 +34876,14 @@
                                 "last_event": "ENTRY_SHORT"
                             },
                             {
-                                "trade_id": "MA-2",
-                                "symbol": "MA",
+                                "trade_id": "MSFT-7",
+                                "symbol": "MSFT",
                                 "side": "LONG",
-                                "entry_price": 546.98,
+                                "entry_price": 403.0738,
                                 "remaining": 13.0,
-                                "sl": 543.23,
-                                "tp1": 550.73,
-                                "tp2": 552.61,
+                                "sl": 399.3,
+                                "tp1": 406.85,
+                                "tp2": 408.74,
                                 "last_event": "ENTRY_LONG"
                             }
                         ],
@@ -34869,9 +34897,9 @@
                                 "open_partial": 0
                             },
                             "MA": {
-                                "trades": 1,
-                                "pnl": 52.41,
-                                "wins": 1,
+                                "trades": 2,
+                                "pnl": 57.42,
+                                "wins": 2,
                                 "losses": 0,
                                 "breakeven": 0,
                                 "open_partial": 0
@@ -35011,31 +35039,59 @@
                                 "total_pnl": "52.409",
                                 "balance": "100052.41",
                                 "notes": "TP1=550.73 TP2=552.61 SL=543.23 shares=13 risk\u00e2\u2030\u02c6$48.81 signal=2026-07-16 16:45:00 atr=2.1454 atr_pct=0.3920 volume_ratio=1.4425 ema_sep_atr=1.5141 ema_slope_atr=0.1612 alpaca_order=e9b827ad-6236-4a11-abd4-ff8931a98ffb status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MA-2",
+                                "timestamp": "2026-07-16 16:50:24",
+                                "symbol": "MA",
+                                "event": "CLOSE_MANUAL",
+                                "side": "LONG",
+                                "price": "547.3656",
+                                "shares": "13.0",
+                                "usd_qty": "7115.75",
+                                "pnl": "5.0128",
+                                "total_pnl": "57.4218",
+                                "balance": "100057.42",
+                                "notes": "broker-confirmed user-requested close alpaca_order=1e883d5c-39cc-4007-a524-b6ef61f34b03 status=FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-7",
+                                "timestamp": "2026-07-16 17:01:00",
+                                "symbol": "MSFT",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "403.0738",
+                                "shares": "13.0",
+                                "usd_qty": "5239.96",
+                                "pnl": "0.0",
+                                "total_pnl": "-111.395",
+                                "balance": "99888.6",
+                                "notes": "TP1=406.85 TP2=408.74 SL=399.30 shares=13 risk\u00e2\u2030\u02c6$49.08 signal=2026-07-16 17:00:00 atr=2.1571 atr_pct=0.5352 volume_ratio=1.1539 ema_sep_atr=1.4154 ema_slope_atr=0.1994 alpaca_order=5cc2720b-681a-4c38-9a4d-ce6b9090c7c1 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -6.67,
-                        "total_pnl_delta": 4.04,
-                        "trade_count_delta": -2,
-                        "direction": "mixed"
+                        "win_rate_delta_pct": 10.0,
+                        "total_pnl_delta": 9.05,
+                        "trade_count_delta": -1,
+                        "direction": "improving"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 3,
-                "win_count": 1,
+                "total_trades": 4,
+                "win_count": 2,
                 "loss_count": 2,
                 "breakeven_count": 0,
-                "win_rate_pct": 33.33,
-                "loss_rate_pct": 66.67,
-                "total_pnl": -53.38,
-                "closed_position_pnl": -53.38,
-                "avg_pnl_per_trade": -17.79,
-                "avg_win": 52.41,
+                "win_rate_pct": 50.0,
+                "loss_rate_pct": 50.0,
+                "total_pnl": -48.37,
+                "closed_position_pnl": -48.37,
+                "avg_pnl_per_trade": -12.09,
+                "avg_win": 28.71,
                 "avg_loss": -52.9,
-                "realized_exit_count": 4,
+                "realized_exit_count": 5,
                 "eod_close_count": 0,
                 "tp1_hit_count": 1,
                 "tp1_realized_pnl": 27.81,
@@ -35055,14 +35111,14 @@
                         "last_event": "ENTRY_SHORT"
                     },
                     {
-                        "trade_id": "MA-2",
-                        "symbol": "MA",
+                        "trade_id": "MSFT-7",
+                        "symbol": "MSFT",
                         "side": "LONG",
-                        "entry_price": 546.98,
+                        "entry_price": 403.0738,
                         "remaining": 13.0,
-                        "sl": 543.23,
-                        "tp1": 550.73,
-                        "tp2": 552.61,
+                        "sl": 399.3,
+                        "tp1": 406.85,
+                        "tp2": 408.74,
                         "last_event": "ENTRY_LONG"
                     }
                 ],
@@ -35076,9 +35132,9 @@
                         "open_partial": 0
                     },
                     "MA": {
-                        "trades": 1,
-                        "pnl": 52.41,
-                        "wins": 1,
+                        "trades": 2,
+                        "pnl": 57.42,
+                        "wins": 2,
                         "losses": 0,
                         "breakeven": 0,
                         "open_partial": 0
@@ -35218,6 +35274,34 @@
                         "total_pnl": "52.409",
                         "balance": "100052.41",
                         "notes": "TP1=550.73 TP2=552.61 SL=543.23 shares=13 risk\u00e2\u2030\u02c6$48.81 signal=2026-07-16 16:45:00 atr=2.1454 atr_pct=0.3920 volume_ratio=1.4425 ema_sep_atr=1.5141 ema_slope_atr=0.1612 alpaca_order=e9b827ad-6236-4a11-abd4-ff8931a98ffb status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "MA-2",
+                        "timestamp": "2026-07-16 16:50:24",
+                        "symbol": "MA",
+                        "event": "CLOSE_MANUAL",
+                        "side": "LONG",
+                        "price": "547.3656",
+                        "shares": "13.0",
+                        "usd_qty": "7115.75",
+                        "pnl": "5.0128",
+                        "total_pnl": "57.4218",
+                        "balance": "100057.42",
+                        "notes": "broker-confirmed user-requested close alpaca_order=1e883d5c-39cc-4007-a524-b6ef61f34b03 status=FILLED"
+                    },
+                    {
+                        "trade_id": "MSFT-7",
+                        "timestamp": "2026-07-16 17:01:00",
+                        "symbol": "MSFT",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "403.0738",
+                        "shares": "13.0",
+                        "usd_qty": "5239.96",
+                        "pnl": "0.0",
+                        "total_pnl": "-111.395",
+                        "balance": "99888.6",
+                        "notes": "TP1=406.85 TP2=408.74 SL=399.30 shares=13 risk\u00e2\u2030\u02c6$49.08 signal=2026-07-16 17:00:00 atr=2.1571 atr_pct=0.5352 volume_ratio=1.1539 ema_sep_atr=1.4154 ema_slope_atr=0.1994 alpaca_order=5cc2720b-681a-4c38-9a4d-ce6b9090c7c1 status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -35234,10 +35318,10 @@
             },
             "trend": {
                 "has_previous_day": true,
-                "win_rate_delta_pct": -6.67,
-                "total_pnl_delta": 4.04,
-                "trade_count_delta": -2,
-                "direction": "mixed"
+                "win_rate_delta_pct": 10.0,
+                "total_pnl_delta": 9.05,
+                "trade_count_delta": -1,
+                "direction": "improving"
             }
         }
     ]
