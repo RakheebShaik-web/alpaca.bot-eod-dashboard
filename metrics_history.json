@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-16T13:59:55.421300+00:00",
+    "generated_at": "2026-07-16T14:02:43.388913+00:00",
     "latest_date": "2026-07-16",
     "days": [
         {
@@ -34459,18 +34459,18 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 0,
+                        "total_trades": 1,
                         "win_count": 0,
-                        "loss_count": 0,
+                        "loss_count": 1,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
-                        "closed_position_pnl": 0,
-                        "avg_pnl_per_trade": 0.0,
+                        "loss_rate_pct": 100.0,
+                        "total_pnl": -57.82,
+                        "closed_position_pnl": -57.82,
+                        "avg_pnl_per_trade": -57.82,
                         "avg_win": 0.0,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "avg_loss": -57.82,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
                         "tp1_hit_count": 0,
                         "tp1_realized_pnl": 0,
@@ -34478,17 +34478,6 @@
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "XOM-1",
-                                "symbol": "XOM",
-                                "side": "LONG",
-                                "entry_price": 146.3,
-                                "remaining": 68.0,
-                                "sl": 145.57,
-                                "tp1": 147.03,
-                                "tp2": 147.39,
-                                "last_event": "ENTRY_LONG"
-                            },
                             {
                                 "trade_id": "MA-1",
                                 "symbol": "MA",
@@ -34501,7 +34490,16 @@
                                 "last_event": "ENTRY_LONG"
                             }
                         ],
-                        "by_symbol": {},
+                        "by_symbol": {
+                            "XOM": {
+                                "trades": 1,
+                                "pnl": -57.82,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "XOM-1",
@@ -34530,14 +34528,28 @@
                                 "total_pnl": "0.0",
                                 "balance": "100000.0",
                                 "notes": "TP1=548.15 TP2=549.84 SL=541.37 shares=14 risk\u00e2\u2030\u02c6$47.45 signal=2026-07-16 13:45:00 atr=1.9368 atr_pct=0.3559 volume_ratio=1.3970 ema_sep_atr=0.1535 ema_slope_atr=0.0513 alpaca_order=e864c94c-fe0c-41c0-8859-5677613e5daa status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "XOM-1",
+                                "timestamp": "2026-07-16 14:02:36",
+                                "symbol": "XOM",
+                                "event": "SL_HIT",
+                                "side": "LONG",
+                                "price": "145.4497",
+                                "shares": "68.0",
+                                "usd_qty": "9890.58",
+                                "pnl": "-57.82",
+                                "total_pnl": "-57.82",
+                                "balance": "99942.18",
+                                "notes": "entry=146.30 exit=145.45 alpaca_order=76e20ea7-9756-4d83-a03e-b17649a5ba13 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -42.86,
-                        "total_pnl_delta": 85.85,
-                        "trade_count_delta": -7,
+                        "total_pnl_delta": 28.03,
+                        "trade_count_delta": -6,
                         "direction": "mixed"
                     }
                 },
