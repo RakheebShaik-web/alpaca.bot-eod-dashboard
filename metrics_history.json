@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-16T13:46:33.157395+00:00",
+    "generated_at": "2026-07-16T13:49:55.521292+00:00",
     "latest_date": "2026-07-16",
     "days": [
         {
@@ -34393,9 +34393,61 @@
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
-                        "open_positions": [],
+                        "open_positions": [
+                            {
+                                "trade_id": "XOM-2",
+                                "symbol": "XOM",
+                                "side": "LONG",
+                                "entry_price": 146.271,
+                                "remaining": 68.0,
+                                "sl": 145.54,
+                                "tp1": 147.0,
+                                "tp2": 147.36,
+                                "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "MA-1",
+                                "symbol": "MA",
+                                "side": "LONG",
+                                "entry_price": 544.229,
+                                "remaining": 14.0,
+                                "sl": 540.84,
+                                "tp1": 547.62,
+                                "tp2": 549.31,
+                                "last_event": "ENTRY_LONG"
+                            }
+                        ],
                         "by_symbol": {},
-                        "recent_trades": []
+                        "recent_trades": [
+                            {
+                                "trade_id": "XOM-2",
+                                "timestamp": "2026-07-16 13:45:28",
+                                "symbol": "XOM",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "146.271",
+                                "shares": "68.0",
+                                "usd_qty": "9946.43",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=147.00 TP2=147.36 SL=145.54 shares=68 risk\u00e2\u2030\u02c6$49.38 signal=2026-07-16 13:45:00 atr=0.4150 atr_pct=0.2839 volume_ratio=1.0023 ema_sep_atr=0.5042 ema_slope_atr=0.3003 alpaca_order=8ae7d99b-0406-40e4-a475-2d491471c94e status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MA-1",
+                                "timestamp": "2026-07-16 13:45:54",
+                                "symbol": "MA",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "544.229",
+                                "shares": "14.0",
+                                "usd_qty": "7619.21",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=547.62 TP2=549.31 SL=540.84 shares=14 risk\u00e2\u2030\u02c6$47.45 signal=2026-07-16 13:45:00 atr=1.9368 atr_pct=0.3559 volume_ratio=1.3970 ema_sep_atr=0.1535 ema_slope_atr=0.0513 alpaca_order=2613cc87-6b0c-4d38-aa12-707d51da4707 status=OrderStatus.FILLED"
+                            }
+                        ]
                     },
                     "trend": {
                         "has_previous_day": true,
@@ -34537,9 +34589,61 @@
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
-                        "open_positions": [],
+                        "open_positions": [
+                            {
+                                "trade_id": "XOM-2",
+                                "symbol": "XOM",
+                                "side": "LONG",
+                                "entry_price": 146.271,
+                                "remaining": 68.0,
+                                "sl": 145.54,
+                                "tp1": 147.0,
+                                "tp2": 147.36,
+                                "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "MA-1",
+                                "symbol": "MA",
+                                "side": "LONG",
+                                "entry_price": 544.229,
+                                "remaining": 14.0,
+                                "sl": 540.84,
+                                "tp1": 547.62,
+                                "tp2": 549.31,
+                                "last_event": "ENTRY_LONG"
+                            }
+                        ],
                         "by_symbol": {},
-                        "recent_trades": []
+                        "recent_trades": [
+                            {
+                                "trade_id": "XOM-2",
+                                "timestamp": "2026-07-16 13:45:28",
+                                "symbol": "XOM",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "146.271",
+                                "shares": "68.0",
+                                "usd_qty": "9946.43",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=147.00 TP2=147.36 SL=145.54 shares=68 risk\u00e2\u2030\u02c6$49.38 signal=2026-07-16 13:45:00 atr=0.4150 atr_pct=0.2839 volume_ratio=1.0023 ema_sep_atr=0.5042 ema_slope_atr=0.3003 alpaca_order=8ae7d99b-0406-40e4-a475-2d491471c94e status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MA-1",
+                                "timestamp": "2026-07-16 13:45:54",
+                                "symbol": "MA",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "544.229",
+                                "shares": "14.0",
+                                "usd_qty": "7619.21",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=547.62 TP2=549.31 SL=540.84 shares=14 risk\u00e2\u2030\u02c6$47.45 signal=2026-07-16 13:45:00 atr=1.9368 atr_pct=0.3559 volume_ratio=1.3970 ema_sep_atr=0.1535 ema_slope_atr=0.0513 alpaca_order=2613cc87-6b0c-4d38-aa12-707d51da4707 status=OrderStatus.FILLED"
+                            }
+                        ]
                     },
                     "trend": {
                         "has_previous_day": true,
@@ -34569,9 +34673,61 @@
                 "tp2_hit_count": 0,
                 "tp2_realized_pnl": 0,
                 "open_partial_count": 0,
-                "open_positions": [],
+                "open_positions": [
+                    {
+                        "trade_id": "XOM-2",
+                        "symbol": "XOM",
+                        "side": "LONG",
+                        "entry_price": 146.271,
+                        "remaining": 68.0,
+                        "sl": 145.54,
+                        "tp1": 147.0,
+                        "tp2": 147.36,
+                        "last_event": "ENTRY_LONG"
+                    },
+                    {
+                        "trade_id": "MA-1",
+                        "symbol": "MA",
+                        "side": "LONG",
+                        "entry_price": 544.229,
+                        "remaining": 14.0,
+                        "sl": 540.84,
+                        "tp1": 547.62,
+                        "tp2": 549.31,
+                        "last_event": "ENTRY_LONG"
+                    }
+                ],
                 "by_symbol": {},
-                "recent_trades": []
+                "recent_trades": [
+                    {
+                        "trade_id": "XOM-2",
+                        "timestamp": "2026-07-16 13:45:28",
+                        "symbol": "XOM",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "146.271",
+                        "shares": "68.0",
+                        "usd_qty": "9946.43",
+                        "pnl": "0.0",
+                        "total_pnl": "0.0",
+                        "balance": "100000.0",
+                        "notes": "TP1=147.00 TP2=147.36 SL=145.54 shares=68 risk\u00e2\u2030\u02c6$49.38 signal=2026-07-16 13:45:00 atr=0.4150 atr_pct=0.2839 volume_ratio=1.0023 ema_sep_atr=0.5042 ema_slope_atr=0.3003 alpaca_order=8ae7d99b-0406-40e4-a475-2d491471c94e status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "MA-1",
+                        "timestamp": "2026-07-16 13:45:54",
+                        "symbol": "MA",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "544.229",
+                        "shares": "14.0",
+                        "usd_qty": "7619.21",
+                        "pnl": "0.0",
+                        "total_pnl": "0.0",
+                        "balance": "100000.0",
+                        "notes": "TP1=547.62 TP2=549.31 SL=540.84 shares=14 risk\u00e2\u2030\u02c6$47.45 signal=2026-07-16 13:45:00 atr=1.9368 atr_pct=0.3559 volume_ratio=1.3970 ema_sep_atr=0.1535 ema_slope_atr=0.0513 alpaca_order=2613cc87-6b0c-4d38-aa12-707d51da4707 status=OrderStatus.FILLED"
+                    }
+                ]
             },
             "signal_metrics": {
                 "risk_rejected_count": 0,
