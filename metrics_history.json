@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-16T16:39:38.544056+00:00",
+    "generated_at": "2026-07-16T16:43:37.022736+00:00",
     "latest_date": "2026-07-16",
     "days": [
         {
@@ -34557,16 +34557,16 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 2,
-                        "win_count": 0,
+                        "total_trades": 3,
+                        "win_count": 1,
                         "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 0.0,
-                        "loss_rate_pct": 100.0,
+                        "win_rate_pct": 33.33,
+                        "loss_rate_pct": 66.67,
                         "total_pnl": -69.03,
-                        "closed_position_pnl": -107.74,
-                        "avg_pnl_per_trade": -53.87,
-                        "avg_win": 0.0,
+                        "closed_position_pnl": -69.03,
+                        "avg_pnl_per_trade": -23.01,
+                        "avg_win": 38.71,
                         "avg_loss": -53.87,
                         "realized_exit_count": 4,
                         "eod_close_count": 0,
@@ -34574,19 +34574,8 @@
                         "tp1_realized_pnl": 23.03,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 1,
+                        "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "MA-1",
-                                "symbol": "MA",
-                                "side": "LONG",
-                                "entry_price": 544.76,
-                                "remaining": 0.0,
-                                "sl": 541.37,
-                                "tp1": 548.15,
-                                "tp2": 549.84,
-                                "last_event": "CLOSE_MANUAL"
-                            },
                             {
                                 "trade_id": "ASTS-1",
                                 "symbol": "ASTS",
@@ -34619,6 +34608,14 @@
                                 "breakeven": 0,
                                 "open_partial": 0
                             },
+                            "MA": {
+                                "trades": 1,
+                                "pnl": 38.71,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "NFLX": {
                                 "trades": 1,
                                 "pnl": -49.92,
@@ -34626,14 +34623,6 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
-                            },
-                            "MA": {
-                                "trades": 0,
-                                "pnl": 38.71,
-                                "wins": 0,
-                                "losses": 0,
-                                "breakeven": 0,
-                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -34767,9 +34756,9 @@
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -42.86,
+                        "win_rate_delta_pct": -9.53,
                         "total_pnl_delta": 16.82,
-                        "trade_count_delta": -5,
+                        "trade_count_delta": -4,
                         "direction": "mixed"
                     }
                 },
