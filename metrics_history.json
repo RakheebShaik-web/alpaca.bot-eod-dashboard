@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-16T19:51:12.769904+00:00",
+    "generated_at": "2026-07-16T19:52:13.526266+00:00",
     "latest_date": "2026-07-16",
     "days": [
         {
@@ -34621,37 +34621,25 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 4,
-                        "win_count": 2,
+                        "total_trades": 5,
+                        "win_count": 3,
                         "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 50.0,
-                        "loss_rate_pct": 50.0,
-                        "total_pnl": -27.87,
-                        "closed_position_pnl": -27.87,
-                        "avg_pnl_per_trade": -6.97,
-                        "avg_win": 39.94,
+                        "win_rate_pct": 60.0,
+                        "loss_rate_pct": 40.0,
+                        "total_pnl": -18.24,
+                        "closed_position_pnl": -18.24,
+                        "avg_pnl_per_trade": -3.65,
+                        "avg_win": 29.83,
                         "avg_loss": -53.87,
-                        "realized_exit_count": 6,
-                        "eod_close_count": 1,
+                        "realized_exit_count": 7,
+                        "eod_close_count": 2,
                         "tp1_hit_count": 2,
                         "tp1_realized_pnl": 48.35,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "AMD-2",
-                                "symbol": "AMD",
-                                "side": "SHORT",
-                                "entry_price": 499.5375,
-                                "remaining": 4.0,
-                                "sl": 510.55,
-                                "tp1": 488.52,
-                                "tp2": 483.02,
-                                "last_event": "ENTRY_SHORT"
-                            }
-                        ],
+                        "open_positions": [],
                         "by_symbol": {
                             "XOM": {
                                 "trades": 1,
@@ -34680,6 +34668,14 @@
                             "ASTS": {
                                 "trades": 1,
                                 "pnl": 41.16,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "AMD": {
+                                "trades": 1,
+                                "pnl": 9.63,
                                 "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
@@ -34840,14 +34836,28 @@
                                 "total_pnl": "41.16",
                                 "balance": "100041.16",
                                 "notes": "entry=55.96 exit=54.52 alpaca_order=34caa836-02bc-4e4a-93a5-173fc97e6532 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMD-2",
+                                "timestamp": "2026-07-16 19:51:29",
+                                "symbol": "AMD",
+                                "event": "CLOSE_EOD",
+                                "side": "SHORT",
+                                "price": "497.13",
+                                "shares": "4.0",
+                                "usd_qty": "1988.52",
+                                "pnl": "9.63",
+                                "total_pnl": "-41.25",
+                                "balance": "99958.75",
+                                "notes": "entry=499.54 exit=497.13 alpaca_order=aff825a0-75b0-4909-9733-6372515a3f1a status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 7.14,
-                        "total_pnl_delta": 57.98,
-                        "trade_count_delta": -3,
+                        "win_rate_delta_pct": 17.14,
+                        "total_pnl_delta": 67.61,
+                        "trade_count_delta": -2,
                         "direction": "improving"
                     }
                 },
