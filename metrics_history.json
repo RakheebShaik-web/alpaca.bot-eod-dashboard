@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-16T15:14:01.302364+00:00",
+    "generated_at": "2026-07-16T15:16:02.436090+00:00",
     "latest_date": "2026-07-16",
     "days": [
         {
@@ -34547,6 +34547,17 @@
                                 "tp1": 548.15,
                                 "tp2": 549.84,
                                 "last_event": "TP1_HIT"
+                            },
+                            {
+                                "trade_id": "ASTS-1",
+                                "symbol": "ASTS",
+                                "side": "SHORT",
+                                "entry_price": 55.96,
+                                "remaining": 23.0,
+                                "sl": 58.1,
+                                "tp1": 53.82,
+                                "tp2": 52.75,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -34659,6 +34670,20 @@
                                 "total_pnl": "-49.92",
                                 "balance": "99950.08",
                                 "notes": "entry=73.10 exit=73.74 alpaca_order=96c6d190-2b2c-450c-b872-cf139aa8c8fd status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "ASTS-1",
+                                "timestamp": "2026-07-16 15:15:55",
+                                "symbol": "ASTS",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "55.96",
+                                "shares": "23.0",
+                                "usd_qty": "1287.08",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=53.82 TP2=52.75 SL=58.10 shares=23 risk\u00e2\u2030\u02c6$49.23 signal=2026-07-16 15:15:00 atr=1.2232 atr_pct=2.1828 volume_ratio=1.0966 ema_sep_atr=2.6590 ema_slope_atr=-0.5208 alpaca_order=d16d69e6-7c62-4f84-96f2-91afd7adc04f status=OrderStatus.FILLED"
                             }
                         ]
                     },
