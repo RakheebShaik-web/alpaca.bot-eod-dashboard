@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-16T13:45:33.799950+00:00",
+    "generated_at": "2026-07-16T13:46:33.157395+00:00",
     "latest_date": "2026-07-16",
     "days": [
         {
@@ -34436,6 +34436,17 @@
                                 "tp1": 147.03,
                                 "tp2": 147.39,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "MA-1",
+                                "symbol": "MA",
+                                "side": "LONG",
+                                "entry_price": 544.76,
+                                "remaining": 14.0,
+                                "sl": 541.37,
+                                "tp1": 548.15,
+                                "tp2": 549.84,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {},
@@ -34453,6 +34464,20 @@
                                 "total_pnl": "0.0",
                                 "balance": "100000.0",
                                 "notes": "TP1=147.03 TP2=147.39 SL=145.57 shares=68 risk\u00e2\u2030\u02c6$49.38 signal=2026-07-16 13:45:00 atr=0.4150 atr_pct=0.2839 volume_ratio=1.0023 ema_sep_atr=0.5042 ema_slope_atr=0.3003 alpaca_order=5656619f-f9ec-4d6e-952e-cc9ece467cb7 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MA-1",
+                                "timestamp": "2026-07-16 13:45:51",
+                                "symbol": "MA",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "544.76",
+                                "shares": "14.0",
+                                "usd_qty": "7626.64",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=548.15 TP2=549.84 SL=541.37 shares=14 risk\u00e2\u2030\u02c6$47.45 signal=2026-07-16 13:45:00 atr=1.9368 atr_pct=0.3559 volume_ratio=1.3970 ema_sep_atr=0.1535 ema_slope_atr=0.0513 alpaca_order=e864c94c-fe0c-41c0-8859-5677613e5daa status=OrderStatus.FILLED"
                             }
                         ]
                     },
