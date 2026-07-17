@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-16T20:15:07.717727+00:00",
-  "latest_date": "2026-07-16",
+  "generated_at": "2026-07-17T13:09:23.332051+00:00",
+  "latest_date": "2026-07-17",
   "days": [
     {
       "date": "2026-07-15",
@@ -490,6 +490,77 @@
               "outcome": "",
               "notes": "TP=64633.76  SL=63847.52",
               "shares": 0.015585546649801026
+            }
+          ]
+        },
+        "trend": {
+          "has_previous_day": false
+        }
+      }
+    },
+    {
+      "date": "2026-07-17",
+      "alpaca_crypto": {
+        "trade_metrics": {
+          "total_trades": 1,
+          "win_count": 0,
+          "loss_count": 1,
+          "breakeven_count": 0,
+          "win_rate_pct": 0.0,
+          "loss_rate_pct": 100.0,
+          "total_pnl": -74.3404,
+          "closed_position_pnl": -74.3404,
+          "avg_pnl_per_trade": -74.3404,
+          "avg_win": 0,
+          "avg_loss": -74.3404,
+          "realized_exit_count": 1,
+          "eod_close_count": 0,
+          "tp1_hit_count": 0,
+          "tp1_realized_pnl": 0,
+          "tp2_hit_count": 0,
+          "tp2_realized_pnl": 0,
+          "open_partial_count": 0,
+          "open_positions": [],
+          "by_symbol": {
+            "BTC/USD": {
+              "trades": 1,
+              "pnl": -74.3404,
+              "wins": 0,
+              "losses": 1,
+              "breakeven": 0,
+              "open_partial": 0
+            }
+          },
+          "recent_trades": [
+            {
+              "trade_id": "4-7",
+              "timestamp": "2026-07-17 13:09:10",
+              "symbol": "BTC/USD",
+              "mode": "paper",
+              "exchange": "alpaca",
+              "account": "paper",
+              "event": "SL_HIT",
+              "side": "LONG",
+              "price": "62859.52",
+              "usd_qty": "2973.22",
+              "pnl": "-74.3404",
+              "total_pnl": "-74.3404",
+              "balance": "925.66",
+              "adx": "",
+              "rsi": "",
+              "volume_ratio": "",
+              "atr_pct": "",
+              "ema200_dist_pct": "",
+              "mtf_rsi4h": "",
+              "mtf_ema_ok": "",
+              "alma_cross_strength": "",
+              "strategy": "",
+              "funding_rate": "",
+              "hold_bars": "",
+              "exit_reason": "SL_HIT",
+              "outcome": "LOSS",
+              "notes": "entry=64339.55  exit=62859.52",
+              "shares": 0.04729943849396241
             }
           ]
         },
