@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-17T14:50:24.006546+00:00",
+    "generated_at": "2026-07-17T16:57:05.863147+00:00",
     "latest_date": "2026-07-17",
     "days": [
         {
@@ -35427,49 +35427,43 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 0,
+                        "total_trades": 2,
                         "win_count": 0,
-                        "loss_count": 0,
+                        "loss_count": 2,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
-                        "closed_position_pnl": 0,
-                        "avg_pnl_per_trade": 0.0,
+                        "loss_rate_pct": 100.0,
+                        "total_pnl": -66.65,
+                        "closed_position_pnl": -66.65,
+                        "avg_pnl_per_trade": -33.33,
                         "avg_win": 0.0,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "avg_loss": -33.33,
+                        "realized_exit_count": 2,
                         "eod_close_count": 0,
                         "tp1_hit_count": 0,
                         "tp1_realized_pnl": 0,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "NFLX-4",
-                                "symbol": "NFLX",
-                                "side": "SHORT",
-                                "entry_price": 67.8305,
-                                "remaining": 22.0,
-                                "sl": 70.1,
-                                "tp1": 65.56,
-                                "tp2": 64.43,
-                                "last_event": "ENTRY_SHORT"
+                        "open_positions": [],
+                        "by_symbol": {
+                            "NFLX": {
+                                "trades": 1,
+                                "pnl": -28.79,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
                             },
-                            {
-                                "trade_id": "NVDA-9",
-                                "symbol": "NVDA",
-                                "side": "SHORT",
-                                "entry_price": 202.956,
-                                "remaining": 13.0,
-                                "sl": 206.57,
-                                "tp1": 199.34,
-                                "tp2": 197.54,
-                                "last_event": "ENTRY_SHORT"
+                            "NVDA": {
+                                "trades": 1,
+                                "pnl": -37.86,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
                             }
-                        ],
-                        "by_symbol": {},
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "NFLX-4",
@@ -35498,14 +35492,42 @@
                                 "total_pnl": "-97.7988",
                                 "balance": "99902.2",
                                 "notes": "TP1=199.34 TP2=197.54 SL=206.57 shares=13 risk\u00e2\u2030\u02c6$46.98 signal=2026-07-17 14:45:00 atr=2.0650 atr_pct=1.0159 volume_ratio=1.0404 ema_sep_atr=0.7462 ema_slope_atr=-0.0870 alpaca_order=6837e34e-667c-464b-81fc-43627f346c2a status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NFLX-4",
+                                "timestamp": "2026-07-17 16:50:00",
+                                "symbol": "NFLX",
+                                "event": "CLOSE_MANUAL",
+                                "side": "SHORT",
+                                "price": "69.1393",
+                                "shares": "22.0",
+                                "usd_qty": "1521.06",
+                                "pnl": "-28.7936",
+                                "total_pnl": "-137.312",
+                                "balance": "99862.69",
+                                "notes": "broker-confirmed user-requested close alpaca_order=c077018f-3c24-47c8-9eb4-798a93a99230 status=FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-9",
+                                "timestamp": "2026-07-17 16:50:00",
+                                "symbol": "NVDA",
+                                "event": "CLOSE_MANUAL",
+                                "side": "SHORT",
+                                "price": "205.8682",
+                                "shares": "13.0",
+                                "usd_qty": "2676.29",
+                                "pnl": "-37.8586",
+                                "total_pnl": "-135.6574",
+                                "balance": "99864.34",
+                                "notes": "broker-confirmed user-requested close alpaca_order=47a65d33-aca7-4e1a-84ed-6a2527cb82a0 status=FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -50.0,
-                        "total_pnl_delta": 95.77,
-                        "trade_count_delta": -6,
+                        "total_pnl_delta": 29.12,
+                        "trade_count_delta": -4,
                         "direction": "mixed"
                     }
                 },
@@ -35623,49 +35645,43 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 0,
+                        "total_trades": 2,
                         "win_count": 0,
-                        "loss_count": 0,
+                        "loss_count": 2,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
-                        "closed_position_pnl": 0,
-                        "avg_pnl_per_trade": 0.0,
+                        "loss_rate_pct": 100.0,
+                        "total_pnl": -66.65,
+                        "closed_position_pnl": -66.65,
+                        "avg_pnl_per_trade": -33.33,
                         "avg_win": 0.0,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "avg_loss": -33.33,
+                        "realized_exit_count": 2,
                         "eod_close_count": 0,
                         "tp1_hit_count": 0,
                         "tp1_realized_pnl": 0,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "NFLX-4",
-                                "symbol": "NFLX",
-                                "side": "SHORT",
-                                "entry_price": 67.8305,
-                                "remaining": 22.0,
-                                "sl": 70.1,
-                                "tp1": 65.56,
-                                "tp2": 64.43,
-                                "last_event": "ENTRY_SHORT"
+                        "open_positions": [],
+                        "by_symbol": {
+                            "NFLX": {
+                                "trades": 1,
+                                "pnl": -28.79,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
                             },
-                            {
-                                "trade_id": "NVDA-9",
-                                "symbol": "NVDA",
-                                "side": "SHORT",
-                                "entry_price": 202.956,
-                                "remaining": 13.0,
-                                "sl": 206.57,
-                                "tp1": 199.34,
-                                "tp2": 197.54,
-                                "last_event": "ENTRY_SHORT"
+                            "NVDA": {
+                                "trades": 1,
+                                "pnl": -37.86,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
                             }
-                        ],
-                        "by_symbol": {},
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "NFLX-4",
@@ -35694,62 +35710,84 @@
                                 "total_pnl": "-97.7988",
                                 "balance": "99902.2",
                                 "notes": "TP1=199.34 TP2=197.54 SL=206.57 shares=13 risk\u00e2\u2030\u02c6$46.98 signal=2026-07-17 14:45:00 atr=2.0650 atr_pct=1.0159 volume_ratio=1.0404 ema_sep_atr=0.7462 ema_slope_atr=-0.0870 alpaca_order=6837e34e-667c-464b-81fc-43627f346c2a status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NFLX-4",
+                                "timestamp": "2026-07-17 16:50:00",
+                                "symbol": "NFLX",
+                                "event": "CLOSE_MANUAL",
+                                "side": "SHORT",
+                                "price": "69.1393",
+                                "shares": "22.0",
+                                "usd_qty": "1521.06",
+                                "pnl": "-28.7936",
+                                "total_pnl": "-137.312",
+                                "balance": "99862.69",
+                                "notes": "broker-confirmed user-requested close alpaca_order=c077018f-3c24-47c8-9eb4-798a93a99230 status=FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-9",
+                                "timestamp": "2026-07-17 16:50:00",
+                                "symbol": "NVDA",
+                                "event": "CLOSE_MANUAL",
+                                "side": "SHORT",
+                                "price": "205.8682",
+                                "shares": "13.0",
+                                "usd_qty": "2676.29",
+                                "pnl": "-37.8586",
+                                "total_pnl": "-135.6574",
+                                "balance": "99864.34",
+                                "notes": "broker-confirmed user-requested close alpaca_order=47a65d33-aca7-4e1a-84ed-6a2527cb82a0 status=FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -50.0,
-                        "total_pnl_delta": 95.77,
-                        "trade_count_delta": -6,
+                        "total_pnl_delta": 29.12,
+                        "trade_count_delta": -4,
                         "direction": "mixed"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 0,
+                "total_trades": 2,
                 "win_count": 0,
-                "loss_count": 0,
+                "loss_count": 2,
                 "breakeven_count": 0,
                 "win_rate_pct": 0.0,
-                "loss_rate_pct": 0.0,
-                "total_pnl": 0,
-                "closed_position_pnl": 0,
-                "avg_pnl_per_trade": 0.0,
+                "loss_rate_pct": 100.0,
+                "total_pnl": -66.65,
+                "closed_position_pnl": -66.65,
+                "avg_pnl_per_trade": -33.33,
                 "avg_win": 0.0,
-                "avg_loss": 0.0,
-                "realized_exit_count": 0,
+                "avg_loss": -33.33,
+                "realized_exit_count": 2,
                 "eod_close_count": 0,
                 "tp1_hit_count": 0,
                 "tp1_realized_pnl": 0,
                 "tp2_hit_count": 0,
                 "tp2_realized_pnl": 0,
                 "open_partial_count": 0,
-                "open_positions": [
-                    {
-                        "trade_id": "NFLX-4",
-                        "symbol": "NFLX",
-                        "side": "SHORT",
-                        "entry_price": 67.8305,
-                        "remaining": 22.0,
-                        "sl": 70.1,
-                        "tp1": 65.56,
-                        "tp2": 64.43,
-                        "last_event": "ENTRY_SHORT"
+                "open_positions": [],
+                "by_symbol": {
+                    "NFLX": {
+                        "trades": 1,
+                        "pnl": -28.79,
+                        "wins": 0,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
                     },
-                    {
-                        "trade_id": "NVDA-9",
-                        "symbol": "NVDA",
-                        "side": "SHORT",
-                        "entry_price": 202.956,
-                        "remaining": 13.0,
-                        "sl": 206.57,
-                        "tp1": 199.34,
-                        "tp2": 197.54,
-                        "last_event": "ENTRY_SHORT"
+                    "NVDA": {
+                        "trades": 1,
+                        "pnl": -37.86,
+                        "wins": 0,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
                     }
-                ],
-                "by_symbol": {},
+                },
                 "recent_trades": [
                     {
                         "trade_id": "NFLX-4",
@@ -35778,6 +35816,34 @@
                         "total_pnl": "-97.7988",
                         "balance": "99902.2",
                         "notes": "TP1=199.34 TP2=197.54 SL=206.57 shares=13 risk\u00e2\u2030\u02c6$46.98 signal=2026-07-17 14:45:00 atr=2.0650 atr_pct=1.0159 volume_ratio=1.0404 ema_sep_atr=0.7462 ema_slope_atr=-0.0870 alpaca_order=6837e34e-667c-464b-81fc-43627f346c2a status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "NFLX-4",
+                        "timestamp": "2026-07-17 16:50:00",
+                        "symbol": "NFLX",
+                        "event": "CLOSE_MANUAL",
+                        "side": "SHORT",
+                        "price": "69.1393",
+                        "shares": "22.0",
+                        "usd_qty": "1521.06",
+                        "pnl": "-28.7936",
+                        "total_pnl": "-137.312",
+                        "balance": "99862.69",
+                        "notes": "broker-confirmed user-requested close alpaca_order=c077018f-3c24-47c8-9eb4-798a93a99230 status=FILLED"
+                    },
+                    {
+                        "trade_id": "NVDA-9",
+                        "timestamp": "2026-07-17 16:50:00",
+                        "symbol": "NVDA",
+                        "event": "CLOSE_MANUAL",
+                        "side": "SHORT",
+                        "price": "205.8682",
+                        "shares": "13.0",
+                        "usd_qty": "2676.29",
+                        "pnl": "-37.8586",
+                        "total_pnl": "-135.6574",
+                        "balance": "99864.34",
+                        "notes": "broker-confirmed user-requested close alpaca_order=47a65d33-aca7-4e1a-84ed-6a2527cb82a0 status=FILLED"
                     }
                 ]
             },
@@ -35795,8 +35861,8 @@
             "trend": {
                 "has_previous_day": true,
                 "win_rate_delta_pct": -50.0,
-                "total_pnl_delta": 95.77,
-                "trade_count_delta": -6,
+                "total_pnl_delta": 29.12,
+                "trade_count_delta": -4,
                 "direction": "mixed"
             }
         }
