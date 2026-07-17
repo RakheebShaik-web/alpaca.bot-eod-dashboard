@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-17T13:51:09.524045+00:00",
+    "generated_at": "2026-07-17T13:55:02.021253+00:00",
     "latest_date": "2026-07-17",
     "days": [
         {
@@ -35456,6 +35456,17 @@
                                 "tp1": 336.41,
                                 "tp2": 337.95,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "NVDA-8",
+                                "symbol": "NVDA",
+                                "side": "SHORT",
+                                "entry_price": 199.4641,
+                                "remaining": 19.0,
+                                "sl": 202.09,
+                                "tp1": 196.84,
+                                "tp2": 195.53,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {},
@@ -35473,6 +35484,20 @@
                                 "total_pnl": "81.6224",
                                 "balance": "100081.62",
                                 "notes": "TP1=336.41 TP2=337.95 SL=330.26 shares=16 risk\u00e2\u2030\u02c6$49.22 signal=2026-07-17 13:45:00 atr=1.7579 atr_pct=0.5265 volume_ratio=1.9203 ema_sep_atr=1.7970 ema_slope_atr=0.0899 alpaca_order=52248433-9f45-44ed-8da0-48d36fdd69ec status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-8",
+                                "timestamp": "2026-07-17 13:51:07",
+                                "symbol": "NVDA",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "199.4641",
+                                "shares": "19.0",
+                                "usd_qty": "3789.82",
+                                "pnl": "0.0",
+                                "total_pnl": "-97.7988",
+                                "balance": "99902.2",
+                                "notes": "TP1=196.84 TP2=195.53 SL=202.09 shares=19 risk\u00e2\u2030\u02c6$49.89 signal=2026-07-17 13:45:00 atr=1.5004 atr_pct=0.7564 volume_ratio=3.7455 ema_sep_atr=0.7855 ema_slope_atr=-0.2046 alpaca_order=7f629797-25d1-41aa-bbba-fadb81e70b4c status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -35627,6 +35652,17 @@
                                 "tp1": 336.41,
                                 "tp2": 337.95,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "NVDA-8",
+                                "symbol": "NVDA",
+                                "side": "SHORT",
+                                "entry_price": 199.4641,
+                                "remaining": 19.0,
+                                "sl": 202.09,
+                                "tp1": 196.84,
+                                "tp2": 195.53,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {},
@@ -35644,6 +35680,20 @@
                                 "total_pnl": "81.6224",
                                 "balance": "100081.62",
                                 "notes": "TP1=336.41 TP2=337.95 SL=330.26 shares=16 risk\u00e2\u2030\u02c6$49.22 signal=2026-07-17 13:45:00 atr=1.7579 atr_pct=0.5265 volume_ratio=1.9203 ema_sep_atr=1.7970 ema_slope_atr=0.0899 alpaca_order=52248433-9f45-44ed-8da0-48d36fdd69ec status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-8",
+                                "timestamp": "2026-07-17 13:51:07",
+                                "symbol": "NVDA",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "199.4641",
+                                "shares": "19.0",
+                                "usd_qty": "3789.82",
+                                "pnl": "0.0",
+                                "total_pnl": "-97.7988",
+                                "balance": "99902.2",
+                                "notes": "TP1=196.84 TP2=195.53 SL=202.09 shares=19 risk\u00e2\u2030\u02c6$49.89 signal=2026-07-17 13:45:00 atr=1.5004 atr_pct=0.7564 volume_ratio=3.7455 ema_sep_atr=0.7855 ema_slope_atr=-0.2046 alpaca_order=7f629797-25d1-41aa-bbba-fadb81e70b4c status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -35686,6 +35736,17 @@
                         "tp1": 336.41,
                         "tp2": 337.95,
                         "last_event": "ENTRY_LONG"
+                    },
+                    {
+                        "trade_id": "NVDA-8",
+                        "symbol": "NVDA",
+                        "side": "SHORT",
+                        "entry_price": 199.4641,
+                        "remaining": 19.0,
+                        "sl": 202.09,
+                        "tp1": 196.84,
+                        "tp2": 195.53,
+                        "last_event": "ENTRY_SHORT"
                     }
                 ],
                 "by_symbol": {},
@@ -35703,6 +35764,20 @@
                         "total_pnl": "81.6224",
                         "balance": "100081.62",
                         "notes": "TP1=336.41 TP2=337.95 SL=330.26 shares=16 risk\u00e2\u2030\u02c6$49.22 signal=2026-07-17 13:45:00 atr=1.7579 atr_pct=0.5265 volume_ratio=1.9203 ema_sep_atr=1.7970 ema_slope_atr=0.0899 alpaca_order=52248433-9f45-44ed-8da0-48d36fdd69ec status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "NVDA-8",
+                        "timestamp": "2026-07-17 13:51:07",
+                        "symbol": "NVDA",
+                        "event": "ENTRY_SHORT",
+                        "side": "SHORT",
+                        "price": "199.4641",
+                        "shares": "19.0",
+                        "usd_qty": "3789.82",
+                        "pnl": "0.0",
+                        "total_pnl": "-97.7988",
+                        "balance": "99902.2",
+                        "notes": "TP1=196.84 TP2=195.53 SL=202.09 shares=19 risk\u00e2\u2030\u02c6$49.89 signal=2026-07-17 13:45:00 atr=1.5004 atr_pct=0.7564 volume_ratio=3.7455 ema_sep_atr=0.7855 ema_slope_atr=-0.2046 alpaca_order=7f629797-25d1-41aa-bbba-fadb81e70b4c status=OrderStatus.FILLED"
                     }
                 ]
             },
