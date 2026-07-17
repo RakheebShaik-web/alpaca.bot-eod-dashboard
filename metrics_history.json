@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-17T14:19:56.436165+00:00",
+    "generated_at": "2026-07-17T14:20:43.528416+00:00",
     "latest_date": "2026-07-17",
     "days": [
         {
@@ -35477,61 +35477,9 @@
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "AAPL-2",
-                                "symbol": "AAPL",
-                                "side": "LONG",
-                                "entry_price": 333.2269,
-                                "remaining": 16.0,
-                                "sl": 330.15,
-                                "tp1": 336.3,
-                                "tp2": 337.84,
-                                "last_event": "ENTRY_LONG"
-                            },
-                            {
-                                "trade_id": "NVDA-3",
-                                "symbol": "NVDA",
-                                "side": "SHORT",
-                                "entry_price": 199.1726,
-                                "remaining": 19.0,
-                                "sl": 201.8,
-                                "tp1": 196.55,
-                                "tp2": 195.23,
-                                "last_event": "ENTRY_SHORT"
-                            }
-                        ],
+                        "open_positions": [],
                         "by_symbol": {},
-                        "recent_trades": [
-                            {
-                                "trade_id": "AAPL-2",
-                                "timestamp": "2026-07-17 13:49:57",
-                                "symbol": "AAPL",
-                                "event": "ENTRY_LONG",
-                                "side": "LONG",
-                                "price": "333.2269",
-                                "shares": "16.0",
-                                "usd_qty": "5331.63",
-                                "pnl": "0.0",
-                                "total_pnl": "0.0",
-                                "balance": "100000.0",
-                                "notes": "TP1=336.30 TP2=337.84 SL=330.15 shares=16 risk\u00e2\u2030\u02c6$49.22 signal=2026-07-17 13:45:00 atr=1.7579 atr_pct=0.5265 volume_ratio=1.9203 ema_sep_atr=1.7970 ema_slope_atr=0.0899 alpaca_order=d560857c-eb3b-43bc-b2f6-ee64a29b6f23 status=OrderStatus.FILLED"
-                            },
-                            {
-                                "trade_id": "NVDA-3",
-                                "timestamp": "2026-07-17 13:50:37",
-                                "symbol": "NVDA",
-                                "event": "ENTRY_SHORT",
-                                "side": "SHORT",
-                                "price": "199.1726",
-                                "shares": "19.0",
-                                "usd_qty": "3784.28",
-                                "pnl": "0.0",
-                                "total_pnl": "-40.41",
-                                "balance": "99959.59",
-                                "notes": "TP1=196.55 TP2=195.23 SL=201.80 shares=19 risk\u00e2\u2030\u02c6$49.89 signal=2026-07-17 13:45:00 atr=1.5004 atr_pct=0.7564 volume_ratio=3.7455 ema_sep_atr=0.7855 ema_slope_atr=-0.2046 alpaca_order=e8ab2df4-1c4f-4598-b8ae-bd3efce830d9 status=OrderStatus.FILLED"
-                            }
-                        ]
+                        "recent_trades": []
                     },
                     "trend": {
                         "has_previous_day": true,
