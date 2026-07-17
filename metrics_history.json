@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-17T14:20:43.528416+00:00",
+    "generated_at": "2026-07-17T14:45:24.222165+00:00",
     "latest_date": "2026-07-17",
     "days": [
         {
@@ -35445,9 +35445,36 @@
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
-                        "open_positions": [],
+                        "open_positions": [
+                            {
+                                "trade_id": "NFLX-4",
+                                "symbol": "NFLX",
+                                "side": "SHORT",
+                                "entry_price": 67.8305,
+                                "remaining": 22.0,
+                                "sl": 70.1,
+                                "tp1": 65.56,
+                                "tp2": 64.43,
+                                "last_event": "ENTRY_SHORT"
+                            }
+                        ],
                         "by_symbol": {},
-                        "recent_trades": []
+                        "recent_trades": [
+                            {
+                                "trade_id": "NFLX-4",
+                                "timestamp": "2026-07-17 14:45:23",
+                                "symbol": "NFLX",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "67.8305",
+                                "shares": "22.0",
+                                "usd_qty": "1492.27",
+                                "pnl": "0.0",
+                                "total_pnl": "-108.5184",
+                                "balance": "99891.48",
+                                "notes": "TP1=65.56 TP2=64.43 SL=70.10 shares=22 risk\u00e2\u2030\u02c6$49.90 signal=2026-07-17 14:45:00 atr=1.2961 atr_pct=1.9113 volume_ratio=1.5060 ema_sep_atr=1.0084 ema_slope_atr=-0.3201 alpaca_order=ec265139-0c1b-4636-9eab-0076b9192fa0 status=OrderStatus.FILLED"
+                            }
+                        ]
                     },
                     "trend": {
                         "has_previous_day": true,
@@ -35537,9 +35564,36 @@
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
-                        "open_positions": [],
+                        "open_positions": [
+                            {
+                                "trade_id": "NFLX-4",
+                                "symbol": "NFLX",
+                                "side": "SHORT",
+                                "entry_price": 67.8305,
+                                "remaining": 22.0,
+                                "sl": 70.1,
+                                "tp1": 65.56,
+                                "tp2": 64.43,
+                                "last_event": "ENTRY_SHORT"
+                            }
+                        ],
                         "by_symbol": {},
-                        "recent_trades": []
+                        "recent_trades": [
+                            {
+                                "trade_id": "NFLX-4",
+                                "timestamp": "2026-07-17 14:45:23",
+                                "symbol": "NFLX",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "67.8305",
+                                "shares": "22.0",
+                                "usd_qty": "1492.27",
+                                "pnl": "0.0",
+                                "total_pnl": "-108.5184",
+                                "balance": "99891.48",
+                                "notes": "TP1=65.56 TP2=64.43 SL=70.10 shares=22 risk\u00e2\u2030\u02c6$49.90 signal=2026-07-17 14:45:00 atr=1.2961 atr_pct=1.9113 volume_ratio=1.5060 ema_sep_atr=1.0084 ema_slope_atr=-0.3201 alpaca_order=ec265139-0c1b-4636-9eab-0076b9192fa0 status=OrderStatus.FILLED"
+                            }
+                        ]
                     },
                     "trend": {
                         "has_previous_day": true,
@@ -35569,9 +35623,36 @@
                 "tp2_hit_count": 0,
                 "tp2_realized_pnl": 0,
                 "open_partial_count": 0,
-                "open_positions": [],
+                "open_positions": [
+                    {
+                        "trade_id": "NFLX-4",
+                        "symbol": "NFLX",
+                        "side": "SHORT",
+                        "entry_price": 67.8305,
+                        "remaining": 22.0,
+                        "sl": 70.1,
+                        "tp1": 65.56,
+                        "tp2": 64.43,
+                        "last_event": "ENTRY_SHORT"
+                    }
+                ],
                 "by_symbol": {},
-                "recent_trades": []
+                "recent_trades": [
+                    {
+                        "trade_id": "NFLX-4",
+                        "timestamp": "2026-07-17 14:45:23",
+                        "symbol": "NFLX",
+                        "event": "ENTRY_SHORT",
+                        "side": "SHORT",
+                        "price": "67.8305",
+                        "shares": "22.0",
+                        "usd_qty": "1492.27",
+                        "pnl": "0.0",
+                        "total_pnl": "-108.5184",
+                        "balance": "99891.48",
+                        "notes": "TP1=65.56 TP2=64.43 SL=70.10 shares=22 risk\u00e2\u2030\u02c6$49.90 signal=2026-07-17 14:45:00 atr=1.2961 atr_pct=1.9113 volume_ratio=1.5060 ema_sep_atr=1.0084 ema_slope_atr=-0.3201 alpaca_order=ec265139-0c1b-4636-9eab-0076b9192fa0 status=OrderStatus.FILLED"
+                    }
+                ]
             },
             "signal_metrics": {
                 "risk_rejected_count": 0,
