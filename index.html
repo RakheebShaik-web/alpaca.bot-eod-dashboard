@@ -34,6 +34,22 @@
   @media(max-width:900px){.wrap{padding:28px 24px 52px}.wrap:before{margin-bottom:32px}.grid4{grid-template-columns:1fr 1fr}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}.stat:first-child{padding-left:24px}.row2{grid-template-columns:1fr;gap:0}}
   @media(max-width:680px){.wrap{padding:22px 16px 44px}.wrap:before{margin-bottom:28px}header{grid-template-columns:1fr}.controls{justify-content:flex-start}.grid4{grid-template-columns:1fr}.stat,.stat:first-child{min-height:auto;padding:19px 2px;border-right:0;border-bottom:1px solid var(--line)}.stat:last-child{border-bottom:0}.table-tools{margin:0 0 14px}.trade-filter{width:100%}section{overflow-x:auto}table{min-width:620px}canvas{min-width:600px}}
 </style>
+<style>
+  /* High-contrast editorial trading desk */
+  :root{--bg:#eee9df;--panel:#f8f5ee;--panel2:#e5dfd3;--line:#c9c1b4;--text:#191a17;--muted:#706d65;--green:#287a55;--red:#b34337;--amber:#d65f2e;--blue:#d65f2e}
+  html,body{background:var(--bg);color:var(--text)}body:before{opacity:.055;mix-blend-mode:multiply}.wrap{max-width:1440px;padding-top:28px}.wrap:before{content:"REQUITY  /  MARKET OPERATIONS";color:var(--text);border:1px solid var(--text);border-radius:999px;display:inline-flex;padding:8px 12px;margin-bottom:54px;letter-spacing:.11em}
+  header{position:relative;min-height:150px}.header-copy{max-width:620px}h1{font-size:clamp(42px,6vw,78px);max-width:720px;line-height:.82;letter-spacing:-.075em}h1:after{content:"";position:absolute;right:0;top:0;width:84px;height:84px;border-radius:50%;background:var(--amber);opacity:.95;animation:orb 5s ease-in-out infinite}
+  .sub{color:var(--muted);max-width:660px}.controls{align-self:end}select,button,.trade-filter{background:rgba(248,245,238,.8);color:var(--text);border-color:var(--line);box-shadow:inset 0 1px 0 rgba(255,255,255,.7)}button{background:var(--text);color:var(--bg);border-color:var(--text)}button:hover{background:var(--amber);border-color:var(--amber);color:#fff}select:hover,.trade-filter:hover{background:#fff;border-color:#8f887c}
+  .status{border-color:var(--line);color:var(--muted)}.status.ok:before{background:var(--amber);box-shadow:0 0 0 4px rgba(214,95,46,.12)}
+  .grid4{border:0;display:grid;grid-template-columns:1.15fr .85fr 1.35fr .9fr;gap:12px;background:transparent}.stat,.stat:first-child{min-height:164px;padding:24px;border:1px solid var(--line);border-radius:18px;background:rgba(248,245,238,.72);box-shadow:0 18px 45px -35px rgba(50,42,31,.45)}.stat:nth-child(3){background:var(--text);color:var(--bg);border-color:var(--text);transform:translateY(-18px)}.stat:nth-child(3) .label,.stat:nth-child(3) .small{color:#aaa79f}.stat:nth-child(3) .up{color:#79c89e}.stat:nth-child(3) .down{color:#ff8668}.label{color:var(--muted)}.value{font-size:clamp(34px,4vw,54px)}.up{color:var(--green)}.down{color:var(--red)}
+  section{border-color:var(--line);padding-top:28px}h2{font-size:13px}.bar{height:14px;background:#d8d1c5}.seg.win{background:var(--text)}.seg.loss{background:var(--amber)}.legend{color:var(--muted)}
+  .row2{grid-template-columns:minmax(0,1.9fr) minmax(280px,.65fr)}.row2 section:first-child canvas{box-shadow:0 24px 55px -32px rgba(28,26,21,.55)}canvas{background:#181a17;border:0;border-radius:20px}
+  th{background:var(--bg);color:#77736a}th,td{border-color:#d6cfc3}tbody tr:hover{background:rgba(214,95,46,.055)}.symbol-row{border-radius:8px}.trade-filter{background:rgba(248,245,238,.8)}
+  .empty{color:var(--muted)}#trendBlock:not(.empty){border-left:4px solid var(--amber);padding:12px 0 12px 22px}#trendBlock .value{text-transform:capitalize}
+  @keyframes orb{0%,100%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(-12px,8px,0) scale(.92)}}
+  @media(max-width:900px){h1:after{width:56px;height:56px}.grid4{grid-template-columns:1fr 1fr}.stat:nth-child(3){transform:none}}
+  @media(max-width:680px){.wrap{padding-top:18px}.wrap:before{margin-bottom:34px}header{min-height:auto}h1{font-size:46px}h1:after{width:42px;height:42px;right:4px}.grid4{grid-template-columns:1fr}.stat,.stat:first-child{border:1px solid var(--line);padding:22px;border-radius:16px}.stat:nth-child(3){background:var(--text)}}
+</style>
 </head>
 <body>
 <div class="wrap">
