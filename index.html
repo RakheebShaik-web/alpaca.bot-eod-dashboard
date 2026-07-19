@@ -50,6 +50,19 @@
   @media(max-width:900px){h1:after{width:56px;height:56px}.grid4{grid-template-columns:1fr 1fr}.stat:nth-child(3){transform:none}}
   @media(max-width:680px){.wrap{padding-top:18px}.wrap:before{margin-bottom:34px}header{min-height:auto}h1{font-size:46px}h1:after{width:42px;height:42px;right:4px}.grid4{grid-template-columns:1fr}.stat,.stat:first-child{border:1px solid var(--line);padding:22px;border-radius:16px}.stat:nth-child(3){background:var(--text)}}
 </style>
+<style>
+  /* Elegance pass: balanced ink surfaces and finer material contrast */
+  header{min-height:250px;margin-bottom:22px;padding:38px 42px;border-radius:30px;background:#1b1c19;color:#f5f0e7;overflow:hidden;box-shadow:0 34px 70px -48px rgba(22,20,16,.72),inset 0 1px 0 rgba(255,255,255,.08)}
+  header:before{content:"SESSION / PERFORMANCE / ATTRIBUTION";position:absolute;left:43px;top:24px;color:#85877f;font:500 9px var(--mono);letter-spacing:.14em}
+  header:after{content:"";position:absolute;width:260px;height:260px;right:-82px;bottom:-155px;border:1px solid rgba(255,255,255,.12);border-radius:50%;box-shadow:0 0 0 34px rgba(255,255,255,.025),0 0 0 68px rgba(255,255,255,.018)}
+  h1{position:relative;color:#f5f0e7;margin-top:24px}h1:after{right:42px;top:38px;width:74px;height:74px;z-index:1}.sub{color:#999b93}
+  header .controls{position:relative;z-index:2}header select{background:#292a26;color:#f5f0e7;border-color:#41423c;box-shadow:inset 0 1px 0 rgba(255,255,255,.06)}header select:hover{background:#30312c;border-color:#62635b}header button{background:var(--amber);border-color:var(--amber);color:#fff}header button:hover{background:#ed7543;border-color:#ed7543}
+  .status{margin-inline:14px}.grid4{margin-top:46px}.stat{backdrop-filter:blur(12px);box-shadow:0 22px 55px -42px rgba(35,30,23,.68),inset 0 1px 0 rgba(255,255,255,.8)}.stat:nth-child(3){box-shadow:0 30px 60px -38px rgba(27,28,25,.7),inset 0 1px 0 rgba(255,255,255,.08)}
+  main>section:last-child{margin-top:28px;margin-inline:-18px;padding:30px 28px 34px;border:0;border-radius:24px;background:#1b1c19;color:#eee9df;box-shadow:0 32px 70px -48px rgba(22,20,16,.75),inset 0 1px 0 rgba(255,255,255,.07)}
+  main>section:last-child h2{color:#f5f0e7}main>section:last-child .trade-filter{background:#272824;color:#f5f0e7;border-color:#42433d;box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}main>section:last-child th{background:#1b1c19;color:#898b83}main>section:last-child th,main>section:last-child td{border-color:#30312d}main>section:last-child tbody tr:hover{background:rgba(214,95,46,.08)}main>section:last-child .empty{color:#8d8f87}
+  @media(max-width:900px){header{min-height:280px;padding:34px 30px}header:before{left:31px}h1:after{right:28px}.grid4{margin-top:34px}}
+  @media(max-width:680px){header{min-height:auto;margin-inline:-4px;padding:42px 22px 24px;border-radius:22px}header:before{left:23px;top:19px;font-size:8px}header:after{display:none}h1{margin-top:8px;color:#f5f0e7}h1:after{width:38px;height:38px;right:20px;top:28px}.controls{margin-top:18px}header select,header button{width:100%}.grid4{margin-top:28px}main>section:last-child{margin-inline:-4px;padding:24px 18px;border-radius:20px}}
+</style>
 </head>
 <body>
 <div class="wrap">
