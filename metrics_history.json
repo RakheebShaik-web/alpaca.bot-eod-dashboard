@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-20T14:35:38.127846+00:00",
+    "generated_at": "2026-07-20T17:37:36.598475+00:00",
     "latest_date": "2026-07-20",
     "days": [
         {
@@ -36042,29 +36042,29 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -26.25,
+                        "total_pnl": -3.41,
                         "closed_position_pnl": -52.56,
                         "avg_pnl_per_trade": -52.56,
                         "avg_win": 0.0,
                         "avg_loss": -52.56,
-                        "realized_exit_count": 2,
+                        "realized_exit_count": 3,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 1,
-                        "tp1_realized_pnl": 26.32,
+                        "tp1_hit_count": 2,
+                        "tp1_realized_pnl": 49.16,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 1,
+                        "open_partial_count": 2,
                         "open_positions": [
                             {
                                 "trade_id": "TSLA-1",
                                 "symbol": "TSLA",
                                 "side": "SHORT",
                                 "entry_price": 375.3,
-                                "remaining": 13.0,
+                                "remaining": 7.0,
                                 "sl": 379.0,
                                 "tp1": 371.6,
                                 "tp2": 369.74,
-                                "last_event": "ENTRY_SHORT"
+                                "last_event": "TP1_HIT"
                             },
                             {
                                 "trade_id": "JPM-1",
@@ -36086,6 +36086,14 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
+                            },
+                            "TSLA": {
+                                "trades": 0,
+                                "pnl": 22.84,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
                             },
                             "JPM": {
                                 "trades": 0,
@@ -36166,13 +36174,27 @@
                                 "total_pnl": "26.315",
                                 "balance": "100026.31",
                                 "notes": "remaining=12 shares alpaca_order=de2873dc-57dc-4d76-8325-5aa96d85cf45 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "TSLA-1",
+                                "timestamp": "2026-07-20 17:37:29",
+                                "symbol": "TSLA",
+                                "event": "TP1_HIT",
+                                "side": "SHORT",
+                                "price": "371.4933",
+                                "shares": "6.0",
+                                "usd_qty": "2228.96",
+                                "pnl": "22.84",
+                                "total_pnl": "22.84",
+                                "balance": "100022.84",
+                                "notes": "remaining=7 shares alpaca_order=b1804b02-5e8e-4f1c-a17c-a59d7c249e7a status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": 0.0,
-                        "total_pnl_delta": 39.99,
+                        "total_pnl_delta": 62.83,
                         "trade_count_delta": -1,
                         "direction": "mixed"
                     }
