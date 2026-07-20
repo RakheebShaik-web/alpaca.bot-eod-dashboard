@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-20T14:16:54.617841+00:00",
+    "generated_at": "2026-07-20T14:20:51.643132+00:00",
     "latest_date": "2026-07-20",
     "days": [
         {
@@ -35922,6 +35922,17 @@
                                 "tp1": 371.73,
                                 "tp2": 369.87,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "JPM-3",
+                                "symbol": "JPM",
+                                "side": "SHORT",
+                                "entry_price": 341.555,
+                                "remaining": 24.0,
+                                "sl": 343.6,
+                                "tp1": 339.51,
+                                "tp2": 338.49,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -35976,6 +35987,20 @@
                                 "total_pnl": "-214.1581",
                                 "balance": "99785.84",
                                 "notes": "entry=390.74 exit=393.15 alpaca_order=2060dd93-572b-41b9-bc93-e40585120306 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "JPM-3",
+                                "timestamp": "2026-07-20 14:16:25",
+                                "symbol": "JPM",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "341.555",
+                                "shares": "24.0",
+                                "usd_qty": "8197.32",
+                                "pnl": "0.0",
+                                "total_pnl": "-16.0631",
+                                "balance": "99983.94",
+                                "notes": "TP1=339.51 TP2=338.49 SL=343.60 shares=24 risk\u00e2\u2030\u02c6$48.99 signal=2026-07-20 14:15:00 atr=1.1664 atr_pct=0.3417 volume_ratio=1.0468 ema_sep_atr=0.6948 ema_slope_atr=-0.0634 alpaca_order=37ac0260-cfcc-4342-8aff-9a1b9229a42d status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -36167,6 +36192,17 @@
                                 "tp1": 371.73,
                                 "tp2": 369.87,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "JPM-3",
+                                "symbol": "JPM",
+                                "side": "SHORT",
+                                "entry_price": 341.555,
+                                "remaining": 24.0,
+                                "sl": 343.6,
+                                "tp1": 339.51,
+                                "tp2": 338.49,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -36221,6 +36257,20 @@
                                 "total_pnl": "-214.1581",
                                 "balance": "99785.84",
                                 "notes": "entry=390.74 exit=393.15 alpaca_order=2060dd93-572b-41b9-bc93-e40585120306 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "JPM-3",
+                                "timestamp": "2026-07-20 14:16:25",
+                                "symbol": "JPM",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "341.555",
+                                "shares": "24.0",
+                                "usd_qty": "8197.32",
+                                "pnl": "0.0",
+                                "total_pnl": "-16.0631",
+                                "balance": "99983.94",
+                                "notes": "TP1=339.51 TP2=338.49 SL=343.60 shares=24 risk\u00e2\u2030\u02c6$48.99 signal=2026-07-20 14:15:00 atr=1.1664 atr_pct=0.3417 volume_ratio=1.0468 ema_sep_atr=0.6948 ema_slope_atr=-0.0634 alpaca_order=37ac0260-cfcc-4342-8aff-9a1b9229a42d status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -36262,6 +36312,17 @@
                         "sl": 379.13,
                         "tp1": 371.73,
                         "tp2": 369.87,
+                        "last_event": "ENTRY_SHORT"
+                    },
+                    {
+                        "trade_id": "JPM-3",
+                        "symbol": "JPM",
+                        "side": "SHORT",
+                        "entry_price": 341.555,
+                        "remaining": 24.0,
+                        "sl": 343.6,
+                        "tp1": 339.51,
+                        "tp2": 338.49,
                         "last_event": "ENTRY_SHORT"
                     }
                 ],
@@ -36317,6 +36378,20 @@
                         "total_pnl": "-214.1581",
                         "balance": "99785.84",
                         "notes": "entry=390.74 exit=393.15 alpaca_order=2060dd93-572b-41b9-bc93-e40585120306 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "JPM-3",
+                        "timestamp": "2026-07-20 14:16:25",
+                        "symbol": "JPM",
+                        "event": "ENTRY_SHORT",
+                        "side": "SHORT",
+                        "price": "341.555",
+                        "shares": "24.0",
+                        "usd_qty": "8197.32",
+                        "pnl": "0.0",
+                        "total_pnl": "-16.0631",
+                        "balance": "99983.94",
+                        "notes": "TP1=339.51 TP2=338.49 SL=343.60 shares=24 risk\u00e2\u2030\u02c6$48.99 signal=2026-07-20 14:15:00 atr=1.1664 atr_pct=0.3417 volume_ratio=1.0468 ema_sep_atr=0.6948 ema_slope_atr=-0.0634 alpaca_order=37ac0260-cfcc-4342-8aff-9a1b9229a42d status=OrderStatus.FILLED"
                     }
                 ]
             },
