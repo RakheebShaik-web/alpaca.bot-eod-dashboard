@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T15:43:23.405746+00:00",
+  "generated_at": "2026-07-20T16:00:10.253614+00:00",
   "latest_date": "2026-07-20",
   "days": [
     {
@@ -620,8 +620,20 @@
           "tp1_realized_pnl": 10.8125,
           "tp2_hit_count": 0,
           "tp2_realized_pnl": 0,
-          "open_partial_count": 0,
-          "open_positions": [],
+          "open_partial_count": 1,
+          "open_positions": [
+            {
+              "trade_id": "2-9",
+              "symbol": "BTC/USD",
+              "side": "LONG",
+              "entry_price": 65624.46,
+              "remaining": 0.015238220626882109,
+              "sl": 65014.87,
+              "tp1": 66538.86,
+              "tp2": null,
+              "last_event": "ENTRY_LONG"
+            }
+          ],
           "by_symbol": {
             "BTC/USD": {
               "trades": 2,
@@ -629,7 +641,7 @@
               "wins": 2,
               "losses": 0,
               "breakeven": 0,
-              "open_partial": 0
+              "open_partial": 1
             }
           },
           "recent_trades": [
@@ -722,6 +734,36 @@
               "outcome": "WIN",
               "notes": "entry=64448.04  exit=65273.77",
               "shares": 0.015320089524475146
+            },
+            {
+              "trade_id": "2-9",
+              "timestamp": "2026-07-20 16:00:06",
+              "symbol": "BTC/USD",
+              "mode": "paper",
+              "exchange": "alpaca",
+              "account": "paper",
+              "event": "ENTRY_LONG",
+              "side": "LONG",
+              "price": "65624.46",
+              "usd_qty": "1000.0",
+              "pnl": "0.0",
+              "total_pnl": "19.6744",
+              "balance": "1019.67",
+              "adx": "19.47",
+              "rsi": "68.05",
+              "volume_ratio": "1.9281",
+              "atr_pct": "0.46446",
+              "ema200_dist_pct": "0.0",
+              "mtf_rsi4h": "0.0",
+              "mtf_ema_ok": "0",
+              "alma_cross_strength": "0.3004",
+              "strategy": "donchian_breakout",
+              "funding_rate": "",
+              "hold_bars": "",
+              "exit_reason": "",
+              "outcome": "",
+              "notes": "TP=66538.86  SL=65014.87",
+              "shares": 0.015238220626882109
             }
           ]
         },
