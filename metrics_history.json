@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-20T17:38:00.024174+00:00",
+    "generated_at": "2026-07-20T18:40:05.907400+00:00",
     "latest_date": "2026-07-20",
     "days": [
         {
@@ -36058,24 +36058,24 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 1,
-                        "win_count": 0,
+                        "total_trades": 2,
+                        "win_count": 1,
                         "loss_count": 1,
                         "breakeven_count": 0,
-                        "win_rate_pct": 0.0,
-                        "loss_rate_pct": 100.0,
-                        "total_pnl": -3.41,
-                        "closed_position_pnl": -52.56,
-                        "avg_pnl_per_trade": -52.56,
-                        "avg_win": 0.0,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": 33.59,
+                        "closed_position_pnl": 10.75,
+                        "avg_pnl_per_trade": 5.38,
+                        "avg_win": 63.31,
                         "avg_loss": -52.56,
-                        "realized_exit_count": 3,
+                        "realized_exit_count": 4,
                         "eod_close_count": 0,
                         "tp1_hit_count": 2,
                         "tp1_realized_pnl": 49.16,
-                        "tp2_hit_count": 0,
-                        "tp2_realized_pnl": 0,
-                        "open_partial_count": 2,
+                        "tp2_hit_count": 1,
+                        "tp2_realized_pnl": 36.99,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "TSLA-1",
@@ -36086,17 +36086,6 @@
                                 "sl": 379.0,
                                 "tp1": 371.6,
                                 "tp2": 369.74,
-                                "last_event": "TP1_HIT"
-                            },
-                            {
-                                "trade_id": "JPM-1",
-                                "symbol": "JPM",
-                                "side": "SHORT",
-                                "entry_price": 341.5629,
-                                "remaining": 12.0,
-                                "sl": 343.6,
-                                "tp1": 339.52,
-                                "tp2": 338.5,
                                 "last_event": "TP1_HIT"
                             }
                         ],
@@ -36109,17 +36098,17 @@
                                 "breakeven": 0,
                                 "open_partial": 0
                             },
+                            "JPM": {
+                                "trades": 1,
+                                "pnl": 63.31,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "TSLA": {
                                 "trades": 0,
                                 "pnl": 22.84,
-                                "wins": 0,
-                                "losses": 0,
-                                "breakeven": 0,
-                                "open_partial": 1
-                            },
-                            "JPM": {
-                                "trades": 0,
-                                "pnl": 26.32,
                                 "wins": 0,
                                 "losses": 0,
                                 "breakeven": 0,
@@ -36210,15 +36199,29 @@
                                 "total_pnl": "22.84",
                                 "balance": "100022.84",
                                 "notes": "remaining=7 shares alpaca_order=b1804b02-5e8e-4f1c-a17c-a59d7c249e7a status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "JPM-1",
+                                "timestamp": "2026-07-20 18:39:59",
+                                "symbol": "JPM",
+                                "event": "TP2_HIT",
+                                "side": "SHORT",
+                                "price": "338.48",
+                                "shares": "12.0",
+                                "usd_qty": "4061.76",
+                                "pnl": "36.995",
+                                "total_pnl": "63.31",
+                                "balance": "100063.31",
+                                "notes": "entry=341.56 exit=338.48 alpaca_order=65e413f5-4b7f-4208-aaaf-0ef4e2aa14fb status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 0.0,
-                        "total_pnl_delta": 62.83,
-                        "trade_count_delta": -1,
-                        "direction": "mixed"
+                        "win_rate_delta_pct": 50.0,
+                        "total_pnl_delta": 99.83,
+                        "trade_count_delta": 0,
+                        "direction": "improving"
                     }
                 },
                 "legacy_simulation": {
