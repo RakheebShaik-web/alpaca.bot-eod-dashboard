@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-20T18:45:35.639979+00:00",
+    "generated_at": "2026-07-20T19:16:33.945666+00:00",
     "latest_date": "2026-07-20",
     "days": [
         {
@@ -35893,18 +35893,18 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 2,
+                        "total_trades": 3,
                         "win_count": 1,
-                        "loss_count": 1,
+                        "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 50.0,
-                        "loss_rate_pct": 50.0,
-                        "total_pnl": 35.45,
-                        "closed_position_pnl": 11.91,
-                        "avg_pnl_per_trade": 5.95,
+                        "win_rate_pct": 33.33,
+                        "loss_rate_pct": 66.67,
+                        "total_pnl": -23.0,
+                        "closed_position_pnl": -46.55,
+                        "avg_pnl_per_trade": -15.52,
                         "avg_win": 62.62,
-                        "avg_loss": -50.72,
-                        "realized_exit_count": 4,
+                        "avg_loss": -54.58,
+                        "realized_exit_count": 5,
                         "eod_close_count": 0,
                         "tp1_hit_count": 2,
                         "tp1_realized_pnl": 50.01,
@@ -35918,21 +35918,10 @@
                                 "side": "SHORT",
                                 "entry_price": 375.43,
                                 "remaining": 7.0,
-                                "sl": 379.13,
-                                "tp1": 371.73,
-                                "tp2": 369.87,
+                                "sl": 375.43,
+                                "tp1": 371.7256,
+                                "tp2": 369.8734,
                                 "last_event": "TP1_HIT"
-                            },
-                            {
-                                "trade_id": "AAPL-9",
-                                "symbol": "AAPL",
-                                "side": "SHORT",
-                                "entry_price": 325.8743,
-                                "remaining": 26.0,
-                                "sl": 327.75,
-                                "tp1": 324.0,
-                                "tp2": 323.06,
-                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -35949,6 +35938,14 @@
                                 "pnl": 62.62,
                                 "wins": 1,
                                 "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "AAPL": {
+                                "trades": 1,
+                                "pnl": -58.45,
+                                "wins": 0,
+                                "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
                             },
@@ -36073,49 +36070,66 @@
                                 "total_pnl": "81.6224",
                                 "balance": "100081.62",
                                 "notes": "TP1=324.00 TP2=323.06 SL=327.75 shares=26 risk\u00e2\u2030\u02c6$48.77 signal=2026-07-20 18:45:00 atr=1.0718 atr_pct=0.3293 volume_ratio=1.8168 ema_sep_atr=1.5887 ema_slope_atr=-0.0726 alpaca_order=34b27892-3770-45e8-bf6e-3360ef3f9356 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AAPL-9",
+                                "timestamp": "2026-07-20 19:10:17",
+                                "symbol": "AAPL",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "328.1225",
+                                "shares": "26.0",
+                                "usd_qty": "8531.18",
+                                "pnl": "-58.4532",
+                                "total_pnl": "23.1692",
+                                "balance": "100023.17",
+                                "notes": "entry=325.87 exit=328.12 alpaca_order=b674da2b-acb8-445f-8d6d-f9f3f70595d9 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-10",
+                                "timestamp": "2026-07-20 19:15:52",
+                                "symbol": "NVDA",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "202.4266",
+                                "shares": "34.0",
+                                "usd_qty": "6882.5",
+                                "pnl": "0.0",
+                                "total_pnl": "-135.6574",
+                                "balance": "99864.34",
+                                "notes": "TP1=200.99 TP2=200.26 SL=203.87 shares=34 risk\u00e2\u2030\u02c6$49.00 signal=2026-07-20 19:15:00 atr=0.8236 atr_pct=0.4067 volume_ratio=1.1959 ema_sep_atr=0.7770 ema_slope_atr=-0.1618 alpaca_order=bd6b13cd-c749-4f10-ae30-1242af676d42 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 50.0,
-                        "total_pnl_delta": 102.1,
-                        "trade_count_delta": 0,
+                        "win_rate_delta_pct": 33.33,
+                        "total_pnl_delta": 43.65,
+                        "trade_count_delta": 1,
                         "direction": "improving"
                     }
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 2,
-                        "win_count": 1,
+                        "total_trades": 3,
+                        "win_count": 2,
                         "loss_count": 1,
                         "breakeven_count": 0,
-                        "win_rate_pct": 50.0,
-                        "loss_rate_pct": 50.0,
-                        "total_pnl": 33.59,
-                        "closed_position_pnl": 10.75,
-                        "avg_pnl_per_trade": 5.38,
-                        "avg_win": 63.31,
+                        "win_rate_pct": 66.67,
+                        "loss_rate_pct": 33.33,
+                        "total_pnl": 72.72,
+                        "closed_position_pnl": 72.72,
+                        "avg_pnl_per_trade": 24.24,
+                        "avg_win": 62.64,
                         "avg_loss": -52.56,
-                        "realized_exit_count": 4,
+                        "realized_exit_count": 5,
                         "eod_close_count": 0,
                         "tp1_hit_count": 2,
                         "tp1_realized_pnl": 49.16,
-                        "tp2_hit_count": 1,
-                        "tp2_realized_pnl": 36.99,
-                        "open_partial_count": 1,
+                        "tp2_hit_count": 2,
+                        "tp2_realized_pnl": 76.12,
+                        "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "TSLA-1",
-                                "symbol": "TSLA",
-                                "side": "SHORT",
-                                "entry_price": 375.3,
-                                "remaining": 7.0,
-                                "sl": 379.0,
-                                "tp1": 371.6,
-                                "tp2": 369.74,
-                                "last_event": "TP1_HIT"
-                            },
                             {
                                 "trade_id": "GOOGL-3",
                                 "symbol": "GOOGL",
@@ -36125,6 +36139,17 @@
                                 "sl": 352.94,
                                 "tp1": 348.89,
                                 "tp2": 347.88,
+                                "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "ASTS-2",
+                                "symbol": "ASTS",
+                                "side": "SHORT",
+                                "entry_price": 56.9902,
+                                "remaining": 43.0,
+                                "sl": 58.14,
+                                "tp1": 55.84,
+                                "tp2": 55.26,
                                 "last_event": "ENTRY_SHORT"
                             }
                         ],
@@ -36137,6 +36162,14 @@
                                 "breakeven": 0,
                                 "open_partial": 0
                             },
+                            "TSLA": {
+                                "trades": 1,
+                                "pnl": 61.97,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "JPM": {
                                 "trades": 1,
                                 "pnl": 63.31,
@@ -36144,14 +36177,6 @@
                                 "losses": 0,
                                 "breakeven": 0,
                                 "open_partial": 0
-                            },
-                            "TSLA": {
-                                "trades": 0,
-                                "pnl": 22.84,
-                                "wins": 0,
-                                "losses": 0,
-                                "breakeven": 0,
-                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -36266,14 +36291,42 @@
                                 "total_pnl": "82.71",
                                 "balance": "100082.71",
                                 "notes": "TP1=348.89 TP2=347.88 SL=352.94 shares=24 risk\u00e2\u2030\u02c6$48.55 signal=2026-07-20 18:45:00 atr=1.1561 atr_pct=0.3293 volume_ratio=1.3962 ema_sep_atr=0.6023 ema_slope_atr=-0.1256 alpaca_order=c77c0f33-7b15-4dee-bbc3-63c9a6583ca1 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "TSLA-1",
+                                "timestamp": "2026-07-20 19:15:24",
+                                "symbol": "TSLA",
+                                "event": "TP2_HIT",
+                                "side": "SHORT",
+                                "price": "369.71",
+                                "shares": "7.0",
+                                "usd_qty": "2587.97",
+                                "pnl": "39.13",
+                                "total_pnl": "61.97",
+                                "balance": "100061.97",
+                                "notes": "entry=375.30 exit=369.71 alpaca_order=32c8a566-a96d-4c42-9c4d-3706a23a26c5 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "ASTS-2",
+                                "timestamp": "2026-07-20 19:16:02",
+                                "symbol": "ASTS",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "56.9902",
+                                "shares": "43.0",
+                                "usd_qty": "2450.58",
+                                "pnl": "0.0",
+                                "total_pnl": "41.16",
+                                "balance": "100041.16",
+                                "notes": "TP1=55.84 TP2=55.26 SL=58.14 shares=43 risk\u00e2\u2030\u02c6$49.56 signal=2026-07-20 19:15:00 atr=0.6586 atr_pct=1.1544 volume_ratio=2.7828 ema_sep_atr=0.5121 ema_slope_atr=-0.0954 alpaca_order=ae8b2b94-cc2a-4c58-bb7b-2caf55e1daee status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 50.0,
-                        "total_pnl_delta": 99.83,
-                        "trade_count_delta": 0,
+                        "win_rate_delta_pct": 66.67,
+                        "total_pnl_delta": 138.96,
+                        "trade_count_delta": 1,
                         "direction": "improving"
                     }
                 },
@@ -36307,18 +36360,18 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 2,
+                        "total_trades": 3,
                         "win_count": 1,
-                        "loss_count": 1,
+                        "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 50.0,
-                        "loss_rate_pct": 50.0,
-                        "total_pnl": 35.45,
-                        "closed_position_pnl": 11.91,
-                        "avg_pnl_per_trade": 5.95,
+                        "win_rate_pct": 33.33,
+                        "loss_rate_pct": 66.67,
+                        "total_pnl": -23.0,
+                        "closed_position_pnl": -46.55,
+                        "avg_pnl_per_trade": -15.52,
                         "avg_win": 62.62,
-                        "avg_loss": -50.72,
-                        "realized_exit_count": 4,
+                        "avg_loss": -54.58,
+                        "realized_exit_count": 5,
                         "eod_close_count": 0,
                         "tp1_hit_count": 2,
                         "tp1_realized_pnl": 50.01,
@@ -36338,14 +36391,14 @@
                                 "last_event": "TP1_HIT"
                             },
                             {
-                                "trade_id": "AAPL-9",
-                                "symbol": "AAPL",
+                                "trade_id": "NVDA-10",
+                                "symbol": "NVDA",
                                 "side": "SHORT",
-                                "entry_price": 325.8743,
-                                "remaining": 26.0,
-                                "sl": 327.75,
-                                "tp1": 324.0,
-                                "tp2": 323.06,
+                                "entry_price": 202.4266,
+                                "remaining": 34.0,
+                                "sl": 203.87,
+                                "tp1": 200.99,
+                                "tp2": 200.26,
                                 "last_event": "ENTRY_SHORT"
                             }
                         ],
@@ -36363,6 +36416,14 @@
                                 "pnl": 62.62,
                                 "wins": 1,
                                 "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "AAPL": {
+                                "trades": 1,
+                                "pnl": -58.45,
+                                "wins": 0,
+                                "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
                             },
@@ -36487,31 +36548,59 @@
                                 "total_pnl": "81.6224",
                                 "balance": "100081.62",
                                 "notes": "TP1=324.00 TP2=323.06 SL=327.75 shares=26 risk\u00e2\u2030\u02c6$48.77 signal=2026-07-20 18:45:00 atr=1.0718 atr_pct=0.3293 volume_ratio=1.8168 ema_sep_atr=1.5887 ema_slope_atr=-0.0726 alpaca_order=34b27892-3770-45e8-bf6e-3360ef3f9356 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AAPL-9",
+                                "timestamp": "2026-07-20 19:10:17",
+                                "symbol": "AAPL",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "328.1225",
+                                "shares": "26.0",
+                                "usd_qty": "8531.18",
+                                "pnl": "-58.4532",
+                                "total_pnl": "23.1692",
+                                "balance": "100023.17",
+                                "notes": "entry=325.87 exit=328.12 alpaca_order=b674da2b-acb8-445f-8d6d-f9f3f70595d9 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-10",
+                                "timestamp": "2026-07-20 19:15:52",
+                                "symbol": "NVDA",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "202.4266",
+                                "shares": "34.0",
+                                "usd_qty": "6882.5",
+                                "pnl": "0.0",
+                                "total_pnl": "-135.6574",
+                                "balance": "99864.34",
+                                "notes": "TP1=200.99 TP2=200.26 SL=203.87 shares=34 risk\u00e2\u2030\u02c6$49.00 signal=2026-07-20 19:15:00 atr=0.8236 atr_pct=0.4067 volume_ratio=1.1959 ema_sep_atr=0.7770 ema_slope_atr=-0.1618 alpaca_order=bd6b13cd-c749-4f10-ae30-1242af676d42 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 50.0,
-                        "total_pnl_delta": 102.1,
-                        "trade_count_delta": 0,
+                        "win_rate_delta_pct": 33.33,
+                        "total_pnl_delta": 43.65,
+                        "trade_count_delta": 1,
                         "direction": "improving"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 2,
+                "total_trades": 3,
                 "win_count": 1,
-                "loss_count": 1,
+                "loss_count": 2,
                 "breakeven_count": 0,
-                "win_rate_pct": 50.0,
-                "loss_rate_pct": 50.0,
-                "total_pnl": 35.45,
-                "closed_position_pnl": 11.91,
-                "avg_pnl_per_trade": 5.95,
+                "win_rate_pct": 33.33,
+                "loss_rate_pct": 66.67,
+                "total_pnl": -23.0,
+                "closed_position_pnl": -46.55,
+                "avg_pnl_per_trade": -15.52,
                 "avg_win": 62.62,
-                "avg_loss": -50.72,
-                "realized_exit_count": 4,
+                "avg_loss": -54.58,
+                "realized_exit_count": 5,
                 "eod_close_count": 0,
                 "tp1_hit_count": 2,
                 "tp1_realized_pnl": 50.01,
@@ -36531,14 +36620,14 @@
                         "last_event": "TP1_HIT"
                     },
                     {
-                        "trade_id": "AAPL-9",
-                        "symbol": "AAPL",
+                        "trade_id": "NVDA-10",
+                        "symbol": "NVDA",
                         "side": "SHORT",
-                        "entry_price": 325.8743,
-                        "remaining": 26.0,
-                        "sl": 327.75,
-                        "tp1": 324.0,
-                        "tp2": 323.06,
+                        "entry_price": 202.4266,
+                        "remaining": 34.0,
+                        "sl": 203.87,
+                        "tp1": 200.99,
+                        "tp2": 200.26,
                         "last_event": "ENTRY_SHORT"
                     }
                 ],
@@ -36556,6 +36645,14 @@
                         "pnl": 62.62,
                         "wins": 1,
                         "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "AAPL": {
+                        "trades": 1,
+                        "pnl": -58.45,
+                        "wins": 0,
+                        "losses": 1,
                         "breakeven": 0,
                         "open_partial": 0
                     },
@@ -36680,6 +36777,34 @@
                         "total_pnl": "81.6224",
                         "balance": "100081.62",
                         "notes": "TP1=324.00 TP2=323.06 SL=327.75 shares=26 risk\u00e2\u2030\u02c6$48.77 signal=2026-07-20 18:45:00 atr=1.0718 atr_pct=0.3293 volume_ratio=1.8168 ema_sep_atr=1.5887 ema_slope_atr=-0.0726 alpaca_order=34b27892-3770-45e8-bf6e-3360ef3f9356 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "AAPL-9",
+                        "timestamp": "2026-07-20 19:10:17",
+                        "symbol": "AAPL",
+                        "event": "SL_HIT",
+                        "side": "SHORT",
+                        "price": "328.1225",
+                        "shares": "26.0",
+                        "usd_qty": "8531.18",
+                        "pnl": "-58.4532",
+                        "total_pnl": "23.1692",
+                        "balance": "100023.17",
+                        "notes": "entry=325.87 exit=328.12 alpaca_order=b674da2b-acb8-445f-8d6d-f9f3f70595d9 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "NVDA-10",
+                        "timestamp": "2026-07-20 19:15:52",
+                        "symbol": "NVDA",
+                        "event": "ENTRY_SHORT",
+                        "side": "SHORT",
+                        "price": "202.4266",
+                        "shares": "34.0",
+                        "usd_qty": "6882.5",
+                        "pnl": "0.0",
+                        "total_pnl": "-135.6574",
+                        "balance": "99864.34",
+                        "notes": "TP1=200.99 TP2=200.26 SL=203.87 shares=34 risk\u00e2\u2030\u02c6$49.00 signal=2026-07-20 19:15:00 atr=0.8236 atr_pct=0.4067 volume_ratio=1.1959 ema_sep_atr=0.7770 ema_slope_atr=-0.1618 alpaca_order=bd6b13cd-c749-4f10-ae30-1242af676d42 status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -36696,9 +36821,9 @@
             },
             "trend": {
                 "has_previous_day": true,
-                "win_rate_delta_pct": 50.0,
-                "total_pnl_delta": 102.1,
-                "trade_count_delta": 0,
+                "win_rate_delta_pct": 33.33,
+                "total_pnl_delta": 43.65,
+                "trade_count_delta": 1,
                 "direction": "improving"
             }
         }
