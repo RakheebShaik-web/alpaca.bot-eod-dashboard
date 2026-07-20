@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T13:45:08.912015+00:00",
+  "generated_at": "2026-07-20T15:00:09.706739+00:00",
   "latest_date": "2026-07-20",
   "days": [
     {
@@ -620,8 +620,20 @@
           "tp1_realized_pnl": 0,
           "tp2_hit_count": 0,
           "tp2_realized_pnl": 0,
-          "open_partial_count": 0,
-          "open_positions": [],
+          "open_partial_count": 1,
+          "open_positions": [
+            {
+              "trade_id": "1-8",
+              "symbol": "BTC/USD",
+              "side": "LONG",
+              "entry_price": 64448.04,
+              "remaining": 0.015516375672557304,
+              "sl": 63946.41,
+              "tp1": 65200.47,
+              "tp2": null,
+              "last_event": "ENTRY_LONG"
+            }
+          ],
           "by_symbol": {
             "BTC/USD": {
               "trades": 1,
@@ -629,7 +641,7 @@
               "wins": 1,
               "losses": 0,
               "breakeven": 0,
-              "open_partial": 0
+              "open_partial": 1
             }
           },
           "recent_trades": [
@@ -662,6 +674,36 @@
               "outcome": "WIN",
               "notes": "entry=64339.55  exit=64659.99",
               "shares": 0.04598237642783427
+            },
+            {
+              "trade_id": "1-8",
+              "timestamp": "2026-07-20 15:00:03",
+              "symbol": "BTC/USD",
+              "mode": "paper",
+              "exchange": "alpaca",
+              "account": "paper",
+              "event": "ENTRY_LONG",
+              "side": "LONG",
+              "price": "64448.04",
+              "usd_qty": "1000.0",
+              "pnl": "0.0",
+              "total_pnl": "8.8619",
+              "balance": "1008.86",
+              "adx": "21.32",
+              "rsi": "48.83",
+              "volume_ratio": "0.5368",
+              "atr_pct": "0.38917",
+              "ema200_dist_pct": "0.0",
+              "mtf_rsi4h": "0.0",
+              "mtf_ema_ok": "0",
+              "alma_cross_strength": "0.05619",
+              "strategy": "alma_cross",
+              "funding_rate": "",
+              "hold_bars": "",
+              "exit_reason": "",
+              "outcome": "",
+              "notes": "TP=65200.47  SL=63946.41",
+              "shares": 0.015516375672557304
             }
           ]
         },
