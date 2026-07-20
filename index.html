@@ -86,6 +86,27 @@
   @media(max-width:900px){h1:after{font-size:37px}}
   @media(max-width:680px){h1:after{font-size:27px}}
 </style>
+<style>
+  /* Readable semantic colors on the dark recent-trades surface */
+  main>section:last-child .event-entry{color:#d7ddd8}
+  main>section:last-child .event-tp,
+  main>section:last-child .side-long,
+  main>section:last-child .up{color:#69c596}
+  main>section:last-child .event-sl,
+  main>section:last-child .down{color:#ff8178}
+  main>section:last-child .side-short,
+  main>section:last-child .event-eod{color:#d8ab63}
+  main>section:last-child .lifecycle-a td:first-child{border-left-color:rgba(105,197,150,.72)}
+  main>section:last-child .lifecycle-b td:first-child{border-left-color:rgba(216,171,99,.72)}
+  html[data-theme="dark"] main>section:last-child .event-entry{color:#191a17}
+  html[data-theme="dark"] main>section:last-child .event-tp,
+  html[data-theme="dark"] main>section:last-child .side-long,
+  html[data-theme="dark"] main>section:last-child .up{color:#287a55}
+  html[data-theme="dark"] main>section:last-child .event-sl,
+  html[data-theme="dark"] main>section:last-child .down{color:#b34337}
+  html[data-theme="dark"] main>section:last-child .side-short,
+  html[data-theme="dark"] main>section:last-child .event-eod{color:#94641e}
+</style>
 </head>
 <body>
 <div class="wrap">
