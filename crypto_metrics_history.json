@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T16:00:10.253614+00:00",
+  "generated_at": "2026-07-20T16:45:11.251324+00:00",
   "latest_date": "2026-07-20",
   "days": [
     {
@@ -603,45 +603,33 @@
       "date": "2026-07-20",
       "alpaca_crypto": {
         "trade_metrics": {
-          "total_trades": 2,
+          "total_trades": 3,
           "win_count": 2,
-          "loss_count": 0,
+          "loss_count": 1,
           "breakeven_count": 0,
-          "win_rate_pct": 100.0,
-          "loss_rate_pct": 0.0,
-          "total_pnl": 19.6744,
-          "closed_position_pnl": 19.6744,
-          "avg_pnl_per_trade": 9.8372,
+          "win_rate_pct": 66.67,
+          "loss_rate_pct": 33.33,
+          "total_pnl": 13.9109,
+          "closed_position_pnl": 13.9109,
+          "avg_pnl_per_trade": 4.637,
           "avg_win": 9.8372,
-          "avg_loss": 0,
-          "realized_exit_count": 2,
+          "avg_loss": -5.7635,
+          "realized_exit_count": 3,
           "eod_close_count": 0,
           "tp1_hit_count": 1,
           "tp1_realized_pnl": 10.8125,
           "tp2_hit_count": 0,
           "tp2_realized_pnl": 0,
-          "open_partial_count": 1,
-          "open_positions": [
-            {
-              "trade_id": "2-9",
-              "symbol": "BTC/USD",
-              "side": "LONG",
-              "entry_price": 65624.46,
-              "remaining": 0.015238220626882109,
-              "sl": 65014.87,
-              "tp1": 66538.86,
-              "tp2": null,
-              "last_event": "ENTRY_LONG"
-            }
-          ],
+          "open_partial_count": 0,
+          "open_positions": [],
           "by_symbol": {
             "BTC/USD": {
-              "trades": 2,
-              "pnl": 19.6744,
+              "trades": 3,
+              "pnl": 13.9109,
               "wins": 2,
-              "losses": 0,
+              "losses": 1,
               "breakeven": 0,
-              "open_partial": 1
+              "open_partial": 0
             }
           },
           "recent_trades": [
@@ -764,6 +752,36 @@
               "outcome": "",
               "notes": "TP=66538.86  SL=65014.87",
               "shares": 0.015238220626882109
+            },
+            {
+              "trade_id": "2-9",
+              "timestamp": "2026-07-20 16:45:06",
+              "symbol": "BTC/USD",
+              "mode": "paper",
+              "exchange": "alpaca",
+              "account": "paper",
+              "event": "CLOSE_LONG",
+              "side": "LONG",
+              "price": "65377.49",
+              "usd_qty": "1000.0",
+              "pnl": "-5.7635",
+              "total_pnl": "13.9109",
+              "balance": "1013.91",
+              "adx": "",
+              "rsi": "",
+              "volume_ratio": "",
+              "atr_pct": "",
+              "ema200_dist_pct": "",
+              "mtf_rsi4h": "",
+              "mtf_ema_ok": "",
+              "alma_cross_strength": "",
+              "strategy": "",
+              "funding_rate": "",
+              "hold_bars": "3.0",
+              "exit_reason": "CLOSE_LONG",
+              "outcome": "LOSS",
+              "notes": "entry=65624.46  exit=65377.49",
+              "shares": 0.015295784527671528
             }
           ]
         },
