@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-20T14:15:55.841908+00:00",
+    "generated_at": "2026-07-20T14:16:54.617841+00:00",
     "latest_date": "2026-07-20",
     "days": [
         {
@@ -36018,6 +36018,17 @@
                                 "tp1": 371.6,
                                 "tp2": 369.74,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "JPM-1",
+                                "symbol": "JPM",
+                                "side": "SHORT",
+                                "entry_price": 341.5629,
+                                "remaining": 24.0,
+                                "sl": 343.6,
+                                "tp1": 339.52,
+                                "tp2": 338.5,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -36072,6 +36083,20 @@
                                 "total_pnl": "-35.74",
                                 "balance": "99964.26",
                                 "notes": "entry=390.69 exit=393.19 alpaca_order=f5f93852-09f0-4022-a50c-4839f3fd4e9c status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "JPM-1",
+                                "timestamp": "2026-07-20 14:16:24",
+                                "symbol": "JPM",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "341.5629",
+                                "shares": "24.0",
+                                "usd_qty": "8197.51",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=339.52 TP2=338.50 SL=343.60 shares=24 risk\u00e2\u2030\u02c6$48.99 signal=2026-07-20 14:15:00 atr=1.1664 atr_pct=0.3417 volume_ratio=1.0468 ema_sep_atr=0.6948 ema_slope_atr=-0.0634 alpaca_order=48bc7f39-82c3-4e36-888c-e959ee42a654 status=OrderStatus.FILLED"
                             }
                         ]
                     },
