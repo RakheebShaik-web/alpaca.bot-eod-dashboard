@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-20T18:40:16.556511+00:00",
+    "generated_at": "2026-07-20T18:45:29.581912+00:00",
     "latest_date": "2026-07-20",
     "days": [
         {
@@ -36090,6 +36090,17 @@
                                 "tp1": 371.6,
                                 "tp2": 369.74,
                                 "last_event": "TP1_HIT"
+                            },
+                            {
+                                "trade_id": "GOOGL-3",
+                                "symbol": "GOOGL",
+                                "side": "SHORT",
+                                "entry_price": 350.9175,
+                                "remaining": 24.0,
+                                "sl": 352.94,
+                                "tp1": 348.89,
+                                "tp2": 347.88,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -36216,6 +36227,20 @@
                                 "total_pnl": "63.31",
                                 "balance": "100063.31",
                                 "notes": "entry=341.56 exit=338.48 alpaca_order=65e413f5-4b7f-4208-aaaf-0ef4e2aa14fb status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "GOOGL-3",
+                                "timestamp": "2026-07-20 18:45:24",
+                                "symbol": "GOOGL",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "350.9175",
+                                "shares": "24.0",
+                                "usd_qty": "8422.02",
+                                "pnl": "0.0",
+                                "total_pnl": "82.71",
+                                "balance": "100082.71",
+                                "notes": "TP1=348.89 TP2=347.88 SL=352.94 shares=24 risk\u00e2\u2030\u02c6$48.55 signal=2026-07-20 18:45:00 atr=1.1561 atr_pct=0.3293 volume_ratio=1.3962 ema_sep_atr=0.6023 ema_slope_atr=-0.1256 alpaca_order=c77c0f33-7b15-4dee-bbc3-63c9a6583ca1 status=OrderStatus.FILLED"
                             }
                         ]
                     },
