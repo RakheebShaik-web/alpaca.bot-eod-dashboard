@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-20T14:20:51.643132+00:00",
+    "generated_at": "2026-07-20T14:35:34.264189+00:00",
     "latest_date": "2026-07-20",
     "days": [
         {
@@ -36020,18 +36020,18 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -52.56,
+                        "total_pnl": -26.25,
                         "closed_position_pnl": -52.56,
                         "avg_pnl_per_trade": -52.56,
                         "avg_win": 0.0,
                         "avg_loss": -52.56,
-                        "realized_exit_count": 1,
+                        "realized_exit_count": 2,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 26.32,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "TSLA-1",
@@ -36049,11 +36049,11 @@
                                 "symbol": "JPM",
                                 "side": "SHORT",
                                 "entry_price": 341.5629,
-                                "remaining": 24.0,
+                                "remaining": 12.0,
                                 "sl": 343.6,
                                 "tp1": 339.52,
                                 "tp2": 338.5,
-                                "last_event": "ENTRY_SHORT"
+                                "last_event": "TP1_HIT"
                             }
                         ],
                         "by_symbol": {
@@ -36064,6 +36064,14 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
+                            },
+                            "JPM": {
+                                "trades": 0,
+                                "pnl": 26.32,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -36122,13 +36130,27 @@
                                 "total_pnl": "0.0",
                                 "balance": "100000.0",
                                 "notes": "TP1=339.52 TP2=338.50 SL=343.60 shares=24 risk\u00e2\u2030\u02c6$48.99 signal=2026-07-20 14:15:00 atr=1.1664 atr_pct=0.3417 volume_ratio=1.0468 ema_sep_atr=0.6948 ema_slope_atr=-0.0634 alpaca_order=48bc7f39-82c3-4e36-888c-e959ee42a654 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "JPM-1",
+                                "timestamp": "2026-07-20 14:35:29",
+                                "symbol": "JPM",
+                                "event": "TP1_HIT",
+                                "side": "SHORT",
+                                "price": "339.37",
+                                "shares": "12.0",
+                                "usd_qty": "4072.44",
+                                "pnl": "26.315",
+                                "total_pnl": "26.315",
+                                "balance": "100026.31",
+                                "notes": "remaining=12 shares alpaca_order=de2873dc-57dc-4d76-8325-5aa96d85cf45 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": 0.0,
-                        "total_pnl_delta": 13.68,
+                        "total_pnl_delta": 39.99,
                         "trade_count_delta": -1,
                         "direction": "mixed"
                     }
