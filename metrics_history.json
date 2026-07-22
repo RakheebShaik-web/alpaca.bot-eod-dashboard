@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-22T14:17:36.946924+00:00",
+    "generated_at": "2026-07-22T14:31:54.362867+00:00",
     "latest_date": "2026-07-22",
     "days": [
         {
@@ -37042,36 +37042,25 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 0,
-                        "win_count": 0,
+                        "total_trades": 1,
+                        "win_count": 1,
                         "loss_count": 0,
                         "breakeven_count": 0,
-                        "win_rate_pct": 0.0,
+                        "win_rate_pct": 100.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 23.38,
-                        "closed_position_pnl": 0,
-                        "avg_pnl_per_trade": 0.0,
-                        "avg_win": 0.0,
+                        "total_pnl": 63.16,
+                        "closed_position_pnl": 63.16,
+                        "avg_pnl_per_trade": 63.16,
+                        "avg_win": 63.16,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 1,
+                        "realized_exit_count": 2,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 23.38,
-                        "tp2_hit_count": 0,
-                        "tp2_realized_pnl": 0,
-                        "open_partial_count": 1,
+                        "tp2_hit_count": 1,
+                        "tp2_realized_pnl": 39.78,
+                        "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "AAPL-3",
-                                "symbol": "AAPL",
-                                "side": "SHORT",
-                                "entry_price": 326.79,
-                                "remaining": 15.0,
-                                "sl": 328.46,
-                                "tp1": 325.12,
-                                "tp2": 324.28,
-                                "last_event": "TP1_HIT"
-                            },
                             {
                                 "trade_id": "NVDA-5",
                                 "symbol": "NVDA",
@@ -37086,12 +37075,12 @@
                         ],
                         "by_symbol": {
                             "AAPL": {
-                                "trades": 0,
-                                "pnl": 23.38,
-                                "wins": 0,
+                                "trades": 1,
+                                "pnl": 63.16,
+                                "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
-                                "open_partial": 1
+                                "open_partial": 0
                             }
                         },
                         "recent_trades": [
@@ -37136,6 +37125,20 @@
                                 "total_pnl": "23.38",
                                 "balance": "100023.38",
                                 "notes": "remaining=15 shares alpaca_order=7f9fe48e-b429-49c6-8324-927e160a46e2 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AAPL-3",
+                                "timestamp": "2026-07-22 14:31:50",
+                                "symbol": "AAPL",
+                                "event": "TP2_HIT",
+                                "side": "SHORT",
+                                "price": "324.138",
+                                "shares": "15.0",
+                                "usd_qty": "4862.07",
+                                "pnl": "39.78",
+                                "total_pnl": "63.16",
+                                "balance": "100063.16",
+                                "notes": "entry=326.79 exit=324.14 alpaca_order=7d2ab181-9402-4836-8af5-8682b8be46c3 status=OrderStatus.FILLED"
                             }
                         ]
                     },
