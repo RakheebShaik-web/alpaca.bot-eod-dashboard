@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-22T15:02:41.891841+00:00",
+    "generated_at": "2026-07-22T16:00:09.962701+00:00",
     "latest_date": "2026-07-22",
     "days": [
         {
@@ -37126,18 +37126,18 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 100.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 131.24,
+                        "total_pnl": 159.5,
                         "closed_position_pnl": 131.24,
                         "avg_pnl_per_trade": 65.62,
                         "avg_win": 65.62,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 4,
+                        "realized_exit_count": 5,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 2,
-                        "tp1_realized_pnl": 50.02,
+                        "tp1_hit_count": 3,
+                        "tp1_realized_pnl": 78.28,
                         "tp2_hit_count": 2,
                         "tp2_realized_pnl": 81.22,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "MSFT-3",
@@ -37155,11 +37155,11 @@
                                 "symbol": "AVGO",
                                 "side": "LONG",
                                 "entry_price": 389.728,
-                                "remaining": 15.0,
+                                "remaining": 7.0,
                                 "sl": 386.42,
                                 "tp1": 393.04,
                                 "tp2": 394.69,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "TP1_HIT"
                             }
                         ],
                         "by_symbol": {
@@ -37178,6 +37178,14 @@
                                 "losses": 0,
                                 "breakeven": 0,
                                 "open_partial": 0
+                            },
+                            "AVGO": {
+                                "trades": 0,
+                                "pnl": 28.26,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -37292,6 +37300,20 @@
                                 "total_pnl": "0.0",
                                 "balance": "100000.0",
                                 "notes": "TP1=393.04 TP2=394.69 SL=386.42 shares=15 risk\u00e2\u2030\u02c6$49.61 signal=2026-07-22 15:00:00 atr=1.8900 atr_pct=0.4852 volume_ratio=1.4934 ema_sep_atr=1.1238 ema_slope_atr=0.1008 alpaca_order=5f1a0cad-0ad0-4b91-8775-34cec0099a35 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AVGO-1",
+                                "timestamp": "2026-07-22 16:00:03",
+                                "symbol": "AVGO",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "393.26",
+                                "shares": "8.0",
+                                "usd_qty": "3146.08",
+                                "pnl": "28.256",
+                                "total_pnl": "28.256",
+                                "balance": "100028.26",
+                                "notes": "remaining=7 shares alpaca_order=c8235a1e-90c4-4581-bcf6-bb087e5fcc2c status=OrderStatus.FILLED"
                             }
                         ]
                     },
