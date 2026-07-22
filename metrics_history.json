@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-22T19:51:56.471385+00:00",
+    "generated_at": "2026-07-22T19:52:09.080970+00:00",
     "latest_date": "2026-07-22",
     "days": [
         {
@@ -37164,36 +37164,25 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 3,
-                        "win_count": 3,
+                        "total_trades": 4,
+                        "win_count": 4,
                         "loss_count": 0,
                         "breakeven_count": 0,
                         "win_rate_pct": 100.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 195.36,
-                        "closed_position_pnl": 195.36,
-                        "avg_pnl_per_trade": 65.12,
-                        "avg_win": 65.12,
+                        "total_pnl": 202.92,
+                        "closed_position_pnl": 202.92,
+                        "avg_pnl_per_trade": 50.73,
+                        "avg_win": 50.73,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 6,
-                        "eod_close_count": 0,
+                        "realized_exit_count": 7,
+                        "eod_close_count": 1,
                         "tp1_hit_count": 3,
                         "tp1_realized_pnl": 78.28,
                         "tp2_hit_count": 3,
                         "tp2_realized_pnl": 117.08,
                         "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "MSFT-3",
-                                "symbol": "MSFT",
-                                "side": "SHORT",
-                                "entry_price": 389.94,
-                                "remaining": 16.0,
-                                "sl": 392.93,
-                                "tp1": 386.95,
-                                "tp2": 385.45,
-                                "last_event": "ENTRY_SHORT"
-                            },
                             {
                                 "trade_id": "NVDA-6",
                                 "symbol": "NVDA",
@@ -37218,6 +37207,14 @@
                             "NVDA": {
                                 "trades": 1,
                                 "pnl": 68.08,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "MSFT": {
+                                "trades": 1,
+                                "pnl": 7.56,
                                 "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
@@ -37386,6 +37383,20 @@
                                 "total_pnl": "-5.35",
                                 "balance": "99994.65",
                                 "notes": "TP1=216.32 TP2=217.66 SL=210.94 shares=18 risk\u00e2\u2030\u02c6$48.41 signal=2026-07-22 16:30:00 atr=1.5368 atr_pct=0.7198 volume_ratio=1.4237 ema_sep_atr=1.3417 ema_slope_atr=0.2870 alpaca_order=64dc69df-9e6c-46f7-822a-5735d954cb7b status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-3",
+                                "timestamp": "2026-07-22 19:52:04",
+                                "symbol": "MSFT",
+                                "event": "CLOSE_EOD",
+                                "side": "SHORT",
+                                "price": "389.4675",
+                                "shares": "16.0",
+                                "usd_qty": "6231.48",
+                                "pnl": "7.56",
+                                "total_pnl": "-28.18",
+                                "balance": "99971.82",
+                                "notes": "entry=389.94 exit=389.47 alpaca_order=e7ffc666-6b26-4b18-ad2e-97d796957190 status=OrderStatus.FILLED"
                             }
                         ]
                     },
