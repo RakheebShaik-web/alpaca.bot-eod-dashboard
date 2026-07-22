@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-22T14:57:41.877806+00:00",
+    "generated_at": "2026-07-22T14:59:22.870626+00:00",
     "latest_date": "2026-07-22",
     "days": [
         {
@@ -37092,36 +37092,25 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 1,
-                        "win_count": 1,
+                        "total_trades": 2,
+                        "win_count": 2,
                         "loss_count": 0,
                         "breakeven_count": 0,
                         "win_rate_pct": 100.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 89.8,
-                        "closed_position_pnl": 63.16,
-                        "avg_pnl_per_trade": 63.16,
-                        "avg_win": 63.16,
+                        "total_pnl": 131.24,
+                        "closed_position_pnl": 131.24,
+                        "avg_pnl_per_trade": 65.62,
+                        "avg_win": 65.62,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 3,
+                        "realized_exit_count": 4,
                         "eod_close_count": 0,
                         "tp1_hit_count": 2,
                         "tp1_realized_pnl": 50.02,
-                        "tp2_hit_count": 1,
-                        "tp2_realized_pnl": 39.78,
-                        "open_partial_count": 1,
+                        "tp2_hit_count": 2,
+                        "tp2_realized_pnl": 81.22,
+                        "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "NVDA-5",
-                                "symbol": "NVDA",
-                                "side": "LONG",
-                                "entry_price": 207.0226,
-                                "remaining": 17.0,
-                                "sl": 205.58,
-                                "tp1": 208.47,
-                                "tp2": 209.19,
-                                "last_event": "TP1_HIT"
-                            },
                             {
                                 "trade_id": "MSFT-3",
                                 "symbol": "MSFT",
@@ -37144,12 +37133,12 @@
                                 "open_partial": 0
                             },
                             "NVDA": {
-                                "trades": 0,
-                                "pnl": 26.64,
-                                "wins": 0,
+                                "trades": 1,
+                                "pnl": 68.08,
+                                "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
-                                "open_partial": 1
+                                "open_partial": 0
                             }
                         },
                         "recent_trades": [
@@ -37236,6 +37225,20 @@
                                 "total_pnl": "-46.785",
                                 "balance": "99953.22",
                                 "notes": "remaining=17 shares alpaca_order=dd73c50e-2e4c-4b4c-9634-a355b972404c status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-5",
+                                "timestamp": "2026-07-22 14:59:19",
+                                "symbol": "NVDA",
+                                "event": "TP2_HIT",
+                                "side": "LONG",
+                                "price": "209.46",
+                                "shares": "17.0",
+                                "usd_qty": "3560.82",
+                                "pnl": "41.435",
+                                "total_pnl": "-5.35",
+                                "balance": "99994.65",
+                                "notes": "entry=207.02 exit=209.46 alpaca_order=a32189bf-e6aa-435c-9c9c-5f326207f44c status=OrderStatus.FILLED"
                             }
                         ]
                     },
