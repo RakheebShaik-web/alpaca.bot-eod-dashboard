@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-22T19:52:20.240951+00:00",
+    "generated_at": "2026-07-22T19:53:08.550746+00:00",
     "latest_date": "2026-07-22",
     "days": [
         {
@@ -37155,37 +37155,25 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 4,
+                        "total_trades": 5,
                         "win_count": 4,
-                        "loss_count": 0,
+                        "loss_count": 1,
                         "breakeven_count": 0,
-                        "win_rate_pct": 100.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 202.92,
-                        "closed_position_pnl": 202.92,
-                        "avg_pnl_per_trade": 50.73,
+                        "win_rate_pct": 80.0,
+                        "loss_rate_pct": 20.0,
+                        "total_pnl": 182.65,
+                        "closed_position_pnl": 182.65,
+                        "avg_pnl_per_trade": 36.53,
                         "avg_win": 50.73,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 7,
-                        "eod_close_count": 1,
+                        "avg_loss": -20.27,
+                        "realized_exit_count": 8,
+                        "eod_close_count": 2,
                         "tp1_hit_count": 3,
                         "tp1_realized_pnl": 78.28,
                         "tp2_hit_count": 3,
                         "tp2_realized_pnl": 117.08,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "NVDA-6",
-                                "symbol": "NVDA",
-                                "side": "LONG",
-                                "entry_price": 213.6261,
-                                "remaining": 18.0,
-                                "sl": 210.94,
-                                "tp1": 216.32,
-                                "tp2": 217.66,
-                                "last_event": "ENTRY_LONG"
-                            }
-                        ],
+                        "open_positions": [],
                         "by_symbol": {
                             "AAPL": {
                                 "trades": 1,
@@ -37196,10 +37184,10 @@
                                 "open_partial": 0
                             },
                             "NVDA": {
-                                "trades": 1,
-                                "pnl": 68.08,
+                                "trades": 2,
+                                "pnl": 47.81,
                                 "wins": 1,
-                                "losses": 0,
+                                "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
                             },
@@ -37388,6 +37376,20 @@
                                 "total_pnl": "-28.18",
                                 "balance": "99971.82",
                                 "notes": "entry=389.94 exit=389.47 alpaca_order=e7ffc666-6b26-4b18-ad2e-97d796957190 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-6",
+                                "timestamp": "2026-07-22 19:52:26",
+                                "symbol": "NVDA",
+                                "event": "CLOSE_EOD",
+                                "side": "LONG",
+                                "price": "212.5",
+                                "shares": "18.0",
+                                "usd_qty": "3825.0",
+                                "pnl": "-20.27",
+                                "total_pnl": "-25.62",
+                                "balance": "99974.38",
+                                "notes": "entry=213.63 exit=212.50 alpaca_order=ad1d6830-61a2-4f92-8d4b-614b4eddeb26 status=OrderStatus.FILLED"
                             }
                         ]
                     },
