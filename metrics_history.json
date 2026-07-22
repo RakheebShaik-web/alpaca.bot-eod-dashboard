@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-22T14:59:22.870626+00:00",
+    "generated_at": "2026-07-22T15:01:41.255113+00:00",
     "latest_date": "2026-07-22",
     "days": [
         {
@@ -37121,6 +37121,17 @@
                                 "tp1": 386.95,
                                 "tp2": 385.45,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "AVGO-1",
+                                "symbol": "AVGO",
+                                "side": "LONG",
+                                "entry_price": 389.728,
+                                "remaining": 15.0,
+                                "sl": 386.42,
+                                "tp1": 393.04,
+                                "tp2": 394.69,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -37239,6 +37250,20 @@
                                 "total_pnl": "-5.35",
                                 "balance": "99994.65",
                                 "notes": "entry=207.02 exit=209.46 alpaca_order=a32189bf-e6aa-435c-9c9c-5f326207f44c status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AVGO-1",
+                                "timestamp": "2026-07-22 15:01:37",
+                                "symbol": "AVGO",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "389.728",
+                                "shares": "15.0",
+                                "usd_qty": "5845.92",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=393.04 TP2=394.69 SL=386.42 shares=15 risk\u00e2\u2030\u02c6$49.61 signal=2026-07-22 15:00:00 atr=1.8900 atr_pct=0.4852 volume_ratio=1.4934 ema_sep_atr=1.1238 ema_slope_atr=0.1008 alpaca_order=5f1a0cad-0ad0-4b91-8775-34cec0099a35 status=OrderStatus.FILLED"
                             }
                         ]
                     },
