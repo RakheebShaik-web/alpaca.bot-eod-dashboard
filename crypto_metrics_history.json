@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T17:30:09.565224+00:00",
+  "generated_at": "2026-07-22T19:15:13.471901+00:00",
   "latest_date": "2026-07-22",
   "days": [
     {
@@ -931,8 +931,20 @@
           "tp1_realized_pnl": 0,
           "tp2_hit_count": 0,
           "tp2_realized_pnl": 0,
-          "open_partial_count": 0,
-          "open_positions": [],
+          "open_partial_count": 1,
+          "open_positions": [
+            {
+              "trade_id": "2-13",
+              "symbol": "BTC/USD",
+              "side": "LONG",
+              "entry_price": 65745.92,
+              "remaining": 0.015210069309243828,
+              "sl": 65383.75,
+              "tp1": 66289.16,
+              "tp2": null,
+              "last_event": "ENTRY_LONG"
+            }
+          ],
           "by_symbol": {
             "BTC/USD": {
               "trades": 2,
@@ -940,7 +952,7 @@
               "wins": 0,
               "losses": 2,
               "breakeven": 0,
-              "open_partial": 0
+              "open_partial": 1
             }
           },
           "recent_trades": [
@@ -1033,6 +1045,36 @@
               "outcome": "LOSS",
               "notes": "entry=65941.04  exit=65982.01",
               "shares": 0.015155646213263284
+            },
+            {
+              "trade_id": "2-13",
+              "timestamp": "2026-07-22 19:15:09",
+              "symbol": "BTC/USD",
+              "mode": "paper",
+              "exchange": "alpaca",
+              "account": "paper",
+              "event": "ENTRY_LONG",
+              "side": "LONG",
+              "price": "65745.92",
+              "usd_qty": "1000.0",
+              "pnl": "0.0",
+              "total_pnl": "-1.4061",
+              "balance": "998.59",
+              "adx": "16.1",
+              "rsi": "47.13",
+              "volume_ratio": "0.4539",
+              "atr_pct": "0.27543",
+              "ema200_dist_pct": "0.0",
+              "mtf_rsi4h": "0.0",
+              "mtf_ema_ok": "0",
+              "alma_cross_strength": "0.02944",
+              "strategy": "trend_pullback",
+              "funding_rate": "",
+              "hold_bars": "",
+              "exit_reason": "",
+              "outcome": "",
+              "notes": "TP=66289.16  SL=65383.75",
+              "shares": 0.015210069309243828
             }
           ]
         },
