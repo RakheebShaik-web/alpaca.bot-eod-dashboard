@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-22T14:32:06.138500+00:00",
+    "generated_at": "2026-07-22T14:32:54.065330+00:00",
     "latest_date": "2026-07-22",
     "days": [
         {
@@ -37085,6 +37085,17 @@
                                 "tp1": 208.47,
                                 "tp2": 209.19,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "MSFT-3",
+                                "symbol": "MSFT",
+                                "side": "SHORT",
+                                "entry_price": 389.94,
+                                "remaining": 16.0,
+                                "sl": 392.93,
+                                "tp1": 386.95,
+                                "tp2": 385.45,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -37153,6 +37164,20 @@
                                 "total_pnl": "63.16",
                                 "balance": "100063.16",
                                 "notes": "entry=326.79 exit=324.14 alpaca_order=7d2ab181-9402-4836-8af5-8682b8be46c3 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-3",
+                                "timestamp": "2026-07-22 14:32:15",
+                                "symbol": "MSFT",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "389.94",
+                                "shares": "16.0",
+                                "usd_qty": "6239.04",
+                                "pnl": "0.0",
+                                "total_pnl": "-35.74",
+                                "balance": "99964.26",
+                                "notes": "TP1=386.95 TP2=385.45 SL=392.93 shares=16 risk\u00e2\u2030\u02c6$47.85 signal=2026-07-22 14:30:00 atr=1.7089 atr_pct=0.4386 volume_ratio=1.0770 ema_sep_atr=0.6975 ema_slope_atr=-0.3713 alpaca_order=15cd636e-9a83-4a9b-b9e3-15d1014b9a61 status=OrderStatus.FILLED"
                             }
                         ]
                     },
