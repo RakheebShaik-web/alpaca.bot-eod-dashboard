@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-22T16:00:09.962701+00:00",
+    "generated_at": "2026-07-22T16:16:54.559665+00:00",
     "latest_date": "2026-07-22",
     "days": [
         {
@@ -37120,24 +37120,24 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 2,
-                        "win_count": 2,
+                        "total_trades": 3,
+                        "win_count": 3,
                         "loss_count": 0,
                         "breakeven_count": 0,
                         "win_rate_pct": 100.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 159.5,
-                        "closed_position_pnl": 131.24,
-                        "avg_pnl_per_trade": 65.62,
-                        "avg_win": 65.62,
+                        "total_pnl": 195.36,
+                        "closed_position_pnl": 195.36,
+                        "avg_pnl_per_trade": 65.12,
+                        "avg_win": 65.12,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 5,
+                        "realized_exit_count": 6,
                         "eod_close_count": 0,
                         "tp1_hit_count": 3,
                         "tp1_realized_pnl": 78.28,
-                        "tp2_hit_count": 2,
-                        "tp2_realized_pnl": 81.22,
-                        "open_partial_count": 1,
+                        "tp2_hit_count": 3,
+                        "tp2_realized_pnl": 117.08,
+                        "open_partial_count": 0,
                         "open_positions": [
                             {
                                 "trade_id": "MSFT-3",
@@ -37149,17 +37149,6 @@
                                 "tp1": 386.95,
                                 "tp2": 385.45,
                                 "last_event": "ENTRY_SHORT"
-                            },
-                            {
-                                "trade_id": "AVGO-1",
-                                "symbol": "AVGO",
-                                "side": "LONG",
-                                "entry_price": 389.728,
-                                "remaining": 7.0,
-                                "sl": 386.42,
-                                "tp1": 393.04,
-                                "tp2": 394.69,
-                                "last_event": "TP1_HIT"
                             }
                         ],
                         "by_symbol": {
@@ -37180,12 +37169,12 @@
                                 "open_partial": 0
                             },
                             "AVGO": {
-                                "trades": 0,
-                                "pnl": 28.26,
-                                "wins": 0,
+                                "trades": 1,
+                                "pnl": 64.12,
+                                "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
-                                "open_partial": 1
+                                "open_partial": 0
                             }
                         },
                         "recent_trades": [
@@ -37314,6 +37303,20 @@
                                 "total_pnl": "28.256",
                                 "balance": "100028.26",
                                 "notes": "remaining=7 shares alpaca_order=c8235a1e-90c4-4581-bcf6-bb087e5fcc2c status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AVGO-1",
+                                "timestamp": "2026-07-22 16:16:49",
+                                "symbol": "AVGO",
+                                "event": "TP2_HIT",
+                                "side": "LONG",
+                                "price": "394.8514",
+                                "shares": "7.0",
+                                "usd_qty": "2763.96",
+                                "pnl": "35.864",
+                                "total_pnl": "64.12",
+                                "balance": "100064.12",
+                                "notes": "entry=389.73 exit=394.85 alpaca_order=82813efd-1a88-4632-b040-8ce6019410a3 status=OrderStatus.FILLED"
                             }
                         ]
                     },
