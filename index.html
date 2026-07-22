@@ -107,6 +107,58 @@
   html[data-theme="dark"] main>section:last-child .side-short,
   html[data-theme="dark"] main>section:last-child .event-eod{color:#94641e}
 </style>
+<style>
+  /* Readability pass: stronger hierarchy and higher-contrast market data */
+  :root{
+    --text:#20211d;
+    --muted:#5f5d56;
+    --green:#1f7650;
+    --red:#b23f34;
+  }
+  h2{font-size:16px;font-weight:600;letter-spacing:-.025em;margin-bottom:24px}
+  table{font-size:14px;line-height:1.45}
+  th,td{padding:15px 12px}
+  th{
+    color:#625f57;
+    font-size:11px;
+    font-weight:700;
+    letter-spacing:.105em;
+  }
+  td{font-weight:500;color:var(--text)}
+  td.num{font-weight:520}
+  .sample{color:#77736b;font-size:11px}
+  .symbol-row{--bar-color:rgba(31,118,80,.20)}
+  .symbol-row:hover{background:rgba(214,95,46,.07)}
+  .up{color:var(--green)}
+  .down{color:var(--red)}
+  .sort-btn{font-weight:700}
+  main>section:last-child table{font-size:13px}
+  main>section:last-child th{font-size:10px;color:#a5a79f}
+  main>section:last-child td{color:#ece9e1}
+  @media(max-width:680px){
+    h2{font-size:15px}
+    table{font-size:13px}
+    th,td{padding:13px 10px}
+  }
+  html[data-theme="dark"]{
+    --text:#f2eee6;
+    --muted:#aaa9a1;
+    --green:#72c79a;
+    --red:#ff8278;
+  }
+  html[data-theme="dark"] th{color:#aaa9a1}
+  html[data-theme="dark"] main>section:last-child td{color:#20211d}
+  .position-side{display:inline-flex;align-items:center;border:1px solid currentColor;border-radius:999px;padding:4px 8px;font-size:10px;font-weight:700;letter-spacing:.08em}
+  .position-side.long{color:var(--green);background:rgba(31,118,80,.07)}
+  .position-side.short{color:#9a5a20;background:rgba(154,90,32,.07)}
+  .position-plan{min-width:230px;padding-block:13px}.plan-rail{position:relative;height:22px;margin:0 7px}
+  .plan-track,.plan-fill{position:absolute;left:0;right:0;top:7px;height:3px;border-radius:99px}.plan-track{background:#cec7bb}.plan-fill{right:auto;width:var(--plan-progress);background:var(--green);transform-origin:left;animation:planReveal .55s cubic-bezier(.16,1,.3,1) both}
+  .plan-point{position:absolute;top:3px;width:11px;height:11px;border:2px solid var(--bg);border-radius:50%;background:#aaa49a;transform:translateX(-50%)}.plan-point.stop{left:0;background:var(--red)}.plan-point.entry{left:34%;background:var(--text)}.plan-point.tp1{left:67%}.plan-point.tp2{left:100%}.plan-point.hit{background:var(--green)}
+  .plan-labels{display:grid;grid-template-columns:34% 33% 33%;margin-top:2px;color:#77736b;font-size:9px;font-weight:700;letter-spacing:.075em;text-transform:uppercase}.plan-labels span:nth-child(2){text-align:center}.plan-labels span:last-child{text-align:right}
+  @keyframes planReveal{from{transform:scaleX(0);opacity:.3}to{transform:scaleX(1);opacity:1}}
+  html[data-theme="dark"] .plan-track{background:#3b3d36}html[data-theme="dark"] .position-side.long{background:rgba(114,199,154,.08)}html[data-theme="dark"] .position-side.short{color:#d8ab63;background:rgba(216,171,99,.08)}
+  @media(prefers-reduced-motion:reduce){.plan-fill{animation:none}}
+</style>
 </head>
 <body>
 <div class="wrap">
@@ -118,7 +170,7 @@
     <section><h2>Passed vs Failed Positions</h2><div class="bar" id="splitBar"></div><div class="legend" id="splitLegend"></div></section>
     <div class="row2"><section style="margin-bottom:0"><h2>Today's P&amp;L Curve</h2><canvas id="equityChart" width="900" height="260" aria-label="Today's cumulative profit and loss curve"></canvas></section><section style="margin-bottom:0"><h2>Prior Day Change</h2><div id="trendBlock" class="empty">No prior-day data available.</div></section></div>
     <section><h2 id="exitPlanTitle">Two-Target Exit Plan</h2><div class="small" id="exitPlanDescription" style="margin-bottom:16px">From July 14, 2026: TP1 at 0.8R closes 50% and moves SL to breakeven; TP2 at 1.5R closes the remainder.</div><div class="grid4"><div class="stat"><div class="label" id="tp1Label">TP1 Hits</div><div class="value" id="tp1Hits">0</div><div class="small" id="tp1Pnl">+$0.00 realized</div></div><div class="stat"><div class="label" id="tp2Label">TP2 Completions</div><div class="value" id="tp2Hits">0</div><div class="small" id="tp2Pnl">+$0.00 realized</div></div><div class="stat"><div class="label" id="rule1Label">TP1 Rule</div><div class="value" id="rule1Value">0.8R</div><div class="small" id="rule1Sub">Exit 50% · SL to BE</div></div><div class="stat"><div class="label" id="rule2Label">TP2 Rule</div><div class="value" id="rule2Value">1.5R</div><div class="small" id="rule2Sub">Exit all remaining</div></div></div></section>
-    <section><h2>Open Positions &amp; Levels</h2><table><thead><tr><th>Symbol</th><th>Side</th><th class="num">Remaining</th><th class="num">Entry</th><th class="num">SL</th><th class="num" id="openTp1Head">TP1</th><th class="num" id="openTp2Head">TP2</th><th>Last Event</th></tr></thead><tbody id="openPositionRows"></tbody></table></section>
+    <section><h2>Open Positions &amp; Levels</h2><table><thead><tr><th>Symbol</th><th>Side</th><th class="num">Remaining</th><th class="num">Entry</th><th class="num">SL</th><th class="num" id="openTp1Head">TP1</th><th class="num" id="openTp2Head">TP2</th><th>Position Plan</th><th>Last Event</th></tr></thead><tbody id="openPositionRows"></tbody></table></section>
     <section><h2>By Symbol</h2><table><thead><tr><th><button class="sort-btn" data-sort="symbol">Symbol <span class="sort-arrow"></span></button></th><th class="num"><button class="sort-btn" data-sort="trades">Trades <span class="sort-arrow"></span></button></th><th class="num"><button class="sort-btn" data-sort="wins">Wins <span class="sort-arrow"></span></button></th><th class="num"><button class="sort-btn" data-sort="losses">Losses <span class="sort-arrow"></span></button></th><th class="num"><button class="sort-btn" data-sort="winRate">Win % <span class="sort-arrow"></span></button></th><th class="num"><button class="sort-btn active" data-sort="pnl">P&amp;L <span class="sort-arrow">▼</span></button></th></tr></thead><tbody id="symbolRows"></tbody></table></section>
     <section><h2>Recent Trade Logs</h2><div class="table-tools"><input id="tradeFilter" class="trade-filter" type="search" placeholder="Filter by symbol or event…" aria-label="Filter recent trades by symbol or event"></div><div style="max-height:400px;overflow-y:auto"><table><thead><tr><th>Time (US Eastern)</th><th>Symbol</th><th>Event</th><th>Side</th><th class="num">Price</th><th class="num">Shares</th><th class="num">P&amp;L</th></tr></thead><tbody id="tradeRows"></tbody></table></div></section>
   </main>
@@ -129,7 +181,8 @@ let historyData=null,selectedDate=null,selectedDataset='alpaca_live';const $=id=
 const marketTimeFormatter=new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit',hour:'numeric',minute:'2-digit',second:'2-digit',hour12:true,timeZoneName:'short'});
 function formatMarketTime(value){if(!value)return'-';const raw=String(value).trim(),date=new Date(/[zZ]|[+-]\d\d:\d\d$/.test(raw)?raw:raw.replace(' ','T')+'Z');return Number.isNaN(date.getTime())?raw:marketTimeFormatter.format(date)}
 const tradeTimeObserver=new MutationObserver(()=>{$('tradeRows').querySelectorAll('tr').forEach(row=>{const cell=row.cells&&row.cells[0];if(cell&&!cell.dataset.marketTime&&/^\d{4}-\d{2}-\d{2}[ T]\d{2}:\d{2}:\d{2}/.test(cell.textContent.trim())){cell.textContent=formatMarketTime(cell.textContent);cell.dataset.marketTime='true'}})});tradeTimeObserver.observe($('tradeRows'),{childList:true,subtree:true});
-function renderOpenPositions(tm){const rows=tm.open_positions||[],price=v=>v==null?'-':`$${Number(v).toFixed(2)}`,crypto=selectedDataset==='alpaca_crypto';$('openTp1Head').textContent=crypto?'TP':'TP1';$('openTp2Head').textContent=crypto?'—':'TP2';$('openPositionRows').innerHTML=rows.length?rows.map(p=>`<tr><td>${p.symbol||'-'}</td><td>${p.side||'-'}</td><td class="num">${p.remaining??'-'}</td><td class="num">${price(p.entry_price)}</td><td class="num down">${price(p.sl)}</td><td class="num up">${price(p.tp1)}</td><td class="num up">${crypto?'-':price(p.tp2)}</td><td>${p.last_event||'-'}</td></tr>`).join(''):'<tr><td colspan="8" class="empty">No open positions.</td></tr>'}
+function positionPlan(p,crypto){const event=String(p.last_event||'').toUpperCase(),tp1Hit=/TP1_HIT|TP2_HIT|TP3_HIT/.test(event),tp2Hit=/TP2_HIT|TP3_HIT/.test(event),progress=tp2Hit?100:tp1Hit?67:34;return `<div class="position-plan" aria-label="Position progress: ${tp2Hit?'TP2 reached':tp1Hit?'TP1 reached':'entry active'}"><div class="plan-rail" style="--plan-progress:${progress}%"><span class="plan-track"></span><span class="plan-fill"></span><span class="plan-point stop" title="Stop loss"></span><span class="plan-point entry hit" title="Entry"></span><span class="plan-point tp1 ${tp1Hit?'hit':''}" title="First target"></span>${crypto?'':`<span class="plan-point tp2 ${tp2Hit?'hit':''}" title="Final target"></span>`}</div><div class="plan-labels"><span>Risk</span><span>${tp1Hit?'TP1 hit':'Entry'}</span><span>${crypto?'Target':tp2Hit?'TP2 hit':'TP2'}</span></div></div>`}
+function renderOpenPositions(tm){const rows=tm.open_positions||[],price=v=>v==null?'-':`$${Number(v).toFixed(2)}`,crypto=selectedDataset==='alpaca_crypto';$('openTp1Head').textContent=crypto?'TP':'TP1';$('openTp2Head').textContent=crypto?'—':'TP2';$('openPositionRows').innerHTML=rows.length?rows.map(p=>{const side=String(p.side||'').toUpperCase();return `<tr><td><strong>${p.symbol||'-'}</strong></td><td><span class="position-side ${side.toLowerCase()}">${side||'-'}</span></td><td class="num">${p.remaining??'-'}</td><td class="num">${price(p.entry_price)}</td><td class="num down">${price(p.sl)}</td><td class="num up">${price(p.tp1)}</td><td class="num up">${crypto?'-':price(p.tp2)}</td><td>${positionPlan(p,crypto)}</td><td>${p.last_event||'-'}</td></tr>`}).join(''):'<tr><td colspan="9" class="empty">No open positions.</td></tr>'}
 function renderTargetMetrics(tm){const crypto=selectedDataset==='alpaca_crypto';$('exitPlanTitle').textContent=crypto?'Single-Target Exit Plan':'Two-Target Exit Plan';$('exitPlanDescription').textContent=crypto?'BTC/USD: one take-profit at 1.5R closes 100% of the position. The target is calculated from the actual stop distance.':'TP1 at 0.8R closes 50% and moves SL to breakeven; TP2 at 1.5R closes the remainder.';$('tp1Label').textContent=crypto?'TP Hits':'TP1 Hits';$('tp1Hits').textContent=tm.tp1_hit_count||0;$('tp1Pnl').textContent=`${usd(tm.tp1_realized_pnl)} realized`;$('tp1Pnl').className=`small ${cls(tm.tp1_realized_pnl)}`;$('tp2Label').textContent=crypto?'TP Realized P&L':'TP2 Completions';$('tp2Hits').textContent=crypto?usd(tm.tp1_realized_pnl):(tm.tp2_hit_count||0);$('tp2Hits').className=`value ${crypto?cls(tm.tp1_realized_pnl):''}`;$('tp2Pnl').textContent=crypto?'100% exits':`${usd(tm.tp2_realized_pnl)} realized`;$('tp2Pnl').className=`small ${crypto?'':cls(tm.tp2_realized_pnl)}`;$('rule1Label').textContent=crypto?'TP Rule':'TP1 Rule';$('rule1Value').textContent=crypto?'1.5R':'0.8R';$('rule1Sub').textContent=crypto?'From actual SL distance':'Exit 50% · SL to BE';$('rule2Label').textContent=crypto?'Exit Size':'TP2 Rule';$('rule2Value').textContent=crypto?'100%':'1.5R';$('rule2Sub').textContent=crypto?'Close full BTC/USD position':'Exit all remaining'}
 function bundle(day){const result=(day.datasets&&day.datasets[selectedDataset])||(selectedDataset==='all'?{trade_metrics:day.trade_metrics||{},trend:day.trend||{}}:{trade_metrics:{},trend:{}});renderOpenPositions(result.trade_metrics||{});renderTargetMetrics(result.trade_metrics||{});return result}
 function datasetDays(){return (historyData.days||[]).filter(day=>{const tm=bundle(day).trade_metrics||{},hasData=(tm.recent_trades||[]).length>0||(tm.realized_exit_count||0)>0||(tm.open_positions||[]).length>0;return selectedDataset==='alpaca_crypto'?hasData:day.date===historyData.latest_date||hasData})}
