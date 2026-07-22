@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-22T19:52:09.080970+00:00",
+    "generated_at": "2026-07-22T19:52:20.240951+00:00",
     "latest_date": "2026-07-22",
     "days": [
         {
@@ -36939,48 +36939,25 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 3,
-                        "win_count": 2,
+                        "total_trades": 4,
+                        "win_count": 3,
                         "loss_count": 1,
                         "breakeven_count": 0,
-                        "win_rate_pct": 66.67,
-                        "loss_rate_pct": 33.33,
-                        "total_pnl": 145.81,
-                        "closed_position_pnl": 123.35,
-                        "avg_pnl_per_trade": 41.12,
-                        "avg_win": 68.5,
+                        "win_rate_pct": 75.0,
+                        "loss_rate_pct": 25.0,
+                        "total_pnl": 175.41,
+                        "closed_position_pnl": 175.41,
+                        "avg_pnl_per_trade": 43.85,
+                        "avg_win": 63.02,
                         "avg_loss": -13.65,
-                        "realized_exit_count": 6,
-                        "eod_close_count": 1,
+                        "realized_exit_count": 7,
+                        "eod_close_count": 2,
                         "tp1_hit_count": 3,
                         "tp1_realized_pnl": 79.77,
                         "tp2_hit_count": 2,
                         "tp2_realized_pnl": 79.7,
-                        "open_partial_count": 2,
-                        "open_positions": [
-                            {
-                                "trade_id": "MA-3",
-                                "symbol": "MA",
-                                "side": "SHORT",
-                                "entry_price": 534.8656,
-                                "remaining": 9.0,
-                                "sl": 534.8656,
-                                "tp1": 532.0793,
-                                "tp2": 530.6862,
-                                "last_event": "TP1_HIT"
-                            },
-                            {
-                                "trade_id": "MSFT-9",
-                                "symbol": "MSFT",
-                                "side": "SHORT",
-                                "entry_price": 388.4366,
-                                "remaining": 15.0,
-                                "sl": 391.5816,
-                                "tp1": 385.2916,
-                                "tp2": 383.7191,
-                                "last_event": "CLOSE_EOD"
-                            }
-                        ],
+                        "open_partial_count": 0,
+                        "open_positions": [],
                         "by_symbol": {
                             "AAPL": {
                                 "trades": 1,
@@ -37007,12 +36984,12 @@
                                 "open_partial": 0
                             },
                             "MA": {
-                                "trades": 0,
-                                "pnl": 22.46,
-                                "wins": 0,
+                                "trades": 1,
+                                "pnl": 52.06,
+                                "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
-                                "open_partial": 1
+                                "open_partial": 0
                             }
                         },
                         "recent_trades": [
@@ -37155,6 +37132,20 @@
                                 "total_pnl": "-227.8111",
                                 "balance": "99772.19",
                                 "notes": "entry=388.44 exit=389.35 alpaca_order=571d9c55-d0a7-48a9-9548-b81dca6f02fb status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MA-3",
+                                "timestamp": "2026-07-22 19:52:18",
+                                "symbol": "MA",
+                                "event": "CLOSE_EOD",
+                                "side": "SHORT",
+                                "price": "531.5769",
+                                "shares": "9.0",
+                                "usd_qty": "4784.19",
+                                "pnl": "29.5983",
+                                "total_pnl": "109.4817",
+                                "balance": "100109.48",
+                                "notes": "entry=534.87 exit=531.58 alpaca_order=5a320ae6-a125-4bcb-8644-eeaf966a6025 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -37434,37 +37425,25 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 3,
-                        "win_count": 2,
+                        "total_trades": 4,
+                        "win_count": 3,
                         "loss_count": 1,
                         "breakeven_count": 0,
-                        "win_rate_pct": 66.67,
-                        "loss_rate_pct": 33.33,
-                        "total_pnl": 145.81,
-                        "closed_position_pnl": 123.35,
-                        "avg_pnl_per_trade": 41.12,
-                        "avg_win": 68.5,
+                        "win_rate_pct": 75.0,
+                        "loss_rate_pct": 25.0,
+                        "total_pnl": 175.41,
+                        "closed_position_pnl": 175.41,
+                        "avg_pnl_per_trade": 43.85,
+                        "avg_win": 63.02,
                         "avg_loss": -13.65,
-                        "realized_exit_count": 6,
-                        "eod_close_count": 1,
+                        "realized_exit_count": 7,
+                        "eod_close_count": 2,
                         "tp1_hit_count": 3,
                         "tp1_realized_pnl": 79.77,
                         "tp2_hit_count": 2,
                         "tp2_realized_pnl": 79.7,
-                        "open_partial_count": 1,
-                        "open_positions": [
-                            {
-                                "trade_id": "MA-3",
-                                "symbol": "MA",
-                                "side": "SHORT",
-                                "entry_price": 534.8656,
-                                "remaining": 9.0,
-                                "sl": 537.65,
-                                "tp1": 532.08,
-                                "tp2": 530.69,
-                                "last_event": "TP1_HIT"
-                            }
-                        ],
+                        "open_partial_count": 0,
+                        "open_positions": [],
                         "by_symbol": {
                             "AAPL": {
                                 "trades": 1,
@@ -37491,12 +37470,12 @@
                                 "open_partial": 0
                             },
                             "MA": {
-                                "trades": 0,
-                                "pnl": 22.46,
-                                "wins": 0,
+                                "trades": 1,
+                                "pnl": 52.06,
+                                "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
-                                "open_partial": 1
+                                "open_partial": 0
                             }
                         },
                         "recent_trades": [
@@ -37639,6 +37618,20 @@
                                 "total_pnl": "-227.8111",
                                 "balance": "99772.19",
                                 "notes": "entry=388.44 exit=389.35 alpaca_order=571d9c55-d0a7-48a9-9548-b81dca6f02fb status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MA-3",
+                                "timestamp": "2026-07-22 19:52:18",
+                                "symbol": "MA",
+                                "event": "CLOSE_EOD",
+                                "side": "SHORT",
+                                "price": "531.5769",
+                                "shares": "9.0",
+                                "usd_qty": "4784.19",
+                                "pnl": "29.5983",
+                                "total_pnl": "109.4817",
+                                "balance": "100109.48",
+                                "notes": "entry=534.87 exit=531.58 alpaca_order=5a320ae6-a125-4bcb-8644-eeaf966a6025 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -37648,37 +37641,25 @@
                 }
             },
             "trade_metrics": {
-                "total_trades": 3,
-                "win_count": 2,
+                "total_trades": 4,
+                "win_count": 3,
                 "loss_count": 1,
                 "breakeven_count": 0,
-                "win_rate_pct": 66.67,
-                "loss_rate_pct": 33.33,
-                "total_pnl": 145.81,
-                "closed_position_pnl": 123.35,
-                "avg_pnl_per_trade": 41.12,
-                "avg_win": 68.5,
+                "win_rate_pct": 75.0,
+                "loss_rate_pct": 25.0,
+                "total_pnl": 175.41,
+                "closed_position_pnl": 175.41,
+                "avg_pnl_per_trade": 43.85,
+                "avg_win": 63.02,
                 "avg_loss": -13.65,
-                "realized_exit_count": 6,
-                "eod_close_count": 1,
+                "realized_exit_count": 7,
+                "eod_close_count": 2,
                 "tp1_hit_count": 3,
                 "tp1_realized_pnl": 79.77,
                 "tp2_hit_count": 2,
                 "tp2_realized_pnl": 79.7,
-                "open_partial_count": 1,
-                "open_positions": [
-                    {
-                        "trade_id": "MA-3",
-                        "symbol": "MA",
-                        "side": "SHORT",
-                        "entry_price": 534.8656,
-                        "remaining": 9.0,
-                        "sl": 537.65,
-                        "tp1": 532.08,
-                        "tp2": 530.69,
-                        "last_event": "TP1_HIT"
-                    }
-                ],
+                "open_partial_count": 0,
+                "open_positions": [],
                 "by_symbol": {
                     "AAPL": {
                         "trades": 1,
@@ -37705,12 +37686,12 @@
                         "open_partial": 0
                     },
                     "MA": {
-                        "trades": 0,
-                        "pnl": 22.46,
-                        "wins": 0,
+                        "trades": 1,
+                        "pnl": 52.06,
+                        "wins": 1,
                         "losses": 0,
                         "breakeven": 0,
-                        "open_partial": 1
+                        "open_partial": 0
                     }
                 },
                 "recent_trades": [
@@ -37853,6 +37834,20 @@
                         "total_pnl": "-227.8111",
                         "balance": "99772.19",
                         "notes": "entry=388.44 exit=389.35 alpaca_order=571d9c55-d0a7-48a9-9548-b81dca6f02fb status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "MA-3",
+                        "timestamp": "2026-07-22 19:52:18",
+                        "symbol": "MA",
+                        "event": "CLOSE_EOD",
+                        "side": "SHORT",
+                        "price": "531.5769",
+                        "shares": "9.0",
+                        "usd_qty": "4784.19",
+                        "pnl": "29.5983",
+                        "total_pnl": "109.4817",
+                        "balance": "100109.48",
+                        "notes": "entry=534.87 exit=531.58 alpaca_order=5a320ae6-a125-4bcb-8644-eeaf966a6025 status=OrderStatus.FILLED"
                     }
                 ]
             },
