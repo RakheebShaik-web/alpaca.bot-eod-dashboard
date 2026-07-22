@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-22T14:14:17.798371+00:00",
+    "generated_at": "2026-07-22T14:17:36.946924+00:00",
     "latest_date": "2026-07-22",
     "days": [
         {
@@ -37048,29 +37048,29 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
+                        "total_pnl": 23.38,
                         "closed_position_pnl": 0,
                         "avg_pnl_per_trade": 0.0,
                         "avg_win": 0.0,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 23.38,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "AAPL-3",
                                 "symbol": "AAPL",
                                 "side": "SHORT",
                                 "entry_price": 326.79,
-                                "remaining": 29.0,
+                                "remaining": 15.0,
                                 "sl": 328.46,
                                 "tp1": 325.12,
                                 "tp2": 324.28,
-                                "last_event": "ENTRY_SHORT"
+                                "last_event": "TP1_HIT"
                             },
                             {
                                 "trade_id": "NVDA-5",
@@ -37084,7 +37084,16 @@
                                 "last_event": "ENTRY_LONG"
                             }
                         ],
-                        "by_symbol": {},
+                        "by_symbol": {
+                            "AAPL": {
+                                "trades": 0,
+                                "pnl": 23.38,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "AAPL-3",
@@ -37113,6 +37122,20 @@
                                 "total_pnl": "-73.43",
                                 "balance": "99926.57",
                                 "notes": "TP1=208.47 TP2=209.19 SL=205.58 shares=34 risk\u00e2\u2030\u02c6$49.17 signal=2026-07-22 13:45:00 atr=0.8264 atr_pct=0.3989 volume_ratio=2.5557 ema_sep_atr=0.7352 ema_slope_atr=0.1074 alpaca_order=9f8dfc19-d154-47a0-b7c8-225b91090d07 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AAPL-3",
+                                "timestamp": "2026-07-22 14:17:32",
+                                "symbol": "AAPL",
+                                "event": "TP1_HIT",
+                                "side": "SHORT",
+                                "price": "325.12",
+                                "shares": "14.0",
+                                "usd_qty": "4551.68",
+                                "pnl": "23.38",
+                                "total_pnl": "23.38",
+                                "balance": "100023.38",
+                                "notes": "remaining=15 shares alpaca_order=7f9fe48e-b429-49c6-8324-927e160a46e2 status=OrderStatus.FILLED"
                             }
                         ]
                     },
