@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-23T19:30:55.272983+00:00",
+    "generated_at": "2026-07-23T19:31:23.001165+00:00",
     "latest_date": "2026-07-23",
     "days": [
         {
@@ -37873,18 +37873,18 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 1,
+                        "total_trades": 2,
                         "win_count": 0,
-                        "loss_count": 1,
+                        "loss_count": 2,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -29.62,
-                        "closed_position_pnl": -57.96,
-                        "avg_pnl_per_trade": -57.96,
+                        "total_pnl": -78.25,
+                        "closed_position_pnl": -106.59,
+                        "avg_pnl_per_trade": -53.3,
                         "avg_win": 0.0,
-                        "avg_loss": -57.96,
-                        "realized_exit_count": 2,
+                        "avg_loss": -53.3,
+                        "realized_exit_count": 3,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 28.34,
@@ -37897,8 +37897,8 @@
                                 "symbol": "TSLA",
                                 "side": "SHORT",
                                 "entry_price": 328.7051,
-                                "remaining": 7.0,
-                                "sl": 335.7013,
+                                "remaining": 3.0,
+                                "sl": 328.7051,
                                 "tp1": 321.7089,
                                 "tp2": 318.2107,
                                 "last_event": "TP1_HIT"
@@ -37912,13 +37912,21 @@
                                 "sl": 156.8094,
                                 "tp1": 159.0406,
                                 "tp2": 159.5984,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "SL_HIT"
                             }
                         ],
                         "by_symbol": {
                             "AAPL": {
                                 "trades": 1,
                                 "pnl": -57.96,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "XOM": {
+                                "trades": 1,
+                                "pnl": -48.64,
                                 "wins": 0,
                                 "losses": 1,
                                 "breakeven": 0,
@@ -38003,14 +38011,28 @@
                                 "total_pnl": "-181.3549",
                                 "balance": "99818.65",
                                 "notes": "remaining=3 shares alpaca_order=8cfaf442-3c33-4cef-bff0-8ecae286ee01 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "XOM-3",
+                                "timestamp": "2026-07-23 19:31:22",
+                                "symbol": "XOM",
+                                "event": "SL_HIT",
+                                "side": "LONG",
+                                "price": "156.8196",
+                                "shares": "44.0",
+                                "usd_qty": "6900.06",
+                                "pnl": "-48.6376",
+                                "total_pnl": "-104.5268",
+                                "balance": "99895.47",
+                                "notes": "entry=157.93 exit=156.82 alpaca_order=a35ebd94-afbb-42e3-bdb7-955124957656 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -75.0,
-                        "total_pnl_delta": -205.03,
-                        "trade_count_delta": -3,
+                        "total_pnl_delta": -253.66,
+                        "trade_count_delta": -2,
                         "direction": "declining"
                     }
                 },
@@ -38215,18 +38237,18 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 1,
+                        "total_trades": 2,
                         "win_count": 0,
-                        "loss_count": 1,
+                        "loss_count": 2,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -29.62,
-                        "closed_position_pnl": -57.96,
-                        "avg_pnl_per_trade": -57.96,
+                        "total_pnl": -78.25,
+                        "closed_position_pnl": -106.59,
+                        "avg_pnl_per_trade": -53.3,
                         "avg_win": 0.0,
-                        "avg_loss": -57.96,
-                        "realized_exit_count": 2,
+                        "avg_loss": -53.3,
+                        "realized_exit_count": 3,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 28.34,
@@ -38244,23 +38266,20 @@
                                 "tp1": 321.71,
                                 "tp2": 318.21,
                                 "last_event": "TP1_HIT"
-                            },
-                            {
-                                "trade_id": "XOM-3",
-                                "symbol": "XOM",
-                                "side": "LONG",
-                                "entry_price": 157.925,
-                                "remaining": 44.0,
-                                "sl": 156.81,
-                                "tp1": 159.04,
-                                "tp2": 159.6,
-                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
                             "AAPL": {
                                 "trades": 1,
                                 "pnl": -57.96,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "XOM": {
+                                "trades": 1,
+                                "pnl": -48.64,
                                 "wins": 0,
                                 "losses": 1,
                                 "breakeven": 0,
@@ -38345,31 +38364,45 @@
                                 "total_pnl": "-181.3549",
                                 "balance": "99818.65",
                                 "notes": "remaining=3 shares alpaca_order=8cfaf442-3c33-4cef-bff0-8ecae286ee01 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "XOM-3",
+                                "timestamp": "2026-07-23 19:31:22",
+                                "symbol": "XOM",
+                                "event": "SL_HIT",
+                                "side": "LONG",
+                                "price": "156.8196",
+                                "shares": "44.0",
+                                "usd_qty": "6900.06",
+                                "pnl": "-48.6376",
+                                "total_pnl": "-104.5268",
+                                "balance": "99895.47",
+                                "notes": "entry=157.93 exit=156.82 alpaca_order=a35ebd94-afbb-42e3-bdb7-955124957656 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -75.0,
-                        "total_pnl_delta": -205.03,
-                        "trade_count_delta": -3,
+                        "total_pnl_delta": -253.66,
+                        "trade_count_delta": -2,
                         "direction": "declining"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 1,
+                "total_trades": 2,
                 "win_count": 0,
-                "loss_count": 1,
+                "loss_count": 2,
                 "breakeven_count": 0,
                 "win_rate_pct": 0.0,
                 "loss_rate_pct": 100.0,
-                "total_pnl": -29.62,
-                "closed_position_pnl": -57.96,
-                "avg_pnl_per_trade": -57.96,
+                "total_pnl": -78.25,
+                "closed_position_pnl": -106.59,
+                "avg_pnl_per_trade": -53.3,
                 "avg_win": 0.0,
-                "avg_loss": -57.96,
-                "realized_exit_count": 2,
+                "avg_loss": -53.3,
+                "realized_exit_count": 3,
                 "eod_close_count": 0,
                 "tp1_hit_count": 1,
                 "tp1_realized_pnl": 28.34,
@@ -38387,23 +38420,20 @@
                         "tp1": 321.71,
                         "tp2": 318.21,
                         "last_event": "TP1_HIT"
-                    },
-                    {
-                        "trade_id": "XOM-3",
-                        "symbol": "XOM",
-                        "side": "LONG",
-                        "entry_price": 157.925,
-                        "remaining": 44.0,
-                        "sl": 156.81,
-                        "tp1": 159.04,
-                        "tp2": 159.6,
-                        "last_event": "ENTRY_LONG"
                     }
                 ],
                 "by_symbol": {
                     "AAPL": {
                         "trades": 1,
                         "pnl": -57.96,
+                        "wins": 0,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "XOM": {
+                        "trades": 1,
+                        "pnl": -48.64,
                         "wins": 0,
                         "losses": 1,
                         "breakeven": 0,
@@ -38488,6 +38518,20 @@
                         "total_pnl": "-181.3549",
                         "balance": "99818.65",
                         "notes": "remaining=3 shares alpaca_order=8cfaf442-3c33-4cef-bff0-8ecae286ee01 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "XOM-3",
+                        "timestamp": "2026-07-23 19:31:22",
+                        "symbol": "XOM",
+                        "event": "SL_HIT",
+                        "side": "LONG",
+                        "price": "156.8196",
+                        "shares": "44.0",
+                        "usd_qty": "6900.06",
+                        "pnl": "-48.6376",
+                        "total_pnl": "-104.5268",
+                        "balance": "99895.47",
+                        "notes": "entry=157.93 exit=156.82 alpaca_order=a35ebd94-afbb-42e3-bdb7-955124957656 status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -38505,8 +38549,8 @@
             "trend": {
                 "has_previous_day": true,
                 "win_rate_delta_pct": -75.0,
-                "total_pnl_delta": -205.03,
-                "trade_count_delta": -3,
+                "total_pnl_delta": -253.66,
+                "trade_count_delta": -2,
                 "direction": "declining"
             }
         }
