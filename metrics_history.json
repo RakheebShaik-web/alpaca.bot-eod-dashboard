@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-23T13:57:29.342446+00:00",
+    "generated_at": "2026-07-23T14:16:02.170892+00:00",
     "latest_date": "2026-07-23",
     "days": [
         {
@@ -37986,6 +37986,17 @@
                                 "tp1": 396.78,
                                 "tp2": 398.3,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "XOM-3",
+                                "symbol": "XOM",
+                                "side": "LONG",
+                                "entry_price": 157.55,
+                                "remaining": 49.0,
+                                "sl": 156.54,
+                                "tp1": 158.56,
+                                "tp2": 159.06,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {},
@@ -38003,6 +38014,20 @@
                                 "total_pnl": "64.12",
                                 "balance": "100064.12",
                                 "notes": "TP1=396.78 TP2=398.30 SL=390.68 shares=16 risk\u00e2\u2030\u02c6$48.79 signal=2026-07-23 13:45:00 atr=1.7425 atr_pct=0.4394 volume_ratio=2.5643 ema_sep_atr=2.5324 ema_slope_atr=0.1263 alpaca_order=4e3e18d9-3095-4b75-8ae6-3bbef199d908 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "XOM-3",
+                                "timestamp": "2026-07-23 14:15:58",
+                                "symbol": "XOM",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "157.55",
+                                "shares": "49.0",
+                                "usd_qty": "7719.95",
+                                "pnl": "0.0",
+                                "total_pnl": "-57.82",
+                                "balance": "99942.18",
+                                "notes": "TP1=158.56 TP2=159.06 SL=156.54 shares=49 risk\u00e2\u2030\u02c6$49.40 signal=2026-07-23 14:15:00 atr=0.5761 atr_pct=0.3660 volume_ratio=1.7130 ema_sep_atr=2.8720 ema_slope_atr=0.4656 alpaca_order=bcaaf808-3f0e-447a-ac4d-a5ccbfecbc10 status=OrderStatus.FILLED"
                             }
                         ]
                     },
