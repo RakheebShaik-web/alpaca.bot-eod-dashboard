@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-23T15:10:42.873883+00:00",
+    "generated_at": "2026-07-23T15:15:42.924463+00:00",
     "latest_date": "2026-07-23",
     "days": [
         {
@@ -38056,6 +38056,17 @@
                                 "tp1": 158.56,
                                 "tp2": 159.06,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "MSFT-9",
+                                "symbol": "MSFT",
+                                "side": "SHORT",
+                                "entry_price": 378.77,
+                                "remaining": 14.0,
+                                "sl": 382.22,
+                                "tp1": 375.32,
+                                "tp2": 373.6,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {},
@@ -38087,6 +38098,20 @@
                                 "total_pnl": "-57.82",
                                 "balance": "99942.18",
                                 "notes": "TP1=158.56 TP2=159.06 SL=156.54 shares=49 risk\u00e2\u2030\u02c6$49.40 signal=2026-07-23 14:15:00 atr=0.5761 atr_pct=0.3660 volume_ratio=1.7130 ema_sep_atr=2.8720 ema_slope_atr=0.4656 alpaca_order=bcaaf808-3f0e-447a-ac4d-a5ccbfecbc10 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-9",
+                                "timestamp": "2026-07-23 15:15:38",
+                                "symbol": "MSFT",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "378.77",
+                                "shares": "14.0",
+                                "usd_qty": "5302.78",
+                                "pnl": "0.0",
+                                "total_pnl": "-28.18",
+                                "balance": "99971.82",
+                                "notes": "TP1=375.32 TP2=373.60 SL=382.22 shares=14 risk\u00e2\u2030\u02c6$48.24 signal=2026-07-23 15:15:00 atr=1.9689 atr_pct=0.5196 volume_ratio=1.4431 ema_sep_atr=2.0727 ema_slope_atr=-0.3997 alpaca_order=a6733b38-9580-4082-96ff-672669ff4b73 status=OrderStatus.FILLED"
                             }
                         ]
                     },
