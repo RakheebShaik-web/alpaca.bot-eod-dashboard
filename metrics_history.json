@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-23T14:32:36.236214+00:00",
+    "generated_at": "2026-07-23T14:45:38.701888+00:00",
     "latest_date": "2026-07-23",
     "days": [
         {
@@ -37890,19 +37890,8 @@
                         "tp1_realized_pnl": 0,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 2,
+                        "open_partial_count": 1,
                         "open_positions": [
-                            {
-                                "trade_id": "AAPL-11",
-                                "symbol": "AAPL",
-                                "side": "SHORT",
-                                "entry_price": 320.18,
-                                "remaining": 30.0,
-                                "sl": 321.8144,
-                                "tp1": 318.5456,
-                                "tp2": 317.7284,
-                                "last_event": "SL_HIT"
-                            },
                             {
                                 "trade_id": "TSLA-6",
                                 "symbol": "TSLA",
@@ -37967,6 +37956,20 @@
                                 "total_pnl": "30.9036",
                                 "balance": "100030.9",
                                 "notes": "entry=320.18 exit=322.11 alpaca_order=5a27a1ef-ca98-4165-96c6-0f881a0ca79d status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "XOM-3",
+                                "timestamp": "2026-07-23 14:45:38",
+                                "symbol": "XOM",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "157.925",
+                                "shares": "44.0",
+                                "usd_qty": "6948.7",
+                                "pnl": "0.0",
+                                "total_pnl": "-55.8892",
+                                "balance": "99944.11",
+                                "notes": "TP1=159.04 TP2=159.60 SL=156.81 shares=44 risk\u00e2\u2030\u02c6$49.09 signal=2026-07-23 14:45:00 atr=0.6375 atr_pct=0.4036 volume_ratio=1.5047 ema_sep_atr=2.8809 ema_slope_atr=0.4193 alpaca_order=5ad95428-31a5-4268-a35a-b07b514f337f status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -38121,6 +38124,17 @@
                                 "tp1": 321.71,
                                 "tp2": 318.21,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "XOM-3",
+                                "symbol": "XOM",
+                                "side": "LONG",
+                                "entry_price": 157.925,
+                                "remaining": 44.0,
+                                "sl": 156.81,
+                                "tp1": 159.04,
+                                "tp2": 159.6,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -38175,6 +38189,20 @@
                                 "total_pnl": "30.9036",
                                 "balance": "100030.9",
                                 "notes": "entry=320.18 exit=322.11 alpaca_order=5a27a1ef-ca98-4165-96c6-0f881a0ca79d status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "XOM-3",
+                                "timestamp": "2026-07-23 14:45:38",
+                                "symbol": "XOM",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "157.925",
+                                "shares": "44.0",
+                                "usd_qty": "6948.7",
+                                "pnl": "0.0",
+                                "total_pnl": "-55.8892",
+                                "balance": "99944.11",
+                                "notes": "TP1=159.04 TP2=159.60 SL=156.81 shares=44 risk\u00e2\u2030\u02c6$49.09 signal=2026-07-23 14:45:00 atr=0.6375 atr_pct=0.4036 volume_ratio=1.5047 ema_sep_atr=2.8809 ema_slope_atr=0.4193 alpaca_order=5ad95428-31a5-4268-a35a-b07b514f337f status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -38217,6 +38245,17 @@
                         "tp1": 321.71,
                         "tp2": 318.21,
                         "last_event": "ENTRY_SHORT"
+                    },
+                    {
+                        "trade_id": "XOM-3",
+                        "symbol": "XOM",
+                        "side": "LONG",
+                        "entry_price": 157.925,
+                        "remaining": 44.0,
+                        "sl": 156.81,
+                        "tp1": 159.04,
+                        "tp2": 159.6,
+                        "last_event": "ENTRY_LONG"
                     }
                 ],
                 "by_symbol": {
@@ -38271,6 +38310,20 @@
                         "total_pnl": "30.9036",
                         "balance": "100030.9",
                         "notes": "entry=320.18 exit=322.11 alpaca_order=5a27a1ef-ca98-4165-96c6-0f881a0ca79d status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "XOM-3",
+                        "timestamp": "2026-07-23 14:45:38",
+                        "symbol": "XOM",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "157.925",
+                        "shares": "44.0",
+                        "usd_qty": "6948.7",
+                        "pnl": "0.0",
+                        "total_pnl": "-55.8892",
+                        "balance": "99944.11",
+                        "notes": "TP1=159.04 TP2=159.60 SL=156.81 shares=44 risk\u00e2\u2030\u02c6$49.09 signal=2026-07-23 14:45:00 atr=0.6375 atr_pct=0.4036 volume_ratio=1.5047 ema_sep_atr=2.8809 ema_slope_atr=0.4193 alpaca_order=5ad95428-31a5-4268-a35a-b07b514f337f status=OrderStatus.FILLED"
                     }
                 ]
             },
