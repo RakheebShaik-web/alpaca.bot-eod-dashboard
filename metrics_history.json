@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-23T15:16:42.046544+00:00",
+    "generated_at": "2026-07-23T19:21:48.342830+00:00",
     "latest_date": "2026-07-23",
     "days": [
         {
@@ -38016,18 +38016,18 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 0,
+                        "total_trades": 1,
                         "win_count": 0,
-                        "loss_count": 0,
+                        "loss_count": 1,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
-                        "closed_position_pnl": 0,
-                        "avg_pnl_per_trade": 0.0,
+                        "loss_rate_pct": 100.0,
+                        "total_pnl": -52.8,
+                        "closed_position_pnl": -52.8,
+                        "avg_pnl_per_trade": -52.8,
                         "avg_win": 0.0,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "avg_loss": -52.8,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
                         "tp1_hit_count": 0,
                         "tp1_realized_pnl": 0,
@@ -38056,9 +38056,29 @@
                                 "tp1": 158.56,
                                 "tp2": 159.06,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "MSFT-9",
+                                "symbol": "MSFT",
+                                "side": "SHORT",
+                                "entry_price": 378.77,
+                                "remaining": 14.0,
+                                "sl": 382.22,
+                                "tp1": 375.32,
+                                "tp2": 373.6,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
-                        "by_symbol": {},
+                        "by_symbol": {
+                            "UNH": {
+                                "trades": 1,
+                                "pnl": -52.8,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "AVGO-2",
@@ -38087,14 +38107,56 @@
                                 "total_pnl": "-57.82",
                                 "balance": "99942.18",
                                 "notes": "TP1=158.56 TP2=159.06 SL=156.54 shares=49 risk\u00e2\u2030\u02c6$49.40 signal=2026-07-23 14:15:00 atr=0.5761 atr_pct=0.3660 volume_ratio=1.7130 ema_sep_atr=2.8720 ema_slope_atr=0.4656 alpaca_order=bcaaf808-3f0e-447a-ac4d-a5ccbfecbc10 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-9",
+                                "timestamp": "2026-07-23 15:15:38",
+                                "symbol": "MSFT",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "378.77",
+                                "shares": "14.0",
+                                "usd_qty": "5302.78",
+                                "pnl": "0.0",
+                                "total_pnl": "-28.18",
+                                "balance": "99971.82",
+                                "notes": "TP1=375.32 TP2=373.60 SL=382.22 shares=14 risk\u00e2\u2030\u02c6$48.24 signal=2026-07-23 15:15:00 atr=1.9689 atr_pct=0.5196 volume_ratio=1.4431 ema_sep_atr=2.0727 ema_slope_atr=-0.3997 alpaca_order=a6733b38-9580-4082-96ff-672669ff4b73 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "UNH-4",
+                                "timestamp": "2026-07-23 15:16:19",
+                                "symbol": "UNH",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "421.91",
+                                "shares": "15.0",
+                                "usd_qty": "6328.65",
+                                "pnl": "0.0",
+                                "total_pnl": "5.58",
+                                "balance": "100005.58",
+                                "notes": "TP1=418.64 TP2=417.01 SL=425.18 shares=15 risk\u00e2\u2030\u02c6$49.00 signal=2026-07-23 15:15:00 atr=1.8668 atr_pct=0.4424 volume_ratio=1.6312 ema_sep_atr=1.0454 ema_slope_atr=-0.3504 alpaca_order=7e12c5fd-1800-4f86-b353-2208eec67c1f status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "UNH-4",
+                                "timestamp": "2026-07-23 19:21:42",
+                                "symbol": "UNH",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "425.43",
+                                "shares": "15.0",
+                                "usd_qty": "6381.45",
+                                "pnl": "-52.8",
+                                "total_pnl": "-47.22",
+                                "balance": "99952.78",
+                                "notes": "entry=421.91 exit=425.43 alpaca_order=3314b084-29b2-44b4-9851-7c22479c828d status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -80.0,
-                        "total_pnl_delta": -182.65,
-                        "trade_count_delta": -5,
+                        "total_pnl_delta": -235.45,
+                        "trade_count_delta": -4,
                         "direction": "declining"
                     }
                 },
