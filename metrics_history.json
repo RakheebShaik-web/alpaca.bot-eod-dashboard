@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-24T14:34:09.764825+00:00",
+    "generated_at": "2026-07-24T14:39:39.173999+00:00",
     "latest_date": "2026-07-24",
     "days": [
         {
@@ -38913,24 +38913,24 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 0,
-                        "win_count": 0,
+                        "total_trades": 1,
+                        "win_count": 1,
                         "loss_count": 0,
                         "breakeven_count": 0,
-                        "win_rate_pct": 0.0,
+                        "win_rate_pct": 100.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 23.8,
-                        "closed_position_pnl": 0,
-                        "avg_pnl_per_trade": 0.0,
-                        "avg_win": 0.0,
+                        "total_pnl": 58.66,
+                        "closed_position_pnl": 58.66,
+                        "avg_pnl_per_trade": 58.66,
+                        "avg_win": 58.66,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 1,
+                        "realized_exit_count": 2,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 23.8,
-                        "tp2_hit_count": 0,
-                        "tp2_realized_pnl": 0,
-                        "open_partial_count": 1,
+                        "tp2_hit_count": 1,
+                        "tp2_realized_pnl": 34.86,
+                        "open_partial_count": 0,
                         "open_positions": [
                             {
                                 "trade_id": "AMD-3",
@@ -38942,27 +38942,16 @@
                                 "tp1": 511.22,
                                 "tp2": 505.73,
                                 "last_event": "ENTRY_SHORT"
-                            },
-                            {
-                                "trade_id": "TSLA-7",
-                                "symbol": "TSLA",
-                                "side": "SHORT",
-                                "entry_price": 316.43,
-                                "remaining": 5.0,
-                                "sl": 321.01,
-                                "tp1": 311.85,
-                                "tp2": 309.56,
-                                "last_event": "TP1_HIT"
                             }
                         ],
                         "by_symbol": {
                             "TSLA": {
-                                "trades": 0,
-                                "pnl": 23.8,
-                                "wins": 0,
+                                "trades": 1,
+                                "pnl": 58.66,
+                                "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
-                                "open_partial": 1
+                                "open_partial": 0
                             }
                         },
                         "recent_trades": [
@@ -39007,15 +38996,29 @@
                                 "total_pnl": "114.48",
                                 "balance": "100114.48",
                                 "notes": "remaining=5 shares alpaca_order=cd098b6a-3846-4f20-93f8-5bcc406f9b9d status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "TSLA-7",
+                                "timestamp": "2026-07-24 14:39:36",
+                                "symbol": "TSLA",
+                                "event": "TP2_HIT",
+                                "side": "SHORT",
+                                "price": "309.458",
+                                "shares": "5.0",
+                                "usd_qty": "1547.29",
+                                "pnl": "34.86",
+                                "total_pnl": "149.34",
+                                "balance": "100149.34",
+                                "notes": "entry=316.43 exit=309.46 alpaca_order=a395a766-1243-494f-bcbd-b8e8f140105a status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -33.33,
-                        "total_pnl_delta": 66.35,
-                        "trade_count_delta": -3,
-                        "direction": "mixed"
+                        "win_rate_delta_pct": 66.67,
+                        "total_pnl_delta": 101.21,
+                        "trade_count_delta": -2,
+                        "direction": "improving"
                     }
                 },
                 "legacy_simulation": {
