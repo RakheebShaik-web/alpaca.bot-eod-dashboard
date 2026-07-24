@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-24T19:51:27.955191+00:00",
+    "generated_at": "2026-07-24T19:52:05.563428+00:00",
     "latest_date": "2026-07-24",
     "days": [
         {
@@ -39026,37 +39026,25 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 4,
-                        "win_count": 3,
+                        "total_trades": 5,
+                        "win_count": 4,
                         "loss_count": 1,
                         "breakeven_count": 0,
-                        "win_rate_pct": 75.0,
-                        "loss_rate_pct": 25.0,
-                        "total_pnl": 69.19,
-                        "closed_position_pnl": 69.19,
-                        "avg_pnl_per_trade": 17.3,
-                        "avg_win": 41.41,
+                        "win_rate_pct": 80.0,
+                        "loss_rate_pct": 20.0,
+                        "total_pnl": 89.57,
+                        "closed_position_pnl": 89.57,
+                        "avg_pnl_per_trade": 17.91,
+                        "avg_win": 36.15,
                         "avg_loss": -55.03,
-                        "realized_exit_count": 6,
-                        "eod_close_count": 1,
+                        "realized_exit_count": 7,
+                        "eod_close_count": 2,
                         "tp1_hit_count": 2,
                         "tp1_realized_pnl": 46.96,
                         "tp2_hit_count": 2,
                         "tp2_realized_pnl": 74.67,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "ASTS-6",
-                                "symbol": "ASTS",
-                                "side": "SHORT",
-                                "entry_price": 56.8076,
-                                "remaining": 33.0,
-                                "sl": 58.31,
-                                "tp1": 55.3,
-                                "tp2": 54.55,
-                                "last_event": "ENTRY_SHORT"
-                            }
-                        ],
+                        "open_positions": [],
                         "by_symbol": {
                             "AMD": {
                                 "trades": 1,
@@ -39077,6 +39065,14 @@
                             "AAPL": {
                                 "trades": 1,
                                 "pnl": 62.97,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "ASTS": {
+                                "trades": 1,
+                                "pnl": 20.38,
                                 "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
@@ -39237,14 +39233,28 @@
                                 "total_pnl": "151.93",
                                 "balance": "100151.93",
                                 "notes": "entry=310.59 exit=310.22 alpaca_order=5ec4c155-7804-4bba-8dee-787abf07abe4 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "ASTS-6",
+                                "timestamp": "2026-07-24 19:51:24",
+                                "symbol": "ASTS",
+                                "event": "CLOSE_EOD",
+                                "side": "SHORT",
+                                "price": "56.19",
+                                "shares": "33.0",
+                                "usd_qty": "1854.27",
+                                "pnl": "20.38",
+                                "total_pnl": "46.07",
+                                "balance": "100046.07",
+                                "notes": "entry=56.81 exit=56.19 alpaca_order=6a14133e-4163-4b0f-8bd1-7bbc1a809a63 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 41.67,
-                        "total_pnl_delta": 111.74,
-                        "trade_count_delta": 1,
+                        "win_rate_delta_pct": 46.67,
+                        "total_pnl_delta": 132.12,
+                        "trade_count_delta": 2,
                         "direction": "improving"
                     }
                 },
