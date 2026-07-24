@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-24T14:02:30.814268+00:00",
+    "generated_at": "2026-07-24T14:05:38.007865+00:00",
     "latest_date": "2026-07-24",
     "days": [
         {
@@ -38823,8 +38823,31 @@
                         "tp1_realized_pnl": 0,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
-                        "open_positions": [],
+                        "open_partial_count": 2,
+                        "open_positions": [
+                            {
+                                "trade_id": "AMD-2",
+                                "symbol": "AMD",
+                                "side": "SHORT",
+                                "entry_price": 522.4201,
+                                "remaining": 4.0,
+                                "sl": 533.3982,
+                                "tp1": 511.442,
+                                "tp2": 505.9529,
+                                "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "TSLA-7",
+                                "symbol": "TSLA",
+                                "side": "SHORT",
+                                "entry_price": 316.4301,
+                                "remaining": 10.0,
+                                "sl": 321.0132,
+                                "tp1": 311.847,
+                                "tp2": 309.5554,
+                                "last_event": "ENTRY_SHORT"
+                            }
+                        ],
                         "by_symbol": {},
                         "recent_trades": [
                             {
@@ -38840,6 +38863,20 @@
                                 "total_pnl": "2.8616",
                                 "balance": "100002.86",
                                 "notes": "TP1=511.44 TP2=505.95 SL=533.40 shares=4 risk\u00e2\u2030\u02c6$43.91 signal=2026-07-24 14:00:00 atr=6.2732 atr_pct=1.2038 volume_ratio=1.6037 ema_sep_atr=0.5200 ema_slope_atr=-0.1140 alpaca_order=6eb8034b-dc74-4d2c-b269-ecd4e55aa901 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "TSLA-7",
+                                "timestamp": "2026-07-24 14:02:26",
+                                "symbol": "TSLA",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "316.4301",
+                                "shares": "10.0",
+                                "usd_qty": "3164.3",
+                                "pnl": "0.0",
+                                "total_pnl": "-146.1808",
+                                "balance": "99853.82",
+                                "notes": "TP1=311.85 TP2=309.56 SL=321.01 shares=10 risk\u00e2\u2030\u02c6$45.83 signal=2026-07-24 14:00:00 atr=2.6189 atr_pct=0.8306 volume_ratio=1.0429 ema_sep_atr=6.1282 ema_slope_atr=-0.2793 alpaca_order=82f286f2-de8e-486d-8b13-d3edbef16f49 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -38994,6 +39031,17 @@
                                 "tp1": 511.44,
                                 "tp2": 505.95,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "TSLA-7",
+                                "symbol": "TSLA",
+                                "side": "SHORT",
+                                "entry_price": 316.4301,
+                                "remaining": 10.0,
+                                "sl": 321.01,
+                                "tp1": 311.85,
+                                "tp2": 309.56,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {},
@@ -39011,6 +39059,20 @@
                                 "total_pnl": "2.8616",
                                 "balance": "100002.86",
                                 "notes": "TP1=511.44 TP2=505.95 SL=533.40 shares=4 risk\u00e2\u2030\u02c6$43.91 signal=2026-07-24 14:00:00 atr=6.2732 atr_pct=1.2038 volume_ratio=1.6037 ema_sep_atr=0.5200 ema_slope_atr=-0.1140 alpaca_order=6eb8034b-dc74-4d2c-b269-ecd4e55aa901 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "TSLA-7",
+                                "timestamp": "2026-07-24 14:02:26",
+                                "symbol": "TSLA",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "316.4301",
+                                "shares": "10.0",
+                                "usd_qty": "3164.3",
+                                "pnl": "0.0",
+                                "total_pnl": "-146.1808",
+                                "balance": "99853.82",
+                                "notes": "TP1=311.85 TP2=309.56 SL=321.01 shares=10 risk\u00e2\u2030\u02c6$45.83 signal=2026-07-24 14:00:00 atr=2.6189 atr_pct=0.8306 volume_ratio=1.0429 ema_sep_atr=6.1282 ema_slope_atr=-0.2793 alpaca_order=82f286f2-de8e-486d-8b13-d3edbef16f49 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -39053,6 +39115,17 @@
                         "tp1": 511.44,
                         "tp2": 505.95,
                         "last_event": "ENTRY_SHORT"
+                    },
+                    {
+                        "trade_id": "TSLA-7",
+                        "symbol": "TSLA",
+                        "side": "SHORT",
+                        "entry_price": 316.4301,
+                        "remaining": 10.0,
+                        "sl": 321.01,
+                        "tp1": 311.85,
+                        "tp2": 309.56,
+                        "last_event": "ENTRY_SHORT"
                     }
                 ],
                 "by_symbol": {},
@@ -39070,6 +39143,20 @@
                         "total_pnl": "2.8616",
                         "balance": "100002.86",
                         "notes": "TP1=511.44 TP2=505.95 SL=533.40 shares=4 risk\u00e2\u2030\u02c6$43.91 signal=2026-07-24 14:00:00 atr=6.2732 atr_pct=1.2038 volume_ratio=1.6037 ema_sep_atr=0.5200 ema_slope_atr=-0.1140 alpaca_order=6eb8034b-dc74-4d2c-b269-ecd4e55aa901 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "TSLA-7",
+                        "timestamp": "2026-07-24 14:02:26",
+                        "symbol": "TSLA",
+                        "event": "ENTRY_SHORT",
+                        "side": "SHORT",
+                        "price": "316.4301",
+                        "shares": "10.0",
+                        "usd_qty": "3164.3",
+                        "pnl": "0.0",
+                        "total_pnl": "-146.1808",
+                        "balance": "99853.82",
+                        "notes": "TP1=311.85 TP2=309.56 SL=321.01 shares=10 risk\u00e2\u2030\u02c6$45.83 signal=2026-07-24 14:00:00 atr=2.6189 atr_pct=0.8306 volume_ratio=1.0429 ema_sep_atr=6.1282 ema_slope_atr=-0.2793 alpaca_order=82f286f2-de8e-486d-8b13-d3edbef16f49 status=OrderStatus.FILLED"
                     }
                 ]
             },
