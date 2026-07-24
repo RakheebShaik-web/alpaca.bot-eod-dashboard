@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-24T15:44:01.449499+00:00",
+    "generated_at": "2026-07-24T15:46:32.513196+00:00",
     "latest_date": "2026-07-24",
     "days": [
         {
@@ -39042,6 +39042,17 @@
                                 "tp1": 304.22,
                                 "tp2": 301.04,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "ASTS-6",
+                                "symbol": "ASTS",
+                                "side": "SHORT",
+                                "entry_price": 56.8076,
+                                "remaining": 33.0,
+                                "sl": 58.31,
+                                "tp1": 55.3,
+                                "tp2": 54.55,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -39196,6 +39207,20 @@
                                 "total_pnl": "126.13",
                                 "balance": "100126.13",
                                 "notes": "entry=329.49 exit=333.11 alpaca_order=7d582ed8-f214-487a-8c65-8becd3c20d74 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "ASTS-6",
+                                "timestamp": "2026-07-24 15:46:29",
+                                "symbol": "ASTS",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "56.8076",
+                                "shares": "33.0",
+                                "usd_qty": "1874.65",
+                                "pnl": "0.0",
+                                "total_pnl": "25.69",
+                                "balance": "100025.69",
+                                "notes": "TP1=55.30 TP2=54.55 SL=58.31 shares=33 risk\u00e2\u2030\u02c6$49.64 signal=2026-07-24 15:45:00 atr=0.8596 atr_pct=1.5143 volume_ratio=1.2043 ema_sep_atr=1.5257 ema_slope_atr=-0.1297 alpaca_order=9c8b47f1-38db-4e95-b0b0-79456fa3026c status=OrderStatus.FILLED"
                             }
                         ]
                     },
