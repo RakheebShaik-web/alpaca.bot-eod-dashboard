@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-24T14:46:43.182226+00:00",
+    "generated_at": "2026-07-24T15:17:06.357684+00:00",
     "latest_date": "2026-07-24",
     "days": [
         {
@@ -38806,24 +38806,24 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 1,
+                        "total_trades": 2,
                         "win_count": 1,
-                        "loss_count": 0,
+                        "loss_count": 1,
                         "breakeven_count": 0,
-                        "win_rate_pct": 100.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 59.4,
-                        "closed_position_pnl": 59.4,
-                        "avg_pnl_per_trade": 59.4,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": 5.96,
+                        "closed_position_pnl": 5.96,
+                        "avg_pnl_per_trade": 2.98,
                         "avg_win": 59.4,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 2,
+                        "avg_loss": -53.44,
+                        "realized_exit_count": 3,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 23.85,
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 35.55,
-                        "open_partial_count": 1,
+                        "open_partial_count": 2,
                         "open_positions": [
                             {
                                 "trade_id": "AMD-2",
@@ -38834,10 +38834,29 @@
                                 "sl": 533.3982,
                                 "tp1": 511.442,
                                 "tp2": 505.9529,
+                                "last_event": "SL_HIT"
+                            },
+                            {
+                                "trade_id": "ASTS-2",
+                                "symbol": "ASTS",
+                                "side": "SHORT",
+                                "entry_price": 56.0299,
+                                "remaining": 40.0,
+                                "sl": 57.2549,
+                                "tp1": 54.8049,
+                                "tp2": 54.1924,
                                 "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
+                            "AMD": {
+                                "trades": 1,
+                                "pnl": -53.44,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "TSLA": {
                                 "trades": 1,
                                 "pnl": 59.4,
@@ -38917,14 +38936,28 @@
                                 "total_pnl": "4.7388",
                                 "balance": "100004.74",
                                 "notes": "TP1=54.80 TP2=54.19 SL=57.25 shares=40 risk\u00e2\u2030\u02c6$49.00 signal=2026-07-24 14:45:00 atr=0.7000 atr_pct=1.2498 volume_ratio=1.1578 ema_sep_atr=1.7564 ema_slope_atr=-0.2927 alpaca_order=e3673734-74ef-4493-84e0-c5f3cd547a4a status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMD-2",
+                                "timestamp": "2026-07-24 15:17:05",
+                                "symbol": "AMD",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "535.78",
+                                "shares": "4.0",
+                                "usd_qty": "2143.12",
+                                "pnl": "-53.4396",
+                                "total_pnl": "-50.578",
+                                "balance": "99949.42",
+                                "notes": "entry=522.42 exit=535.78 alpaca_order=27d583a3-07e0-4fba-8860-4dc76b6a1e5f status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 60.0,
-                        "total_pnl_delta": 112.97,
-                        "trade_count_delta": -4,
+                        "win_rate_delta_pct": 10.0,
+                        "total_pnl_delta": 59.53,
+                        "trade_count_delta": -3,
                         "direction": "improving"
                     }
                 },
@@ -39093,18 +39126,18 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 1,
+                        "total_trades": 2,
                         "win_count": 1,
-                        "loss_count": 0,
+                        "loss_count": 1,
                         "breakeven_count": 0,
-                        "win_rate_pct": 100.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 59.4,
-                        "closed_position_pnl": 59.4,
-                        "avg_pnl_per_trade": 59.4,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": 5.96,
+                        "closed_position_pnl": 5.96,
+                        "avg_pnl_per_trade": 2.98,
                         "avg_win": 59.4,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 2,
+                        "avg_loss": -53.44,
+                        "realized_exit_count": 3,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 23.85,
@@ -39112,17 +39145,6 @@
                         "tp2_realized_pnl": 35.55,
                         "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "AMD-2",
-                                "symbol": "AMD",
-                                "side": "SHORT",
-                                "entry_price": 522.4201,
-                                "remaining": 4.0,
-                                "sl": 533.4,
-                                "tp1": 511.44,
-                                "tp2": 505.95,
-                                "last_event": "ENTRY_SHORT"
-                            },
                             {
                                 "trade_id": "ASTS-2",
                                 "symbol": "ASTS",
@@ -39136,6 +39158,14 @@
                             }
                         ],
                         "by_symbol": {
+                            "AMD": {
+                                "trades": 1,
+                                "pnl": -53.44,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "TSLA": {
                                 "trades": 1,
                                 "pnl": 59.4,
@@ -39215,31 +39245,45 @@
                                 "total_pnl": "4.7388",
                                 "balance": "100004.74",
                                 "notes": "TP1=54.80 TP2=54.19 SL=57.25 shares=40 risk\u00e2\u2030\u02c6$49.00 signal=2026-07-24 14:45:00 atr=0.7000 atr_pct=1.2498 volume_ratio=1.1578 ema_sep_atr=1.7564 ema_slope_atr=-0.2927 alpaca_order=e3673734-74ef-4493-84e0-c5f3cd547a4a status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMD-2",
+                                "timestamp": "2026-07-24 15:17:05",
+                                "symbol": "AMD",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "535.78",
+                                "shares": "4.0",
+                                "usd_qty": "2143.12",
+                                "pnl": "-53.4396",
+                                "total_pnl": "-50.578",
+                                "balance": "99949.42",
+                                "notes": "entry=522.42 exit=535.78 alpaca_order=27d583a3-07e0-4fba-8860-4dc76b6a1e5f status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 60.0,
-                        "total_pnl_delta": 112.97,
-                        "trade_count_delta": -4,
+                        "win_rate_delta_pct": 10.0,
+                        "total_pnl_delta": 59.53,
+                        "trade_count_delta": -3,
                         "direction": "improving"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 1,
+                "total_trades": 2,
                 "win_count": 1,
-                "loss_count": 0,
+                "loss_count": 1,
                 "breakeven_count": 0,
-                "win_rate_pct": 100.0,
-                "loss_rate_pct": 0.0,
-                "total_pnl": 59.4,
-                "closed_position_pnl": 59.4,
-                "avg_pnl_per_trade": 59.4,
+                "win_rate_pct": 50.0,
+                "loss_rate_pct": 50.0,
+                "total_pnl": 5.96,
+                "closed_position_pnl": 5.96,
+                "avg_pnl_per_trade": 2.98,
                 "avg_win": 59.4,
-                "avg_loss": 0.0,
-                "realized_exit_count": 2,
+                "avg_loss": -53.44,
+                "realized_exit_count": 3,
                 "eod_close_count": 0,
                 "tp1_hit_count": 1,
                 "tp1_realized_pnl": 23.85,
@@ -39247,17 +39291,6 @@
                 "tp2_realized_pnl": 35.55,
                 "open_partial_count": 0,
                 "open_positions": [
-                    {
-                        "trade_id": "AMD-2",
-                        "symbol": "AMD",
-                        "side": "SHORT",
-                        "entry_price": 522.4201,
-                        "remaining": 4.0,
-                        "sl": 533.4,
-                        "tp1": 511.44,
-                        "tp2": 505.95,
-                        "last_event": "ENTRY_SHORT"
-                    },
                     {
                         "trade_id": "ASTS-2",
                         "symbol": "ASTS",
@@ -39271,6 +39304,14 @@
                     }
                 ],
                 "by_symbol": {
+                    "AMD": {
+                        "trades": 1,
+                        "pnl": -53.44,
+                        "wins": 0,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
                     "TSLA": {
                         "trades": 1,
                         "pnl": 59.4,
@@ -39350,6 +39391,20 @@
                         "total_pnl": "4.7388",
                         "balance": "100004.74",
                         "notes": "TP1=54.80 TP2=54.19 SL=57.25 shares=40 risk\u00e2\u2030\u02c6$49.00 signal=2026-07-24 14:45:00 atr=0.7000 atr_pct=1.2498 volume_ratio=1.1578 ema_sep_atr=1.7564 ema_slope_atr=-0.2927 alpaca_order=e3673734-74ef-4493-84e0-c5f3cd547a4a status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "AMD-2",
+                        "timestamp": "2026-07-24 15:17:05",
+                        "symbol": "AMD",
+                        "event": "SL_HIT",
+                        "side": "SHORT",
+                        "price": "535.78",
+                        "shares": "4.0",
+                        "usd_qty": "2143.12",
+                        "pnl": "-53.4396",
+                        "total_pnl": "-50.578",
+                        "balance": "99949.42",
+                        "notes": "entry=522.42 exit=535.78 alpaca_order=27d583a3-07e0-4fba-8860-4dc76b6a1e5f status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -39366,9 +39421,9 @@
             },
             "trend": {
                 "has_previous_day": true,
-                "win_rate_delta_pct": 60.0,
-                "total_pnl_delta": 112.97,
-                "trade_count_delta": -4,
+                "win_rate_delta_pct": 10.0,
+                "total_pnl_delta": 59.53,
+                "trade_count_delta": -3,
                 "direction": "improving"
             }
         }
