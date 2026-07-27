@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-27T13:49:30.643827+00:00",
+    "generated_at": "2026-07-27T13:53:27.953511+00:00",
     "latest_date": "2026-07-27",
     "days": [
         {
@@ -39759,8 +39759,31 @@
                         "tp1_realized_pnl": 0,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
-                        "open_positions": [],
+                        "open_partial_count": 2,
+                        "open_positions": [
+                            {
+                                "trade_id": "NVDA-13",
+                                "symbol": "NVDA",
+                                "side": "SHORT",
+                                "entry_price": 201.4665,
+                                "remaining": 19.0,
+                                "sl": 204.0334,
+                                "tp1": 198.8996,
+                                "tp2": 197.6162,
+                                "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "UNH-2",
+                                "symbol": "UNH",
+                                "side": "SHORT",
+                                "entry_price": 417.149265,
+                                "remaining": 23.0,
+                                "sl": 419.2493,
+                                "tp1": 415.0493,
+                                "tp2": 413.9993,
+                                "last_event": "ENTRY_SHORT"
+                            }
+                        ],
                         "by_symbol": {},
                         "recent_trades": [
                             {
@@ -39776,6 +39799,20 @@
                                 "total_pnl": "-98.0459",
                                 "balance": "99901.95",
                                 "notes": "TP1=198.90 TP2=197.62 SL=204.03 shares=19 risk\u00e2\u2030\u02c6$48.77 signal=2026-07-27 13:45:00 atr=1.4668 atr_pct=0.7251 volume_ratio=2.6092 ema_sep_atr=0.6424 ema_slope_atr=-0.1906 alpaca_order=a5e0d910-17eb-4cb1-9540-ca05e4d7a752 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "UNH-2",
+                                "timestamp": "2026-07-27 13:49:03",
+                                "symbol": "UNH",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "417.1493",
+                                "shares": "23.0",
+                                "usd_qty": "9594.43",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=415.05 TP2=414.00 SL=419.25 shares=23 risk\u00e2\u2030\u02c6$48.30 signal=2026-07-27 13:45:00 atr=1.2000 atr_pct=0.2863 volume_ratio=1.4421 ema_sep_atr=1.7356 ema_slope_atr=-0.0681 alpaca_order=510c8916-84bb-4ed5-b209-0adf55a52776 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -39930,6 +39967,17 @@
                                 "tp1": 198.9,
                                 "tp2": 197.62,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "UNH-2",
+                                "symbol": "UNH",
+                                "side": "SHORT",
+                                "entry_price": 417.1493,
+                                "remaining": 23.0,
+                                "sl": 419.25,
+                                "tp1": 415.05,
+                                "tp2": 414.0,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {},
@@ -39947,6 +39995,20 @@
                                 "total_pnl": "-98.0459",
                                 "balance": "99901.95",
                                 "notes": "TP1=198.90 TP2=197.62 SL=204.03 shares=19 risk\u00e2\u2030\u02c6$48.77 signal=2026-07-27 13:45:00 atr=1.4668 atr_pct=0.7251 volume_ratio=2.6092 ema_sep_atr=0.6424 ema_slope_atr=-0.1906 alpaca_order=a5e0d910-17eb-4cb1-9540-ca05e4d7a752 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "UNH-2",
+                                "timestamp": "2026-07-27 13:49:03",
+                                "symbol": "UNH",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "417.1493",
+                                "shares": "23.0",
+                                "usd_qty": "9594.43",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=415.05 TP2=414.00 SL=419.25 shares=23 risk\u00e2\u2030\u02c6$48.30 signal=2026-07-27 13:45:00 atr=1.2000 atr_pct=0.2863 volume_ratio=1.4421 ema_sep_atr=1.7356 ema_slope_atr=-0.0681 alpaca_order=510c8916-84bb-4ed5-b209-0adf55a52776 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -39989,6 +40051,17 @@
                         "tp1": 198.9,
                         "tp2": 197.62,
                         "last_event": "ENTRY_SHORT"
+                    },
+                    {
+                        "trade_id": "UNH-2",
+                        "symbol": "UNH",
+                        "side": "SHORT",
+                        "entry_price": 417.1493,
+                        "remaining": 23.0,
+                        "sl": 419.25,
+                        "tp1": 415.05,
+                        "tp2": 414.0,
+                        "last_event": "ENTRY_SHORT"
                     }
                 ],
                 "by_symbol": {},
@@ -40006,6 +40079,20 @@
                         "total_pnl": "-98.0459",
                         "balance": "99901.95",
                         "notes": "TP1=198.90 TP2=197.62 SL=204.03 shares=19 risk\u00e2\u2030\u02c6$48.77 signal=2026-07-27 13:45:00 atr=1.4668 atr_pct=0.7251 volume_ratio=2.6092 ema_sep_atr=0.6424 ema_slope_atr=-0.1906 alpaca_order=a5e0d910-17eb-4cb1-9540-ca05e4d7a752 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "UNH-2",
+                        "timestamp": "2026-07-27 13:49:03",
+                        "symbol": "UNH",
+                        "event": "ENTRY_SHORT",
+                        "side": "SHORT",
+                        "price": "417.1493",
+                        "shares": "23.0",
+                        "usd_qty": "9594.43",
+                        "pnl": "0.0",
+                        "total_pnl": "0.0",
+                        "balance": "100000.0",
+                        "notes": "TP1=415.05 TP2=414.00 SL=419.25 shares=23 risk\u00e2\u2030\u02c6$48.30 signal=2026-07-27 13:45:00 atr=1.2000 atr_pct=0.2863 volume_ratio=1.4421 ema_sep_atr=1.7356 ema_slope_atr=-0.0681 alpaca_order=510c8916-84bb-4ed5-b209-0adf55a52776 status=OrderStatus.FILLED"
                     }
                 ]
             },
