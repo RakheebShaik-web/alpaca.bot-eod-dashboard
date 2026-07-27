@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-27T13:53:27.953511+00:00",
+    "generated_at": "2026-07-27T13:57:06.717886+00:00",
     "latest_date": "2026-07-27",
     "days": [
         {
@@ -39832,18 +39832,18 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
+                        "total_pnl": 29.16,
                         "closed_position_pnl": 0,
                         "avg_pnl_per_trade": 0.0,
                         "avg_win": 0.0,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 29.16,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "NVDA-7",
@@ -39861,14 +39861,23 @@
                                 "symbol": "UNH",
                                 "side": "SHORT",
                                 "entry_price": 417.01,
-                                "remaining": 23.0,
+                                "remaining": 11.0,
                                 "sl": 419.11,
                                 "tp1": 414.91,
                                 "tp2": 413.86,
-                                "last_event": "ENTRY_SHORT"
+                                "last_event": "TP1_HIT"
                             }
                         ],
-                        "by_symbol": {},
+                        "by_symbol": {
+                            "UNH": {
+                                "trades": 0,
+                                "pnl": 29.16,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "NVDA-7",
@@ -39897,13 +39906,27 @@
                                 "total_pnl": "-47.22",
                                 "balance": "99952.78",
                                 "notes": "TP1=414.91 TP2=413.86 SL=419.11 shares=23 risk\u00e2\u2030\u02c6$48.30 signal=2026-07-27 13:45:00 atr=1.2000 atr_pct=0.2863 volume_ratio=1.4421 ema_sep_atr=1.7356 ema_slope_atr=-0.0681 alpaca_order=2ae90279-2202-43fb-a11c-e855d911a490 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "UNH-5",
+                                "timestamp": "2026-07-27 13:57:03",
+                                "symbol": "UNH",
+                                "event": "TP1_HIT",
+                                "side": "SHORT",
+                                "price": "414.58",
+                                "shares": "12.0",
+                                "usd_qty": "4974.96",
+                                "pnl": "29.16",
+                                "total_pnl": "-18.06",
+                                "balance": "99981.94",
+                                "notes": "remaining=11 shares alpaca_order=eff98e1b-90df-45ab-846b-a2f56ee16aa7 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -80.0,
-                        "total_pnl_delta": -89.57,
+                        "total_pnl_delta": -60.41,
                         "trade_count_delta": -5,
                         "direction": "declining"
                     }
