@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-27T14:44:28.838673+00:00",
+    "generated_at": "2026-07-27T14:46:20.488550+00:00",
     "latest_date": "2026-07-27",
     "days": [
         {
@@ -39742,49 +39742,57 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 1,
-                        "win_count": 1,
+                        "total_trades": 2,
+                        "win_count": 2,
                         "loss_count": 0,
                         "breakeven_count": 0,
                         "win_rate_pct": 100.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 119.29,
-                        "closed_position_pnl": 66.89,
-                        "avg_pnl_per_trade": 66.89,
-                        "avg_win": 66.89,
+                        "total_pnl": 154.31,
+                        "closed_position_pnl": 127.85,
+                        "avg_pnl_per_trade": 63.92,
+                        "avg_win": 63.92,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 4,
+                        "realized_exit_count": 5,
                         "eod_close_count": 0,
                         "tp1_hit_count": 3,
                         "tp1_realized_pnl": 78.32,
-                        "tp2_hit_count": 1,
-                        "tp2_realized_pnl": 40.98,
+                        "tp2_hit_count": 2,
+                        "tp2_realized_pnl": 76.0,
                         "open_partial_count": 2,
                         "open_positions": [
+                            {
+                                "trade_id": "AVGO-1",
+                                "symbol": "AVGO",
+                                "side": "SHORT",
+                                "entry_price": 375.6884,
+                                "remaining": 9.0,
+                                "sl": 381.1572,
+                                "tp1": 370.2196,
+                                "tp2": 367.4853,
+                                "last_event": "ENTRY_SHORT"
+                            },
                             {
                                 "trade_id": "MA-4",
                                 "symbol": "MA",
                                 "side": "LONG",
                                 "entry_price": 548.3043,
-                                "remaining": 18.0,
-                                "sl": 545.5693,
+                                "remaining": 9.0,
+                                "sl": 548.3043,
                                 "tp1": 551.0393,
                                 "tp2": 552.4068,
-                                "last_event": "TP1_HIT"
-                            },
-                            {
-                                "trade_id": "NVDA-13",
-                                "symbol": "NVDA",
-                                "side": "SHORT",
-                                "entry_price": 201.4665,
-                                "remaining": 9.0,
-                                "sl": 201.4665,
-                                "tp1": 198.8996,
-                                "tp2": 197.6162,
                                 "last_event": "TP1_HIT"
                             }
                         ],
                         "by_symbol": {
+                            "NVDA": {
+                                "trades": 1,
+                                "pnl": 60.96,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "UNH": {
                                 "trades": 1,
                                 "pnl": 66.89,
@@ -39792,14 +39800,6 @@
                                 "losses": 0,
                                 "breakeven": 0,
                                 "open_partial": 0
-                            },
-                            "NVDA": {
-                                "trades": 0,
-                                "pnl": 25.94,
-                                "wins": 0,
-                                "losses": 0,
-                                "breakeven": 0,
-                                "open_partial": 1
                             },
                             "MA": {
                                 "trades": 0,
@@ -39908,14 +39908,42 @@
                                 "total_pnl": "135.948",
                                 "balance": "100135.95",
                                 "notes": "remaining=9 shares alpaca_order=38eff708-d05f-447a-8f4e-224b84e3b25e status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-13",
+                                "timestamp": "2026-07-27 14:44:54",
+                                "symbol": "NVDA",
+                                "event": "TP2_HIT",
+                                "side": "SHORT",
+                                "price": "197.5756",
+                                "shares": "9.0",
+                                "usd_qty": "1778.18",
+                                "pnl": "35.0181",
+                                "total_pnl": "-37.0898",
+                                "balance": "99962.91",
+                                "notes": "entry=201.47 exit=197.58 alpaca_order=99a3f6db-7817-4826-8523-fbcf1474e233 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AVGO-1",
+                                "timestamp": "2026-07-27 14:45:24",
+                                "symbol": "AVGO",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "375.6884",
+                                "shares": "9.0",
+                                "usd_qty": "3381.2",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=370.22 TP2=367.49 SL=381.16 shares=9 risk\u00e2\u2030\u02c6$49.22 signal=2026-07-27 14:45:00 atr=3.1250 atr_pct=0.8334 volume_ratio=1.6102 ema_sep_atr=0.9348 ema_slope_atr=-0.1403 alpaca_order=69e5a959-d4ae-4077-829e-2277e0a714e2 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": 40.0,
-                        "total_pnl_delta": 146.41,
-                        "trade_count_delta": -4,
+                        "total_pnl_delta": 181.43,
+                        "trade_count_delta": -3,
                         "direction": "improving"
                     }
                 },
@@ -40131,36 +40159,25 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 1,
-                        "win_count": 1,
+                        "total_trades": 2,
+                        "win_count": 2,
                         "loss_count": 0,
                         "breakeven_count": 0,
                         "win_rate_pct": 100.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 119.29,
-                        "closed_position_pnl": 66.89,
-                        "avg_pnl_per_trade": 66.89,
-                        "avg_win": 66.89,
+                        "total_pnl": 154.31,
+                        "closed_position_pnl": 127.85,
+                        "avg_pnl_per_trade": 63.92,
+                        "avg_win": 63.92,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 4,
+                        "realized_exit_count": 5,
                         "eod_close_count": 0,
                         "tp1_hit_count": 3,
                         "tp1_realized_pnl": 78.32,
-                        "tp2_hit_count": 1,
-                        "tp2_realized_pnl": 40.98,
-                        "open_partial_count": 2,
+                        "tp2_hit_count": 2,
+                        "tp2_realized_pnl": 76.0,
+                        "open_partial_count": 1,
                         "open_positions": [
-                            {
-                                "trade_id": "NVDA-13",
-                                "symbol": "NVDA",
-                                "side": "SHORT",
-                                "entry_price": 201.4665,
-                                "remaining": 9.0,
-                                "sl": 204.03,
-                                "tp1": 198.9,
-                                "tp2": 197.62,
-                                "last_event": "TP1_HIT"
-                            },
                             {
                                 "trade_id": "MA-4",
                                 "symbol": "MA",
@@ -40171,9 +40188,28 @@
                                 "tp1": 551.04,
                                 "tp2": 552.41,
                                 "last_event": "TP1_HIT"
+                            },
+                            {
+                                "trade_id": "AVGO-1",
+                                "symbol": "AVGO",
+                                "side": "SHORT",
+                                "entry_price": 375.6884,
+                                "remaining": 9.0,
+                                "sl": 381.16,
+                                "tp1": 370.22,
+                                "tp2": 367.49,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
+                            "NVDA": {
+                                "trades": 1,
+                                "pnl": 60.96,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "UNH": {
                                 "trades": 1,
                                 "pnl": 66.89,
@@ -40181,14 +40217,6 @@
                                 "losses": 0,
                                 "breakeven": 0,
                                 "open_partial": 0
-                            },
-                            "NVDA": {
-                                "trades": 0,
-                                "pnl": 25.94,
-                                "wins": 0,
-                                "losses": 0,
-                                "breakeven": 0,
-                                "open_partial": 1
                             },
                             "MA": {
                                 "trades": 0,
@@ -40297,49 +40325,66 @@
                                 "total_pnl": "135.948",
                                 "balance": "100135.95",
                                 "notes": "remaining=9 shares alpaca_order=38eff708-d05f-447a-8f4e-224b84e3b25e status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-13",
+                                "timestamp": "2026-07-27 14:44:54",
+                                "symbol": "NVDA",
+                                "event": "TP2_HIT",
+                                "side": "SHORT",
+                                "price": "197.5756",
+                                "shares": "9.0",
+                                "usd_qty": "1778.18",
+                                "pnl": "35.0181",
+                                "total_pnl": "-37.0898",
+                                "balance": "99962.91",
+                                "notes": "entry=201.47 exit=197.58 alpaca_order=99a3f6db-7817-4826-8523-fbcf1474e233 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AVGO-1",
+                                "timestamp": "2026-07-27 14:45:24",
+                                "symbol": "AVGO",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "375.6884",
+                                "shares": "9.0",
+                                "usd_qty": "3381.2",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=370.22 TP2=367.49 SL=381.16 shares=9 risk\u00e2\u2030\u02c6$49.22 signal=2026-07-27 14:45:00 atr=3.1250 atr_pct=0.8334 volume_ratio=1.6102 ema_sep_atr=0.9348 ema_slope_atr=-0.1403 alpaca_order=69e5a959-d4ae-4077-829e-2277e0a714e2 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": 40.0,
-                        "total_pnl_delta": 146.41,
-                        "trade_count_delta": -4,
+                        "total_pnl_delta": 181.43,
+                        "trade_count_delta": -3,
                         "direction": "improving"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 1,
-                "win_count": 1,
+                "total_trades": 2,
+                "win_count": 2,
                 "loss_count": 0,
                 "breakeven_count": 0,
                 "win_rate_pct": 100.0,
                 "loss_rate_pct": 0.0,
-                "total_pnl": 119.29,
-                "closed_position_pnl": 66.89,
-                "avg_pnl_per_trade": 66.89,
-                "avg_win": 66.89,
+                "total_pnl": 154.31,
+                "closed_position_pnl": 127.85,
+                "avg_pnl_per_trade": 63.92,
+                "avg_win": 63.92,
                 "avg_loss": 0.0,
-                "realized_exit_count": 4,
+                "realized_exit_count": 5,
                 "eod_close_count": 0,
                 "tp1_hit_count": 3,
                 "tp1_realized_pnl": 78.32,
-                "tp2_hit_count": 1,
-                "tp2_realized_pnl": 40.98,
-                "open_partial_count": 2,
+                "tp2_hit_count": 2,
+                "tp2_realized_pnl": 76.0,
+                "open_partial_count": 1,
                 "open_positions": [
-                    {
-                        "trade_id": "NVDA-13",
-                        "symbol": "NVDA",
-                        "side": "SHORT",
-                        "entry_price": 201.4665,
-                        "remaining": 9.0,
-                        "sl": 204.03,
-                        "tp1": 198.9,
-                        "tp2": 197.62,
-                        "last_event": "TP1_HIT"
-                    },
                     {
                         "trade_id": "MA-4",
                         "symbol": "MA",
@@ -40350,9 +40395,28 @@
                         "tp1": 551.04,
                         "tp2": 552.41,
                         "last_event": "TP1_HIT"
+                    },
+                    {
+                        "trade_id": "AVGO-1",
+                        "symbol": "AVGO",
+                        "side": "SHORT",
+                        "entry_price": 375.6884,
+                        "remaining": 9.0,
+                        "sl": 381.16,
+                        "tp1": 370.22,
+                        "tp2": 367.49,
+                        "last_event": "ENTRY_SHORT"
                     }
                 ],
                 "by_symbol": {
+                    "NVDA": {
+                        "trades": 1,
+                        "pnl": 60.96,
+                        "wins": 1,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
                     "UNH": {
                         "trades": 1,
                         "pnl": 66.89,
@@ -40360,14 +40424,6 @@
                         "losses": 0,
                         "breakeven": 0,
                         "open_partial": 0
-                    },
-                    "NVDA": {
-                        "trades": 0,
-                        "pnl": 25.94,
-                        "wins": 0,
-                        "losses": 0,
-                        "breakeven": 0,
-                        "open_partial": 1
                     },
                     "MA": {
                         "trades": 0,
@@ -40476,6 +40532,34 @@
                         "total_pnl": "135.948",
                         "balance": "100135.95",
                         "notes": "remaining=9 shares alpaca_order=38eff708-d05f-447a-8f4e-224b84e3b25e status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "NVDA-13",
+                        "timestamp": "2026-07-27 14:44:54",
+                        "symbol": "NVDA",
+                        "event": "TP2_HIT",
+                        "side": "SHORT",
+                        "price": "197.5756",
+                        "shares": "9.0",
+                        "usd_qty": "1778.18",
+                        "pnl": "35.0181",
+                        "total_pnl": "-37.0898",
+                        "balance": "99962.91",
+                        "notes": "entry=201.47 exit=197.58 alpaca_order=99a3f6db-7817-4826-8523-fbcf1474e233 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "AVGO-1",
+                        "timestamp": "2026-07-27 14:45:24",
+                        "symbol": "AVGO",
+                        "event": "ENTRY_SHORT",
+                        "side": "SHORT",
+                        "price": "375.6884",
+                        "shares": "9.0",
+                        "usd_qty": "3381.2",
+                        "pnl": "0.0",
+                        "total_pnl": "0.0",
+                        "balance": "100000.0",
+                        "notes": "TP1=370.22 TP2=367.49 SL=381.16 shares=9 risk\u00e2\u2030\u02c6$49.22 signal=2026-07-27 14:45:00 atr=3.1250 atr_pct=0.8334 volume_ratio=1.6102 ema_sep_atr=0.9348 ema_slope_atr=-0.1403 alpaca_order=69e5a959-d4ae-4077-829e-2277e0a714e2 status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -40493,8 +40577,8 @@
             "trend": {
                 "has_previous_day": true,
                 "win_rate_delta_pct": 40.0,
-                "total_pnl_delta": 146.41,
-                "trade_count_delta": -4,
+                "total_pnl_delta": 181.43,
+                "trade_count_delta": -3,
                 "direction": "improving"
             }
         }
