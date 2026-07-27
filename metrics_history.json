@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-27T19:39:05.054808+00:00",
+    "generated_at": "2026-07-27T19:50:38.925657+00:00",
     "latest_date": "2026-07-27",
     "days": [
         {
@@ -40071,37 +40071,25 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 4,
+                        "total_trades": 5,
                         "win_count": 4,
-                        "loss_count": 0,
+                        "loss_count": 1,
                         "breakeven_count": 0,
-                        "win_rate_pct": 100.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 223.15,
-                        "closed_position_pnl": 223.15,
-                        "avg_pnl_per_trade": 55.79,
+                        "win_rate_pct": 80.0,
+                        "loss_rate_pct": 20.0,
+                        "total_pnl": 199.88,
+                        "closed_position_pnl": 199.88,
+                        "avg_pnl_per_trade": 39.98,
                         "avg_win": 55.79,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 8,
-                        "eod_close_count": 0,
+                        "avg_loss": -23.27,
+                        "realized_exit_count": 9,
+                        "eod_close_count": 1,
                         "tp1_hit_count": 4,
                         "tp1_realized_pnl": 110.33,
                         "tp2_hit_count": 3,
                         "tp2_realized_pnl": 113.21,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "AVGO-3",
-                                "symbol": "AVGO",
-                                "side": "SHORT",
-                                "entry_price": 379.6857,
-                                "remaining": 7.0,
-                                "sl": 386.17,
-                                "tp1": 373.2,
-                                "tp2": 369.96,
-                                "last_event": "ENTRY_SHORT"
-                            }
-                        ],
+                        "open_positions": [],
                         "by_symbol": {
                             "NVDA": {
                                 "trades": 1,
@@ -40132,6 +40120,14 @@
                                 "pnl": 25.75,
                                 "wins": 1,
                                 "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "AVGO": {
+                                "trades": 1,
+                                "pnl": -23.27,
+                                "wins": 0,
+                                "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
                             }
@@ -40318,15 +40314,29 @@
                                 "total_pnl": "-57.39",
                                 "balance": "99942.61",
                                 "notes": "entry=70.74 exit=70.73 alpaca_order=21046245-65e3-47f0-b67d-25944b2f112e status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AVGO-3",
+                                "timestamp": "2026-07-27 19:50:35",
+                                "symbol": "AVGO",
+                                "event": "CLOSE_EOD",
+                                "side": "SHORT",
+                                "price": "383.01",
+                                "shares": "7.0",
+                                "usd_qty": "2681.07",
+                                "pnl": "-23.27",
+                                "total_pnl": "40.85",
+                                "balance": "100040.85",
+                                "notes": "entry=379.69 exit=383.01 alpaca_order=42742679-29cf-4279-906f-05aebba27978 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 20.0,
-                        "total_pnl_delta": 133.58,
-                        "trade_count_delta": -1,
-                        "direction": "improving"
+                        "win_rate_delta_pct": 0.0,
+                        "total_pnl_delta": 110.31,
+                        "trade_count_delta": 0,
+                        "direction": "mixed"
                     }
                 },
                 "legacy_simulation": {
