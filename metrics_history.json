@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-27T15:17:57.391121+00:00",
+    "generated_at": "2026-07-27T16:00:42.715745+00:00",
     "latest_date": "2026-07-27",
     "days": [
         {
@@ -40019,29 +40019,29 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 100.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 197.4,
+                        "total_pnl": 223.53,
                         "closed_position_pnl": 197.4,
                         "avg_pnl_per_trade": 65.8,
                         "avg_win": 65.8,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 6,
+                        "realized_exit_count": 7,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 3,
-                        "tp1_realized_pnl": 84.19,
+                        "tp1_hit_count": 4,
+                        "tp1_realized_pnl": 110.33,
                         "tp2_hit_count": 3,
                         "tp2_realized_pnl": 113.21,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "NFLX-3",
                                 "symbol": "NFLX",
                                 "side": "LONG",
                                 "entry_price": 70.7399,
-                                "remaining": 78.0,
+                                "remaining": 39.0,
                                 "sl": 70.1,
                                 "tp1": 71.38,
                                 "tp2": 71.7,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "TP1_HIT"
                             },
                             {
                                 "trade_id": "AVGO-3",
@@ -40079,6 +40079,14 @@
                                 "losses": 0,
                                 "breakeven": 0,
                                 "open_partial": 0
+                            },
+                            "NFLX": {
+                                "trades": 0,
+                                "pnl": 26.14,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -40235,13 +40243,27 @@
                                 "total_pnl": "64.12",
                                 "balance": "100064.12",
                                 "notes": "TP1=373.20 TP2=369.96 SL=386.17 shares=7 risk\u00e2\u2030\u02c6$45.39 signal=2026-07-27 15:15:00 atr=3.7054 atr_pct=0.9722 volume_ratio=1.9742 ema_sep_atr=0.7161 ema_slope_atr=-0.0567 alpaca_order=97ff5ea1-dd6f-478a-a30e-232cf20cf5e7 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NFLX-3",
+                                "timestamp": "2026-07-27 16:00:38",
+                                "symbol": "NFLX",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "71.41",
+                                "shares": "39.0",
+                                "usd_qty": "2784.99",
+                                "pnl": "26.135",
+                                "total_pnl": "-57.005",
+                                "balance": "99942.99",
+                                "notes": "remaining=39 shares alpaca_order=57475765-ef7e-4c93-9bd1-7256d05edd61 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": 20.0,
-                        "total_pnl_delta": 107.83,
+                        "total_pnl_delta": 133.96,
                         "trade_count_delta": -2,
                         "direction": "improving"
                     }
