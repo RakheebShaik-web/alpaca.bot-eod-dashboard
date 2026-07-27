@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-27T14:01:04.465805+00:00",
+    "generated_at": "2026-07-27T14:02:04.427304+00:00",
     "latest_date": "2026-07-27",
     "days": [
         {
@@ -39878,6 +39878,17 @@
                                 "tp1": 198.88,
                                 "tp2": 197.59,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "MA-7",
+                                "symbol": "MA",
+                                "side": "LONG",
+                                "entry_price": 547.97,
+                                "remaining": 18.0,
+                                "sl": 545.24,
+                                "tp1": 550.71,
+                                "tp2": 552.07,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -39946,6 +39957,20 @@
                                 "total_pnl": "18.13",
                                 "balance": "100018.13",
                                 "notes": "entry=417.01 exit=413.72 alpaca_order=8c37fa13-690a-4ff6-912e-6e53656040af status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MA-7",
+                                "timestamp": "2026-07-27 14:01:27",
+                                "symbol": "MA",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "547.97",
+                                "shares": "18.0",
+                                "usd_qty": "9863.46",
+                                "pnl": "0.0",
+                                "total_pnl": "38.71",
+                                "balance": "100038.71",
+                                "notes": "TP1=550.71 TP2=552.07 SL=545.24 shares=18 risk\u00e2\u2030\u02c6$49.23 signal=2026-07-27 14:00:00 atr=1.5629 atr_pct=0.2854 volume_ratio=1.2351 ema_sep_atr=1.7697 ema_slope_atr=0.5302 alpaca_order=bff88c82-616d-43a2-8758-fcd694a309f2 status=OrderStatus.FILLED"
                             }
                         ]
                     },
