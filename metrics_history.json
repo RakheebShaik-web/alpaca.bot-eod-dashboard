@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-27T16:49:53.641030+00:00",
+    "generated_at": "2026-07-27T17:31:10.590847+00:00",
     "latest_date": "2026-07-27",
     "days": [
         {
@@ -39759,19 +39759,8 @@
                         "tp1_realized_pnl": 78.32,
                         "tp2_hit_count": 3,
                         "tp2_realized_pnl": 116.92,
-                        "open_partial_count": 2,
+                        "open_partial_count": 1,
                         "open_positions": [
-                            {
-                                "trade_id": "AAPL-13",
-                                "symbol": "AAPL",
-                                "side": "LONG",
-                                "entry_price": 339.045,
-                                "remaining": 20.0,
-                                "sl": 336.57,
-                                "tp1": 341.52,
-                                "tp2": 342.7575,
-                                "last_event": "SL_HIT"
-                            },
                             {
                                 "trade_id": "NVDA-14",
                                 "symbol": "NVDA",
@@ -40022,6 +40011,20 @@
                                 "total_pnl": "-6.9159",
                                 "balance": "99993.08",
                                 "notes": "entry=339.05 exit=336.45 alpaca_order=35ada032-afb0-4dd3-9724-0d699f3f7d13 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "CRM-2",
+                                "timestamp": "2026-07-27 17:31:09",
+                                "symbol": "CRM",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "175.71",
+                                "shares": "35.0",
+                                "usd_qty": "6149.85",
+                                "pnl": "0.0",
+                                "total_pnl": "-51.2418",
+                                "balance": "99948.76",
+                                "notes": "TP1=177.14 TP2=177.85 SL=174.28 shares=35 risk\u00e2\u2030\u02c6$49.96 signal=2026-07-27 17:30:00 atr=0.8157 atr_pct=0.4646 volume_ratio=1.2187 ema_sep_atr=5.1465 ema_slope_atr=0.5318 alpaca_order=b2f9632b-94de-4bf6-9d16-90d6061056ce status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -40349,6 +40352,17 @@
                                 "tp1": 193.29,
                                 "tp2": 191.45,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "CRM-2",
+                                "symbol": "CRM",
+                                "side": "LONG",
+                                "entry_price": 175.71,
+                                "remaining": 35.0,
+                                "sl": 174.28,
+                                "tp1": 177.14,
+                                "tp2": 177.85,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -40589,6 +40603,20 @@
                                 "total_pnl": "-6.9159",
                                 "balance": "99993.08",
                                 "notes": "entry=339.05 exit=336.45 alpaca_order=35ada032-afb0-4dd3-9724-0d699f3f7d13 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "CRM-2",
+                                "timestamp": "2026-07-27 17:31:09",
+                                "symbol": "CRM",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "175.71",
+                                "shares": "35.0",
+                                "usd_qty": "6149.85",
+                                "pnl": "0.0",
+                                "total_pnl": "-51.2418",
+                                "balance": "99948.76",
+                                "notes": "TP1=177.14 TP2=177.85 SL=174.28 shares=35 risk\u00e2\u2030\u02c6$49.96 signal=2026-07-27 17:30:00 atr=0.8157 atr_pct=0.4646 volume_ratio=1.2187 ema_sep_atr=5.1465 ema_slope_atr=0.5318 alpaca_order=b2f9632b-94de-4bf6-9d16-90d6061056ce status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -40631,6 +40659,17 @@
                         "tp1": 193.29,
                         "tp2": 191.45,
                         "last_event": "ENTRY_SHORT"
+                    },
+                    {
+                        "trade_id": "CRM-2",
+                        "symbol": "CRM",
+                        "side": "LONG",
+                        "entry_price": 175.71,
+                        "remaining": 35.0,
+                        "sl": 174.28,
+                        "tp1": 177.14,
+                        "tp2": 177.85,
+                        "last_event": "ENTRY_LONG"
                     }
                 ],
                 "by_symbol": {
@@ -40871,6 +40910,20 @@
                         "total_pnl": "-6.9159",
                         "balance": "99993.08",
                         "notes": "entry=339.05 exit=336.45 alpaca_order=35ada032-afb0-4dd3-9724-0d699f3f7d13 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "CRM-2",
+                        "timestamp": "2026-07-27 17:31:09",
+                        "symbol": "CRM",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "175.71",
+                        "shares": "35.0",
+                        "usd_qty": "6149.85",
+                        "pnl": "0.0",
+                        "total_pnl": "-51.2418",
+                        "balance": "99948.76",
+                        "notes": "TP1=177.14 TP2=177.85 SL=174.28 shares=35 risk\u00e2\u2030\u02c6$49.96 signal=2026-07-27 17:30:00 atr=0.8157 atr_pct=0.4646 volume_ratio=1.2187 ema_sep_atr=5.1465 ema_slope_atr=0.5318 alpaca_order=b2f9632b-94de-4bf6-9d16-90d6061056ce status=OrderStatus.FILLED"
                     }
                 ]
             },
