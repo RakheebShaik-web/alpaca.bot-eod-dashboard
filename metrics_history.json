@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-27T15:12:57.130848+00:00",
+    "generated_at": "2026-07-27T15:16:29.438143+00:00",
     "latest_date": "2026-07-27",
     "days": [
         {
@@ -39999,36 +39999,25 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 2,
-                        "win_count": 2,
+                        "total_trades": 3,
+                        "win_count": 3,
                         "loss_count": 0,
                         "breakeven_count": 0,
                         "win_rate_pct": 100.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 157.46,
-                        "closed_position_pnl": 130.42,
-                        "avg_pnl_per_trade": 65.21,
-                        "avg_win": 65.21,
+                        "total_pnl": 197.4,
+                        "closed_position_pnl": 197.4,
+                        "avg_pnl_per_trade": 65.8,
+                        "avg_win": 65.8,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 5,
+                        "realized_exit_count": 6,
                         "eod_close_count": 0,
                         "tp1_hit_count": 3,
                         "tp1_realized_pnl": 84.19,
-                        "tp2_hit_count": 2,
-                        "tp2_realized_pnl": 73.27,
-                        "open_partial_count": 1,
+                        "tp2_hit_count": 3,
+                        "tp2_realized_pnl": 113.21,
+                        "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "NVDA-7",
-                                "symbol": "NVDA",
-                                "side": "SHORT",
-                                "entry_price": 201.4453,
-                                "remaining": 9.0,
-                                "sl": 204.01,
-                                "tp1": 198.88,
-                                "tp2": 197.59,
-                                "last_event": "TP1_HIT"
-                            },
                             {
                                 "trade_id": "NFLX-3",
                                 "symbol": "NFLX",
@@ -40042,6 +40031,14 @@
                             }
                         ],
                         "by_symbol": {
+                            "NVDA": {
+                                "trades": 1,
+                                "pnl": 66.98,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "UNH": {
                                 "trades": 1,
                                 "pnl": 65.35,
@@ -40057,14 +40054,6 @@
                                 "losses": 0,
                                 "breakeven": 0,
                                 "open_partial": 0
-                            },
-                            "NVDA": {
-                                "trades": 0,
-                                "pnl": 27.04,
-                                "wins": 0,
-                                "losses": 0,
-                                "breakeven": 0,
-                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -40193,14 +40182,28 @@
                                 "total_pnl": "-83.14",
                                 "balance": "99916.86",
                                 "notes": "TP1=71.38 TP2=71.70 SL=70.10 shares=78 risk\u00e2\u2030\u02c6$49.68 signal=2026-07-27 14:45:00 atr=0.3639 atr_pct=0.5136 volume_ratio=1.3939 ema_sep_atr=1.2827 ema_slope_atr=0.1266 alpaca_order=87d3326d-accf-4597-b8a1-433ee3427367 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-7",
+                                "timestamp": "2026-07-27 15:16:25",
+                                "symbol": "NVDA",
+                                "event": "TP2_HIT",
+                                "side": "SHORT",
+                                "price": "197.0078",
+                                "shares": "9.0",
+                                "usd_qty": "1773.07",
+                                "pnl": "39.9374",
+                                "total_pnl": "41.36",
+                                "balance": "100041.36",
+                                "notes": "entry=201.45 exit=197.01 alpaca_order=2e106f1c-58c8-4c5f-ae83-2e98b7c0de22 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": 20.0,
-                        "total_pnl_delta": 67.89,
-                        "trade_count_delta": -3,
+                        "total_pnl_delta": 107.83,
+                        "trade_count_delta": -2,
                         "direction": "improving"
                     }
                 },
