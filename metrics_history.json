@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-27T14:41:20.480669+00:00",
+    "generated_at": "2026-07-27T14:44:28.838673+00:00",
     "latest_date": "2026-07-27",
     "days": [
         {
@@ -39921,24 +39921,24 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 1,
-                        "win_count": 1,
+                        "total_trades": 2,
+                        "win_count": 2,
                         "loss_count": 0,
                         "breakeven_count": 0,
                         "win_rate_pct": 100.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 120.38,
-                        "closed_position_pnl": 65.35,
-                        "avg_pnl_per_trade": 65.35,
-                        "avg_win": 65.35,
+                        "total_pnl": 157.46,
+                        "closed_position_pnl": 130.42,
+                        "avg_pnl_per_trade": 65.21,
+                        "avg_win": 65.21,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 4,
+                        "realized_exit_count": 5,
                         "eod_close_count": 0,
                         "tp1_hit_count": 3,
                         "tp1_realized_pnl": 84.19,
-                        "tp2_hit_count": 1,
-                        "tp2_realized_pnl": 36.19,
-                        "open_partial_count": 2,
+                        "tp2_hit_count": 2,
+                        "tp2_realized_pnl": 73.27,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "NVDA-7",
@@ -39949,17 +39949,6 @@
                                 "sl": 204.01,
                                 "tp1": 198.88,
                                 "tp2": 197.59,
-                                "last_event": "TP1_HIT"
-                            },
-                            {
-                                "trade_id": "MA-7",
-                                "symbol": "MA",
-                                "side": "LONG",
-                                "entry_price": 547.97,
-                                "remaining": 9.0,
-                                "sl": 545.24,
-                                "tp1": 550.71,
-                                "tp2": 552.07,
                                 "last_event": "TP1_HIT"
                             }
                         ],
@@ -39972,17 +39961,17 @@
                                 "breakeven": 0,
                                 "open_partial": 0
                             },
+                            "MA": {
+                                "trades": 1,
+                                "pnl": 65.07,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "NVDA": {
                                 "trades": 0,
                                 "pnl": 27.04,
-                                "wins": 0,
-                                "losses": 0,
-                                "breakeven": 0,
-                                "open_partial": 1
-                            },
-                            "MA": {
-                                "trades": 0,
-                                "pnl": 27.99,
                                 "wins": 0,
                                 "losses": 0,
                                 "breakeven": 0,
@@ -40087,14 +40076,28 @@
                                 "total_pnl": "66.7",
                                 "balance": "100066.7",
                                 "notes": "remaining=9 shares alpaca_order=40961dfb-2184-4a36-8c66-340bbcc19592 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MA-7",
+                                "timestamp": "2026-07-27 14:44:24",
+                                "symbol": "MA",
+                                "event": "TP2_HIT",
+                                "side": "LONG",
+                                "price": "552.09",
+                                "shares": "9.0",
+                                "usd_qty": "4968.81",
+                                "pnl": "37.08",
+                                "total_pnl": "103.78",
+                                "balance": "100103.78",
+                                "notes": "entry=547.97 exit=552.09 alpaca_order=be6b230c-c936-4a7b-b603-b1096c843414 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": 20.0,
-                        "total_pnl_delta": 30.81,
-                        "trade_count_delta": -4,
+                        "total_pnl_delta": 67.89,
+                        "trade_count_delta": -3,
                         "direction": "improving"
                     }
                 },
