@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-27T13:58:27.686294+00:00",
+    "generated_at": "2026-07-27T14:01:04.465805+00:00",
     "latest_date": "2026-07-27",
     "days": [
         {
@@ -39849,24 +39849,24 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 0,
-                        "win_count": 0,
+                        "total_trades": 1,
+                        "win_count": 1,
                         "loss_count": 0,
                         "breakeven_count": 0,
-                        "win_rate_pct": 0.0,
+                        "win_rate_pct": 100.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 29.16,
-                        "closed_position_pnl": 0,
-                        "avg_pnl_per_trade": 0.0,
-                        "avg_win": 0.0,
+                        "total_pnl": 65.35,
+                        "closed_position_pnl": 65.35,
+                        "avg_pnl_per_trade": 65.35,
+                        "avg_win": 65.35,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 1,
+                        "realized_exit_count": 2,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 29.16,
-                        "tp2_hit_count": 0,
-                        "tp2_realized_pnl": 0,
-                        "open_partial_count": 1,
+                        "tp2_hit_count": 1,
+                        "tp2_realized_pnl": 36.19,
+                        "open_partial_count": 0,
                         "open_positions": [
                             {
                                 "trade_id": "NVDA-7",
@@ -39878,27 +39878,16 @@
                                 "tp1": 198.88,
                                 "tp2": 197.59,
                                 "last_event": "ENTRY_SHORT"
-                            },
-                            {
-                                "trade_id": "UNH-5",
-                                "symbol": "UNH",
-                                "side": "SHORT",
-                                "entry_price": 417.01,
-                                "remaining": 11.0,
-                                "sl": 419.11,
-                                "tp1": 414.91,
-                                "tp2": 413.86,
-                                "last_event": "TP1_HIT"
                             }
                         ],
                         "by_symbol": {
                             "UNH": {
-                                "trades": 0,
-                                "pnl": 29.16,
-                                "wins": 0,
+                                "trades": 1,
+                                "pnl": 65.35,
+                                "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
-                                "open_partial": 1
+                                "open_partial": 0
                             }
                         },
                         "recent_trades": [
@@ -39943,15 +39932,29 @@
                                 "total_pnl": "-18.06",
                                 "balance": "99981.94",
                                 "notes": "remaining=11 shares alpaca_order=eff98e1b-90df-45ab-846b-a2f56ee16aa7 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "UNH-5",
+                                "timestamp": "2026-07-27 14:01:00",
+                                "symbol": "UNH",
+                                "event": "TP2_HIT",
+                                "side": "SHORT",
+                                "price": "413.72",
+                                "shares": "11.0",
+                                "usd_qty": "4550.92",
+                                "pnl": "36.19",
+                                "total_pnl": "18.13",
+                                "balance": "100018.13",
+                                "notes": "entry=417.01 exit=413.72 alpaca_order=8c37fa13-690a-4ff6-912e-6e53656040af status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -80.0,
-                        "total_pnl_delta": -60.41,
-                        "trade_count_delta": -5,
-                        "direction": "declining"
+                        "win_rate_delta_pct": 20.0,
+                        "total_pnl_delta": -24.22,
+                        "trade_count_delta": -4,
+                        "direction": "mixed"
                     }
                 },
                 "legacy_simulation": {
