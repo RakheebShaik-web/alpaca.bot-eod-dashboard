@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-27T19:50:43.316000+00:00",
+    "generated_at": "2026-07-27T19:51:22.382951+00:00",
     "latest_date": "2026-07-27",
     "days": [
         {
@@ -39759,20 +39759,8 @@
                         "tp1_realized_pnl": 78.32,
                         "tp2_hit_count": 3,
                         "tp2_realized_pnl": 116.92,
-                        "open_partial_count": 1,
-                        "open_positions": [
-                            {
-                                "trade_id": "NVDA-14",
-                                "symbol": "NVDA",
-                                "side": "SHORT",
-                                "entry_price": 196.9705,
-                                "remaining": 13.0,
-                                "sl": 200.6499,
-                                "tp1": 193.2911,
-                                "tp2": 191.4514,
-                                "last_event": "CLOSE_EOD"
-                            }
-                        ],
+                        "open_partial_count": 0,
+                        "open_positions": [],
                         "by_symbol": {
                             "NVDA": {
                                 "trades": 2,
