@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-27T13:48:31.338400+00:00",
+    "generated_at": "2026-07-27T13:49:30.643827+00:00",
     "latest_date": "2026-07-27",
     "days": [
         {
@@ -39818,6 +39818,17 @@
                                 "tp1": 198.88,
                                 "tp2": 197.59,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "UNH-5",
+                                "symbol": "UNH",
+                                "side": "SHORT",
+                                "entry_price": 417.01,
+                                "remaining": 23.0,
+                                "sl": 419.11,
+                                "tp1": 414.91,
+                                "tp2": 413.86,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {},
@@ -39835,6 +39846,20 @@
                                 "total_pnl": "-25.62",
                                 "balance": "99974.38",
                                 "notes": "TP1=198.88 TP2=197.59 SL=204.01 shares=19 risk\u00e2\u2030\u02c6$48.77 signal=2026-07-27 13:45:00 atr=1.4668 atr_pct=0.7251 volume_ratio=2.6092 ema_sep_atr=0.6424 ema_slope_atr=-0.1906 alpaca_order=bacfea8d-9481-4e4c-8f22-605494d57624 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "UNH-5",
+                                "timestamp": "2026-07-27 13:49:03",
+                                "symbol": "UNH",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "417.01",
+                                "shares": "23.0",
+                                "usd_qty": "9591.23",
+                                "pnl": "0.0",
+                                "total_pnl": "-47.22",
+                                "balance": "99952.78",
+                                "notes": "TP1=414.91 TP2=413.86 SL=419.11 shares=23 risk\u00e2\u2030\u02c6$48.30 signal=2026-07-27 13:45:00 atr=1.2000 atr_pct=0.2863 volume_ratio=1.4421 ema_sep_atr=1.7356 ema_slope_atr=-0.0681 alpaca_order=2ae90279-2202-43fb-a11c-e855d911a490 status=OrderStatus.FILLED"
                             }
                         ]
                     },
