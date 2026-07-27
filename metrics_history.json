@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-27T14:31:55.042498+00:00",
+    "generated_at": "2026-07-27T14:40:37.231073+00:00",
     "latest_date": "2026-07-27",
     "days": [
         {
@@ -39905,18 +39905,18 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 100.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 92.39,
+                        "total_pnl": 120.38,
                         "closed_position_pnl": 65.35,
                         "avg_pnl_per_trade": 65.35,
                         "avg_win": 65.35,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 3,
+                        "realized_exit_count": 4,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 2,
-                        "tp1_realized_pnl": 56.2,
+                        "tp1_hit_count": 3,
+                        "tp1_realized_pnl": 84.19,
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 36.19,
-                        "open_partial_count": 1,
+                        "open_partial_count": 2,
                         "open_positions": [
                             {
                                 "trade_id": "NVDA-7",
@@ -39934,11 +39934,11 @@
                                 "symbol": "MA",
                                 "side": "LONG",
                                 "entry_price": 547.97,
-                                "remaining": 18.0,
+                                "remaining": 9.0,
                                 "sl": 545.24,
                                 "tp1": 550.71,
                                 "tp2": 552.07,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "TP1_HIT"
                             }
                         ],
                         "by_symbol": {
@@ -39953,6 +39953,14 @@
                             "NVDA": {
                                 "trades": 0,
                                 "pnl": 27.04,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
+                            },
+                            "MA": {
+                                "trades": 0,
+                                "pnl": 27.99,
                                 "wins": 0,
                                 "losses": 0,
                                 "breakeven": 0,
@@ -40043,13 +40051,27 @@
                                 "total_pnl": "1.4226",
                                 "balance": "100001.42",
                                 "notes": "remaining=9 shares alpaca_order=61668396-f4b3-47ac-9643-74c8f1c7abef status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MA-7",
+                                "timestamp": "2026-07-27 14:40:33",
+                                "symbol": "MA",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "551.08",
+                                "shares": "9.0",
+                                "usd_qty": "4959.72",
+                                "pnl": "27.99",
+                                "total_pnl": "66.7",
+                                "balance": "100066.7",
+                                "notes": "remaining=9 shares alpaca_order=40961dfb-2184-4a36-8c66-340bbcc19592 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": 20.0,
-                        "total_pnl_delta": 2.82,
+                        "total_pnl_delta": 30.81,
                         "trade_count_delta": -4,
                         "direction": "improving"
                     }
