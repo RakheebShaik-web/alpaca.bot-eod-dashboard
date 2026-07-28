@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-28T15:25:55.951100+00:00",
+    "generated_at": "2026-07-28T15:30:31.509552+00:00",
     "latest_date": "2026-07-28",
     "days": [
         {
@@ -41197,6 +41197,17 @@
                                 "tp1": 183.68,
                                 "tp2": 184.88,
                                 "last_event": "TP1_HIT"
+                            },
+                            {
+                                "trade_id": "AAPL-6",
+                                "symbol": "AAPL",
+                                "side": "LONG",
+                                "entry_price": 339.2788,
+                                "remaining": 16.0,
+                                "sl": 336.3,
+                                "tp1": 342.26,
+                                "tp2": 343.75,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -41309,6 +41320,20 @@
                                 "total_pnl": "-52.235",
                                 "balance": "99947.76",
                                 "notes": "remaining=10 shares alpaca_order=6f2fca11-5502-4f93-beec-8f9dfc3c5eb2 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AAPL-6",
+                                "timestamp": "2026-07-28 15:30:27",
+                                "symbol": "AAPL",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "339.2788",
+                                "shares": "16.0",
+                                "usd_qty": "5428.46",
+                                "pnl": "0.0",
+                                "total_pnl": "126.13",
+                                "balance": "100126.13",
+                                "notes": "TP1=342.26 TP2=343.75 SL=336.30 shares=16 risk\u00e2\u2030\u02c6$47.65 signal=2026-07-28 15:30:00 atr=1.7018 atr_pct=0.5016 volume_ratio=1.0975 ema_sep_atr=1.3208 ema_slope_atr=0.0956 alpaca_order=8ecd115b-a972-4525-b534-fddd1e6dfeef status=OrderStatus.FILLED"
                             }
                         ]
                     },
