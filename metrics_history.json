@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-28T15:20:55.948947+00:00",
+    "generated_at": "2026-07-28T15:21:38.846995+00:00",
     "latest_date": "2026-07-28",
     "days": [
         {
@@ -41163,29 +41163,29 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -114.96,
+                        "total_pnl": -89.64,
                         "closed_position_pnl": -114.96,
                         "avg_pnl_per_trade": -57.48,
                         "avg_win": 0.0,
                         "avg_loss": -57.48,
-                        "realized_exit_count": 2,
+                        "realized_exit_count": 3,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 25.32,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "CRM-7",
                                 "symbol": "CRM",
                                 "side": "LONG",
                                 "entry_price": 181.2975,
-                                "remaining": 20.0,
+                                "remaining": 10.0,
                                 "sl": 178.91,
                                 "tp1": 183.68,
                                 "tp2": 184.88,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "TP1_HIT"
                             }
                         ],
                         "by_symbol": {
@@ -41204,6 +41204,14 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
+                            },
+                            "CRM": {
+                                "trades": 0,
+                                "pnl": 25.32,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -41276,13 +41284,27 @@
                                 "total_pnl": "-14.0767",
                                 "balance": "99985.92",
                                 "notes": "entry=228.76 exit=230.72 alpaca_order=7adb5f73-443f-4dae-94b5-9a72bcb433d6 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "CRM-7",
+                                "timestamp": "2026-07-28 15:21:27",
+                                "symbol": "CRM",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "183.83",
+                                "shares": "10.0",
+                                "usd_qty": "1838.3",
+                                "pnl": "25.325",
+                                "total_pnl": "-52.235",
+                                "balance": "99947.76",
+                                "notes": "remaining=10 shares alpaca_order=6f2fca11-5502-4f93-beec-8f9dfc3c5eb2 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -80.0,
-                        "total_pnl_delta": -314.84,
+                        "total_pnl_delta": -289.52,
                         "trade_count_delta": -3,
                         "direction": "declining"
                     }
