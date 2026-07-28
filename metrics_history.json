@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-28T14:51:30.706409+00:00",
+    "generated_at": "2026-07-28T15:20:38.931018+00:00",
     "latest_date": "2026-07-28",
     "days": [
         {
@@ -41135,18 +41135,18 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 1,
+                        "total_trades": 2,
                         "win_count": 0,
-                        "loss_count": 1,
+                        "loss_count": 2,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -54.32,
-                        "closed_position_pnl": -54.32,
-                        "avg_pnl_per_trade": -54.32,
+                        "total_pnl": -114.96,
+                        "closed_position_pnl": -114.96,
+                        "avg_pnl_per_trade": -57.48,
                         "avg_win": 0.0,
-                        "avg_loss": -54.32,
-                        "realized_exit_count": 1,
+                        "avg_loss": -57.48,
+                        "realized_exit_count": 2,
                         "eod_close_count": 0,
                         "tp1_hit_count": 0,
                         "tp1_realized_pnl": 0,
@@ -41164,23 +41164,20 @@
                                 "tp1": 183.68,
                                 "tp2": 184.88,
                                 "last_event": "ENTRY_LONG"
-                            },
-                            {
-                                "trade_id": "AMZN-7",
-                                "symbol": "AMZN",
-                                "side": "SHORT",
-                                "entry_price": 228.7639,
-                                "remaining": 31.0,
-                                "sl": 230.35,
-                                "tp1": 227.18,
-                                "tp2": 226.39,
-                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
                             "NVDA": {
                                 "trades": 1,
                                 "pnl": -54.32,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "AMZN": {
+                                "trades": 1,
+                                "pnl": -60.64,
                                 "wins": 0,
                                 "losses": 1,
                                 "breakeven": 0,
@@ -41243,14 +41240,28 @@
                                 "total_pnl": "46.5633",
                                 "balance": "100046.56",
                                 "notes": "TP1=227.18 TP2=226.39 SL=230.35 shares=31 risk\u00e2\u2030\u02c6$49.02 signal=2026-07-28 14:45:00 atr=0.9036 atr_pct=0.3954 volume_ratio=1.7598 ema_sep_atr=1.5144 ema_slope_atr=-0.2413 alpaca_order=75e99eac-169e-4d19-ad96-d58ce18256f8 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMZN-7",
+                                "timestamp": "2026-07-28 15:20:35",
+                                "symbol": "AMZN",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "230.72",
+                                "shares": "31.0",
+                                "usd_qty": "7152.32",
+                                "pnl": "-60.64",
+                                "total_pnl": "-14.0767",
+                                "balance": "99985.92",
+                                "notes": "entry=228.76 exit=230.72 alpaca_order=7adb5f73-443f-4dae-94b5-9a72bcb433d6 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -80.0,
-                        "total_pnl_delta": -254.2,
-                        "trade_count_delta": -4,
+                        "total_pnl_delta": -314.84,
+                        "trade_count_delta": -3,
                         "direction": "declining"
                     }
                 },
