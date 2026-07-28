@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-28T15:30:31.509552+00:00",
+    "generated_at": "2026-07-28T15:30:56.077608+00:00",
     "latest_date": "2026-07-28",
     "days": [
         {
@@ -41031,8 +41031,19 @@
                         "tp1_realized_pnl": 27.92,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 1,
+                        "open_partial_count": 2,
                         "open_positions": [
+                            {
+                                "trade_id": "AAPL-14",
+                                "symbol": "AAPL",
+                                "side": "LONG",
+                                "entry_price": 339.47,
+                                "remaining": 16.0,
+                                "sl": 336.4919,
+                                "tp1": 342.4481,
+                                "tp2": 343.9372,
+                                "last_event": "ENTRY_LONG"
+                            },
                             {
                                 "trade_id": "CRM-3",
                                 "symbol": "CRM",
@@ -41155,6 +41166,20 @@
                                 "total_pnl": "-75.2948",
                                 "balance": "99924.71",
                                 "notes": "remaining=10 shares alpaca_order=c0c71886-1ec1-4484-b5b2-e47903cd4db3 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AAPL-14",
+                                "timestamp": "2026-07-28 15:30:41",
+                                "symbol": "AAPL",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "339.47",
+                                "shares": "16.0",
+                                "usd_qty": "5431.52",
+                                "pnl": "0.0",
+                                "total_pnl": "-6.9159",
+                                "balance": "99993.08",
+                                "notes": "TP1=342.45 TP2=343.94 SL=336.49 shares=16 risk\u00e2\u2030\u02c6$47.65 signal=2026-07-28 15:30:00 atr=1.7018 atr_pct=0.5016 volume_ratio=1.0975 ema_sep_atr=1.3208 ema_slope_atr=0.0956 alpaca_order=683888ea-3482-46dc-88a0-462851c65700 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -41404,6 +41429,17 @@
                                 "tp1": 183.57,
                                 "tp2": 184.76,
                                 "last_event": "TP1_HIT"
+                            },
+                            {
+                                "trade_id": "AAPL-14",
+                                "symbol": "AAPL",
+                                "side": "LONG",
+                                "entry_price": 339.47,
+                                "remaining": 16.0,
+                                "sl": 336.49,
+                                "tp1": 342.45,
+                                "tp2": 343.94,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -41516,6 +41552,20 @@
                                 "total_pnl": "-75.2948",
                                 "balance": "99924.71",
                                 "notes": "remaining=10 shares alpaca_order=c0c71886-1ec1-4484-b5b2-e47903cd4db3 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AAPL-14",
+                                "timestamp": "2026-07-28 15:30:41",
+                                "symbol": "AAPL",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "339.47",
+                                "shares": "16.0",
+                                "usd_qty": "5431.52",
+                                "pnl": "0.0",
+                                "total_pnl": "-6.9159",
+                                "balance": "99993.08",
+                                "notes": "TP1=342.45 TP2=343.94 SL=336.49 shares=16 risk\u00e2\u2030\u02c6$47.65 signal=2026-07-28 15:30:00 atr=1.7018 atr_pct=0.5016 volume_ratio=1.0975 ema_sep_atr=1.3208 ema_slope_atr=0.0956 alpaca_order=683888ea-3482-46dc-88a0-462851c65700 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -41558,6 +41608,17 @@
                         "tp1": 183.57,
                         "tp2": 184.76,
                         "last_event": "TP1_HIT"
+                    },
+                    {
+                        "trade_id": "AAPL-14",
+                        "symbol": "AAPL",
+                        "side": "LONG",
+                        "entry_price": 339.47,
+                        "remaining": 16.0,
+                        "sl": 336.49,
+                        "tp1": 342.45,
+                        "tp2": 343.94,
+                        "last_event": "ENTRY_LONG"
                     }
                 ],
                 "by_symbol": {
@@ -41670,6 +41731,20 @@
                         "total_pnl": "-75.2948",
                         "balance": "99924.71",
                         "notes": "remaining=10 shares alpaca_order=c0c71886-1ec1-4484-b5b2-e47903cd4db3 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "AAPL-14",
+                        "timestamp": "2026-07-28 15:30:41",
+                        "symbol": "AAPL",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "339.47",
+                        "shares": "16.0",
+                        "usd_qty": "5431.52",
+                        "pnl": "0.0",
+                        "total_pnl": "-6.9159",
+                        "balance": "99993.08",
+                        "notes": "TP1=342.45 TP2=343.94 SL=336.49 shares=16 risk\u00e2\u2030\u02c6$47.65 signal=2026-07-28 15:30:00 atr=1.7018 atr_pct=0.5016 volume_ratio=1.0975 ema_sep_atr=1.3208 ema_slope_atr=0.0956 alpaca_order=683888ea-3482-46dc-88a0-462851c65700 status=OrderStatus.FILLED"
                     }
                 ]
             },
