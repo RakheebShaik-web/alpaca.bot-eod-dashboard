@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-28T19:20:47.800864+00:00",
+    "generated_at": "2026-07-28T19:22:15.253317+00:00",
     "latest_date": "2026-07-28",
     "days": [
         {
@@ -41014,18 +41014,18 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 2,
-                        "win_count": 0,
+                        "total_trades": 3,
+                        "win_count": 1,
                         "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 0.0,
-                        "loss_rate_pct": 100.0,
-                        "total_pnl": -77.32,
-                        "closed_position_pnl": -105.24,
-                        "avg_pnl_per_trade": -52.62,
-                        "avg_win": 0.0,
+                        "win_rate_pct": 33.33,
+                        "loss_rate_pct": 66.67,
+                        "total_pnl": -80.31,
+                        "closed_position_pnl": -80.31,
+                        "avg_pnl_per_trade": -26.77,
+                        "avg_win": 24.93,
                         "avg_loss": -52.62,
-                        "realized_exit_count": 3,
+                        "realized_exit_count": 4,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 27.92,
@@ -41053,10 +41053,18 @@
                                 "sl": 181.18,
                                 "tp1": 183.5656,
                                 "tp2": 184.7584,
-                                "last_event": "TP1_HIT"
+                                "last_event": "SL_HIT"
                             }
                         ],
                         "by_symbol": {
+                            "CRM": {
+                                "trades": 1,
+                                "pnl": 24.93,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "NVDA": {
                                 "trades": 1,
                                 "pnl": -53.0,
@@ -41072,14 +41080,6 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
-                            },
-                            "CRM": {
-                                "trades": 0,
-                                "pnl": 27.92,
-                                "wins": 0,
-                                "losses": 0,
-                                "breakeven": 0,
-                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -41180,14 +41180,28 @@
                                 "total_pnl": "-6.9159",
                                 "balance": "99993.08",
                                 "notes": "TP1=342.45 TP2=343.94 SL=336.49 shares=16 risk\u00e2\u2030\u02c6$47.65 signal=2026-07-28 15:30:00 atr=1.7018 atr_pct=0.5016 volume_ratio=1.0975 ema_sep_atr=1.3208 ema_slope_atr=0.0956 alpaca_order=683888ea-3482-46dc-88a0-462851c65700 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "CRM-3",
+                                "timestamp": "2026-07-28 19:22:14",
+                                "symbol": "CRM",
+                                "event": "SL_HIT",
+                                "side": "LONG",
+                                "price": "180.8804",
+                                "shares": "10.0",
+                                "usd_qty": "1808.8",
+                                "pnl": "-2.996",
+                                "total_pnl": "-78.2908",
+                                "balance": "99921.71",
+                                "notes": "entry=181.18 exit=180.88 alpaca_order=db33c57e-4ec3-4b9d-aa7a-44117f26797a status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -42.86,
-                        "total_pnl_delta": -111.64,
-                        "trade_count_delta": -5,
+                        "win_rate_delta_pct": -9.53,
+                        "total_pnl_delta": -114.63,
+                        "trade_count_delta": -4,
                         "direction": "declining"
                     }
                 },
@@ -41403,36 +41417,25 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 2,
-                        "win_count": 0,
+                        "total_trades": 3,
+                        "win_count": 1,
                         "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 0.0,
-                        "loss_rate_pct": 100.0,
-                        "total_pnl": -77.32,
-                        "closed_position_pnl": -105.24,
-                        "avg_pnl_per_trade": -52.62,
-                        "avg_win": 0.0,
+                        "win_rate_pct": 33.33,
+                        "loss_rate_pct": 66.67,
+                        "total_pnl": -80.31,
+                        "closed_position_pnl": -80.31,
+                        "avg_pnl_per_trade": -26.77,
+                        "avg_win": 24.93,
                         "avg_loss": -52.62,
-                        "realized_exit_count": 3,
+                        "realized_exit_count": 4,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 27.92,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 1,
+                        "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "CRM-3",
-                                "symbol": "CRM",
-                                "side": "LONG",
-                                "entry_price": 181.18,
-                                "remaining": 10.0,
-                                "sl": 178.79,
-                                "tp1": 183.57,
-                                "tp2": 184.76,
-                                "last_event": "TP1_HIT"
-                            },
                             {
                                 "trade_id": "AAPL-14",
                                 "symbol": "AAPL",
@@ -41446,6 +41449,14 @@
                             }
                         ],
                         "by_symbol": {
+                            "CRM": {
+                                "trades": 1,
+                                "pnl": 24.93,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "NVDA": {
                                 "trades": 1,
                                 "pnl": -53.0,
@@ -41461,14 +41472,6 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
-                            },
-                            "CRM": {
-                                "trades": 0,
-                                "pnl": 27.92,
-                                "wins": 0,
-                                "losses": 0,
-                                "breakeven": 0,
-                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -41569,49 +41572,52 @@
                                 "total_pnl": "-6.9159",
                                 "balance": "99993.08",
                                 "notes": "TP1=342.45 TP2=343.94 SL=336.49 shares=16 risk\u00e2\u2030\u02c6$47.65 signal=2026-07-28 15:30:00 atr=1.7018 atr_pct=0.5016 volume_ratio=1.0975 ema_sep_atr=1.3208 ema_slope_atr=0.0956 alpaca_order=683888ea-3482-46dc-88a0-462851c65700 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "CRM-3",
+                                "timestamp": "2026-07-28 19:22:14",
+                                "symbol": "CRM",
+                                "event": "SL_HIT",
+                                "side": "LONG",
+                                "price": "180.8804",
+                                "shares": "10.0",
+                                "usd_qty": "1808.8",
+                                "pnl": "-2.996",
+                                "total_pnl": "-78.2908",
+                                "balance": "99921.71",
+                                "notes": "entry=181.18 exit=180.88 alpaca_order=db33c57e-4ec3-4b9d-aa7a-44117f26797a status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -42.86,
-                        "total_pnl_delta": -111.64,
-                        "trade_count_delta": -5,
+                        "win_rate_delta_pct": -9.53,
+                        "total_pnl_delta": -114.63,
+                        "trade_count_delta": -4,
                         "direction": "declining"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 2,
-                "win_count": 0,
+                "total_trades": 3,
+                "win_count": 1,
                 "loss_count": 2,
                 "breakeven_count": 0,
-                "win_rate_pct": 0.0,
-                "loss_rate_pct": 100.0,
-                "total_pnl": -77.32,
-                "closed_position_pnl": -105.24,
-                "avg_pnl_per_trade": -52.62,
-                "avg_win": 0.0,
+                "win_rate_pct": 33.33,
+                "loss_rate_pct": 66.67,
+                "total_pnl": -80.31,
+                "closed_position_pnl": -80.31,
+                "avg_pnl_per_trade": -26.77,
+                "avg_win": 24.93,
                 "avg_loss": -52.62,
-                "realized_exit_count": 3,
+                "realized_exit_count": 4,
                 "eod_close_count": 0,
                 "tp1_hit_count": 1,
                 "tp1_realized_pnl": 27.92,
                 "tp2_hit_count": 0,
                 "tp2_realized_pnl": 0,
-                "open_partial_count": 1,
+                "open_partial_count": 0,
                 "open_positions": [
-                    {
-                        "trade_id": "CRM-3",
-                        "symbol": "CRM",
-                        "side": "LONG",
-                        "entry_price": 181.18,
-                        "remaining": 10.0,
-                        "sl": 178.79,
-                        "tp1": 183.57,
-                        "tp2": 184.76,
-                        "last_event": "TP1_HIT"
-                    },
                     {
                         "trade_id": "AAPL-14",
                         "symbol": "AAPL",
@@ -41625,6 +41631,14 @@
                     }
                 ],
                 "by_symbol": {
+                    "CRM": {
+                        "trades": 1,
+                        "pnl": 24.93,
+                        "wins": 1,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
                     "NVDA": {
                         "trades": 1,
                         "pnl": -53.0,
@@ -41640,14 +41654,6 @@
                         "losses": 1,
                         "breakeven": 0,
                         "open_partial": 0
-                    },
-                    "CRM": {
-                        "trades": 0,
-                        "pnl": 27.92,
-                        "wins": 0,
-                        "losses": 0,
-                        "breakeven": 0,
-                        "open_partial": 1
                     }
                 },
                 "recent_trades": [
@@ -41748,6 +41754,20 @@
                         "total_pnl": "-6.9159",
                         "balance": "99993.08",
                         "notes": "TP1=342.45 TP2=343.94 SL=336.49 shares=16 risk\u00e2\u2030\u02c6$47.65 signal=2026-07-28 15:30:00 atr=1.7018 atr_pct=0.5016 volume_ratio=1.0975 ema_sep_atr=1.3208 ema_slope_atr=0.0956 alpaca_order=683888ea-3482-46dc-88a0-462851c65700 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "CRM-3",
+                        "timestamp": "2026-07-28 19:22:14",
+                        "symbol": "CRM",
+                        "event": "SL_HIT",
+                        "side": "LONG",
+                        "price": "180.8804",
+                        "shares": "10.0",
+                        "usd_qty": "1808.8",
+                        "pnl": "-2.996",
+                        "total_pnl": "-78.2908",
+                        "balance": "99921.71",
+                        "notes": "entry=181.18 exit=180.88 alpaca_order=db33c57e-4ec3-4b9d-aa7a-44117f26797a status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -41764,9 +41784,9 @@
             },
             "trend": {
                 "has_previous_day": true,
-                "win_rate_delta_pct": -42.86,
-                "total_pnl_delta": -111.64,
-                "trade_count_delta": -5,
+                "win_rate_delta_pct": -9.53,
+                "total_pnl_delta": -114.63,
+                "trade_count_delta": -4,
                 "direction": "declining"
             }
         }
