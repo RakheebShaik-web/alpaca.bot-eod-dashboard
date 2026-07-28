@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-28T14:48:01.504539+00:00",
+    "generated_at": "2026-07-28T14:51:30.706409+00:00",
     "latest_date": "2026-07-28",
     "days": [
         {
@@ -41034,6 +41034,17 @@
                         "open_partial_count": 2,
                         "open_positions": [
                             {
+                                "trade_id": "AMZN-4",
+                                "symbol": "AMZN",
+                                "side": "SHORT",
+                                "entry_price": 228.905,
+                                "remaining": 31.0,
+                                "sl": 230.4863,
+                                "tp1": 227.3237,
+                                "tp2": 226.5331,
+                                "last_event": "ENTRY_SHORT"
+                            },
+                            {
                                 "trade_id": "CRM-3",
                                 "symbol": "CRM",
                                 "side": "LONG",
@@ -41043,17 +41054,6 @@
                                 "tp1": 183.5656,
                                 "tp2": 184.7584,
                                 "last_event": "ENTRY_LONG"
-                            },
-                            {
-                                "trade_id": "NVDA-15",
-                                "symbol": "NVDA",
-                                "side": "SHORT",
-                                "entry_price": 194.397,
-                                "remaining": 28.0,
-                                "sl": 196.1676,
-                                "tp1": 192.6264,
-                                "tp2": 191.7411,
-                                "last_event": "SL_HIT"
                             }
                         ],
                         "by_symbol": {
@@ -41108,6 +41108,20 @@
                                 "total_pnl": "-91.8423",
                                 "balance": "99908.16",
                                 "notes": "entry=194.40 exit=196.29 alpaca_order=e8885483-70c7-4235-ae57-73270ac96cfd status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMZN-4",
+                                "timestamp": "2026-07-28 14:46:54",
+                                "symbol": "AMZN",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "228.905",
+                                "shares": "31.0",
+                                "usd_qty": "7096.06",
+                                "pnl": "0.0",
+                                "total_pnl": "114.6534",
+                                "balance": "100114.65",
+                                "notes": "TP1=227.32 TP2=226.53 SL=230.49 shares=31 risk\u00e2\u2030\u02c6$49.02 signal=2026-07-28 14:45:00 atr=0.9036 atr_pct=0.3954 volume_ratio=1.7598 ema_sep_atr=1.5144 ema_slope_atr=-0.2413 alpaca_order=9e87b082-2ff4-48f9-a4f4-c44b731d7405 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -41299,6 +41313,17 @@
                                 "tp1": 183.57,
                                 "tp2": 184.76,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "AMZN-4",
+                                "symbol": "AMZN",
+                                "side": "SHORT",
+                                "entry_price": 228.905,
+                                "remaining": 31.0,
+                                "sl": 230.49,
+                                "tp1": 227.32,
+                                "tp2": 226.53,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -41353,6 +41378,20 @@
                                 "total_pnl": "-91.8423",
                                 "balance": "99908.16",
                                 "notes": "entry=194.40 exit=196.29 alpaca_order=e8885483-70c7-4235-ae57-73270ac96cfd status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMZN-4",
+                                "timestamp": "2026-07-28 14:46:54",
+                                "symbol": "AMZN",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "228.905",
+                                "shares": "31.0",
+                                "usd_qty": "7096.06",
+                                "pnl": "0.0",
+                                "total_pnl": "114.6534",
+                                "balance": "100114.65",
+                                "notes": "TP1=227.32 TP2=226.53 SL=230.49 shares=31 risk\u00e2\u2030\u02c6$49.02 signal=2026-07-28 14:45:00 atr=0.9036 atr_pct=0.3954 volume_ratio=1.7598 ema_sep_atr=1.5144 ema_slope_atr=-0.2413 alpaca_order=9e87b082-2ff4-48f9-a4f4-c44b731d7405 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -41395,6 +41434,17 @@
                         "tp1": 183.57,
                         "tp2": 184.76,
                         "last_event": "ENTRY_LONG"
+                    },
+                    {
+                        "trade_id": "AMZN-4",
+                        "symbol": "AMZN",
+                        "side": "SHORT",
+                        "entry_price": 228.905,
+                        "remaining": 31.0,
+                        "sl": 230.49,
+                        "tp1": 227.32,
+                        "tp2": 226.53,
+                        "last_event": "ENTRY_SHORT"
                     }
                 ],
                 "by_symbol": {
@@ -41449,6 +41499,20 @@
                         "total_pnl": "-91.8423",
                         "balance": "99908.16",
                         "notes": "entry=194.40 exit=196.29 alpaca_order=e8885483-70c7-4235-ae57-73270ac96cfd status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "AMZN-4",
+                        "timestamp": "2026-07-28 14:46:54",
+                        "symbol": "AMZN",
+                        "event": "ENTRY_SHORT",
+                        "side": "SHORT",
+                        "price": "228.905",
+                        "shares": "31.0",
+                        "usd_qty": "7096.06",
+                        "pnl": "0.0",
+                        "total_pnl": "114.6534",
+                        "balance": "100114.65",
+                        "notes": "TP1=227.32 TP2=226.53 SL=230.49 shares=31 risk\u00e2\u2030\u02c6$49.02 signal=2026-07-28 14:45:00 atr=0.9036 atr_pct=0.3954 volume_ratio=1.7598 ema_sep_atr=1.5144 ema_slope_atr=-0.2413 alpaca_order=9e87b082-2ff4-48f9-a4f4-c44b731d7405 status=OrderStatus.FILLED"
                     }
                 ]
             },
