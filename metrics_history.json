@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-29T18:07:58.324552+00:00",
+    "generated_at": "2026-07-29T18:20:38.173405+00:00",
     "latest_date": "2026-07-29",
     "days": [
         {
@@ -41985,18 +41985,29 @@
                         "tp1_realized_pnl": 51.44,
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 38.89,
-                        "open_partial_count": 1,
+                        "open_partial_count": 2,
                         "open_positions": [
                             {
-                                "trade_id": "TSLA-10",
-                                "symbol": "TSLA",
+                                "trade_id": "AAPL-16",
+                                "symbol": "AAPL",
+                                "side": "LONG",
+                                "entry_price": 343.855,
+                                "remaining": 27.0,
+                                "sl": 342.0644,
+                                "tp1": 345.6456,
+                                "tp2": 346.5409,
+                                "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "BAC-3",
+                                "symbol": "BAC",
                                 "side": "SHORT",
-                                "entry_price": 301.6,
-                                "remaining": 14.0,
-                                "sl": 304.9769,
-                                "tp1": 298.2231,
-                                "tp2": 296.5347,
-                                "last_event": "SL_HIT"
+                                "entry_price": 61.7351,
+                                "remaining": 126.0,
+                                "sl": 62.1288,
+                                "tp1": 61.3414,
+                                "tp2": 61.1445,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -42173,6 +42184,34 @@
                                 "total_pnl": "-126.4372",
                                 "balance": "99873.56",
                                 "notes": "entry=301.60 exit=305.40 alpaca_order=4cac2eea-ca4b-4427-9f53-cd77c50b4c0c status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "BAC-3",
+                                "timestamp": "2026-07-29 18:15:37",
+                                "symbol": "BAC",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "61.7351",
+                                "shares": "126.0",
+                                "usd_qty": "7778.62",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=61.34 TP2=61.14 SL=62.13 shares=126 risk\u00e2\u2030\u02c6$49.61 signal=2026-07-29 18:15:00 atr=0.2250 atr_pct=0.3646 volume_ratio=1.0390 ema_sep_atr=0.5533 ema_slope_atr=-0.0320 alpaca_order=8a66448f-c9c4-47c5-af7a-59d3dba47b49 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AAPL-16",
+                                "timestamp": "2026-07-29 18:17:09",
+                                "symbol": "AAPL",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "343.855",
+                                "shares": "27.0",
+                                "usd_qty": "9284.09",
+                                "pnl": "0.0",
+                                "total_pnl": "-0.2487",
+                                "balance": "99999.75",
+                                "notes": "TP1=345.65 TP2=346.54 SL=342.06 shares=27 risk\u00e2\u2030\u02c6$48.35 signal=2026-07-29 18:15:00 atr=1.0232 atr_pct=0.2977 volume_ratio=1.2420 ema_sep_atr=1.8470 ema_slope_atr=0.2135 alpaca_order=8027ad46-e819-4bb5-a92c-582022cb16f7 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -42464,7 +42503,30 @@
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 38.89,
                         "open_partial_count": 0,
-                        "open_positions": [],
+                        "open_positions": [
+                            {
+                                "trade_id": "BAC-3",
+                                "symbol": "BAC",
+                                "side": "SHORT",
+                                "entry_price": 61.7351,
+                                "remaining": 126.0,
+                                "sl": 62.13,
+                                "tp1": 61.34,
+                                "tp2": 61.14,
+                                "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "AAPL-16",
+                                "symbol": "AAPL",
+                                "side": "LONG",
+                                "entry_price": 343.855,
+                                "remaining": 27.0,
+                                "sl": 342.06,
+                                "tp1": 345.65,
+                                "tp2": 346.54,
+                                "last_event": "ENTRY_LONG"
+                            }
+                        ],
                         "by_symbol": {
                             "AMZN": {
                                 "trades": 1,
@@ -42639,6 +42701,34 @@
                                 "total_pnl": "-126.4372",
                                 "balance": "99873.56",
                                 "notes": "entry=301.60 exit=305.40 alpaca_order=4cac2eea-ca4b-4427-9f53-cd77c50b4c0c status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "BAC-3",
+                                "timestamp": "2026-07-29 18:15:37",
+                                "symbol": "BAC",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "61.7351",
+                                "shares": "126.0",
+                                "usd_qty": "7778.62",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=61.34 TP2=61.14 SL=62.13 shares=126 risk\u00e2\u2030\u02c6$49.61 signal=2026-07-29 18:15:00 atr=0.2250 atr_pct=0.3646 volume_ratio=1.0390 ema_sep_atr=0.5533 ema_slope_atr=-0.0320 alpaca_order=8a66448f-c9c4-47c5-af7a-59d3dba47b49 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AAPL-16",
+                                "timestamp": "2026-07-29 18:17:09",
+                                "symbol": "AAPL",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "343.855",
+                                "shares": "27.0",
+                                "usd_qty": "9284.09",
+                                "pnl": "0.0",
+                                "total_pnl": "-0.2487",
+                                "balance": "99999.75",
+                                "notes": "TP1=345.65 TP2=346.54 SL=342.06 shares=27 risk\u00e2\u2030\u02c6$48.35 signal=2026-07-29 18:15:00 atr=1.0232 atr_pct=0.2977 volume_ratio=1.2420 ema_sep_atr=1.8470 ema_slope_atr=0.2135 alpaca_order=8027ad46-e819-4bb5-a92c-582022cb16f7 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -42670,7 +42760,30 @@
                 "tp2_hit_count": 1,
                 "tp2_realized_pnl": 38.89,
                 "open_partial_count": 0,
-                "open_positions": [],
+                "open_positions": [
+                    {
+                        "trade_id": "BAC-3",
+                        "symbol": "BAC",
+                        "side": "SHORT",
+                        "entry_price": 61.7351,
+                        "remaining": 126.0,
+                        "sl": 62.13,
+                        "tp1": 61.34,
+                        "tp2": 61.14,
+                        "last_event": "ENTRY_SHORT"
+                    },
+                    {
+                        "trade_id": "AAPL-16",
+                        "symbol": "AAPL",
+                        "side": "LONG",
+                        "entry_price": 343.855,
+                        "remaining": 27.0,
+                        "sl": 342.06,
+                        "tp1": 345.65,
+                        "tp2": 346.54,
+                        "last_event": "ENTRY_LONG"
+                    }
+                ],
                 "by_symbol": {
                     "AMZN": {
                         "trades": 1,
@@ -42845,6 +42958,34 @@
                         "total_pnl": "-126.4372",
                         "balance": "99873.56",
                         "notes": "entry=301.60 exit=305.40 alpaca_order=4cac2eea-ca4b-4427-9f53-cd77c50b4c0c status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "BAC-3",
+                        "timestamp": "2026-07-29 18:15:37",
+                        "symbol": "BAC",
+                        "event": "ENTRY_SHORT",
+                        "side": "SHORT",
+                        "price": "61.7351",
+                        "shares": "126.0",
+                        "usd_qty": "7778.62",
+                        "pnl": "0.0",
+                        "total_pnl": "0.0",
+                        "balance": "100000.0",
+                        "notes": "TP1=61.34 TP2=61.14 SL=62.13 shares=126 risk\u00e2\u2030\u02c6$49.61 signal=2026-07-29 18:15:00 atr=0.2250 atr_pct=0.3646 volume_ratio=1.0390 ema_sep_atr=0.5533 ema_slope_atr=-0.0320 alpaca_order=8a66448f-c9c4-47c5-af7a-59d3dba47b49 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "AAPL-16",
+                        "timestamp": "2026-07-29 18:17:09",
+                        "symbol": "AAPL",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "343.855",
+                        "shares": "27.0",
+                        "usd_qty": "9284.09",
+                        "pnl": "0.0",
+                        "total_pnl": "-0.2487",
+                        "balance": "99999.75",
+                        "notes": "TP1=345.65 TP2=346.54 SL=342.06 shares=27 risk\u00e2\u2030\u02c6$48.35 signal=2026-07-29 18:15:00 atr=1.0232 atr_pct=0.2977 volume_ratio=1.2420 ema_sep_atr=1.8470 ema_slope_atr=0.2135 alpaca_order=8027ad46-e819-4bb5-a92c-582022cb16f7 status=OrderStatus.FILLED"
                     }
                 ]
             },
