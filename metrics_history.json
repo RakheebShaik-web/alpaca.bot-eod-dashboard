@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-29T18:02:12.100599+00:00",
+    "generated_at": "2026-07-29T18:06:33.041100+00:00",
     "latest_date": "2026-07-29",
     "days": [
         {
@@ -42175,18 +42175,18 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 3,
+                        "total_trades": 4,
                         "win_count": 2,
-                        "loss_count": 1,
+                        "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 66.67,
-                        "loss_rate_pct": 33.33,
-                        "total_pnl": 76.27,
-                        "closed_position_pnl": 76.27,
-                        "avg_pnl_per_trade": 25.42,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": 24.94,
+                        "closed_position_pnl": 24.94,
+                        "avg_pnl_per_trade": 6.23,
                         "avg_win": 62.05,
-                        "avg_loss": -47.83,
-                        "realized_exit_count": 5,
+                        "avg_loss": -49.58,
+                        "realized_exit_count": 6,
                         "eod_close_count": 0,
                         "tp1_hit_count": 2,
                         "tp1_realized_pnl": 51.24,
@@ -42203,17 +42203,6 @@
                                 "sl": 351.69,
                                 "tp1": 346.77,
                                 "tp2": 345.55,
-                                "last_event": "ENTRY_SHORT"
-                            },
-                            {
-                                "trade_id": "NVDA-9",
-                                "symbol": "NVDA",
-                                "side": "SHORT",
-                                "entry_price": 191.1263,
-                                "remaining": 19.0,
-                                "sl": 193.71,
-                                "tp1": 188.55,
-                                "tp2": 187.26,
                                 "last_event": "ENTRY_SHORT"
                             }
                         ],
@@ -42239,6 +42228,14 @@
                                 "pnl": 64.66,
                                 "wins": 1,
                                 "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "NVDA": {
+                                "trades": 1,
+                                "pnl": -51.33,
+                                "wins": 0,
+                                "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
                             }
@@ -42383,15 +42380,29 @@
                                 "total_pnl": "-12.96",
                                 "balance": "99987.04",
                                 "notes": "TP1=188.55 TP2=187.26 SL=193.71 shares=19 risk\u00e2\u2030\u02c6$49.03 signal=2026-07-29 16:15:00 atr=1.4746 atr_pct=0.7723 volume_ratio=1.1837 ema_sep_atr=1.6776 ema_slope_atr=-0.1840 alpaca_order=be0fe8cd-a911-4585-9863-e7c6ca1705cf status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-9",
+                                "timestamp": "2026-07-29 18:06:28",
+                                "symbol": "NVDA",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "193.8279",
+                                "shares": "19.0",
+                                "usd_qty": "3682.73",
+                                "pnl": "-51.33",
+                                "total_pnl": "-64.29",
+                                "balance": "99935.71",
+                                "notes": "entry=191.13 exit=193.83 alpaca_order=51727d30-bf2a-4bb3-9f2c-750aa297b8b5 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 6.67,
-                        "total_pnl_delta": 153.62,
-                        "trade_count_delta": -2,
-                        "direction": "improving"
+                        "win_rate_delta_pct": -10.0,
+                        "total_pnl_delta": 102.29,
+                        "trade_count_delta": -1,
+                        "direction": "mixed"
                     }
                 },
                 "legacy_simulation": {
