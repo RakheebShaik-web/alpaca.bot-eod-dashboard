@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-29T13:53:49.686374+00:00",
+    "generated_at": "2026-07-29T13:57:46.311218+00:00",
     "latest_date": "2026-07-29",
     "days": [
         {
@@ -41985,7 +41985,7 @@
                         "tp1_realized_pnl": 0,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 1,
+                        "open_partial_count": 2,
                         "open_positions": [
                             {
                                 "trade_id": "AMZN-5",
@@ -41997,6 +41997,17 @@
                                 "tp1": 227.37,
                                 "tp2": 226.76,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "MA-7",
+                                "symbol": "MA",
+                                "side": "LONG",
+                                "entry_price": 564.37,
+                                "remaining": 16.0,
+                                "sl": 561.3394,
+                                "tp1": 567.4006,
+                                "tp2": 568.9159,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {},
@@ -42014,6 +42025,20 @@
                                 "total_pnl": "62.4184",
                                 "balance": "100062.42",
                                 "notes": "TP1=227.37 TP2=226.76 SL=229.81 shares=40 risk\u00e2\u2030\u02c6$48.80 signal=2026-07-29 13:45:00 atr=0.6971 atr_pct=0.3039 volume_ratio=1.3389 ema_sep_atr=0.9184 ema_slope_atr=-0.1022 alpaca_order=75810537-0842-4848-9d78-9634e6e0cb13 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MA-7",
+                                "timestamp": "2026-07-29 13:53:24",
+                                "symbol": "MA",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "564.37",
+                                "shares": "16.0",
+                                "usd_qty": "9029.92",
+                                "pnl": "0.0",
+                                "total_pnl": "176.8755",
+                                "balance": "100176.88",
+                                "notes": "TP1=567.40 TP2=568.92 SL=561.34 shares=16 risk\u00e2\u2030\u02c6$48.49 signal=2026-07-29 13:45:00 atr=1.7318 atr_pct=0.3074 volume_ratio=2.6802 ema_sep_atr=2.8386 ema_slope_atr=0.1451 alpaca_order=c8620460-bdf9-47b0-9675-6b66f61babd5 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -42168,6 +42193,17 @@
                                 "tp1": 227.37,
                                 "tp2": 226.76,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "MA-7",
+                                "symbol": "MA",
+                                "side": "LONG",
+                                "entry_price": 564.37,
+                                "remaining": 16.0,
+                                "sl": 561.34,
+                                "tp1": 567.4,
+                                "tp2": 568.92,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {},
@@ -42185,6 +42221,20 @@
                                 "total_pnl": "62.4184",
                                 "balance": "100062.42",
                                 "notes": "TP1=227.37 TP2=226.76 SL=229.81 shares=40 risk\u00e2\u2030\u02c6$48.80 signal=2026-07-29 13:45:00 atr=0.6971 atr_pct=0.3039 volume_ratio=1.3389 ema_sep_atr=0.9184 ema_slope_atr=-0.1022 alpaca_order=75810537-0842-4848-9d78-9634e6e0cb13 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MA-7",
+                                "timestamp": "2026-07-29 13:53:24",
+                                "symbol": "MA",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "564.37",
+                                "shares": "16.0",
+                                "usd_qty": "9029.92",
+                                "pnl": "0.0",
+                                "total_pnl": "176.8755",
+                                "balance": "100176.88",
+                                "notes": "TP1=567.40 TP2=568.92 SL=561.34 shares=16 risk\u00e2\u2030\u02c6$48.49 signal=2026-07-29 13:45:00 atr=1.7318 atr_pct=0.3074 volume_ratio=2.6802 ema_sep_atr=2.8386 ema_slope_atr=0.1451 alpaca_order=c8620460-bdf9-47b0-9675-6b66f61babd5 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -42227,6 +42277,17 @@
                         "tp1": 227.37,
                         "tp2": 226.76,
                         "last_event": "ENTRY_SHORT"
+                    },
+                    {
+                        "trade_id": "MA-7",
+                        "symbol": "MA",
+                        "side": "LONG",
+                        "entry_price": 564.37,
+                        "remaining": 16.0,
+                        "sl": 561.34,
+                        "tp1": 567.4,
+                        "tp2": 568.92,
+                        "last_event": "ENTRY_LONG"
                     }
                 ],
                 "by_symbol": {},
@@ -42244,6 +42305,20 @@
                         "total_pnl": "62.4184",
                         "balance": "100062.42",
                         "notes": "TP1=227.37 TP2=226.76 SL=229.81 shares=40 risk\u00e2\u2030\u02c6$48.80 signal=2026-07-29 13:45:00 atr=0.6971 atr_pct=0.3039 volume_ratio=1.3389 ema_sep_atr=0.9184 ema_slope_atr=-0.1022 alpaca_order=75810537-0842-4848-9d78-9634e6e0cb13 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "MA-7",
+                        "timestamp": "2026-07-29 13:53:24",
+                        "symbol": "MA",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "564.37",
+                        "shares": "16.0",
+                        "usd_qty": "9029.92",
+                        "pnl": "0.0",
+                        "total_pnl": "176.8755",
+                        "balance": "100176.88",
+                        "notes": "TP1=567.40 TP2=568.92 SL=561.34 shares=16 risk\u00e2\u2030\u02c6$48.49 signal=2026-07-29 13:45:00 atr=1.7318 atr_pct=0.3074 volume_ratio=2.6802 ema_sep_atr=2.8386 ema_slope_atr=0.1451 alpaca_order=c8620460-bdf9-47b0-9675-6b66f61babd5 status=OrderStatus.FILLED"
                     }
                 ]
             },
