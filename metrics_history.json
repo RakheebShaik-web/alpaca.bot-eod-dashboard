@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-29T19:51:48.655213+00:00",
+    "generated_at": "2026-07-29T19:51:56.230354+00:00",
     "latest_date": "2026-07-29",
     "days": [
         {
@@ -42333,37 +42333,25 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 5,
-                        "win_count": 2,
+                        "total_trades": 6,
+                        "win_count": 3,
                         "loss_count": 3,
                         "breakeven_count": 0,
-                        "win_rate_pct": 40.0,
-                        "loss_rate_pct": 60.0,
-                        "total_pnl": -93.23,
-                        "closed_position_pnl": -93.23,
-                        "avg_pnl_per_trade": -18.65,
-                        "avg_win": 62.05,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": -8.63,
+                        "closed_position_pnl": -8.63,
+                        "avg_pnl_per_trade": -1.44,
+                        "avg_win": 69.57,
                         "avg_loss": -72.44,
-                        "realized_exit_count": 7,
-                        "eod_close_count": 1,
+                        "realized_exit_count": 8,
+                        "eod_close_count": 2,
                         "tp1_hit_count": 2,
                         "tp1_realized_pnl": 51.24,
                         "tp2_hit_count": 2,
                         "tp2_realized_pnl": 72.86,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "JPM-5",
-                                "symbol": "JPM",
-                                "side": "SHORT",
-                                "entry_price": 349.23,
-                                "remaining": 20.0,
-                                "sl": 351.69,
-                                "tp1": 346.77,
-                                "tp2": 345.55,
-                                "last_event": "ENTRY_SHORT"
-                            }
-                        ],
+                        "open_positions": [],
                         "by_symbol": {
                             "AMZN": {
                                 "trades": 1,
@@ -42384,6 +42372,14 @@
                             "AVGO": {
                                 "trades": 1,
                                 "pnl": 64.66,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "JPM": {
+                                "trades": 1,
+                                "pnl": 84.6,
                                 "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
@@ -42588,15 +42584,29 @@
                                 "total_pnl": "15.2",
                                 "balance": "100015.2",
                                 "notes": "entry=343.72 exit=339.34 alpaca_order=ab39d3d2-f3c0-415b-a7ea-d1059287ce30 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "JPM-5",
+                                "timestamp": "2026-07-29 19:51:14",
+                                "symbol": "JPM",
+                                "event": "CLOSE_EOD",
+                                "side": "SHORT",
+                                "price": "345.0",
+                                "shares": "20.0",
+                                "usd_qty": "6900.0",
+                                "pnl": "84.6",
+                                "total_pnl": "147.91",
+                                "balance": "100147.91",
+                                "notes": "entry=349.23 exit=345.00 alpaca_order=46c9db10-e5b6-425f-a27f-812eb9e1cc33 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -20.0,
-                        "total_pnl_delta": -15.88,
-                        "trade_count_delta": 0,
-                        "direction": "declining"
+                        "win_rate_delta_pct": -10.0,
+                        "total_pnl_delta": 68.72,
+                        "trade_count_delta": 1,
+                        "direction": "mixed"
                     }
                 },
                 "legacy_simulation": {
