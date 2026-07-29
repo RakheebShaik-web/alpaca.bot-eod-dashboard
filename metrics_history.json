@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-29T16:08:54.001658+00:00",
+    "generated_at": "2026-07-29T16:16:03.414629+00:00",
     "latest_date": "2026-07-29",
     "days": [
         {
@@ -42168,6 +42168,17 @@
                                 "tp1": 346.77,
                                 "tp2": 345.55,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "NVDA-9",
+                                "symbol": "NVDA",
+                                "side": "SHORT",
+                                "entry_price": 191.1263,
+                                "remaining": 19.0,
+                                "sl": 193.71,
+                                "tp1": 188.55,
+                                "tp2": 187.26,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -42322,6 +42333,20 @@
                                 "total_pnl": "163.22",
                                 "balance": "100163.22",
                                 "notes": "entry=564.61 exit=569.20 alpaca_order=d36a5b6d-7a98-42db-83ae-b034c7560ee8 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-9",
+                                "timestamp": "2026-07-29 16:15:59",
+                                "symbol": "NVDA",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "191.1263",
+                                "shares": "19.0",
+                                "usd_qty": "3631.4",
+                                "pnl": "0.0",
+                                "total_pnl": "-12.96",
+                                "balance": "99987.04",
+                                "notes": "TP1=188.55 TP2=187.26 SL=193.71 shares=19 risk\u00e2\u2030\u02c6$49.03 signal=2026-07-29 16:15:00 atr=1.4746 atr_pct=0.7723 volume_ratio=1.1837 ema_sep_atr=1.6776 ema_slope_atr=-0.1840 alpaca_order=be0fe8cd-a911-4585-9863-e7c6ca1705cf status=OrderStatus.FILLED"
                             }
                         ]
                     },
