@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-29T16:08:21.843341+00:00",
+    "generated_at": "2026-07-29T16:08:54.001658+00:00",
     "latest_date": "2026-07-29",
     "days": [
         {
@@ -41968,24 +41968,24 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 1,
-                        "win_count": 1,
+                        "total_trades": 2,
+                        "win_count": 2,
                         "loss_count": 0,
                         "breakeven_count": 0,
                         "win_rate_pct": 100.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 50.54,
-                        "closed_position_pnl": 26.21,
-                        "avg_pnl_per_trade": 26.21,
-                        "avg_win": 26.21,
+                        "total_pnl": 89.43,
+                        "closed_position_pnl": 89.43,
+                        "avg_pnl_per_trade": 44.71,
+                        "avg_win": 44.71,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 3,
+                        "realized_exit_count": 4,
                         "eod_close_count": 0,
                         "tp1_hit_count": 2,
                         "tp1_realized_pnl": 51.44,
-                        "tp2_hit_count": 0,
-                        "tp2_realized_pnl": 0,
-                        "open_partial_count": 1,
+                        "tp2_hit_count": 1,
+                        "tp2_realized_pnl": 38.89,
+                        "open_partial_count": 2,
                         "open_positions": [
                             {
                                 "trade_id": "MA-7",
@@ -41996,7 +41996,18 @@
                                 "sl": 564.37,
                                 "tp1": 567.4006,
                                 "tp2": 568.9159,
-                                "last_event": "TP1_HIT"
+                                "last_event": "TP2_HIT"
+                            },
+                            {
+                                "trade_id": "TSLA-10",
+                                "symbol": "TSLA",
+                                "side": "SHORT",
+                                "entry_price": 301.6,
+                                "remaining": 14.0,
+                                "sl": 304.9769,
+                                "tp1": 298.2231,
+                                "tp2": 296.5347,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -42009,12 +42020,12 @@
                                 "open_partial": 0
                             },
                             "MA": {
-                                "trades": 0,
-                                "pnl": 24.33,
-                                "wins": 0,
+                                "trades": 1,
+                                "pnl": 63.22,
+                                "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
-                                "open_partial": 1
+                                "open_partial": 0
                             }
                         },
                         "recent_trades": [
@@ -42101,14 +42112,28 @@
                                 "total_pnl": "-73.2372",
                                 "balance": "99926.76",
                                 "notes": "TP1=298.22 TP2=296.53 SL=304.98 shares=14 risk\u00e2\u2030\u02c6$47.28 signal=2026-07-29 16:00:00 atr=1.9296 atr_pct=0.6401 volume_ratio=1.3560 ema_sep_atr=1.2757 ema_slope_atr=-0.1295 alpaca_order=aac216be-5e10-4ecd-a9d2-0ab091346eb1 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MA-7",
+                                "timestamp": "2026-07-29 16:08:53",
+                                "symbol": "MA",
+                                "event": "TP2_HIT",
+                                "side": "LONG",
+                                "price": "569.2308",
+                                "shares": "8.0",
+                                "usd_qty": "4553.85",
+                                "pnl": "38.8864",
+                                "total_pnl": "240.0915",
+                                "balance": "100240.09",
+                                "notes": "entry=564.37 exit=569.23 alpaca_order=4ded2d59-3ea2-460c-b5f0-1468b8d99844 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": 40.0,
-                        "total_pnl_delta": 113.52,
-                        "trade_count_delta": -4,
+                        "total_pnl_delta": 152.41,
+                        "trade_count_delta": -3,
                         "direction": "improving"
                     }
                 },
@@ -42338,36 +42363,25 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 1,
-                        "win_count": 1,
+                        "total_trades": 2,
+                        "win_count": 2,
                         "loss_count": 0,
                         "breakeven_count": 0,
                         "win_rate_pct": 100.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 50.54,
-                        "closed_position_pnl": 26.21,
-                        "avg_pnl_per_trade": 26.21,
-                        "avg_win": 26.21,
+                        "total_pnl": 89.43,
+                        "closed_position_pnl": 89.43,
+                        "avg_pnl_per_trade": 44.71,
+                        "avg_win": 44.71,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 3,
+                        "realized_exit_count": 4,
                         "eod_close_count": 0,
                         "tp1_hit_count": 2,
                         "tp1_realized_pnl": 51.44,
-                        "tp2_hit_count": 0,
-                        "tp2_realized_pnl": 0,
-                        "open_partial_count": 1,
+                        "tp2_hit_count": 1,
+                        "tp2_realized_pnl": 38.89,
+                        "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "MA-7",
-                                "symbol": "MA",
-                                "side": "LONG",
-                                "entry_price": 564.37,
-                                "remaining": 8.0,
-                                "sl": 561.34,
-                                "tp1": 567.4,
-                                "tp2": 568.92,
-                                "last_event": "TP1_HIT"
-                            },
                             {
                                 "trade_id": "TSLA-10",
                                 "symbol": "TSLA",
@@ -42390,12 +42404,12 @@
                                 "open_partial": 0
                             },
                             "MA": {
-                                "trades": 0,
-                                "pnl": 24.33,
-                                "wins": 0,
+                                "trades": 1,
+                                "pnl": 63.22,
+                                "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
-                                "open_partial": 1
+                                "open_partial": 0
                             }
                         },
                         "recent_trades": [
@@ -42482,49 +42496,52 @@
                                 "total_pnl": "-73.2372",
                                 "balance": "99926.76",
                                 "notes": "TP1=298.22 TP2=296.53 SL=304.98 shares=14 risk\u00e2\u2030\u02c6$47.28 signal=2026-07-29 16:00:00 atr=1.9296 atr_pct=0.6401 volume_ratio=1.3560 ema_sep_atr=1.2757 ema_slope_atr=-0.1295 alpaca_order=aac216be-5e10-4ecd-a9d2-0ab091346eb1 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MA-7",
+                                "timestamp": "2026-07-29 16:08:53",
+                                "symbol": "MA",
+                                "event": "TP2_HIT",
+                                "side": "LONG",
+                                "price": "569.2308",
+                                "shares": "8.0",
+                                "usd_qty": "4553.85",
+                                "pnl": "38.8864",
+                                "total_pnl": "240.0915",
+                                "balance": "100240.09",
+                                "notes": "entry=564.37 exit=569.23 alpaca_order=4ded2d59-3ea2-460c-b5f0-1468b8d99844 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": 40.0,
-                        "total_pnl_delta": 113.52,
-                        "trade_count_delta": -4,
+                        "total_pnl_delta": 152.41,
+                        "trade_count_delta": -3,
                         "direction": "improving"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 1,
-                "win_count": 1,
+                "total_trades": 2,
+                "win_count": 2,
                 "loss_count": 0,
                 "breakeven_count": 0,
                 "win_rate_pct": 100.0,
                 "loss_rate_pct": 0.0,
-                "total_pnl": 50.54,
-                "closed_position_pnl": 26.21,
-                "avg_pnl_per_trade": 26.21,
-                "avg_win": 26.21,
+                "total_pnl": 89.43,
+                "closed_position_pnl": 89.43,
+                "avg_pnl_per_trade": 44.71,
+                "avg_win": 44.71,
                 "avg_loss": 0.0,
-                "realized_exit_count": 3,
+                "realized_exit_count": 4,
                 "eod_close_count": 0,
                 "tp1_hit_count": 2,
                 "tp1_realized_pnl": 51.44,
-                "tp2_hit_count": 0,
-                "tp2_realized_pnl": 0,
-                "open_partial_count": 1,
+                "tp2_hit_count": 1,
+                "tp2_realized_pnl": 38.89,
+                "open_partial_count": 0,
                 "open_positions": [
-                    {
-                        "trade_id": "MA-7",
-                        "symbol": "MA",
-                        "side": "LONG",
-                        "entry_price": 564.37,
-                        "remaining": 8.0,
-                        "sl": 561.34,
-                        "tp1": 567.4,
-                        "tp2": 568.92,
-                        "last_event": "TP1_HIT"
-                    },
                     {
                         "trade_id": "TSLA-10",
                         "symbol": "TSLA",
@@ -42547,12 +42564,12 @@
                         "open_partial": 0
                     },
                     "MA": {
-                        "trades": 0,
-                        "pnl": 24.33,
-                        "wins": 0,
+                        "trades": 1,
+                        "pnl": 63.22,
+                        "wins": 1,
                         "losses": 0,
                         "breakeven": 0,
-                        "open_partial": 1
+                        "open_partial": 0
                     }
                 },
                 "recent_trades": [
@@ -42639,6 +42656,20 @@
                         "total_pnl": "-73.2372",
                         "balance": "99926.76",
                         "notes": "TP1=298.22 TP2=296.53 SL=304.98 shares=14 risk\u00e2\u2030\u02c6$47.28 signal=2026-07-29 16:00:00 atr=1.9296 atr_pct=0.6401 volume_ratio=1.3560 ema_sep_atr=1.2757 ema_slope_atr=-0.1295 alpaca_order=aac216be-5e10-4ecd-a9d2-0ab091346eb1 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "MA-7",
+                        "timestamp": "2026-07-29 16:08:53",
+                        "symbol": "MA",
+                        "event": "TP2_HIT",
+                        "side": "LONG",
+                        "price": "569.2308",
+                        "shares": "8.0",
+                        "usd_qty": "4553.85",
+                        "pnl": "38.8864",
+                        "total_pnl": "240.0915",
+                        "balance": "100240.09",
+                        "notes": "entry=564.37 exit=569.23 alpaca_order=4ded2d59-3ea2-460c-b5f0-1468b8d99844 status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -42656,8 +42687,8 @@
             "trend": {
                 "has_previous_day": true,
                 "win_rate_delta_pct": 40.0,
-                "total_pnl_delta": 113.52,
-                "trade_count_delta": -4,
+                "total_pnl_delta": 152.41,
+                "trade_count_delta": -3,
                 "direction": "improving"
             }
         }
