@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-29T14:01:50.347726+00:00",
+    "generated_at": "2026-07-29T14:41:06.982711+00:00",
     "latest_date": "2026-07-29",
     "days": [
         {
@@ -41974,15 +41974,15 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
+                        "total_pnl": 27.11,
                         "closed_position_pnl": 0,
                         "avg_pnl_per_trade": 0.0,
                         "avg_win": 0.0,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 27.11,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 2,
@@ -41996,7 +41996,7 @@
                                 "sl": 229.81,
                                 "tp1": 227.37,
                                 "tp2": 226.76,
-                                "last_event": "ENTRY_SHORT"
+                                "last_event": "TP1_HIT"
                             },
                             {
                                 "trade_id": "MA-7",
@@ -42010,7 +42010,16 @@
                                 "last_event": "ENTRY_LONG"
                             }
                         ],
-                        "by_symbol": {},
+                        "by_symbol": {
+                            "AMZN": {
+                                "trades": 0,
+                                "pnl": 27.11,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "AMZN-5",
@@ -42039,13 +42048,27 @@
                                 "total_pnl": "176.8755",
                                 "balance": "100176.88",
                                 "notes": "TP1=567.40 TP2=568.92 SL=561.34 shares=16 risk\u00e2\u2030\u02c6$48.49 signal=2026-07-29 13:45:00 atr=1.7318 atr_pct=0.3074 volume_ratio=2.6802 ema_sep_atr=2.8386 ema_slope_atr=0.1451 alpaca_order=c8620460-bdf9-47b0-9675-6b66f61babd5 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMZN-5",
+                                "timestamp": "2026-07-29 14:41:06",
+                                "symbol": "AMZN",
+                                "event": "TP1_HIT",
+                                "side": "SHORT",
+                                "price": "227.2344",
+                                "shares": "20.0",
+                                "usd_qty": "4544.69",
+                                "pnl": "27.112",
+                                "total_pnl": "89.5304",
+                                "balance": "100089.53",
+                                "notes": "remaining=20 shares alpaca_order=c5e6707c-1d06-458a-81c7-6011e01732fb status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -60.0,
-                        "total_pnl_delta": 62.98,
+                        "total_pnl_delta": 90.09,
                         "trade_count_delta": -5,
                         "direction": "mixed"
                     }
@@ -42207,29 +42230,29 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
+                        "total_pnl": 27.11,
                         "closed_position_pnl": 0,
                         "avg_pnl_per_trade": 0.0,
                         "avg_win": 0.0,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 27.11,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "AMZN-5",
                                 "symbol": "AMZN",
                                 "side": "SHORT",
                                 "entry_price": 228.59,
-                                "remaining": 40.0,
+                                "remaining": 20.0,
                                 "sl": 229.81,
                                 "tp1": 227.37,
                                 "tp2": 226.76,
-                                "last_event": "ENTRY_SHORT"
+                                "last_event": "TP1_HIT"
                             },
                             {
                                 "trade_id": "MA-7",
@@ -42243,7 +42266,16 @@
                                 "last_event": "ENTRY_LONG"
                             }
                         ],
-                        "by_symbol": {},
+                        "by_symbol": {
+                            "AMZN": {
+                                "trades": 0,
+                                "pnl": 27.11,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "AMZN-5",
@@ -42272,13 +42304,27 @@
                                 "total_pnl": "176.8755",
                                 "balance": "100176.88",
                                 "notes": "TP1=567.40 TP2=568.92 SL=561.34 shares=16 risk\u00e2\u2030\u02c6$48.49 signal=2026-07-29 13:45:00 atr=1.7318 atr_pct=0.3074 volume_ratio=2.6802 ema_sep_atr=2.8386 ema_slope_atr=0.1451 alpaca_order=c8620460-bdf9-47b0-9675-6b66f61babd5 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMZN-5",
+                                "timestamp": "2026-07-29 14:41:06",
+                                "symbol": "AMZN",
+                                "event": "TP1_HIT",
+                                "side": "SHORT",
+                                "price": "227.2344",
+                                "shares": "20.0",
+                                "usd_qty": "4544.69",
+                                "pnl": "27.112",
+                                "total_pnl": "89.5304",
+                                "balance": "100089.53",
+                                "notes": "remaining=20 shares alpaca_order=c5e6707c-1d06-458a-81c7-6011e01732fb status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -60.0,
-                        "total_pnl_delta": 62.98,
+                        "total_pnl_delta": 90.09,
                         "trade_count_delta": -5,
                         "direction": "mixed"
                     }
@@ -42291,29 +42337,29 @@
                 "breakeven_count": 0,
                 "win_rate_pct": 0.0,
                 "loss_rate_pct": 0.0,
-                "total_pnl": 0,
+                "total_pnl": 27.11,
                 "closed_position_pnl": 0,
                 "avg_pnl_per_trade": 0.0,
                 "avg_win": 0.0,
                 "avg_loss": 0.0,
-                "realized_exit_count": 0,
+                "realized_exit_count": 1,
                 "eod_close_count": 0,
-                "tp1_hit_count": 0,
-                "tp1_realized_pnl": 0,
+                "tp1_hit_count": 1,
+                "tp1_realized_pnl": 27.11,
                 "tp2_hit_count": 0,
                 "tp2_realized_pnl": 0,
-                "open_partial_count": 0,
+                "open_partial_count": 1,
                 "open_positions": [
                     {
                         "trade_id": "AMZN-5",
                         "symbol": "AMZN",
                         "side": "SHORT",
                         "entry_price": 228.59,
-                        "remaining": 40.0,
+                        "remaining": 20.0,
                         "sl": 229.81,
                         "tp1": 227.37,
                         "tp2": 226.76,
-                        "last_event": "ENTRY_SHORT"
+                        "last_event": "TP1_HIT"
                     },
                     {
                         "trade_id": "MA-7",
@@ -42327,7 +42373,16 @@
                         "last_event": "ENTRY_LONG"
                     }
                 ],
-                "by_symbol": {},
+                "by_symbol": {
+                    "AMZN": {
+                        "trades": 0,
+                        "pnl": 27.11,
+                        "wins": 0,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 1
+                    }
+                },
                 "recent_trades": [
                     {
                         "trade_id": "AMZN-5",
@@ -42356,6 +42411,20 @@
                         "total_pnl": "176.8755",
                         "balance": "100176.88",
                         "notes": "TP1=567.40 TP2=568.92 SL=561.34 shares=16 risk\u00e2\u2030\u02c6$48.49 signal=2026-07-29 13:45:00 atr=1.7318 atr_pct=0.3074 volume_ratio=2.6802 ema_sep_atr=2.8386 ema_slope_atr=0.1451 alpaca_order=c8620460-bdf9-47b0-9675-6b66f61babd5 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "AMZN-5",
+                        "timestamp": "2026-07-29 14:41:06",
+                        "symbol": "AMZN",
+                        "event": "TP1_HIT",
+                        "side": "SHORT",
+                        "price": "227.2344",
+                        "shares": "20.0",
+                        "usd_qty": "4544.69",
+                        "pnl": "27.112",
+                        "total_pnl": "89.5304",
+                        "balance": "100089.53",
+                        "notes": "remaining=20 shares alpaca_order=c5e6707c-1d06-458a-81c7-6011e01732fb status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -42373,7 +42442,7 @@
             "trend": {
                 "has_previous_day": true,
                 "win_rate_delta_pct": -60.0,
-                "total_pnl_delta": 62.98,
+                "total_pnl_delta": 90.09,
                 "trade_count_delta": -5,
                 "direction": "mixed"
             }
