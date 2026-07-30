@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-30T14:33:21.730335+00:00",
+    "generated_at": "2026-07-30T14:46:44.235755+00:00",
     "latest_date": "2026-07-30",
     "days": [
         {
@@ -43493,6 +43493,17 @@
                                 "tp1": 458.36,
                                 "tp2": 463.79,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "BAC-6",
+                                "symbol": "BAC",
+                                "side": "SHORT",
+                                "entry_price": 61.468,
+                                "remaining": 91.0,
+                                "sl": 62.01,
+                                "tp1": 60.92,
+                                "tp2": 60.65,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -43547,6 +43558,20 @@
                                 "total_pnl": "-113.12",
                                 "balance": "99886.88",
                                 "notes": "entry=194.18 exit=197.06 alpaca_order=f8c50d6a-72eb-468d-9df3-87b9cf6a9756 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "BAC-6",
+                                "timestamp": "2026-07-30 14:46:40",
+                                "symbol": "BAC",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "61.468",
+                                "shares": "91.0",
+                                "usd_qty": "5593.59",
+                                "pnl": "0.0",
+                                "total_pnl": "-50.4",
+                                "balance": "99949.6",
+                                "notes": "TP1=60.92 TP2=60.65 SL=62.01 shares=91 risk\u00e2\u2030\u02c6$49.65 signal=2026-07-30 14:45:00 atr=0.3118 atr_pct=0.5076 volume_ratio=1.1747 ema_sep_atr=0.7117 ema_slope_atr=-0.0307 alpaca_order=c5acac9e-17fa-409c-b9ce-88527a9f1894 status=OrderStatus.FILLED"
                             }
                         ]
                     },
