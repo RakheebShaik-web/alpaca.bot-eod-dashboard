@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-30T19:51:03.937623+00:00",
+    "generated_at": "2026-07-30T19:51:09.663709+00:00",
     "latest_date": "2026-07-30",
     "days": [
         {
@@ -43380,54 +43380,39 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 1,
+                        "total_trades": 2,
                         "win_count": 1,
-                        "loss_count": 0,
+                        "loss_count": 1,
                         "breakeven_count": 0,
-                        "win_rate_pct": 100.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 37.22,
-                        "closed_position_pnl": 37.22,
-                        "avg_pnl_per_trade": 37.22,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": 24.18,
+                        "closed_position_pnl": 24.18,
+                        "avg_pnl_per_trade": 12.09,
                         "avg_win": 37.22,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 2,
-                        "eod_close_count": 1,
+                        "avg_loss": -13.04,
+                        "realized_exit_count": 3,
+                        "eod_close_count": 2,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 22.33,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 2,
-                        "open_positions": [
-                            {
-                                "trade_id": "MSFT-11",
-                                "symbol": "MSFT",
-                                "side": "LONG",
-                                "entry_price": 447.305,
-                                "remaining": 2.0,
-                                "sl": 447.305,
-                                "tp1": 458.165,
-                                "tp2": 463.595,
-                                "last_event": "CLOSE_EOD"
-                            },
-                            {
-                                "trade_id": "NVDA-17",
-                                "symbol": "NVDA",
-                                "side": "SHORT",
-                                "entry_price": 194.1932,
-                                "remaining": 17.0,
-                                "sl": 197.0926,
-                                "tp1": 191.2938,
-                                "tp2": 189.8441,
-                                "last_event": "ENTRY_SHORT"
-                            }
-                        ],
+                        "open_partial_count": 0,
+                        "open_positions": [],
                         "by_symbol": {
                             "MSFT": {
                                 "trades": 1,
                                 "pnl": 37.22,
                                 "wins": 1,
                                 "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "NVDA": {
+                                "trades": 1,
+                                "pnl": -13.04,
+                                "wins": 0,
+                                "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
                             }
@@ -43488,14 +43473,28 @@
                                 "total_pnl": "-190.5911",
                                 "balance": "99809.41",
                                 "notes": "entry=447.31 exit=454.75 alpaca_order=9ff4f67f-bb1e-4c4d-ae20-f5dcaf0ef49e status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-17",
+                                "timestamp": "2026-07-30 19:51:08",
+                                "symbol": "NVDA",
+                                "event": "CLOSE_EOD",
+                                "side": "SHORT",
+                                "price": "194.96",
+                                "shares": "17.0",
+                                "usd_qty": "3314.32",
+                                "pnl": "-13.0356",
+                                "total_pnl": "-153.0429",
+                                "balance": "99846.96",
+                                "notes": "entry=194.19 exit=194.96 alpaca_order=2162ec2d-aaee-4b98-b175-65d3a5598175 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 62.5,
-                        "total_pnl_delta": 74.21,
-                        "trade_count_delta": -7,
+                        "win_rate_delta_pct": 12.5,
+                        "total_pnl_delta": 61.17,
+                        "trade_count_delta": -6,
                         "direction": "improving"
                     }
                 },
@@ -43675,43 +43674,39 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 1,
+                        "total_trades": 2,
                         "win_count": 1,
-                        "loss_count": 0,
+                        "loss_count": 1,
                         "breakeven_count": 0,
-                        "win_rate_pct": 100.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 37.22,
-                        "closed_position_pnl": 37.22,
-                        "avg_pnl_per_trade": 37.22,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": 24.18,
+                        "closed_position_pnl": 24.18,
+                        "avg_pnl_per_trade": 12.09,
                         "avg_win": 37.22,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 2,
-                        "eod_close_count": 1,
+                        "avg_loss": -13.04,
+                        "realized_exit_count": 3,
+                        "eod_close_count": 2,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 22.33,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "NVDA-17",
-                                "symbol": "NVDA",
-                                "side": "SHORT",
-                                "entry_price": 194.1932,
-                                "remaining": 17.0,
-                                "sl": 197.09,
-                                "tp1": 191.29,
-                                "tp2": 189.84,
-                                "last_event": "ENTRY_SHORT"
-                            }
-                        ],
+                        "open_positions": [],
                         "by_symbol": {
                             "MSFT": {
                                 "trades": 1,
                                 "pnl": 37.22,
                                 "wins": 1,
                                 "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "NVDA": {
+                                "trades": 1,
+                                "pnl": -13.04,
+                                "wins": 0,
+                                "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
                             }
@@ -43772,56 +43767,66 @@
                                 "total_pnl": "-190.5911",
                                 "balance": "99809.41",
                                 "notes": "entry=447.31 exit=454.75 alpaca_order=9ff4f67f-bb1e-4c4d-ae20-f5dcaf0ef49e status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-17",
+                                "timestamp": "2026-07-30 19:51:08",
+                                "symbol": "NVDA",
+                                "event": "CLOSE_EOD",
+                                "side": "SHORT",
+                                "price": "194.96",
+                                "shares": "17.0",
+                                "usd_qty": "3314.32",
+                                "pnl": "-13.0356",
+                                "total_pnl": "-153.0429",
+                                "balance": "99846.96",
+                                "notes": "entry=194.19 exit=194.96 alpaca_order=2162ec2d-aaee-4b98-b175-65d3a5598175 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 62.5,
-                        "total_pnl_delta": 74.21,
-                        "trade_count_delta": -7,
+                        "win_rate_delta_pct": 12.5,
+                        "total_pnl_delta": 61.17,
+                        "trade_count_delta": -6,
                         "direction": "improving"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 1,
+                "total_trades": 2,
                 "win_count": 1,
-                "loss_count": 0,
+                "loss_count": 1,
                 "breakeven_count": 0,
-                "win_rate_pct": 100.0,
-                "loss_rate_pct": 0.0,
-                "total_pnl": 37.22,
-                "closed_position_pnl": 37.22,
-                "avg_pnl_per_trade": 37.22,
+                "win_rate_pct": 50.0,
+                "loss_rate_pct": 50.0,
+                "total_pnl": 24.18,
+                "closed_position_pnl": 24.18,
+                "avg_pnl_per_trade": 12.09,
                 "avg_win": 37.22,
-                "avg_loss": 0.0,
-                "realized_exit_count": 2,
-                "eod_close_count": 1,
+                "avg_loss": -13.04,
+                "realized_exit_count": 3,
+                "eod_close_count": 2,
                 "tp1_hit_count": 1,
                 "tp1_realized_pnl": 22.33,
                 "tp2_hit_count": 0,
                 "tp2_realized_pnl": 0,
                 "open_partial_count": 0,
-                "open_positions": [
-                    {
-                        "trade_id": "NVDA-17",
-                        "symbol": "NVDA",
-                        "side": "SHORT",
-                        "entry_price": 194.1932,
-                        "remaining": 17.0,
-                        "sl": 197.09,
-                        "tp1": 191.29,
-                        "tp2": 189.84,
-                        "last_event": "ENTRY_SHORT"
-                    }
-                ],
+                "open_positions": [],
                 "by_symbol": {
                     "MSFT": {
                         "trades": 1,
                         "pnl": 37.22,
                         "wins": 1,
                         "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "NVDA": {
+                        "trades": 1,
+                        "pnl": -13.04,
+                        "wins": 0,
+                        "losses": 1,
                         "breakeven": 0,
                         "open_partial": 0
                     }
@@ -43882,6 +43887,20 @@
                         "total_pnl": "-190.5911",
                         "balance": "99809.41",
                         "notes": "entry=447.31 exit=454.75 alpaca_order=9ff4f67f-bb1e-4c4d-ae20-f5dcaf0ef49e status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "NVDA-17",
+                        "timestamp": "2026-07-30 19:51:08",
+                        "symbol": "NVDA",
+                        "event": "CLOSE_EOD",
+                        "side": "SHORT",
+                        "price": "194.96",
+                        "shares": "17.0",
+                        "usd_qty": "3314.32",
+                        "pnl": "-13.0356",
+                        "total_pnl": "-153.0429",
+                        "balance": "99846.96",
+                        "notes": "entry=194.19 exit=194.96 alpaca_order=2162ec2d-aaee-4b98-b175-65d3a5598175 status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -43898,9 +43917,9 @@
             },
             "trend": {
                 "has_previous_day": true,
-                "win_rate_delta_pct": 62.5,
-                "total_pnl_delta": 74.21,
-                "trade_count_delta": -7,
+                "win_rate_delta_pct": 12.5,
+                "total_pnl_delta": 61.17,
+                "trade_count_delta": -6,
                 "direction": "improving"
             }
         }
