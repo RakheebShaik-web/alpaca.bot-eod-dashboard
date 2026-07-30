@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-30T14:46:44.235755+00:00",
+    "generated_at": "2026-07-30T18:13:36.060767+00:00",
     "latest_date": "2026-07-30",
     "days": [
         {
@@ -43470,29 +43470,29 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -48.83,
+                        "total_pnl": -27.03,
                         "closed_position_pnl": -48.83,
                         "avg_pnl_per_trade": -48.83,
                         "avg_win": 0.0,
                         "avg_loss": -48.83,
-                        "realized_exit_count": 1,
+                        "realized_exit_count": 2,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 21.8,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "MSFT-10",
                                 "symbol": "MSFT",
                                 "side": "LONG",
                                 "entry_price": 447.5,
-                                "remaining": 4.0,
+                                "remaining": 2.0,
                                 "sl": 436.64,
                                 "tp1": 458.36,
                                 "tp2": 463.79,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "TP1_HIT"
                             },
                             {
                                 "trade_id": "BAC-6",
@@ -43514,6 +43514,14 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
+                            },
+                            "MSFT": {
+                                "trades": 0,
+                                "pnl": 21.8,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -43572,13 +43580,27 @@
                                 "total_pnl": "-50.4",
                                 "balance": "99949.6",
                                 "notes": "TP1=60.92 TP2=60.65 SL=62.01 shares=91 risk\u00e2\u2030\u02c6$49.65 signal=2026-07-30 14:45:00 atr=0.3118 atr_pct=0.5076 volume_ratio=1.1747 ema_sep_atr=0.7117 ema_slope_atr=-0.0307 alpaca_order=c5acac9e-17fa-409c-b9ce-88527a9f1894 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-10",
+                                "timestamp": "2026-07-30 18:13:31",
+                                "symbol": "MSFT",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "458.4",
+                                "shares": "2.0",
+                                "usd_qty": "916.8",
+                                "pnl": "21.8",
+                                "total_pnl": "-24.84",
+                                "balance": "99975.16",
+                                "notes": "remaining=2 shares alpaca_order=5d8fad9c-10a1-429f-a81c-835531ef8932 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -50.0,
-                        "total_pnl_delta": -40.2,
+                        "total_pnl_delta": -18.4,
                         "trade_count_delta": -5,
                         "direction": "declining"
                     }
