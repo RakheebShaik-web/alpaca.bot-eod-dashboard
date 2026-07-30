@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-30T18:13:36.060767+00:00",
+    "generated_at": "2026-07-30T18:13:49.735961+00:00",
     "latest_date": "2026-07-30",
     "days": [
         {
@@ -43386,15 +43386,15 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
+                        "total_pnl": 22.33,
                         "closed_position_pnl": 0,
                         "avg_pnl_per_trade": 0.0,
                         "avg_win": 0.0,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 22.33,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 2,
@@ -43408,7 +43408,7 @@
                                 "sl": 436.445,
                                 "tp1": 458.165,
                                 "tp2": 463.595,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "TP1_HIT"
                             },
                             {
                                 "trade_id": "NVDA-17",
@@ -43422,7 +43422,16 @@
                                 "last_event": "ENTRY_SHORT"
                             }
                         ],
-                        "by_symbol": {},
+                        "by_symbol": {
+                            "MSFT": {
+                                "trades": 0,
+                                "pnl": 22.33,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "MSFT-11",
@@ -43451,13 +43460,27 @@
                                 "total_pnl": "-140.0073",
                                 "balance": "99859.99",
                                 "notes": "TP1=191.29 TP2=189.84 SL=197.09 shares=17 risk\u00e2\u2030\u02c6$49.29 signal=2026-07-30 13:45:00 atr=1.6568 atr_pct=0.8609 volume_ratio=1.9695 ema_sep_atr=0.9866 ema_slope_atr=-0.1151 alpaca_order=14f49a26-98c6-49da-8860-92eb9831b4d4 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-11",
+                                "timestamp": "2026-07-30 18:13:48",
+                                "symbol": "MSFT",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "458.47",
+                                "shares": "2.0",
+                                "usd_qty": "916.94",
+                                "pnl": "22.33",
+                                "total_pnl": "-205.4811",
+                                "balance": "99794.52",
+                                "notes": "remaining=2 shares alpaca_order=ec8a059e-16a1-49ef-acd2-32ba18e306ac status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -37.5,
-                        "total_pnl_delta": 36.99,
+                        "total_pnl_delta": 59.32,
                         "trade_count_delta": -8,
                         "direction": "mixed"
                     }
@@ -43641,29 +43664,29 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
+                        "total_pnl": 22.33,
                         "closed_position_pnl": 0,
                         "avg_pnl_per_trade": 0.0,
                         "avg_win": 0.0,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 22.33,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "MSFT-11",
                                 "symbol": "MSFT",
                                 "side": "LONG",
                                 "entry_price": 447.305,
-                                "remaining": 4.0,
+                                "remaining": 2.0,
                                 "sl": 436.44,
                                 "tp1": 458.17,
                                 "tp2": 463.6,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "TP1_HIT"
                             },
                             {
                                 "trade_id": "NVDA-17",
@@ -43677,7 +43700,16 @@
                                 "last_event": "ENTRY_SHORT"
                             }
                         ],
-                        "by_symbol": {},
+                        "by_symbol": {
+                            "MSFT": {
+                                "trades": 0,
+                                "pnl": 22.33,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "MSFT-11",
@@ -43706,13 +43738,27 @@
                                 "total_pnl": "-140.0073",
                                 "balance": "99859.99",
                                 "notes": "TP1=191.29 TP2=189.84 SL=197.09 shares=17 risk\u00e2\u2030\u02c6$49.29 signal=2026-07-30 13:45:00 atr=1.6568 atr_pct=0.8609 volume_ratio=1.9695 ema_sep_atr=0.9866 ema_slope_atr=-0.1151 alpaca_order=14f49a26-98c6-49da-8860-92eb9831b4d4 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-11",
+                                "timestamp": "2026-07-30 18:13:48",
+                                "symbol": "MSFT",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "458.47",
+                                "shares": "2.0",
+                                "usd_qty": "916.94",
+                                "pnl": "22.33",
+                                "total_pnl": "-205.4811",
+                                "balance": "99794.52",
+                                "notes": "remaining=2 shares alpaca_order=ec8a059e-16a1-49ef-acd2-32ba18e306ac status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -37.5,
-                        "total_pnl_delta": 36.99,
+                        "total_pnl_delta": 59.32,
                         "trade_count_delta": -8,
                         "direction": "mixed"
                     }
@@ -43725,29 +43771,29 @@
                 "breakeven_count": 0,
                 "win_rate_pct": 0.0,
                 "loss_rate_pct": 0.0,
-                "total_pnl": 0,
+                "total_pnl": 22.33,
                 "closed_position_pnl": 0,
                 "avg_pnl_per_trade": 0.0,
                 "avg_win": 0.0,
                 "avg_loss": 0.0,
-                "realized_exit_count": 0,
+                "realized_exit_count": 1,
                 "eod_close_count": 0,
-                "tp1_hit_count": 0,
-                "tp1_realized_pnl": 0,
+                "tp1_hit_count": 1,
+                "tp1_realized_pnl": 22.33,
                 "tp2_hit_count": 0,
                 "tp2_realized_pnl": 0,
-                "open_partial_count": 0,
+                "open_partial_count": 1,
                 "open_positions": [
                     {
                         "trade_id": "MSFT-11",
                         "symbol": "MSFT",
                         "side": "LONG",
                         "entry_price": 447.305,
-                        "remaining": 4.0,
+                        "remaining": 2.0,
                         "sl": 436.44,
                         "tp1": 458.17,
                         "tp2": 463.6,
-                        "last_event": "ENTRY_LONG"
+                        "last_event": "TP1_HIT"
                     },
                     {
                         "trade_id": "NVDA-17",
@@ -43761,7 +43807,16 @@
                         "last_event": "ENTRY_SHORT"
                     }
                 ],
-                "by_symbol": {},
+                "by_symbol": {
+                    "MSFT": {
+                        "trades": 0,
+                        "pnl": 22.33,
+                        "wins": 0,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 1
+                    }
+                },
                 "recent_trades": [
                     {
                         "trade_id": "MSFT-11",
@@ -43790,6 +43845,20 @@
                         "total_pnl": "-140.0073",
                         "balance": "99859.99",
                         "notes": "TP1=191.29 TP2=189.84 SL=197.09 shares=17 risk\u00e2\u2030\u02c6$49.29 signal=2026-07-30 13:45:00 atr=1.6568 atr_pct=0.8609 volume_ratio=1.9695 ema_sep_atr=0.9866 ema_slope_atr=-0.1151 alpaca_order=14f49a26-98c6-49da-8860-92eb9831b4d4 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "MSFT-11",
+                        "timestamp": "2026-07-30 18:13:48",
+                        "symbol": "MSFT",
+                        "event": "TP1_HIT",
+                        "side": "LONG",
+                        "price": "458.47",
+                        "shares": "2.0",
+                        "usd_qty": "916.94",
+                        "pnl": "22.33",
+                        "total_pnl": "-205.4811",
+                        "balance": "99794.52",
+                        "notes": "remaining=2 shares alpaca_order=ec8a059e-16a1-49ef-acd2-32ba18e306ac status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -43807,7 +43876,7 @@
             "trend": {
                 "has_previous_day": true,
                 "win_rate_delta_pct": -37.5,
-                "total_pnl_delta": 36.99,
+                "total_pnl_delta": 59.32,
                 "trade_count_delta": -8,
                 "direction": "mixed"
             }
