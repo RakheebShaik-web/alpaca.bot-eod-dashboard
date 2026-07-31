@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-31T14:53:53.523491+00:00",
+    "generated_at": "2026-07-31T14:54:12.386759+00:00",
     "latest_date": "2026-07-31",
     "days": [
         {
@@ -44087,18 +44087,18 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -47.18,
+                        "total_pnl": -21.41,
                         "closed_position_pnl": -47.18,
                         "avg_pnl_per_trade": -47.18,
                         "avg_win": 0.0,
                         "avg_loss": -47.18,
-                        "realized_exit_count": 1,
+                        "realized_exit_count": 2,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 25.77,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "AMZN-9",
@@ -44116,11 +44116,11 @@
                                 "symbol": "GOOGL",
                                 "side": "LONG",
                                 "entry_price": 347.5775,
-                                "remaining": 12.0,
+                                "remaining": 6.0,
                                 "sl": 343.43,
                                 "tp1": 351.73,
                                 "tp2": 353.8,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "TP1_HIT"
                             }
                         ],
                         "by_symbol": {
@@ -44131,6 +44131,14 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
+                            },
+                            "GOOGL": {
+                                "trades": 0,
+                                "pnl": 25.77,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -44189,15 +44197,29 @@
                                 "total_pnl": "32.83",
                                 "balance": "100032.83",
                                 "notes": "TP1=351.73 TP2=353.80 SL=343.43 shares=12 risk\u00e2\u2030\u02c6$49.79 signal=2026-07-31 14:30:00 atr=2.3707 atr_pct=0.6821 volume_ratio=1.2869 ema_sep_atr=0.9127 ema_slope_atr=0.4122 alpaca_order=70126f42-283c-4d7b-9083-ab9a1e3ce238 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "GOOGL-9",
+                                "timestamp": "2026-07-31 14:54:08",
+                                "symbol": "GOOGL",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "351.8717",
+                                "shares": "6.0",
+                                "usd_qty": "2111.23",
+                                "pnl": "25.765",
+                                "total_pnl": "58.595",
+                                "balance": "100058.59",
+                                "notes": "remaining=6 shares alpaca_order=3fa1505b-a176-4d54-823f-464add7736d1 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -33.33,
-                        "total_pnl_delta": -8.97,
+                        "total_pnl_delta": 16.8,
                         "trade_count_delta": -2,
-                        "direction": "declining"
+                        "direction": "mixed"
                     }
                 },
                 "legacy_simulation": {
