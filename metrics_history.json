@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-31T14:20:30.722928+00:00",
+    "generated_at": "2026-07-31T14:23:45.018705+00:00",
     "latest_date": "2026-07-31",
     "days": [
         {
@@ -43938,18 +43938,18 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 0,
+                        "total_trades": 1,
                         "win_count": 0,
-                        "loss_count": 0,
+                        "loss_count": 1,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
-                        "closed_position_pnl": 0,
-                        "avg_pnl_per_trade": 0.0,
+                        "loss_rate_pct": 100.0,
+                        "total_pnl": -50.93,
+                        "closed_position_pnl": -50.93,
+                        "avg_pnl_per_trade": -50.93,
                         "avg_win": 0.0,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "avg_loss": -50.93,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
                         "tp1_hit_count": 0,
                         "tp1_realized_pnl": 0,
@@ -43977,10 +43977,19 @@
                                 "sl": 454.7833,
                                 "tp1": 464.4933,
                                 "tp2": 466.9208,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "SL_HIT"
                             }
                         ],
-                        "by_symbol": {},
+                        "by_symbol": {
+                            "MSFT": {
+                                "trades": 1,
+                                "pnl": -50.93,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "MSFT-12",
@@ -44009,14 +44018,28 @@
                                 "total_pnl": "88.6304",
                                 "balance": "100088.63",
                                 "notes": "TP1=273.40 TP2=276.35 SL=261.59 shares=8 risk\u00e2\u2030\u02c6$47.24 signal=2026-07-31 13:45:00 atr=3.3746 atr_pct=1.2683 volume_ratio=4.8953 ema_sep_atr=1.0758 ema_slope_atr=0.2611 alpaca_order=338a33fa-e7da-40da-ac79-d2cfdb0c3514 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-12",
+                                "timestamp": "2026-07-31 14:23:44",
+                                "symbol": "MSFT",
+                                "event": "SL_HIT",
+                                "side": "LONG",
+                                "price": "454.545",
+                                "shares": "10.0",
+                                "usd_qty": "4545.45",
+                                "pnl": "-50.933",
+                                "total_pnl": "-241.5241",
+                                "balance": "99758.48",
+                                "notes": "entry=459.64 exit=454.55 alpaca_order=38264c19-a770-45cf-86b3-f2168c55d0e9 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -50.0,
-                        "total_pnl_delta": -24.18,
-                        "trade_count_delta": -2,
+                        "total_pnl_delta": -75.11,
+                        "trade_count_delta": -1,
                         "direction": "declining"
                     }
                 },
@@ -44146,18 +44169,18 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 0,
+                        "total_trades": 1,
                         "win_count": 0,
-                        "loss_count": 0,
+                        "loss_count": 1,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
-                        "closed_position_pnl": 0,
-                        "avg_pnl_per_trade": 0.0,
+                        "loss_rate_pct": 100.0,
+                        "total_pnl": -50.93,
+                        "closed_position_pnl": -50.93,
+                        "avg_pnl_per_trade": -50.93,
                         "avg_win": 0.0,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "avg_loss": -50.93,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
                         "tp1_hit_count": 0,
                         "tp1_realized_pnl": 0,
@@ -44165,17 +44188,6 @@
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "MSFT-12",
-                                "symbol": "MSFT",
-                                "side": "LONG",
-                                "entry_price": 459.6383,
-                                "remaining": 10.0,
-                                "sl": 454.78,
-                                "tp1": 464.49,
-                                "tp2": 466.92,
-                                "last_event": "ENTRY_LONG"
-                            },
                             {
                                 "trade_id": "AMZN-6",
                                 "symbol": "AMZN",
@@ -44188,7 +44200,16 @@
                                 "last_event": "ENTRY_LONG"
                             }
                         ],
-                        "by_symbol": {},
+                        "by_symbol": {
+                            "MSFT": {
+                                "trades": 1,
+                                "pnl": -50.93,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "MSFT-12",
@@ -44217,31 +44238,45 @@
                                 "total_pnl": "88.6304",
                                 "balance": "100088.63",
                                 "notes": "TP1=273.40 TP2=276.35 SL=261.59 shares=8 risk\u00e2\u2030\u02c6$47.24 signal=2026-07-31 13:45:00 atr=3.3746 atr_pct=1.2683 volume_ratio=4.8953 ema_sep_atr=1.0758 ema_slope_atr=0.2611 alpaca_order=338a33fa-e7da-40da-ac79-d2cfdb0c3514 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-12",
+                                "timestamp": "2026-07-31 14:23:44",
+                                "symbol": "MSFT",
+                                "event": "SL_HIT",
+                                "side": "LONG",
+                                "price": "454.545",
+                                "shares": "10.0",
+                                "usd_qty": "4545.45",
+                                "pnl": "-50.933",
+                                "total_pnl": "-241.5241",
+                                "balance": "99758.48",
+                                "notes": "entry=459.64 exit=454.55 alpaca_order=38264c19-a770-45cf-86b3-f2168c55d0e9 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -50.0,
-                        "total_pnl_delta": -24.18,
-                        "trade_count_delta": -2,
+                        "total_pnl_delta": -75.11,
+                        "trade_count_delta": -1,
                         "direction": "declining"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 0,
+                "total_trades": 1,
                 "win_count": 0,
-                "loss_count": 0,
+                "loss_count": 1,
                 "breakeven_count": 0,
                 "win_rate_pct": 0.0,
-                "loss_rate_pct": 0.0,
-                "total_pnl": 0,
-                "closed_position_pnl": 0,
-                "avg_pnl_per_trade": 0.0,
+                "loss_rate_pct": 100.0,
+                "total_pnl": -50.93,
+                "closed_position_pnl": -50.93,
+                "avg_pnl_per_trade": -50.93,
                 "avg_win": 0.0,
-                "avg_loss": 0.0,
-                "realized_exit_count": 0,
+                "avg_loss": -50.93,
+                "realized_exit_count": 1,
                 "eod_close_count": 0,
                 "tp1_hit_count": 0,
                 "tp1_realized_pnl": 0,
@@ -44249,17 +44284,6 @@
                 "tp2_realized_pnl": 0,
                 "open_partial_count": 0,
                 "open_positions": [
-                    {
-                        "trade_id": "MSFT-12",
-                        "symbol": "MSFT",
-                        "side": "LONG",
-                        "entry_price": 459.6383,
-                        "remaining": 10.0,
-                        "sl": 454.78,
-                        "tp1": 464.49,
-                        "tp2": 466.92,
-                        "last_event": "ENTRY_LONG"
-                    },
                     {
                         "trade_id": "AMZN-6",
                         "symbol": "AMZN",
@@ -44272,7 +44296,16 @@
                         "last_event": "ENTRY_LONG"
                     }
                 ],
-                "by_symbol": {},
+                "by_symbol": {
+                    "MSFT": {
+                        "trades": 1,
+                        "pnl": -50.93,
+                        "wins": 0,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    }
+                },
                 "recent_trades": [
                     {
                         "trade_id": "MSFT-12",
@@ -44301,6 +44334,20 @@
                         "total_pnl": "88.6304",
                         "balance": "100088.63",
                         "notes": "TP1=273.40 TP2=276.35 SL=261.59 shares=8 risk\u00e2\u2030\u02c6$47.24 signal=2026-07-31 13:45:00 atr=3.3746 atr_pct=1.2683 volume_ratio=4.8953 ema_sep_atr=1.0758 ema_slope_atr=0.2611 alpaca_order=338a33fa-e7da-40da-ac79-d2cfdb0c3514 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "MSFT-12",
+                        "timestamp": "2026-07-31 14:23:44",
+                        "symbol": "MSFT",
+                        "event": "SL_HIT",
+                        "side": "LONG",
+                        "price": "454.545",
+                        "shares": "10.0",
+                        "usd_qty": "4545.45",
+                        "pnl": "-50.933",
+                        "total_pnl": "-241.5241",
+                        "balance": "99758.48",
+                        "notes": "entry=459.64 exit=454.55 alpaca_order=38264c19-a770-45cf-86b3-f2168c55d0e9 status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -44318,8 +44365,8 @@
             "trend": {
                 "has_previous_day": true,
                 "win_rate_delta_pct": -50.0,
-                "total_pnl_delta": -24.18,
-                "trade_count_delta": -2,
+                "total_pnl_delta": -75.11,
+                "trade_count_delta": -1,
                 "direction": "declining"
             }
         }
