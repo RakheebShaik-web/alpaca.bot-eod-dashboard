@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-31T16:28:30.387275+00:00",
+    "generated_at": "2026-07-31T17:01:09.535966+00:00",
     "latest_date": "2026-07-31",
     "days": [
         {
@@ -44124,6 +44124,17 @@
                                 "tp1": 273.47,
                                 "tp2": 276.42,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "UNH-7",
+                                "symbol": "UNH",
+                                "side": "SHORT",
+                                "entry_price": 419.09,
+                                "remaining": 19.0,
+                                "sl": 421.61,
+                                "tp1": 416.57,
+                                "tp2": 415.31,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -44228,6 +44239,20 @@
                                 "total_pnl": "96.56",
                                 "balance": "100096.56",
                                 "notes": "entry=347.58 exit=353.90 alpaca_order=f5d7f731-760f-472a-8a65-0289d35e65f1 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "UNH-7",
+                                "timestamp": "2026-07-31 17:01:05",
+                                "symbol": "UNH",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "419.09",
+                                "shares": "19.0",
+                                "usd_qty": "7962.71",
+                                "pnl": "0.0",
+                                "total_pnl": "18.13",
+                                "balance": "100018.13",
+                                "notes": "TP1=416.57 TP2=415.31 SL=421.61 shares=19 risk\u00e2\u2030\u02c6$47.90 signal=2026-07-31 17:00:00 atr=1.4407 atr_pct=0.3438 volume_ratio=1.0247 ema_sep_atr=0.7604 ema_slope_atr=-0.0628 alpaca_order=83cbef4e-92e0-4f56-8143-a51238b03d8d status=OrderStatus.FILLED"
                             }
                         ]
                     },
