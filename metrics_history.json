@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-31T14:31:24.639759+00:00",
+    "generated_at": "2026-07-31T14:53:53.523491+00:00",
     "latest_date": "2026-07-31",
     "days": [
         {
@@ -43944,18 +43944,18 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -50.93,
+                        "total_pnl": -24.71,
                         "closed_position_pnl": -50.93,
                         "avg_pnl_per_trade": -50.93,
                         "avg_win": 0.0,
                         "avg_loss": -50.93,
-                        "realized_exit_count": 1,
+                        "realized_exit_count": 2,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 26.22,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 1,
+                        "open_partial_count": 2,
                         "open_positions": [
                             {
                                 "trade_id": "AMZN-6",
@@ -43967,6 +43967,17 @@
                                 "tp1": 273.3964,
                                 "tp2": 276.3492,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "GOOGL-3",
+                                "symbol": "GOOGL",
+                                "side": "LONG",
+                                "entry_price": 347.63,
+                                "remaining": 12.0,
+                                "sl": 343.4812,
+                                "tp1": 351.7788,
+                                "tp2": 353.8531,
+                                "last_event": "TP1_HIT"
                             }
                         ],
                         "by_symbol": {
@@ -43977,6 +43988,14 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
+                            },
+                            "GOOGL": {
+                                "trades": 0,
+                                "pnl": 26.22,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -44035,13 +44054,27 @@
                                 "total_pnl": "6.64",
                                 "balance": "100006.64",
                                 "notes": "TP1=351.78 TP2=353.85 SL=343.48 shares=12 risk\u00e2\u2030\u02c6$49.79 signal=2026-07-31 14:30:00 atr=2.3707 atr_pct=0.6821 volume_ratio=1.2869 ema_sep_atr=0.9127 ema_slope_atr=0.4122 alpaca_order=4bcacd35-fd22-4e4d-88ff-bd88e490f4d5 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "GOOGL-3",
+                                "timestamp": "2026-07-31 14:53:52",
+                                "symbol": "GOOGL",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "352.0",
+                                "shares": "6.0",
+                                "usd_qty": "2112.0",
+                                "pnl": "26.22",
+                                "total_pnl": "32.86",
+                                "balance": "100032.86",
+                                "notes": "remaining=6 shares alpaca_order=905a9506-933a-44d7-be70-aa6bb2178dbf status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -50.0,
-                        "total_pnl_delta": -75.11,
+                        "total_pnl_delta": -48.89,
                         "trade_count_delta": -1,
                         "direction": "declining"
                     }
@@ -44203,18 +44236,18 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -50.93,
+                        "total_pnl": -24.71,
                         "closed_position_pnl": -50.93,
                         "avg_pnl_per_trade": -50.93,
                         "avg_win": 0.0,
                         "avg_loss": -50.93,
-                        "realized_exit_count": 1,
+                        "realized_exit_count": 2,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 26.22,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "AMZN-6",
@@ -44232,11 +44265,11 @@
                                 "symbol": "GOOGL",
                                 "side": "LONG",
                                 "entry_price": 347.63,
-                                "remaining": 12.0,
+                                "remaining": 6.0,
                                 "sl": 343.48,
                                 "tp1": 351.78,
                                 "tp2": 353.85,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "TP1_HIT"
                             }
                         ],
                         "by_symbol": {
@@ -44247,6 +44280,14 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
+                            },
+                            "GOOGL": {
+                                "trades": 0,
+                                "pnl": 26.22,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -44305,13 +44346,27 @@
                                 "total_pnl": "6.64",
                                 "balance": "100006.64",
                                 "notes": "TP1=351.78 TP2=353.85 SL=343.48 shares=12 risk\u00e2\u2030\u02c6$49.79 signal=2026-07-31 14:30:00 atr=2.3707 atr_pct=0.6821 volume_ratio=1.2869 ema_sep_atr=0.9127 ema_slope_atr=0.4122 alpaca_order=4bcacd35-fd22-4e4d-88ff-bd88e490f4d5 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "GOOGL-3",
+                                "timestamp": "2026-07-31 14:53:52",
+                                "symbol": "GOOGL",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "352.0",
+                                "shares": "6.0",
+                                "usd_qty": "2112.0",
+                                "pnl": "26.22",
+                                "total_pnl": "32.86",
+                                "balance": "100032.86",
+                                "notes": "remaining=6 shares alpaca_order=905a9506-933a-44d7-be70-aa6bb2178dbf status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -50.0,
-                        "total_pnl_delta": -75.11,
+                        "total_pnl_delta": -48.89,
                         "trade_count_delta": -1,
                         "direction": "declining"
                     }
@@ -44324,18 +44379,18 @@
                 "breakeven_count": 0,
                 "win_rate_pct": 0.0,
                 "loss_rate_pct": 100.0,
-                "total_pnl": -50.93,
+                "total_pnl": -24.71,
                 "closed_position_pnl": -50.93,
                 "avg_pnl_per_trade": -50.93,
                 "avg_win": 0.0,
                 "avg_loss": -50.93,
-                "realized_exit_count": 1,
+                "realized_exit_count": 2,
                 "eod_close_count": 0,
-                "tp1_hit_count": 0,
-                "tp1_realized_pnl": 0,
+                "tp1_hit_count": 1,
+                "tp1_realized_pnl": 26.22,
                 "tp2_hit_count": 0,
                 "tp2_realized_pnl": 0,
-                "open_partial_count": 0,
+                "open_partial_count": 1,
                 "open_positions": [
                     {
                         "trade_id": "AMZN-6",
@@ -44353,11 +44408,11 @@
                         "symbol": "GOOGL",
                         "side": "LONG",
                         "entry_price": 347.63,
-                        "remaining": 12.0,
+                        "remaining": 6.0,
                         "sl": 343.48,
                         "tp1": 351.78,
                         "tp2": 353.85,
-                        "last_event": "ENTRY_LONG"
+                        "last_event": "TP1_HIT"
                     }
                 ],
                 "by_symbol": {
@@ -44368,6 +44423,14 @@
                         "losses": 1,
                         "breakeven": 0,
                         "open_partial": 0
+                    },
+                    "GOOGL": {
+                        "trades": 0,
+                        "pnl": 26.22,
+                        "wins": 0,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 1
                     }
                 },
                 "recent_trades": [
@@ -44426,6 +44489,20 @@
                         "total_pnl": "6.64",
                         "balance": "100006.64",
                         "notes": "TP1=351.78 TP2=353.85 SL=343.48 shares=12 risk\u00e2\u2030\u02c6$49.79 signal=2026-07-31 14:30:00 atr=2.3707 atr_pct=0.6821 volume_ratio=1.2869 ema_sep_atr=0.9127 ema_slope_atr=0.4122 alpaca_order=4bcacd35-fd22-4e4d-88ff-bd88e490f4d5 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "GOOGL-3",
+                        "timestamp": "2026-07-31 14:53:52",
+                        "symbol": "GOOGL",
+                        "event": "TP1_HIT",
+                        "side": "LONG",
+                        "price": "352.0",
+                        "shares": "6.0",
+                        "usd_qty": "2112.0",
+                        "pnl": "26.22",
+                        "total_pnl": "32.86",
+                        "balance": "100032.86",
+                        "notes": "remaining=6 shares alpaca_order=905a9506-933a-44d7-be70-aa6bb2178dbf status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -44443,7 +44520,7 @@
             "trend": {
                 "has_previous_day": true,
                 "win_rate_delta_pct": -50.0,
-                "total_pnl_delta": -75.11,
+                "total_pnl_delta": -48.89,
                 "trade_count_delta": -1,
                 "direction": "declining"
             }
