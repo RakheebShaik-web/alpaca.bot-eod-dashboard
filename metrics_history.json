@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-31T17:01:38.123705+00:00",
+    "generated_at": "2026-07-31T19:53:41.537354+00:00",
     "latest_date": "2026-07-31",
     "days": [
         {
@@ -44098,36 +44098,25 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 2,
-                        "win_count": 1,
+                        "total_trades": 3,
+                        "win_count": 2,
                         "loss_count": 1,
                         "breakeven_count": 0,
-                        "win_rate_pct": 50.0,
-                        "loss_rate_pct": 50.0,
-                        "total_pnl": 16.55,
-                        "closed_position_pnl": 16.55,
-                        "avg_pnl_per_trade": 8.28,
-                        "avg_win": 63.73,
+                        "win_rate_pct": 66.67,
+                        "loss_rate_pct": 33.33,
+                        "total_pnl": 60.58,
+                        "closed_position_pnl": 60.58,
+                        "avg_pnl_per_trade": 20.19,
+                        "avg_win": 53.88,
                         "avg_loss": -47.18,
-                        "realized_exit_count": 3,
-                        "eod_close_count": 0,
+                        "realized_exit_count": 4,
+                        "eod_close_count": 1,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 25.77,
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 37.97,
                         "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "AMZN-9",
-                                "symbol": "AMZN",
-                                "side": "LONG",
-                                "entry_price": 267.5663,
-                                "remaining": 8.0,
-                                "sl": 261.66,
-                                "tp1": 273.47,
-                                "tp2": 276.42,
-                                "last_event": "ENTRY_LONG"
-                            },
                             {
                                 "trade_id": "UNH-7",
                                 "symbol": "UNH",
@@ -44146,6 +44135,14 @@
                                 "pnl": -47.18,
                                 "wins": 0,
                                 "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "AMZN": {
+                                "trades": 1,
+                                "pnl": 44.03,
+                                "wins": 1,
+                                "losses": 0,
                                 "breakeven": 0,
                                 "open_partial": 0
                             },
@@ -44256,14 +44253,28 @@
                                 "total_pnl": "18.13",
                                 "balance": "100018.13",
                                 "notes": "TP1=416.57 TP2=415.31 SL=421.61 shares=19 risk\u00e2\u2030\u02c6$47.90 signal=2026-07-31 17:00:00 atr=1.4407 atr_pct=0.3438 volume_ratio=1.0247 ema_sep_atr=0.7604 ema_slope_atr=-0.0628 alpaca_order=83cbef4e-92e0-4f56-8143-a51238b03d8d status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMZN-9",
+                                "timestamp": "2026-07-31 19:53:37",
+                                "symbol": "AMZN",
+                                "event": "CLOSE_EOD",
+                                "side": "LONG",
+                                "price": "273.07",
+                                "shares": "8.0",
+                                "usd_qty": "2184.56",
+                                "pnl": "44.03",
+                                "total_pnl": "-17.8766",
+                                "balance": "99982.12",
+                                "notes": "entry=267.57 exit=273.07 alpaca_order=143f7c21-f7ab-437e-98a0-3cfcb12cf40d status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 16.67,
-                        "total_pnl_delta": 54.76,
-                        "trade_count_delta": -1,
+                        "win_rate_delta_pct": 33.34,
+                        "total_pnl_delta": 98.79,
+                        "trade_count_delta": 0,
                         "direction": "improving"
                     }
                 },
