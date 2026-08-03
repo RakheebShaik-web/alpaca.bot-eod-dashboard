@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-03T18:46:52.305807+00:00",
+    "generated_at": "2026-08-03T19:50:42.119348+00:00",
     "latest_date": "2026-08-03",
     "days": [
         {
@@ -44936,36 +44936,25 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 3,
+                        "total_trades": 4,
                         "win_count": 1,
-                        "loss_count": 2,
+                        "loss_count": 3,
                         "breakeven_count": 0,
-                        "win_rate_pct": 33.33,
-                        "loss_rate_pct": 66.67,
-                        "total_pnl": -30.19,
-                        "closed_position_pnl": -30.19,
-                        "avg_pnl_per_trade": -10.06,
+                        "win_rate_pct": 25.0,
+                        "loss_rate_pct": 75.0,
+                        "total_pnl": -30.51,
+                        "closed_position_pnl": -30.51,
+                        "avg_pnl_per_trade": -7.63,
                         "avg_win": 66.13,
-                        "avg_loss": -48.16,
-                        "realized_exit_count": 4,
-                        "eod_close_count": 0,
+                        "avg_loss": -32.21,
+                        "realized_exit_count": 5,
+                        "eod_close_count": 1,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 28.39,
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 37.73,
                         "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "AAPL-9",
-                                "symbol": "AAPL",
-                                "side": "SHORT",
-                                "entry_price": 304.05,
-                                "remaining": 13.0,
-                                "sl": 307.68,
-                                "tp1": 300.42,
-                                "tp2": 298.61,
-                                "last_event": "ENTRY_SHORT"
-                            },
                             {
                                 "trade_id": "AMZN-10",
                                 "symbol": "AMZN",
@@ -44991,6 +44980,14 @@
                                 "trades": 2,
                                 "pnl": 17.39,
                                 "wins": 1,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "AAPL": {
+                                "trades": 1,
+                                "pnl": -0.32,
+                                "wins": 0,
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
@@ -45122,14 +45119,28 @@
                                 "total_pnl": "-17.8766",
                                 "balance": "99982.12",
                                 "notes": "TP1=285.61 TP2=286.51 SL=282.03 shares=27 risk\u00e2\u2030\u02c6$48.40 signal=2026-08-03 18:45:00 atr=1.0243 atr_pct=0.3608 volume_ratio=1.1225 ema_sep_atr=9.0519 ema_slope_atr=0.1143 alpaca_order=2a1a2537-870e-46d6-b1b3-8743d6133b73 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AAPL-9",
+                                "timestamp": "2026-08-03 19:50:38",
+                                "symbol": "AAPL",
+                                "event": "CLOSE_EOD",
+                                "side": "SHORT",
+                                "price": "304.0746",
+                                "shares": "13.0",
+                                "usd_qty": "3952.97",
+                                "pnl": "-0.32",
+                                "total_pnl": "14.88",
+                                "balance": "100014.88",
+                                "notes": "entry=304.05 exit=304.07 alpaca_order=5a8d65ff-e725-4ac8-bafb-53be618a9e81 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -41.67,
-                        "total_pnl_delta": -151.38,
-                        "trade_count_delta": -1,
+                        "win_rate_delta_pct": -50.0,
+                        "total_pnl_delta": -151.7,
+                        "trade_count_delta": 0,
                         "direction": "declining"
                     }
                 },
