@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-03T17:05:05.769627+00:00",
+    "generated_at": "2026-08-03T18:45:31.113380+00:00",
     "latest_date": "2026-08-03",
     "days": [
         {
@@ -44765,7 +44765,7 @@
                         "tp1_realized_pnl": 23.32,
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 39.34,
-                        "open_partial_count": 2,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "AAPL-17",
@@ -44777,17 +44777,6 @@
                                 "tp1": 300.452,
                                 "tp2": 298.6379,
                                 "last_event": "ENTRY_SHORT"
-                            },
-                            {
-                                "trade_id": "TSLA-12",
-                                "symbol": "TSLA",
-                                "side": "LONG",
-                                "entry_price": 323.7,
-                                "remaining": 12.0,
-                                "sl": 319.6238,
-                                "tp1": 327.7762,
-                                "tp2": 329.8144,
-                                "last_event": "SL_HIT"
                             }
                         ],
                         "by_symbol": {
@@ -44920,6 +44909,20 @@
                                 "total_pnl": "-113.9711",
                                 "balance": "99886.03",
                                 "notes": "entry=323.70 exit=319.52 alpaca_order=4eacbf43-012b-4edb-b970-26f8b9d43ffd status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMZN-7",
+                                "timestamp": "2026-08-03 18:45:30",
+                                "symbol": "AMZN",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "283.915",
+                                "shares": "27.0",
+                                "usd_qty": "7665.71",
+                                "pnl": "0.0",
+                                "total_pnl": "132.3848",
+                                "balance": "100132.38",
+                                "notes": "TP1=285.71 TP2=286.60 SL=282.12 shares=27 risk\u00e2\u2030\u02c6$48.40 signal=2026-08-03 18:45:00 atr=1.0243 atr_pct=0.3608 volume_ratio=1.1225 ema_sep_atr=9.0519 ema_slope_atr=0.1143 alpaca_order=5284e233-2dea-48f7-beaa-85f30b4a1af9 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -45164,6 +45167,17 @@
                                 "tp1": 300.45,
                                 "tp2": 298.64,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "AMZN-7",
+                                "symbol": "AMZN",
+                                "side": "LONG",
+                                "entry_price": 283.915,
+                                "remaining": 27.0,
+                                "sl": 282.12,
+                                "tp1": 285.71,
+                                "tp2": 286.6,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -45296,6 +45310,20 @@
                                 "total_pnl": "-113.9711",
                                 "balance": "99886.03",
                                 "notes": "entry=323.70 exit=319.52 alpaca_order=4eacbf43-012b-4edb-b970-26f8b9d43ffd status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMZN-7",
+                                "timestamp": "2026-08-03 18:45:30",
+                                "symbol": "AMZN",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "283.915",
+                                "shares": "27.0",
+                                "usd_qty": "7665.71",
+                                "pnl": "0.0",
+                                "total_pnl": "132.3848",
+                                "balance": "100132.38",
+                                "notes": "TP1=285.71 TP2=286.60 SL=282.12 shares=27 risk\u00e2\u2030\u02c6$48.40 signal=2026-08-03 18:45:00 atr=1.0243 atr_pct=0.3608 volume_ratio=1.1225 ema_sep_atr=9.0519 ema_slope_atr=0.1143 alpaca_order=5284e233-2dea-48f7-beaa-85f30b4a1af9 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -45338,6 +45366,17 @@
                         "tp1": 300.45,
                         "tp2": 298.64,
                         "last_event": "ENTRY_SHORT"
+                    },
+                    {
+                        "trade_id": "AMZN-7",
+                        "symbol": "AMZN",
+                        "side": "LONG",
+                        "entry_price": 283.915,
+                        "remaining": 27.0,
+                        "sl": 282.12,
+                        "tp1": 285.71,
+                        "tp2": 286.6,
+                        "last_event": "ENTRY_LONG"
                     }
                 ],
                 "by_symbol": {
@@ -45470,6 +45509,20 @@
                         "total_pnl": "-113.9711",
                         "balance": "99886.03",
                         "notes": "entry=323.70 exit=319.52 alpaca_order=4eacbf43-012b-4edb-b970-26f8b9d43ffd status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "AMZN-7",
+                        "timestamp": "2026-08-03 18:45:30",
+                        "symbol": "AMZN",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "283.915",
+                        "shares": "27.0",
+                        "usd_qty": "7665.71",
+                        "pnl": "0.0",
+                        "total_pnl": "132.3848",
+                        "balance": "100132.38",
+                        "notes": "TP1=285.71 TP2=286.60 SL=282.12 shares=27 risk\u00e2\u2030\u02c6$48.40 signal=2026-08-03 18:45:00 atr=1.0243 atr_pct=0.3608 volume_ratio=1.1225 ema_sep_atr=9.0519 ema_slope_atr=0.1143 alpaca_order=5284e233-2dea-48f7-beaa-85f30b4a1af9 status=OrderStatus.FILLED"
                     }
                 ]
             },
