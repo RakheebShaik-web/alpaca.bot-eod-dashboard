@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-03T15:30:57.205185+00:00",
+    "generated_at": "2026-08-03T15:31:07.069897+00:00",
     "latest_date": "2026-08-03",
     "days": [
         {
@@ -44900,7 +44900,19 @@
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 37.73,
                         "open_partial_count": 0,
-                        "open_positions": [],
+                        "open_positions": [
+                            {
+                                "trade_id": "AAPL-9",
+                                "symbol": "AAPL",
+                                "side": "SHORT",
+                                "entry_price": 304.05,
+                                "remaining": 13.0,
+                                "sl": 307.68,
+                                "tp1": 300.42,
+                                "tp2": 298.61,
+                                "last_event": "ENTRY_SHORT"
+                            }
+                        ],
                         "by_symbol": {
                             "MSFT": {
                                 "trades": 1,
@@ -44989,6 +45001,20 @@
                                 "total_pnl": "227.08",
                                 "balance": "100227.08",
                                 "notes": "entry=317.73 exit=323.12 alpaca_order=5415bbe1-ba17-441d-abd8-93240665d2b5 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AAPL-9",
+                                "timestamp": "2026-08-03 15:31:03",
+                                "symbol": "AAPL",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "304.05",
+                                "shares": "13.0",
+                                "usd_qty": "3952.65",
+                                "pnl": "0.0",
+                                "total_pnl": "15.2",
+                                "balance": "100015.2",
+                                "notes": "TP1=300.42 TP2=298.61 SL=307.68 shares=13 risk\u00e2\u2030\u02c6$47.17 signal=2026-08-03 15:30:00 atr=2.0732 atr_pct=0.6815 volume_ratio=1.4965 ema_sep_atr=3.0787 ema_slope_atr=-0.0384 alpaca_order=b395027c-2aa9-41be-a061-c3f4f0b6098d status=OrderStatus.FILLED"
                             }
                         ]
                     },
