@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-03T19:50:42.119348+00:00",
+    "generated_at": "2026-08-03T19:51:41.715083+00:00",
     "latest_date": "2026-08-03",
     "days": [
         {
@@ -44936,37 +44936,25 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 4,
-                        "win_count": 1,
+                        "total_trades": 5,
+                        "win_count": 2,
                         "loss_count": 3,
                         "breakeven_count": 0,
-                        "win_rate_pct": 25.0,
-                        "loss_rate_pct": 75.0,
-                        "total_pnl": -30.51,
-                        "closed_position_pnl": -30.51,
-                        "avg_pnl_per_trade": -7.63,
-                        "avg_win": 66.13,
+                        "win_rate_pct": 40.0,
+                        "loss_rate_pct": 60.0,
+                        "total_pnl": 8.37,
+                        "closed_position_pnl": 8.37,
+                        "avg_pnl_per_trade": 1.67,
+                        "avg_win": 52.5,
                         "avg_loss": -32.21,
-                        "realized_exit_count": 5,
-                        "eod_close_count": 1,
+                        "realized_exit_count": 6,
+                        "eod_close_count": 2,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 28.39,
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 37.73,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "AMZN-10",
-                                "symbol": "AMZN",
-                                "side": "LONG",
-                                "entry_price": 283.82,
-                                "remaining": 27.0,
-                                "sl": 282.03,
-                                "tp1": 285.61,
-                                "tp2": 286.51,
-                                "last_event": "ENTRY_LONG"
-                            }
-                        ],
+                        "open_positions": [],
                         "by_symbol": {
                             "MSFT": {
                                 "trades": 1,
@@ -44989,6 +44977,14 @@
                                 "pnl": -0.32,
                                 "wins": 0,
                                 "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "AMZN": {
+                                "trades": 1,
+                                "pnl": 38.88,
+                                "wins": 1,
+                                "losses": 0,
                                 "breakeven": 0,
                                 "open_partial": 0
                             }
@@ -45133,14 +45129,28 @@
                                 "total_pnl": "14.88",
                                 "balance": "100014.88",
                                 "notes": "entry=304.05 exit=304.07 alpaca_order=5a8d65ff-e725-4ac8-bafb-53be618a9e81 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMZN-10",
+                                "timestamp": "2026-08-03 19:51:01",
+                                "symbol": "AMZN",
+                                "event": "CLOSE_EOD",
+                                "side": "LONG",
+                                "price": "285.26",
+                                "shares": "27.0",
+                                "usd_qty": "7702.02",
+                                "pnl": "38.88",
+                                "total_pnl": "21.0034",
+                                "balance": "100021.0",
+                                "notes": "entry=283.82 exit=285.26 alpaca_order=b3eeef14-f826-4df8-9087-8b1e19a75218 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -50.0,
-                        "total_pnl_delta": -151.7,
-                        "trade_count_delta": 0,
+                        "win_rate_delta_pct": -35.0,
+                        "total_pnl_delta": -112.82,
+                        "trade_count_delta": 1,
                         "direction": "declining"
                     }
                 },
