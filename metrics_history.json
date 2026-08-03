@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-03T18:45:31.113380+00:00",
+    "generated_at": "2026-08-03T18:46:52.305807+00:00",
     "latest_date": "2026-08-03",
     "days": [
         {
@@ -44965,6 +44965,17 @@
                                 "tp1": 300.42,
                                 "tp2": 298.61,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "AMZN-10",
+                                "symbol": "AMZN",
+                                "side": "LONG",
+                                "entry_price": 283.82,
+                                "remaining": 27.0,
+                                "sl": 282.03,
+                                "tp1": 285.61,
+                                "tp2": 286.51,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -45097,6 +45108,20 @@
                                 "total_pnl": "178.34",
                                 "balance": "100178.34",
                                 "notes": "entry=323.68 exit=319.62 alpaca_order=9529c4e2-da30-46eb-ac6d-09babd55e66b status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMZN-10",
+                                "timestamp": "2026-08-03 18:46:48",
+                                "symbol": "AMZN",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "283.82",
+                                "shares": "27.0",
+                                "usd_qty": "7663.14",
+                                "pnl": "0.0",
+                                "total_pnl": "-17.8766",
+                                "balance": "99982.12",
+                                "notes": "TP1=285.61 TP2=286.51 SL=282.03 shares=27 risk\u00e2\u2030\u02c6$48.40 signal=2026-08-03 18:45:00 atr=1.0243 atr_pct=0.3608 volume_ratio=1.1225 ema_sep_atr=9.0519 ema_slope_atr=0.1143 alpaca_order=2a1a2537-870e-46d6-b1b3-8743d6133b73 status=OrderStatus.FILLED"
                             }
                         ]
                     },
