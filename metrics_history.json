@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-03T15:31:07.069897+00:00",
+    "generated_at": "2026-08-03T15:32:06.757921+00:00",
     "latest_date": "2026-08-03",
     "days": [
         {
@@ -44911,6 +44911,17 @@
                                 "tp1": 300.42,
                                 "tp2": 298.61,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "TSLA-11",
+                                "symbol": "TSLA",
+                                "side": "LONG",
+                                "entry_price": 323.6817,
+                                "remaining": 12.0,
+                                "sl": 319.61,
+                                "tp1": 327.76,
+                                "tp2": 329.8,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -45015,6 +45026,20 @@
                                 "total_pnl": "15.2",
                                 "balance": "100015.2",
                                 "notes": "TP1=300.42 TP2=298.61 SL=307.68 shares=13 risk\u00e2\u2030\u02c6$47.17 signal=2026-08-03 15:30:00 atr=2.0732 atr_pct=0.6815 volume_ratio=1.4965 ema_sep_atr=3.0787 ema_slope_atr=-0.0384 alpaca_order=b395027c-2aa9-41be-a061-c3f4f0b6098d status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "TSLA-11",
+                                "timestamp": "2026-08-03 15:31:36",
+                                "symbol": "TSLA",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "323.6817",
+                                "shares": "12.0",
+                                "usd_qty": "3884.18",
+                                "pnl": "0.0",
+                                "total_pnl": "227.08",
+                                "balance": "100227.08",
+                                "notes": "TP1=327.76 TP2=329.80 SL=319.61 shares=12 risk\u00e2\u2030\u02c6$48.91 signal=2026-08-03 15:30:00 atr=2.3293 atr_pct=0.7208 volume_ratio=1.3214 ema_sep_atr=1.7756 ema_slope_atr=0.3438 alpaca_order=fc48ce06-50b1-453e-b98d-39b401fa49d8 status=OrderStatus.FILLED"
                             }
                         ]
                     },
