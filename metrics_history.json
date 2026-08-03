@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-03T19:51:41.715083+00:00",
+    "generated_at": "2026-08-03T19:51:46.908545+00:00",
     "latest_date": "2026-08-03",
     "days": [
         {
@@ -44748,24 +44748,24 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 3,
-                        "win_count": 1,
+                        "total_trades": 4,
+                        "win_count": 2,
                         "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 33.33,
-                        "loss_rate_pct": 66.67,
-                        "total_pnl": -35.34,
-                        "closed_position_pnl": -35.34,
-                        "avg_pnl_per_trade": -11.78,
-                        "avg_win": 62.66,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": -27.15,
+                        "closed_position_pnl": -27.15,
+                        "avg_pnl_per_trade": -6.79,
+                        "avg_win": 35.43,
                         "avg_loss": -49.0,
-                        "realized_exit_count": 4,
-                        "eod_close_count": 0,
+                        "realized_exit_count": 5,
+                        "eod_close_count": 1,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 23.32,
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 39.34,
-                        "open_partial_count": 1,
+                        "open_partial_count": 2,
                         "open_positions": [
                             {
                                 "trade_id": "AAPL-17",
@@ -44776,7 +44776,18 @@
                                 "sl": 307.7082,
                                 "tp1": 300.452,
                                 "tp2": 298.6379,
-                                "last_event": "ENTRY_SHORT"
+                                "last_event": "CLOSE_EOD"
+                            },
+                            {
+                                "trade_id": "AMZN-7",
+                                "symbol": "AMZN",
+                                "side": "LONG",
+                                "entry_price": 283.915,
+                                "remaining": 27.0,
+                                "sl": 282.1225,
+                                "tp1": 285.7075,
+                                "tp2": 286.6037,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -44793,6 +44804,14 @@
                                 "pnl": 12.47,
                                 "wins": 1,
                                 "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "AAPL": {
+                                "trades": 1,
+                                "pnl": 8.19,
+                                "wins": 1,
+                                "losses": 0,
                                 "breakeven": 0,
                                 "open_partial": 0
                             }
@@ -44923,14 +44942,28 @@
                                 "total_pnl": "132.3848",
                                 "balance": "100132.38",
                                 "notes": "TP1=285.71 TP2=286.60 SL=282.12 shares=27 risk\u00e2\u2030\u02c6$48.40 signal=2026-08-03 18:45:00 atr=1.0243 atr_pct=0.3608 volume_ratio=1.1225 ema_sep_atr=9.0519 ema_slope_atr=0.1143 alpaca_order=5284e233-2dea-48f7-beaa-85f30b4a1af9 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AAPL-17",
+                                "timestamp": "2026-08-03 19:51:46",
+                                "symbol": "AAPL",
+                                "event": "CLOSE_EOD",
+                                "side": "SHORT",
+                                "price": "303.4498",
+                                "shares": "13.0",
+                                "usd_qty": "3944.85",
+                                "pnl": "8.1939",
+                                "total_pnl": "-42.2748",
+                                "balance": "99957.73",
+                                "notes": "entry=304.08 exit=303.45 alpaca_order=55e41488-48f6-4fb8-8868-eacb2861d712 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -41.67,
-                        "total_pnl_delta": -155.88,
-                        "trade_count_delta": -1,
+                        "win_rate_delta_pct": -25.0,
+                        "total_pnl_delta": -147.69,
+                        "trade_count_delta": 0,
                         "direction": "declining"
                     }
                 },
@@ -45184,36 +45217,25 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 3,
-                        "win_count": 1,
+                        "total_trades": 4,
+                        "win_count": 2,
                         "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 33.33,
-                        "loss_rate_pct": 66.67,
-                        "total_pnl": -35.34,
-                        "closed_position_pnl": -35.34,
-                        "avg_pnl_per_trade": -11.78,
-                        "avg_win": 62.66,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": -27.15,
+                        "closed_position_pnl": -27.15,
+                        "avg_pnl_per_trade": -6.79,
+                        "avg_win": 35.43,
                         "avg_loss": -49.0,
-                        "realized_exit_count": 4,
-                        "eod_close_count": 0,
+                        "realized_exit_count": 5,
+                        "eod_close_count": 1,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 23.32,
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 39.34,
                         "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "AAPL-17",
-                                "symbol": "AAPL",
-                                "side": "SHORT",
-                                "entry_price": 304.0801,
-                                "remaining": 13.0,
-                                "sl": 307.71,
-                                "tp1": 300.45,
-                                "tp2": 298.64,
-                                "last_event": "ENTRY_SHORT"
-                            },
                             {
                                 "trade_id": "AMZN-7",
                                 "symbol": "AMZN",
@@ -45240,6 +45262,14 @@
                                 "pnl": 12.47,
                                 "wins": 1,
                                 "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "AAPL": {
+                                "trades": 1,
+                                "pnl": 8.19,
+                                "wins": 1,
+                                "losses": 0,
                                 "breakeven": 0,
                                 "open_partial": 0
                             }
@@ -45370,49 +45400,52 @@
                                 "total_pnl": "132.3848",
                                 "balance": "100132.38",
                                 "notes": "TP1=285.71 TP2=286.60 SL=282.12 shares=27 risk\u00e2\u2030\u02c6$48.40 signal=2026-08-03 18:45:00 atr=1.0243 atr_pct=0.3608 volume_ratio=1.1225 ema_sep_atr=9.0519 ema_slope_atr=0.1143 alpaca_order=5284e233-2dea-48f7-beaa-85f30b4a1af9 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AAPL-17",
+                                "timestamp": "2026-08-03 19:51:46",
+                                "symbol": "AAPL",
+                                "event": "CLOSE_EOD",
+                                "side": "SHORT",
+                                "price": "303.4498",
+                                "shares": "13.0",
+                                "usd_qty": "3944.85",
+                                "pnl": "8.1939",
+                                "total_pnl": "-42.2748",
+                                "balance": "99957.73",
+                                "notes": "entry=304.08 exit=303.45 alpaca_order=55e41488-48f6-4fb8-8868-eacb2861d712 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -41.67,
-                        "total_pnl_delta": -155.88,
-                        "trade_count_delta": -1,
+                        "win_rate_delta_pct": -25.0,
+                        "total_pnl_delta": -147.69,
+                        "trade_count_delta": 0,
                         "direction": "declining"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 3,
-                "win_count": 1,
+                "total_trades": 4,
+                "win_count": 2,
                 "loss_count": 2,
                 "breakeven_count": 0,
-                "win_rate_pct": 33.33,
-                "loss_rate_pct": 66.67,
-                "total_pnl": -35.34,
-                "closed_position_pnl": -35.34,
-                "avg_pnl_per_trade": -11.78,
-                "avg_win": 62.66,
+                "win_rate_pct": 50.0,
+                "loss_rate_pct": 50.0,
+                "total_pnl": -27.15,
+                "closed_position_pnl": -27.15,
+                "avg_pnl_per_trade": -6.79,
+                "avg_win": 35.43,
                 "avg_loss": -49.0,
-                "realized_exit_count": 4,
-                "eod_close_count": 0,
+                "realized_exit_count": 5,
+                "eod_close_count": 1,
                 "tp1_hit_count": 1,
                 "tp1_realized_pnl": 23.32,
                 "tp2_hit_count": 1,
                 "tp2_realized_pnl": 39.34,
                 "open_partial_count": 0,
                 "open_positions": [
-                    {
-                        "trade_id": "AAPL-17",
-                        "symbol": "AAPL",
-                        "side": "SHORT",
-                        "entry_price": 304.0801,
-                        "remaining": 13.0,
-                        "sl": 307.71,
-                        "tp1": 300.45,
-                        "tp2": 298.64,
-                        "last_event": "ENTRY_SHORT"
-                    },
                     {
                         "trade_id": "AMZN-7",
                         "symbol": "AMZN",
@@ -45439,6 +45472,14 @@
                         "pnl": 12.47,
                         "wins": 1,
                         "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "AAPL": {
+                        "trades": 1,
+                        "pnl": 8.19,
+                        "wins": 1,
+                        "losses": 0,
                         "breakeven": 0,
                         "open_partial": 0
                     }
@@ -45569,6 +45610,20 @@
                         "total_pnl": "132.3848",
                         "balance": "100132.38",
                         "notes": "TP1=285.71 TP2=286.60 SL=282.12 shares=27 risk\u00e2\u2030\u02c6$48.40 signal=2026-08-03 18:45:00 atr=1.0243 atr_pct=0.3608 volume_ratio=1.1225 ema_sep_atr=9.0519 ema_slope_atr=0.1143 alpaca_order=5284e233-2dea-48f7-beaa-85f30b4a1af9 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "AAPL-17",
+                        "timestamp": "2026-08-03 19:51:46",
+                        "symbol": "AAPL",
+                        "event": "CLOSE_EOD",
+                        "side": "SHORT",
+                        "price": "303.4498",
+                        "shares": "13.0",
+                        "usd_qty": "3944.85",
+                        "pnl": "8.1939",
+                        "total_pnl": "-42.2748",
+                        "balance": "99957.73",
+                        "notes": "entry=304.08 exit=303.45 alpaca_order=55e41488-48f6-4fb8-8868-eacb2861d712 status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -45585,9 +45640,9 @@
             },
             "trend": {
                 "has_previous_day": true,
-                "win_rate_delta_pct": -41.67,
-                "total_pnl_delta": -155.88,
-                "trade_count_delta": -1,
+                "win_rate_delta_pct": -25.0,
+                "total_pnl_delta": -147.69,
+                "trade_count_delta": 0,
                 "direction": "declining"
             }
         }
