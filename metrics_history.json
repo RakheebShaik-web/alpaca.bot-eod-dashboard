@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-03T19:51:46.908545+00:00",
+    "generated_at": "2026-08-03T19:52:10.126464+00:00",
     "latest_date": "2026-08-03",
     "days": [
         {
@@ -44748,48 +44748,25 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 4,
-                        "win_count": 2,
+                        "total_trades": 5,
+                        "win_count": 3,
                         "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 50.0,
-                        "loss_rate_pct": 50.0,
-                        "total_pnl": -27.15,
-                        "closed_position_pnl": -27.15,
-                        "avg_pnl_per_trade": -6.79,
-                        "avg_win": 35.43,
+                        "win_rate_pct": 60.0,
+                        "loss_rate_pct": 40.0,
+                        "total_pnl": 22.06,
+                        "closed_position_pnl": 22.06,
+                        "avg_pnl_per_trade": 4.41,
+                        "avg_win": 40.02,
                         "avg_loss": -49.0,
-                        "realized_exit_count": 5,
-                        "eod_close_count": 1,
+                        "realized_exit_count": 6,
+                        "eod_close_count": 2,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 23.32,
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 39.34,
-                        "open_partial_count": 2,
-                        "open_positions": [
-                            {
-                                "trade_id": "AAPL-17",
-                                "symbol": "AAPL",
-                                "side": "SHORT",
-                                "entry_price": 304.0801,
-                                "remaining": 13.0,
-                                "sl": 307.7082,
-                                "tp1": 300.452,
-                                "tp2": 298.6379,
-                                "last_event": "CLOSE_EOD"
-                            },
-                            {
-                                "trade_id": "AMZN-7",
-                                "symbol": "AMZN",
-                                "side": "LONG",
-                                "entry_price": 283.915,
-                                "remaining": 27.0,
-                                "sl": 282.1225,
-                                "tp1": 285.7075,
-                                "tp2": 286.6037,
-                                "last_event": "ENTRY_LONG"
-                            }
-                        ],
+                        "open_partial_count": 0,
+                        "open_positions": [],
                         "by_symbol": {
                             "MSFT": {
                                 "trades": 1,
@@ -44810,6 +44787,14 @@
                             "AAPL": {
                                 "trades": 1,
                                 "pnl": 8.19,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "AMZN": {
+                                "trades": 1,
+                                "pnl": 49.2,
                                 "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
@@ -44956,14 +44941,28 @@
                                 "total_pnl": "-42.2748",
                                 "balance": "99957.73",
                                 "notes": "entry=304.08 exit=303.45 alpaca_order=55e41488-48f6-4fb8-8868-eacb2861d712 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMZN-7",
+                                "timestamp": "2026-08-03 19:52:08",
+                                "symbol": "AMZN",
+                                "event": "CLOSE_EOD",
+                                "side": "LONG",
+                                "price": "285.7373",
+                                "shares": "27.0",
+                                "usd_qty": "7714.91",
+                                "pnl": "49.2021",
+                                "total_pnl": "181.5869",
+                                "balance": "100181.59",
+                                "notes": "entry=283.92 exit=285.74 alpaca_order=60c68bb5-39d8-41cd-8207-799df2ee6a57 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -25.0,
-                        "total_pnl_delta": -147.69,
-                        "trade_count_delta": 0,
+                        "win_rate_delta_pct": -15.0,
+                        "total_pnl_delta": -98.48,
+                        "trade_count_delta": 1,
                         "direction": "declining"
                     }
                 },
@@ -45217,37 +45216,25 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 4,
-                        "win_count": 2,
+                        "total_trades": 5,
+                        "win_count": 3,
                         "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 50.0,
-                        "loss_rate_pct": 50.0,
-                        "total_pnl": -27.15,
-                        "closed_position_pnl": -27.15,
-                        "avg_pnl_per_trade": -6.79,
-                        "avg_win": 35.43,
+                        "win_rate_pct": 60.0,
+                        "loss_rate_pct": 40.0,
+                        "total_pnl": 22.06,
+                        "closed_position_pnl": 22.06,
+                        "avg_pnl_per_trade": 4.41,
+                        "avg_win": 40.02,
                         "avg_loss": -49.0,
-                        "realized_exit_count": 5,
-                        "eod_close_count": 1,
+                        "realized_exit_count": 6,
+                        "eod_close_count": 2,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 23.32,
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 39.34,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "AMZN-7",
-                                "symbol": "AMZN",
-                                "side": "LONG",
-                                "entry_price": 283.915,
-                                "remaining": 27.0,
-                                "sl": 282.12,
-                                "tp1": 285.71,
-                                "tp2": 286.6,
-                                "last_event": "ENTRY_LONG"
-                            }
-                        ],
+                        "open_positions": [],
                         "by_symbol": {
                             "MSFT": {
                                 "trades": 1,
@@ -45268,6 +45255,14 @@
                             "AAPL": {
                                 "trades": 1,
                                 "pnl": 8.19,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "AMZN": {
+                                "trades": 1,
+                                "pnl": 49.2,
                                 "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
@@ -45414,50 +45409,52 @@
                                 "total_pnl": "-42.2748",
                                 "balance": "99957.73",
                                 "notes": "entry=304.08 exit=303.45 alpaca_order=55e41488-48f6-4fb8-8868-eacb2861d712 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMZN-7",
+                                "timestamp": "2026-08-03 19:52:08",
+                                "symbol": "AMZN",
+                                "event": "CLOSE_EOD",
+                                "side": "LONG",
+                                "price": "285.7373",
+                                "shares": "27.0",
+                                "usd_qty": "7714.91",
+                                "pnl": "49.2021",
+                                "total_pnl": "181.5869",
+                                "balance": "100181.59",
+                                "notes": "entry=283.92 exit=285.74 alpaca_order=60c68bb5-39d8-41cd-8207-799df2ee6a57 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -25.0,
-                        "total_pnl_delta": -147.69,
-                        "trade_count_delta": 0,
+                        "win_rate_delta_pct": -15.0,
+                        "total_pnl_delta": -98.48,
+                        "trade_count_delta": 1,
                         "direction": "declining"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 4,
-                "win_count": 2,
+                "total_trades": 5,
+                "win_count": 3,
                 "loss_count": 2,
                 "breakeven_count": 0,
-                "win_rate_pct": 50.0,
-                "loss_rate_pct": 50.0,
-                "total_pnl": -27.15,
-                "closed_position_pnl": -27.15,
-                "avg_pnl_per_trade": -6.79,
-                "avg_win": 35.43,
+                "win_rate_pct": 60.0,
+                "loss_rate_pct": 40.0,
+                "total_pnl": 22.06,
+                "closed_position_pnl": 22.06,
+                "avg_pnl_per_trade": 4.41,
+                "avg_win": 40.02,
                 "avg_loss": -49.0,
-                "realized_exit_count": 5,
-                "eod_close_count": 1,
+                "realized_exit_count": 6,
+                "eod_close_count": 2,
                 "tp1_hit_count": 1,
                 "tp1_realized_pnl": 23.32,
                 "tp2_hit_count": 1,
                 "tp2_realized_pnl": 39.34,
                 "open_partial_count": 0,
-                "open_positions": [
-                    {
-                        "trade_id": "AMZN-7",
-                        "symbol": "AMZN",
-                        "side": "LONG",
-                        "entry_price": 283.915,
-                        "remaining": 27.0,
-                        "sl": 282.12,
-                        "tp1": 285.71,
-                        "tp2": 286.6,
-                        "last_event": "ENTRY_LONG"
-                    }
-                ],
+                "open_positions": [],
                 "by_symbol": {
                     "MSFT": {
                         "trades": 1,
@@ -45478,6 +45475,14 @@
                     "AAPL": {
                         "trades": 1,
                         "pnl": 8.19,
+                        "wins": 1,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "AMZN": {
+                        "trades": 1,
+                        "pnl": 49.2,
                         "wins": 1,
                         "losses": 0,
                         "breakeven": 0,
@@ -45624,6 +45629,20 @@
                         "total_pnl": "-42.2748",
                         "balance": "99957.73",
                         "notes": "entry=304.08 exit=303.45 alpaca_order=55e41488-48f6-4fb8-8868-eacb2861d712 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "AMZN-7",
+                        "timestamp": "2026-08-03 19:52:08",
+                        "symbol": "AMZN",
+                        "event": "CLOSE_EOD",
+                        "side": "LONG",
+                        "price": "285.7373",
+                        "shares": "27.0",
+                        "usd_qty": "7714.91",
+                        "pnl": "49.2021",
+                        "total_pnl": "181.5869",
+                        "balance": "100181.59",
+                        "notes": "entry=283.92 exit=285.74 alpaca_order=60c68bb5-39d8-41cd-8207-799df2ee6a57 status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -45640,9 +45659,9 @@
             },
             "trend": {
                 "has_previous_day": true,
-                "win_rate_delta_pct": -25.0,
-                "total_pnl_delta": -147.69,
-                "trade_count_delta": 0,
+                "win_rate_delta_pct": -15.0,
+                "total_pnl_delta": -98.48,
+                "trade_count_delta": 1,
                 "direction": "declining"
             }
         }
