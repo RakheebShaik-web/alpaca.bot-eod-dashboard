@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-04T14:48:59.442092+00:00",
+    "generated_at": "2026-08-04T14:49:01.385425+00:00",
     "latest_date": "2026-08-04",
     "days": [
         {
@@ -45670,23 +45670,23 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 1,
-                        "win_count": 1,
+                        "total_trades": 2,
+                        "win_count": 2,
                         "loss_count": 0,
                         "breakeven_count": 0,
                         "win_rate_pct": 100.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 90.03,
-                        "closed_position_pnl": 62.67,
-                        "avg_pnl_per_trade": 62.67,
-                        "avg_win": 62.67,
+                        "total_pnl": 129.14,
+                        "closed_position_pnl": 129.14,
+                        "avg_pnl_per_trade": 64.57,
+                        "avg_win": 64.57,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 3,
+                        "realized_exit_count": 4,
                         "eod_close_count": 0,
                         "tp1_hit_count": 2,
                         "tp1_realized_pnl": 53.62,
-                        "tp2_hit_count": 1,
-                        "tp2_realized_pnl": 36.41,
+                        "tp2_hit_count": 2,
+                        "tp2_realized_pnl": 75.52,
                         "open_partial_count": 2,
                         "open_positions": [
                             {
@@ -45694,11 +45694,11 @@
                                 "symbol": "JPM",
                                 "side": "LONG",
                                 "entry_price": 357.805,
-                                "remaining": 22.0,
-                                "sl": 355.5869,
+                                "remaining": 11.0,
+                                "sl": 357.805,
                                 "tp1": 360.0231,
                                 "tp2": 361.1322,
-                                "last_event": "TP1_HIT"
+                                "last_event": "TP2_HIT"
                             },
                             {
                                 "trade_id": "MSFT-15",
@@ -45722,12 +45722,12 @@
                                 "open_partial": 0
                             },
                             "JPM": {
-                                "trades": 0,
-                                "pnl": 27.36,
-                                "wins": 0,
+                                "trades": 1,
+                                "pnl": 66.46,
+                                "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
-                                "open_partial": 1
+                                "open_partial": 0
                             }
                         },
                         "recent_trades": [
@@ -45814,14 +45814,28 @@
                                 "total_pnl": "72.0004",
                                 "balance": "100072.0",
                                 "notes": "remaining=11 shares alpaca_order=c05ab6f1-5101-4591-b147-fad8ba8e73e2 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "JPM-7",
+                                "timestamp": "2026-08-04 14:49:00",
+                                "symbol": "JPM",
+                                "event": "TP2_HIT",
+                                "side": "LONG",
+                                "price": "361.3598",
+                                "shares": "11.0",
+                                "usd_qty": "3974.96",
+                                "pnl": "39.1028",
+                                "total_pnl": "111.1032",
+                                "balance": "100111.1",
+                                "notes": "entry=357.81 exit=361.36 alpaca_order=d263b820-2cfd-408d-b9a8-85a696ab0ccf status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": 40.0,
-                        "total_pnl_delta": 67.97,
-                        "trade_count_delta": -4,
+                        "total_pnl_delta": 107.08,
+                        "trade_count_delta": -3,
                         "direction": "improving"
                     }
                 },
@@ -46015,36 +46029,25 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 1,
-                        "win_count": 1,
+                        "total_trades": 2,
+                        "win_count": 2,
                         "loss_count": 0,
                         "breakeven_count": 0,
                         "win_rate_pct": 100.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 90.03,
-                        "closed_position_pnl": 62.67,
-                        "avg_pnl_per_trade": 62.67,
-                        "avg_win": 62.67,
+                        "total_pnl": 129.14,
+                        "closed_position_pnl": 129.14,
+                        "avg_pnl_per_trade": 64.57,
+                        "avg_win": 64.57,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 3,
+                        "realized_exit_count": 4,
                         "eod_close_count": 0,
                         "tp1_hit_count": 2,
                         "tp1_realized_pnl": 53.62,
-                        "tp2_hit_count": 1,
-                        "tp2_realized_pnl": 36.41,
-                        "open_partial_count": 1,
+                        "tp2_hit_count": 2,
+                        "tp2_realized_pnl": 75.52,
+                        "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "JPM-7",
-                                "symbol": "JPM",
-                                "side": "LONG",
-                                "entry_price": 357.805,
-                                "remaining": 11.0,
-                                "sl": 355.59,
-                                "tp1": 360.02,
-                                "tp2": 361.13,
-                                "last_event": "TP1_HIT"
-                            },
                             {
                                 "trade_id": "MSFT-15",
                                 "symbol": "MSFT",
@@ -46067,12 +46070,12 @@
                                 "open_partial": 0
                             },
                             "JPM": {
-                                "trades": 0,
-                                "pnl": 27.36,
-                                "wins": 0,
+                                "trades": 1,
+                                "pnl": 66.46,
+                                "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
-                                "open_partial": 1
+                                "open_partial": 0
                             }
                         },
                         "recent_trades": [
@@ -46159,49 +46162,52 @@
                                 "total_pnl": "72.0004",
                                 "balance": "100072.0",
                                 "notes": "remaining=11 shares alpaca_order=c05ab6f1-5101-4591-b147-fad8ba8e73e2 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "JPM-7",
+                                "timestamp": "2026-08-04 14:49:00",
+                                "symbol": "JPM",
+                                "event": "TP2_HIT",
+                                "side": "LONG",
+                                "price": "361.3598",
+                                "shares": "11.0",
+                                "usd_qty": "3974.96",
+                                "pnl": "39.1028",
+                                "total_pnl": "111.1032",
+                                "balance": "100111.1",
+                                "notes": "entry=357.81 exit=361.36 alpaca_order=d263b820-2cfd-408d-b9a8-85a696ab0ccf status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": 40.0,
-                        "total_pnl_delta": 67.97,
-                        "trade_count_delta": -4,
+                        "total_pnl_delta": 107.08,
+                        "trade_count_delta": -3,
                         "direction": "improving"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 1,
-                "win_count": 1,
+                "total_trades": 2,
+                "win_count": 2,
                 "loss_count": 0,
                 "breakeven_count": 0,
                 "win_rate_pct": 100.0,
                 "loss_rate_pct": 0.0,
-                "total_pnl": 90.03,
-                "closed_position_pnl": 62.67,
-                "avg_pnl_per_trade": 62.67,
-                "avg_win": 62.67,
+                "total_pnl": 129.14,
+                "closed_position_pnl": 129.14,
+                "avg_pnl_per_trade": 64.57,
+                "avg_win": 64.57,
                 "avg_loss": 0.0,
-                "realized_exit_count": 3,
+                "realized_exit_count": 4,
                 "eod_close_count": 0,
                 "tp1_hit_count": 2,
                 "tp1_realized_pnl": 53.62,
-                "tp2_hit_count": 1,
-                "tp2_realized_pnl": 36.41,
-                "open_partial_count": 1,
+                "tp2_hit_count": 2,
+                "tp2_realized_pnl": 75.52,
+                "open_partial_count": 0,
                 "open_positions": [
-                    {
-                        "trade_id": "JPM-7",
-                        "symbol": "JPM",
-                        "side": "LONG",
-                        "entry_price": 357.805,
-                        "remaining": 11.0,
-                        "sl": 355.59,
-                        "tp1": 360.02,
-                        "tp2": 361.13,
-                        "last_event": "TP1_HIT"
-                    },
                     {
                         "trade_id": "MSFT-15",
                         "symbol": "MSFT",
@@ -46224,12 +46230,12 @@
                         "open_partial": 0
                     },
                     "JPM": {
-                        "trades": 0,
-                        "pnl": 27.36,
-                        "wins": 0,
+                        "trades": 1,
+                        "pnl": 66.46,
+                        "wins": 1,
                         "losses": 0,
                         "breakeven": 0,
-                        "open_partial": 1
+                        "open_partial": 0
                     }
                 },
                 "recent_trades": [
@@ -46316,6 +46322,20 @@
                         "total_pnl": "72.0004",
                         "balance": "100072.0",
                         "notes": "remaining=11 shares alpaca_order=c05ab6f1-5101-4591-b147-fad8ba8e73e2 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "JPM-7",
+                        "timestamp": "2026-08-04 14:49:00",
+                        "symbol": "JPM",
+                        "event": "TP2_HIT",
+                        "side": "LONG",
+                        "price": "361.3598",
+                        "shares": "11.0",
+                        "usd_qty": "3974.96",
+                        "pnl": "39.1028",
+                        "total_pnl": "111.1032",
+                        "balance": "100111.1",
+                        "notes": "entry=357.81 exit=361.36 alpaca_order=d263b820-2cfd-408d-b9a8-85a696ab0ccf status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -46333,8 +46353,8 @@
             "trend": {
                 "has_previous_day": true,
                 "win_rate_delta_pct": 40.0,
-                "total_pnl_delta": 67.97,
-                "trade_count_delta": -4,
+                "total_pnl_delta": 107.08,
+                "trade_count_delta": -3,
                 "direction": "improving"
             }
         }
