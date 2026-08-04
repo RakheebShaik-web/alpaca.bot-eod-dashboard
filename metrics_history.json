@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-04T13:57:25.886306+00:00",
+    "generated_at": "2026-08-04T14:08:58.459576+00:00",
     "latest_date": "2026-08-04",
     "days": [
         {
@@ -45676,15 +45676,15 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
+                        "total_pnl": 26.26,
                         "closed_position_pnl": 0,
                         "avg_pnl_per_trade": 0.0,
                         "avg_win": 0.0,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 26.26,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 2,
@@ -45709,10 +45709,19 @@
                                 "sl": 485.3631,
                                 "tp1": 493.1994,
                                 "tp2": 495.1584,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "TP1_HIT"
                             }
                         ],
-                        "by_symbol": {},
+                        "by_symbol": {
+                            "MSFT": {
+                                "trades": 0,
+                                "pnl": 26.26,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "MSFT-14",
@@ -45741,15 +45750,29 @@
                                 "total_pnl": "44.6401",
                                 "balance": "100044.64",
                                 "notes": "TP1=360.02 TP2=361.13 SL=355.59 shares=22 risk\u00e2\u2030\u02c6$48.80 signal=2026-08-04 13:45:00 atr=1.2675 atr_pct=0.3532 volume_ratio=3.5502 ema_sep_atr=0.1988 ema_slope_atr=0.1724 alpaca_order=c0756f8b-d0ee-4521-b84b-3a77c929f5b3 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-14",
+                                "timestamp": "2026-08-04 14:08:57",
+                                "symbol": "MSFT",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "493.6581",
+                                "shares": "6.0",
+                                "usd_qty": "2961.95",
+                                "pnl": "26.2611",
+                                "total_pnl": "-263.0688",
+                                "balance": "99736.93",
+                                "notes": "remaining=6 shares alpaca_order=abfa0aae-8469-4531-8124-75121a2eac27 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -60.0,
-                        "total_pnl_delta": -22.06,
+                        "total_pnl_delta": 4.2,
                         "trade_count_delta": -5,
-                        "direction": "declining"
+                        "direction": "mixed"
                     }
                 },
                 "alpaca_paper": {
@@ -45872,29 +45895,29 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
+                        "total_pnl": 26.26,
                         "closed_position_pnl": 0,
                         "avg_pnl_per_trade": 0.0,
                         "avg_win": 0.0,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 26.26,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "MSFT-14",
                                 "symbol": "MSFT",
                                 "side": "LONG",
                                 "entry_price": 489.2812,
-                                "remaining": 12.0,
+                                "remaining": 6.0,
                                 "sl": 485.36,
                                 "tp1": 493.2,
                                 "tp2": 495.16,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "TP1_HIT"
                             },
                             {
                                 "trade_id": "JPM-7",
@@ -45908,7 +45931,16 @@
                                 "last_event": "ENTRY_LONG"
                             }
                         ],
-                        "by_symbol": {},
+                        "by_symbol": {
+                            "MSFT": {
+                                "trades": 0,
+                                "pnl": 26.26,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "MSFT-14",
@@ -45937,15 +45969,29 @@
                                 "total_pnl": "44.6401",
                                 "balance": "100044.64",
                                 "notes": "TP1=360.02 TP2=361.13 SL=355.59 shares=22 risk\u00e2\u2030\u02c6$48.80 signal=2026-08-04 13:45:00 atr=1.2675 atr_pct=0.3532 volume_ratio=3.5502 ema_sep_atr=0.1988 ema_slope_atr=0.1724 alpaca_order=c0756f8b-d0ee-4521-b84b-3a77c929f5b3 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-14",
+                                "timestamp": "2026-08-04 14:08:57",
+                                "symbol": "MSFT",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "493.6581",
+                                "shares": "6.0",
+                                "usd_qty": "2961.95",
+                                "pnl": "26.2611",
+                                "total_pnl": "-263.0688",
+                                "balance": "99736.93",
+                                "notes": "remaining=6 shares alpaca_order=abfa0aae-8469-4531-8124-75121a2eac27 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -60.0,
-                        "total_pnl_delta": -22.06,
+                        "total_pnl_delta": 4.2,
                         "trade_count_delta": -5,
-                        "direction": "declining"
+                        "direction": "mixed"
                     }
                 }
             },
@@ -45956,29 +46002,29 @@
                 "breakeven_count": 0,
                 "win_rate_pct": 0.0,
                 "loss_rate_pct": 0.0,
-                "total_pnl": 0,
+                "total_pnl": 26.26,
                 "closed_position_pnl": 0,
                 "avg_pnl_per_trade": 0.0,
                 "avg_win": 0.0,
                 "avg_loss": 0.0,
-                "realized_exit_count": 0,
+                "realized_exit_count": 1,
                 "eod_close_count": 0,
-                "tp1_hit_count": 0,
-                "tp1_realized_pnl": 0,
+                "tp1_hit_count": 1,
+                "tp1_realized_pnl": 26.26,
                 "tp2_hit_count": 0,
                 "tp2_realized_pnl": 0,
-                "open_partial_count": 0,
+                "open_partial_count": 1,
                 "open_positions": [
                     {
                         "trade_id": "MSFT-14",
                         "symbol": "MSFT",
                         "side": "LONG",
                         "entry_price": 489.2812,
-                        "remaining": 12.0,
+                        "remaining": 6.0,
                         "sl": 485.36,
                         "tp1": 493.2,
                         "tp2": 495.16,
-                        "last_event": "ENTRY_LONG"
+                        "last_event": "TP1_HIT"
                     },
                     {
                         "trade_id": "JPM-7",
@@ -45992,7 +46038,16 @@
                         "last_event": "ENTRY_LONG"
                     }
                 ],
-                "by_symbol": {},
+                "by_symbol": {
+                    "MSFT": {
+                        "trades": 0,
+                        "pnl": 26.26,
+                        "wins": 0,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 1
+                    }
+                },
                 "recent_trades": [
                     {
                         "trade_id": "MSFT-14",
@@ -46021,6 +46076,20 @@
                         "total_pnl": "44.6401",
                         "balance": "100044.64",
                         "notes": "TP1=360.02 TP2=361.13 SL=355.59 shares=22 risk\u00e2\u2030\u02c6$48.80 signal=2026-08-04 13:45:00 atr=1.2675 atr_pct=0.3532 volume_ratio=3.5502 ema_sep_atr=0.1988 ema_slope_atr=0.1724 alpaca_order=c0756f8b-d0ee-4521-b84b-3a77c929f5b3 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "MSFT-14",
+                        "timestamp": "2026-08-04 14:08:57",
+                        "symbol": "MSFT",
+                        "event": "TP1_HIT",
+                        "side": "LONG",
+                        "price": "493.6581",
+                        "shares": "6.0",
+                        "usd_qty": "2961.95",
+                        "pnl": "26.2611",
+                        "total_pnl": "-263.0688",
+                        "balance": "99736.93",
+                        "notes": "remaining=6 shares alpaca_order=abfa0aae-8469-4531-8124-75121a2eac27 status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -46038,9 +46107,9 @@
             "trend": {
                 "has_previous_day": true,
                 "win_rate_delta_pct": -60.0,
-                "total_pnl_delta": -22.06,
+                "total_pnl_delta": 4.2,
                 "trade_count_delta": -5,
-                "direction": "declining"
+                "direction": "mixed"
             }
         }
     ]
