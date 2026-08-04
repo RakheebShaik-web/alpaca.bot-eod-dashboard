@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-04T18:00:35.045431+00:00",
+    "generated_at": "2026-08-04T18:00:54.565251+00:00",
     "latest_date": "2026-08-04",
     "days": [
         {
@@ -45915,6 +45915,17 @@
                                 "tp1": 498.69,
                                 "tp2": 501.11,
                                 "last_event": "TP1_HIT"
+                            },
+                            {
+                                "trade_id": "CRM-8",
+                                "symbol": "CRM",
+                                "side": "LONG",
+                                "entry_price": 190.11,
+                                "remaining": 46.0,
+                                "sl": 189.02,
+                                "tp1": 191.2,
+                                "tp2": 191.74,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -46075,6 +46086,20 @@
                                 "total_pnl": "158.26",
                                 "balance": "100158.26",
                                 "notes": "entry=362.49 exit=359.56 alpaca_order=47d06425-5ce4-403d-abc6-d8567f007b12 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "CRM-8",
+                                "timestamp": "2026-08-04 18:00:51",
+                                "symbol": "CRM",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "190.11",
+                                "shares": "46.0",
+                                "usd_qty": "8745.06",
+                                "pnl": "0.0",
+                                "total_pnl": "-56.21",
+                                "balance": "99943.79",
+                                "notes": "TP1=191.20 TP2=191.74 SL=189.02 shares=46 risk\u00e2\u2030\u02c6$49.97 signal=2026-08-04 18:00:00 atr=0.6207 atr_pct=0.3266 volume_ratio=1.4616 ema_sep_atr=2.1583 ema_slope_atr=0.1744 alpaca_order=5ba6681b-bf40-4f9b-b906-8beee9b154cb status=OrderStatus.FILLED"
                             }
                         ]
                     },
