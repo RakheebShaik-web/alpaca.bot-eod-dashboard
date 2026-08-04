@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-04T14:18:16.357902+00:00",
+    "generated_at": "2026-08-04T14:30:42.349630+00:00",
     "latest_date": "2026-08-04",
     "days": [
         {
@@ -45767,6 +45767,20 @@
                                 "total_pnl": "-226.6563",
                                 "balance": "99773.34",
                                 "notes": "entry=489.28 exit=495.35 alpaca_order=670eb09d-dd5d-4c8a-afad-ff147f176d73 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-15",
+                                "timestamp": "2026-08-04 14:30:41",
+                                "symbol": "MSFT",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "493.7825",
+                                "shares": "10.0",
+                                "usd_qty": "4937.83",
+                                "pnl": "0.0",
+                                "total_pnl": "-226.6563",
+                                "balance": "99773.34",
+                                "notes": "TP1=498.63 TP2=501.06 SL=488.93 shares=10 risk\u00e2\u2030\u02c6$48.51 signal=2026-08-04 14:30:00 atr=2.7721 atr_pct=0.5616 volume_ratio=1.0525 ema_sep_atr=3.8226 ema_slope_atr=0.1942 alpaca_order=174106c0-563b-45d7-90a5-db5628bfcbdc status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -45947,6 +45961,17 @@
                                 "tp1": 360.02,
                                 "tp2": 361.13,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "MSFT-15",
+                                "symbol": "MSFT",
+                                "side": "LONG",
+                                "entry_price": 493.7825,
+                                "remaining": 10.0,
+                                "sl": 488.93,
+                                "tp1": 498.63,
+                                "tp2": 501.06,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -46015,6 +46040,20 @@
                                 "total_pnl": "-226.6563",
                                 "balance": "99773.34",
                                 "notes": "entry=489.28 exit=495.35 alpaca_order=670eb09d-dd5d-4c8a-afad-ff147f176d73 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-15",
+                                "timestamp": "2026-08-04 14:30:41",
+                                "symbol": "MSFT",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "493.7825",
+                                "shares": "10.0",
+                                "usd_qty": "4937.83",
+                                "pnl": "0.0",
+                                "total_pnl": "-226.6563",
+                                "balance": "99773.34",
+                                "notes": "TP1=498.63 TP2=501.06 SL=488.93 shares=10 risk\u00e2\u2030\u02c6$48.51 signal=2026-08-04 14:30:00 atr=2.7721 atr_pct=0.5616 volume_ratio=1.0525 ema_sep_atr=3.8226 ema_slope_atr=0.1942 alpaca_order=174106c0-563b-45d7-90a5-db5628bfcbdc status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -46056,6 +46095,17 @@
                         "sl": 355.59,
                         "tp1": 360.02,
                         "tp2": 361.13,
+                        "last_event": "ENTRY_LONG"
+                    },
+                    {
+                        "trade_id": "MSFT-15",
+                        "symbol": "MSFT",
+                        "side": "LONG",
+                        "entry_price": 493.7825,
+                        "remaining": 10.0,
+                        "sl": 488.93,
+                        "tp1": 498.63,
+                        "tp2": 501.06,
                         "last_event": "ENTRY_LONG"
                     }
                 ],
@@ -46125,6 +46175,20 @@
                         "total_pnl": "-226.6563",
                         "balance": "99773.34",
                         "notes": "entry=489.28 exit=495.35 alpaca_order=670eb09d-dd5d-4c8a-afad-ff147f176d73 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "MSFT-15",
+                        "timestamp": "2026-08-04 14:30:41",
+                        "symbol": "MSFT",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "493.7825",
+                        "shares": "10.0",
+                        "usd_qty": "4937.83",
+                        "pnl": "0.0",
+                        "total_pnl": "-226.6563",
+                        "balance": "99773.34",
+                        "notes": "TP1=498.63 TP2=501.06 SL=488.93 shares=10 risk\u00e2\u2030\u02c6$48.51 signal=2026-08-04 14:30:00 atr=2.7721 atr_pct=0.5616 volume_ratio=1.0525 ema_sep_atr=3.8226 ema_slope_atr=0.1942 alpaca_order=174106c0-563b-45d7-90a5-db5628bfcbdc status=OrderStatus.FILLED"
                     }
                 ]
             },
