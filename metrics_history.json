@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-04T19:38:17.173379+00:00",
+    "generated_at": "2026-08-04T19:38:38.035368+00:00",
     "latest_date": "2026-08-04",
     "days": [
         {
@@ -45925,18 +45925,18 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 66.67,
                         "loss_rate_pct": 33.33,
-                        "total_pnl": 97.58,
+                        "total_pnl": 123.11,
                         "closed_position_pnl": 70.35,
                         "avg_pnl_per_trade": 23.45,
                         "avg_win": 60.09,
                         "avg_loss": -49.82,
-                        "realized_exit_count": 6,
+                        "realized_exit_count": 7,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 3,
-                        "tp1_realized_pnl": 77.04,
+                        "tp1_hit_count": 4,
+                        "tp1_realized_pnl": 102.57,
                         "tp2_hit_count": 2,
                         "tp2_realized_pnl": 70.36,
-                        "open_partial_count": 1,
+                        "open_partial_count": 2,
                         "open_positions": [
                             {
                                 "trade_id": "MSFT-14",
@@ -45954,11 +45954,11 @@
                                 "symbol": "CRM",
                                 "side": "LONG",
                                 "entry_price": 190.11,
-                                "remaining": 46.0,
+                                "remaining": 23.0,
                                 "sl": 189.02,
                                 "tp1": 191.2,
                                 "tp2": 191.74,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "TP1_HIT"
                             }
                         ],
                         "by_symbol": {
@@ -45977,6 +45977,14 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
+                            },
+                            "CRM": {
+                                "trades": 0,
+                                "pnl": 25.53,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -46133,13 +46141,27 @@
                                 "total_pnl": "-56.21",
                                 "balance": "99943.79",
                                 "notes": "TP1=191.20 TP2=191.74 SL=189.02 shares=46 risk\u00e2\u2030\u02c6$49.97 signal=2026-08-04 18:00:00 atr=0.6207 atr_pct=0.3266 volume_ratio=1.4616 ema_sep_atr=2.1583 ema_slope_atr=0.1744 alpaca_order=5ba6681b-bf40-4f9b-b906-8beee9b154cb status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "CRM-8",
+                                "timestamp": "2026-08-04 19:38:34",
+                                "symbol": "CRM",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "191.22",
+                                "shares": "23.0",
+                                "usd_qty": "4398.06",
+                                "pnl": "25.53",
+                                "total_pnl": "-30.68",
+                                "balance": "99969.32",
+                                "notes": "remaining=23 shares alpaca_order=2ebed21f-4a4e-4395-acac-2ea159909d39 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": 26.67,
-                        "total_pnl_delta": 89.21,
+                        "total_pnl_delta": 114.74,
                         "trade_count_delta": -2,
                         "direction": "improving"
                     }
