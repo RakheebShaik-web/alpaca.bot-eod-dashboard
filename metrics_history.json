@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-05T19:30:42.453574+00:00",
+    "generated_at": "2026-08-05T19:31:14.950902+00:00",
     "latest_date": "2026-08-05",
     "days": [
         {
@@ -46745,7 +46745,7 @@
                         "tp1_realized_pnl": 0,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 2,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "NVDA-18",
@@ -46757,17 +46757,6 @@
                                 "tp1": 222.1987,
                                 "tp2": 223.3731,
                                 "last_event": "ENTRY_LONG"
-                            },
-                            {
-                                "trade_id": "TSLA-13",
-                                "symbol": "TSLA",
-                                "side": "LONG",
-                                "entry_price": 324.45,
-                                "remaining": 17.0,
-                                "sl": 321.6419,
-                                "tp1": 327.2581,
-                                "tp2": 328.6622,
-                                "last_event": "SL_HIT"
                             }
                         ],
                         "by_symbol": {
@@ -46822,6 +46811,20 @@
                                 "total_pnl": "-170.4145",
                                 "balance": "99829.59",
                                 "notes": "entry=324.45 exit=321.13 alpaca_order=3240dc6f-5914-4ea2-9be8-5a5f5aa802b2 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMD-3",
+                                "timestamp": "2026-08-05 19:31:14",
+                                "symbol": "AMD",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "485.9555",
+                                "shares": "10.0",
+                                "usd_qty": "4859.55",
+                                "pnl": "0.0",
+                                "total_pnl": "-50.578",
+                                "balance": "99949.42",
+                                "notes": "TP1=480.98 TP2=478.49 SL=490.93 shares=10 risk\u00e2\u2030\u02c6$49.74 signal=2026-08-05 19:30:00 atr=2.8421 atr_pct=0.5856 volume_ratio=1.0216 ema_sep_atr=1.8533 ema_slope_atr=-0.1347 alpaca_order=f02ebe7f-dcbc-4b73-8612-c3cee9e4a6ef status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -47063,6 +47066,17 @@
                                 "tp1": 222.2,
                                 "tp2": 223.37,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "AMD-3",
+                                "symbol": "AMD",
+                                "side": "SHORT",
+                                "entry_price": 485.9555,
+                                "remaining": 10.0,
+                                "sl": 490.93,
+                                "tp1": 480.98,
+                                "tp2": 478.49,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -47117,6 +47131,20 @@
                                 "total_pnl": "-170.4145",
                                 "balance": "99829.59",
                                 "notes": "entry=324.45 exit=321.13 alpaca_order=3240dc6f-5914-4ea2-9be8-5a5f5aa802b2 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMD-3",
+                                "timestamp": "2026-08-05 19:31:14",
+                                "symbol": "AMD",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "485.9555",
+                                "shares": "10.0",
+                                "usd_qty": "4859.55",
+                                "pnl": "0.0",
+                                "total_pnl": "-50.578",
+                                "balance": "99949.42",
+                                "notes": "TP1=480.98 TP2=478.49 SL=490.93 shares=10 risk\u00e2\u2030\u02c6$49.74 signal=2026-08-05 19:30:00 atr=2.8421 atr_pct=0.5856 volume_ratio=1.0216 ema_sep_atr=1.8533 ema_slope_atr=-0.1347 alpaca_order=f02ebe7f-dcbc-4b73-8612-c3cee9e4a6ef status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -47159,6 +47187,17 @@
                         "tp1": 222.2,
                         "tp2": 223.37,
                         "last_event": "ENTRY_LONG"
+                    },
+                    {
+                        "trade_id": "AMD-3",
+                        "symbol": "AMD",
+                        "side": "SHORT",
+                        "entry_price": 485.9555,
+                        "remaining": 10.0,
+                        "sl": 490.93,
+                        "tp1": 480.98,
+                        "tp2": 478.49,
+                        "last_event": "ENTRY_SHORT"
                     }
                 ],
                 "by_symbol": {
@@ -47213,6 +47252,20 @@
                         "total_pnl": "-170.4145",
                         "balance": "99829.59",
                         "notes": "entry=324.45 exit=321.13 alpaca_order=3240dc6f-5914-4ea2-9be8-5a5f5aa802b2 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "AMD-3",
+                        "timestamp": "2026-08-05 19:31:14",
+                        "symbol": "AMD",
+                        "event": "ENTRY_SHORT",
+                        "side": "SHORT",
+                        "price": "485.9555",
+                        "shares": "10.0",
+                        "usd_qty": "4859.55",
+                        "pnl": "0.0",
+                        "total_pnl": "-50.578",
+                        "balance": "99949.42",
+                        "notes": "TP1=480.98 TP2=478.49 SL=490.93 shares=10 risk\u00e2\u2030\u02c6$49.74 signal=2026-08-05 19:30:00 atr=2.8421 atr_pct=0.5856 volume_ratio=1.0216 ema_sep_atr=1.8533 ema_slope_atr=-0.1347 alpaca_order=f02ebe7f-dcbc-4b73-8612-c3cee9e4a6ef status=OrderStatus.FILLED"
                     }
                 ]
             },
