@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-05T14:45:11.513342+00:00",
+    "generated_at": "2026-08-05T15:17:07.573318+00:00",
     "latest_date": "2026-08-05",
     "days": [
         {
@@ -46841,6 +46841,17 @@
                                 "tp1": 327.24,
                                 "tp2": 328.64,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "HD-4",
+                                "symbol": "HD",
+                                "side": "LONG",
+                                "entry_price": 352.0,
+                                "remaining": 23.0,
+                                "sl": 349.86,
+                                "tp1": 354.14,
+                                "tp2": 355.22,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -46909,6 +46920,20 @@
                                 "total_pnl": "-91.47",
                                 "balance": "99908.53",
                                 "notes": "entry=219.84 exit=219.77 alpaca_order=25fafcf7-e08a-4f01-bb4c-9ad1c3e0e621 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "HD-4",
+                                "timestamp": "2026-08-05 15:17:03",
+                                "symbol": "HD",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "352.0",
+                                "shares": "23.0",
+                                "usd_qty": "8096.0",
+                                "pnl": "0.0",
+                                "total_pnl": "0.0",
+                                "balance": "100000.0",
+                                "notes": "TP1=354.14 TP2=355.22 SL=349.86 shares=23 risk\u00e2\u2030\u02c6$49.32 signal=2026-08-05 15:15:00 atr=1.2254 atr_pct=0.3480 volume_ratio=1.0907 ema_sep_atr=3.4300 ema_slope_atr=0.2344 alpaca_order=2bb3b184-1186-453f-8ca0-cb4850485d56 status=OrderStatus.FILLED"
                             }
                         ]
                     },
