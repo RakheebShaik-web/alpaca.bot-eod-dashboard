@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-05T18:32:29.669067+00:00",
+    "generated_at": "2026-08-05T19:30:42.453574+00:00",
     "latest_date": "2026-08-05",
     "days": [
         {
@@ -46864,6 +46864,17 @@
                                 "tp1": 354.14,
                                 "tp2": 355.22,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "AMD-4",
+                                "symbol": "AMD",
+                                "side": "SHORT",
+                                "entry_price": 485.87,
+                                "remaining": 10.0,
+                                "sl": 490.84,
+                                "tp1": 480.9,
+                                "tp2": 478.41,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -46968,6 +46979,20 @@
                                 "total_pnl": "123.91",
                                 "balance": "100123.91",
                                 "notes": "entry=324.43 exit=321.23 alpaca_order=bb6dfe23-d01f-4cfa-9769-d7e641c26613 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMD-4",
+                                "timestamp": "2026-08-05 19:30:38",
+                                "symbol": "AMD",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "485.87",
+                                "shares": "10.0",
+                                "usd_qty": "4858.7",
+                                "pnl": "0.0",
+                                "total_pnl": "-96.28",
+                                "balance": "99903.72",
+                                "notes": "TP1=480.90 TP2=478.41 SL=490.84 shares=10 risk\u00e2\u2030\u02c6$49.74 signal=2026-08-05 19:30:00 atr=2.8421 atr_pct=0.5856 volume_ratio=1.0216 ema_sep_atr=1.8533 ema_slope_atr=-0.1347 alpaca_order=86cf0262-0ef2-4e01-a3c8-00389d901b8e status=OrderStatus.FILLED"
                             }
                         ]
                     },
