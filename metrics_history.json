@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-05T19:52:14.785393+00:00",
+    "generated_at": "2026-08-05T19:52:31.069565+00:00",
     "latest_date": "2026-08-05",
     "days": [
         {
@@ -46870,37 +46870,25 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 3,
-                        "win_count": 2,
+                        "total_trades": 4,
+                        "win_count": 3,
                         "loss_count": 1,
                         "breakeven_count": 0,
-                        "win_rate_pct": 66.67,
-                        "loss_rate_pct": 33.33,
-                        "total_pnl": 3.04,
-                        "closed_position_pnl": 3.04,
-                        "avg_pnl_per_trade": 1.01,
-                        "avg_win": 28.73,
+                        "win_rate_pct": 75.0,
+                        "loss_rate_pct": 25.0,
+                        "total_pnl": 14.74,
+                        "closed_position_pnl": 14.74,
+                        "avg_pnl_per_trade": 3.68,
+                        "avg_win": 23.06,
                         "avg_loss": -54.43,
-                        "realized_exit_count": 4,
-                        "eod_close_count": 1,
+                        "realized_exit_count": 5,
+                        "eod_close_count": 2,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 22.4,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "AMD-4",
-                                "symbol": "AMD",
-                                "side": "SHORT",
-                                "entry_price": 485.87,
-                                "remaining": 10.0,
-                                "sl": 490.84,
-                                "tp1": 480.9,
-                                "tp2": 478.41,
-                                "last_event": "ENTRY_SHORT"
-                            }
-                        ],
+                        "open_positions": [],
                         "by_symbol": {
                             "NVDA": {
                                 "trades": 1,
@@ -46921,6 +46909,14 @@
                             "HD": {
                                 "trades": 1,
                                 "pnl": 35.82,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "AMD": {
+                                "trades": 1,
+                                "pnl": 11.7,
                                 "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
@@ -47039,14 +47035,28 @@
                                 "total_pnl": "35.82",
                                 "balance": "100035.82",
                                 "notes": "entry=352.00 exit=353.56 alpaca_order=a7d17e14-f85f-4f32-a86a-f7fd52096416 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMD-4",
+                                "timestamp": "2026-08-05 19:51:48",
+                                "symbol": "AMD",
+                                "event": "CLOSE_EOD",
+                                "side": "SHORT",
+                                "price": "484.7",
+                                "shares": "10.0",
+                                "usd_qty": "4847.0",
+                                "pnl": "11.7",
+                                "total_pnl": "-84.58",
+                                "balance": "99915.42",
+                                "notes": "entry=485.87 exit=484.70 alpaca_order=6a91d264-c99f-4867-9d92-de8a90859c22 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -13.33,
-                        "total_pnl_delta": -143.03,
-                        "trade_count_delta": -2,
+                        "win_rate_delta_pct": -5.0,
+                        "total_pnl_delta": -131.33,
+                        "trade_count_delta": -1,
                         "direction": "declining"
                     }
                 },
