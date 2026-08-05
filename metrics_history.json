@@ -1,6 +1,6 @@
 {
-    "generated_at": "2026-08-04T19:51:47.922995+00:00",
-    "latest_date": "2026-08-04",
+    "generated_at": "2026-08-05T13:52:44.906497+00:00",
+    "latest_date": "2026-08-05",
     "days": [
         {
             "date": "2026-06-26",
@@ -46721,6 +46721,272 @@
                 "total_pnl_delta": 129.21,
                 "trade_count_delta": 0,
                 "direction": "improving"
+            }
+        },
+        {
+            "date": "2026-08-05",
+            "datasets": {
+                "alpaca_live": {
+                    "trade_metrics": {
+                        "total_trades": 0,
+                        "win_count": 0,
+                        "loss_count": 0,
+                        "breakeven_count": 0,
+                        "win_rate_pct": 0.0,
+                        "loss_rate_pct": 0.0,
+                        "total_pnl": 0,
+                        "closed_position_pnl": 0,
+                        "avg_pnl_per_trade": 0.0,
+                        "avg_win": 0.0,
+                        "avg_loss": 0.0,
+                        "realized_exit_count": 0,
+                        "eod_close_count": 0,
+                        "tp1_hit_count": 0,
+                        "tp1_realized_pnl": 0,
+                        "tp2_hit_count": 0,
+                        "tp2_realized_pnl": 0,
+                        "open_partial_count": 0,
+                        "open_positions": [],
+                        "by_symbol": {},
+                        "recent_trades": [
+                            {
+                                "trade_id": "NVDA-18",
+                                "timestamp": "2026-08-05 13:52:42",
+                                "symbol": "NVDA",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "219.85",
+                                "shares": "21.0",
+                                "usd_qty": "4616.85",
+                                "pnl": "0.0",
+                                "total_pnl": "-153.0429",
+                                "balance": "99846.96",
+                                "notes": "TP1=222.20 TP2=223.37 SL=217.50 shares=21 risk\u00e2\u2030\u02c6$49.32 signal=2026-08-05 13:45:00 atr=1.3421 atr_pct=0.6103 volume_ratio=4.1627 ema_sep_atr=2.3647 ema_slope_atr=0.2550 alpaca_order=78e24065-b4be-4ba3-9cc2-8f73bb6e0dce status=OrderStatus.FILLED"
+                            }
+                        ]
+                    },
+                    "trend": {
+                        "has_previous_day": true,
+                        "win_rate_delta_pct": -80.0,
+                        "total_pnl_delta": -151.27,
+                        "trade_count_delta": -5,
+                        "direction": "declining"
+                    }
+                },
+                "alpaca_paper": {
+                    "trade_metrics": {
+                        "total_trades": 0,
+                        "win_count": 0,
+                        "loss_count": 0,
+                        "breakeven_count": 0,
+                        "win_rate_pct": 0.0,
+                        "loss_rate_pct": 0.0,
+                        "total_pnl": 0,
+                        "closed_position_pnl": 0,
+                        "avg_pnl_per_trade": 0.0,
+                        "avg_win": 0.0,
+                        "avg_loss": 0.0,
+                        "realized_exit_count": 0,
+                        "eod_close_count": 0,
+                        "tp1_hit_count": 0,
+                        "tp1_realized_pnl": 0,
+                        "tp2_hit_count": 0,
+                        "tp2_realized_pnl": 0,
+                        "open_partial_count": 0,
+                        "open_positions": [
+                            {
+                                "trade_id": "NVDA-11",
+                                "symbol": "NVDA",
+                                "side": "LONG",
+                                "entry_price": 219.84,
+                                "remaining": 21.0,
+                                "sl": 217.49,
+                                "tp1": 222.19,
+                                "tp2": 223.36,
+                                "last_event": "ENTRY_LONG"
+                            }
+                        ],
+                        "by_symbol": {},
+                        "recent_trades": [
+                            {
+                                "trade_id": "NVDA-11",
+                                "timestamp": "2026-08-05 13:52:40",
+                                "symbol": "NVDA",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "219.84",
+                                "shares": "21.0",
+                                "usd_qty": "4616.64",
+                                "pnl": "0.0",
+                                "total_pnl": "-113.12",
+                                "balance": "99886.88",
+                                "notes": "TP1=222.19 TP2=223.36 SL=217.49 shares=21 risk\u00e2\u2030\u02c6$49.32 signal=2026-08-05 13:45:00 atr=1.3421 atr_pct=0.6103 volume_ratio=4.1627 ema_sep_atr=2.3647 ema_slope_atr=0.2550 alpaca_order=b9355716-8a9f-47fc-b615-ede227000781 status=OrderStatus.FILLED"
+                            }
+                        ]
+                    },
+                    "trend": {
+                        "has_previous_day": true,
+                        "win_rate_delta_pct": -80.0,
+                        "total_pnl_delta": -146.07,
+                        "trade_count_delta": -5,
+                        "direction": "declining"
+                    }
+                },
+                "legacy_simulation": {
+                    "trade_metrics": {
+                        "total_trades": 0,
+                        "win_count": 0,
+                        "loss_count": 0,
+                        "breakeven_count": 0,
+                        "win_rate_pct": 0.0,
+                        "loss_rate_pct": 0.0,
+                        "total_pnl": 0,
+                        "closed_position_pnl": 0,
+                        "avg_pnl_per_trade": 0.0,
+                        "avg_win": 0.0,
+                        "avg_loss": 0.0,
+                        "realized_exit_count": 0,
+                        "eod_close_count": 0,
+                        "tp1_hit_count": 0,
+                        "tp1_realized_pnl": 0,
+                        "tp2_hit_count": 0,
+                        "tp2_realized_pnl": 0,
+                        "open_partial_count": 0,
+                        "open_positions": [],
+                        "by_symbol": {},
+                        "recent_trades": []
+                    },
+                    "trend": {
+                        "has_previous_day": false
+                    }
+                },
+                "all": {
+                    "trade_metrics": {
+                        "total_trades": 0,
+                        "win_count": 0,
+                        "loss_count": 0,
+                        "breakeven_count": 0,
+                        "win_rate_pct": 0.0,
+                        "loss_rate_pct": 0.0,
+                        "total_pnl": 0,
+                        "closed_position_pnl": 0,
+                        "avg_pnl_per_trade": 0.0,
+                        "avg_win": 0.0,
+                        "avg_loss": 0.0,
+                        "realized_exit_count": 0,
+                        "eod_close_count": 0,
+                        "tp1_hit_count": 0,
+                        "tp1_realized_pnl": 0,
+                        "tp2_hit_count": 0,
+                        "tp2_realized_pnl": 0,
+                        "open_partial_count": 0,
+                        "open_positions": [
+                            {
+                                "trade_id": "NVDA-18",
+                                "symbol": "NVDA",
+                                "side": "LONG",
+                                "entry_price": 219.85,
+                                "remaining": 21.0,
+                                "sl": 217.5,
+                                "tp1": 222.2,
+                                "tp2": 223.37,
+                                "last_event": "ENTRY_LONG"
+                            }
+                        ],
+                        "by_symbol": {},
+                        "recent_trades": [
+                            {
+                                "trade_id": "NVDA-18",
+                                "timestamp": "2026-08-05 13:52:42",
+                                "symbol": "NVDA",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "219.85",
+                                "shares": "21.0",
+                                "usd_qty": "4616.85",
+                                "pnl": "0.0",
+                                "total_pnl": "-153.0429",
+                                "balance": "99846.96",
+                                "notes": "TP1=222.20 TP2=223.37 SL=217.50 shares=21 risk\u00e2\u2030\u02c6$49.32 signal=2026-08-05 13:45:00 atr=1.3421 atr_pct=0.6103 volume_ratio=4.1627 ema_sep_atr=2.3647 ema_slope_atr=0.2550 alpaca_order=78e24065-b4be-4ba3-9cc2-8f73bb6e0dce status=OrderStatus.FILLED"
+                            }
+                        ]
+                    },
+                    "trend": {
+                        "has_previous_day": true,
+                        "win_rate_delta_pct": -80.0,
+                        "total_pnl_delta": -151.27,
+                        "trade_count_delta": -5,
+                        "direction": "declining"
+                    }
+                }
+            },
+            "trade_metrics": {
+                "total_trades": 0,
+                "win_count": 0,
+                "loss_count": 0,
+                "breakeven_count": 0,
+                "win_rate_pct": 0.0,
+                "loss_rate_pct": 0.0,
+                "total_pnl": 0,
+                "closed_position_pnl": 0,
+                "avg_pnl_per_trade": 0.0,
+                "avg_win": 0.0,
+                "avg_loss": 0.0,
+                "realized_exit_count": 0,
+                "eod_close_count": 0,
+                "tp1_hit_count": 0,
+                "tp1_realized_pnl": 0,
+                "tp2_hit_count": 0,
+                "tp2_realized_pnl": 0,
+                "open_partial_count": 0,
+                "open_positions": [
+                    {
+                        "trade_id": "NVDA-18",
+                        "symbol": "NVDA",
+                        "side": "LONG",
+                        "entry_price": 219.85,
+                        "remaining": 21.0,
+                        "sl": 217.5,
+                        "tp1": 222.2,
+                        "tp2": 223.37,
+                        "last_event": "ENTRY_LONG"
+                    }
+                ],
+                "by_symbol": {},
+                "recent_trades": [
+                    {
+                        "trade_id": "NVDA-18",
+                        "timestamp": "2026-08-05 13:52:42",
+                        "symbol": "NVDA",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "219.85",
+                        "shares": "21.0",
+                        "usd_qty": "4616.85",
+                        "pnl": "0.0",
+                        "total_pnl": "-153.0429",
+                        "balance": "99846.96",
+                        "notes": "TP1=222.20 TP2=223.37 SL=217.50 shares=21 risk\u00e2\u2030\u02c6$49.32 signal=2026-08-05 13:45:00 atr=1.3421 atr_pct=0.6103 volume_ratio=4.1627 ema_sep_atr=2.3647 ema_slope_atr=0.2550 alpaca_order=78e24065-b4be-4ba3-9cc2-8f73bb6e0dce status=OrderStatus.FILLED"
+                    }
+                ]
+            },
+            "signal_metrics": {
+                "risk_rejected_count": 0,
+                "risk_passed_count": 0,
+                "ai_accepted_count": 0,
+                "ai_rejected_count": 0,
+                "ai_accept_rate_pct": null,
+                "ml_gate_passed_count": 0,
+                "ml_gate_rejected_count": 0,
+                "by_filter": {},
+                "has_signal_data": false
+            },
+            "trend": {
+                "has_previous_day": true,
+                "win_rate_delta_pct": -80.0,
+                "total_pnl_delta": -151.27,
+                "trade_count_delta": -5,
+                "direction": "declining"
             }
         }
     ]
