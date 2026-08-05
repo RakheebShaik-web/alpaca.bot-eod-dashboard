@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-05T14:15:38.870200+00:00",
+    "generated_at": "2026-08-05T14:45:11.513342+00:00",
     "latest_date": "2026-08-05",
     "days": [
         {
@@ -46812,36 +46812,25 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 0,
-                        "win_count": 0,
+                        "total_trades": 1,
+                        "win_count": 1,
                         "loss_count": 0,
                         "breakeven_count": 0,
-                        "win_rate_pct": 0.0,
+                        "win_rate_pct": 100.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 22.4,
-                        "closed_position_pnl": 0,
-                        "avg_pnl_per_trade": 0.0,
-                        "avg_win": 0.0,
+                        "total_pnl": 21.65,
+                        "closed_position_pnl": 21.65,
+                        "avg_pnl_per_trade": 21.65,
+                        "avg_win": 21.65,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 1,
+                        "realized_exit_count": 2,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 22.4,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 1,
+                        "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "NVDA-11",
-                                "symbol": "NVDA",
-                                "side": "LONG",
-                                "entry_price": 219.84,
-                                "remaining": 11.0,
-                                "sl": 217.49,
-                                "tp1": 222.19,
-                                "tp2": 223.36,
-                                "last_event": "TP1_HIT"
-                            },
                             {
                                 "trade_id": "TSLA-12",
                                 "symbol": "TSLA",
@@ -46856,12 +46845,12 @@
                         ],
                         "by_symbol": {
                             "NVDA": {
-                                "trades": 0,
-                                "pnl": 22.4,
-                                "wins": 0,
+                                "trades": 1,
+                                "pnl": 21.65,
+                                "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
-                                "open_partial": 1
+                                "open_partial": 0
                             }
                         },
                         "recent_trades": [
@@ -46906,15 +46895,29 @@
                                 "total_pnl": "-90.72",
                                 "balance": "99909.28",
                                 "notes": "remaining=11 shares alpaca_order=9660029c-1c2e-41d5-bc99-3a31c3e0ae9b status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-11",
+                                "timestamp": "2026-08-05 14:45:06",
+                                "symbol": "NVDA",
+                                "event": "SL_HIT",
+                                "side": "LONG",
+                                "price": "219.7718",
+                                "shares": "11.0",
+                                "usd_qty": "2417.49",
+                                "pnl": "-0.75",
+                                "total_pnl": "-91.47",
+                                "balance": "99908.53",
+                                "notes": "entry=219.84 exit=219.77 alpaca_order=25fafcf7-e08a-4f01-bb4c-9ad1c3e0e621 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -80.0,
-                        "total_pnl_delta": -123.67,
-                        "trade_count_delta": -5,
-                        "direction": "declining"
+                        "win_rate_delta_pct": 20.0,
+                        "total_pnl_delta": -124.42,
+                        "trade_count_delta": -4,
+                        "direction": "mixed"
                     }
                 },
                 "legacy_simulation": {
