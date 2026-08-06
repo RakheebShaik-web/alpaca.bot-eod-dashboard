@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-06T14:17:04.561895+00:00",
+    "generated_at": "2026-08-06T14:21:01.822290+00:00",
     "latest_date": "2026-08-06",
     "days": [
         {
@@ -47405,8 +47405,31 @@
                         "tp1_realized_pnl": 0,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
-                        "open_positions": [],
+                        "open_partial_count": 2,
+                        "open_positions": [
+                            {
+                                "trade_id": "JPM-9",
+                                "symbol": "JPM",
+                                "side": "LONG",
+                                "entry_price": 360.665,
+                                "remaining": 27.0,
+                                "sl": 358.8625,
+                                "tp1": 362.4675,
+                                "tp2": 363.3687,
+                                "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "MSFT-16",
+                                "symbol": "MSFT",
+                                "side": "LONG",
+                                "entry_price": 494.58,
+                                "remaining": 12.0,
+                                "sl": 490.445,
+                                "tp1": 498.715,
+                                "tp2": 500.7825,
+                                "last_event": "ENTRY_LONG"
+                            }
+                        ],
                         "by_symbol": {},
                         "recent_trades": [
                             {
@@ -47422,6 +47445,20 @@
                                 "total_pnl": "-193.6813",
                                 "balance": "99806.32",
                                 "notes": "TP1=498.72 TP2=500.78 SL=490.44 shares=12 risk\u00e2\u2030\u02c6$49.62 signal=2026-08-06 14:15:00 atr=2.3629 atr_pct=0.4775 volume_ratio=1.7634 ema_sep_atr=0.5607 ema_slope_atr=0.1641 alpaca_order=21afd4c6-d5ab-410d-8783-0e3cfa025242 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "JPM-9",
+                                "timestamp": "2026-08-06 14:16:35",
+                                "symbol": "JPM",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "360.665",
+                                "shares": "27.0",
+                                "usd_qty": "9737.95",
+                                "pnl": "0.0",
+                                "total_pnl": "61.691",
+                                "balance": "100061.69",
+                                "notes": "TP1=362.47 TP2=363.37 SL=358.86 shares=27 risk\u00e2\u2030\u02c6$48.67 signal=2026-08-06 14:15:00 atr=1.0300 atr_pct=0.2853 volume_ratio=2.6510 ema_sep_atr=0.8597 ema_slope_atr=0.0335 alpaca_order=9d719af5-8d03-49b1-bc6a-10eb7f02bd64 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -47576,6 +47613,17 @@
                                 "tp1": 498.72,
                                 "tp2": 500.78,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "JPM-9",
+                                "symbol": "JPM",
+                                "side": "LONG",
+                                "entry_price": 360.665,
+                                "remaining": 27.0,
+                                "sl": 358.86,
+                                "tp1": 362.47,
+                                "tp2": 363.37,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {},
@@ -47593,6 +47641,20 @@
                                 "total_pnl": "-193.6813",
                                 "balance": "99806.32",
                                 "notes": "TP1=498.72 TP2=500.78 SL=490.44 shares=12 risk\u00e2\u2030\u02c6$49.62 signal=2026-08-06 14:15:00 atr=2.3629 atr_pct=0.4775 volume_ratio=1.7634 ema_sep_atr=0.5607 ema_slope_atr=0.1641 alpaca_order=21afd4c6-d5ab-410d-8783-0e3cfa025242 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "JPM-9",
+                                "timestamp": "2026-08-06 14:16:35",
+                                "symbol": "JPM",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "360.665",
+                                "shares": "27.0",
+                                "usd_qty": "9737.95",
+                                "pnl": "0.0",
+                                "total_pnl": "61.691",
+                                "balance": "100061.69",
+                                "notes": "TP1=362.47 TP2=363.37 SL=358.86 shares=27 risk\u00e2\u2030\u02c6$48.67 signal=2026-08-06 14:15:00 atr=1.0300 atr_pct=0.2853 volume_ratio=2.6510 ema_sep_atr=0.8597 ema_slope_atr=0.0335 alpaca_order=9d719af5-8d03-49b1-bc6a-10eb7f02bd64 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -47635,6 +47697,17 @@
                         "tp1": 498.72,
                         "tp2": 500.78,
                         "last_event": "ENTRY_LONG"
+                    },
+                    {
+                        "trade_id": "JPM-9",
+                        "symbol": "JPM",
+                        "side": "LONG",
+                        "entry_price": 360.665,
+                        "remaining": 27.0,
+                        "sl": 358.86,
+                        "tp1": 362.47,
+                        "tp2": 363.37,
+                        "last_event": "ENTRY_LONG"
                     }
                 ],
                 "by_symbol": {},
@@ -47652,6 +47725,20 @@
                         "total_pnl": "-193.6813",
                         "balance": "99806.32",
                         "notes": "TP1=498.72 TP2=500.78 SL=490.44 shares=12 risk\u00e2\u2030\u02c6$49.62 signal=2026-08-06 14:15:00 atr=2.3629 atr_pct=0.4775 volume_ratio=1.7634 ema_sep_atr=0.5607 ema_slope_atr=0.1641 alpaca_order=21afd4c6-d5ab-410d-8783-0e3cfa025242 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "JPM-9",
+                        "timestamp": "2026-08-06 14:16:35",
+                        "symbol": "JPM",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "360.665",
+                        "shares": "27.0",
+                        "usd_qty": "9737.95",
+                        "pnl": "0.0",
+                        "total_pnl": "61.691",
+                        "balance": "100061.69",
+                        "notes": "TP1=362.47 TP2=363.37 SL=358.86 shares=27 risk\u00e2\u2030\u02c6$48.67 signal=2026-08-06 14:15:00 atr=1.0300 atr_pct=0.2853 volume_ratio=2.6510 ema_sep_atr=0.8597 ema_slope_atr=0.0335 alpaca_order=9d719af5-8d03-49b1-bc6a-10eb7f02bd64 status=OrderStatus.FILLED"
                     }
                 ]
             },
