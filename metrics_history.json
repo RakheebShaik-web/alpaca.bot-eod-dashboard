@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-06T15:05:58.817022+00:00",
+    "generated_at": "2026-08-06T16:13:13.547483+00:00",
     "latest_date": "2026-08-06",
     "days": [
         {
@@ -47388,18 +47388,18 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 1,
-                        "win_count": 0,
+                        "total_trades": 2,
+                        "win_count": 1,
                         "loss_count": 1,
                         "breakeven_count": 0,
-                        "win_rate_pct": 0.0,
-                        "loss_rate_pct": 100.0,
-                        "total_pnl": -32.73,
-                        "closed_position_pnl": -58.11,
-                        "avg_pnl_per_trade": -58.11,
-                        "avg_win": 0.0,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": -33.21,
+                        "closed_position_pnl": -33.21,
+                        "avg_pnl_per_trade": -16.61,
+                        "avg_win": 24.9,
                         "avg_loss": -58.11,
-                        "realized_exit_count": 2,
+                        "realized_exit_count": 3,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 25.38,
@@ -47427,10 +47427,18 @@
                                 "sl": 494.58,
                                 "tp1": 498.715,
                                 "tp2": 500.7825,
-                                "last_event": "TP1_HIT"
+                                "last_event": "SL_HIT"
                             }
                         ],
                         "by_symbol": {
+                            "MSFT": {
+                                "trades": 1,
+                                "pnl": 24.9,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "JPM": {
                                 "trades": 1,
                                 "pnl": -58.11,
@@ -47438,14 +47446,6 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
-                            },
-                            "MSFT": {
-                                "trades": 0,
-                                "pnl": 25.38,
-                                "wins": 0,
-                                "losses": 0,
-                                "breakeven": 0,
-                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -47518,14 +47518,28 @@
                                 "total_pnl": "-168.3013",
                                 "balance": "99831.7",
                                 "notes": "remaining=6 shares alpaca_order=ac3d4ef6-8e9b-492d-bcbb-af4200b7248e status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-16",
+                                "timestamp": "2026-08-06 16:13:12",
+                                "symbol": "MSFT",
+                                "event": "SL_HIT",
+                                "side": "LONG",
+                                "price": "494.5001",
+                                "shares": "6.0",
+                                "usd_qty": "2967.0",
+                                "pnl": "-0.4794",
+                                "total_pnl": "-168.7807",
+                                "balance": "99831.22",
+                                "notes": "entry=494.58 exit=494.50 alpaca_order=1a56ffd3-86d9-4bcb-9fb8-4b576d0bb2f5 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -66.67,
-                        "total_pnl_delta": 12.55,
-                        "trade_count_delta": -2,
+                        "win_rate_delta_pct": -16.67,
+                        "total_pnl_delta": 12.07,
+                        "trade_count_delta": -1,
                         "direction": "mixed"
                     }
                 },
@@ -47680,36 +47694,25 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 1,
-                        "win_count": 0,
+                        "total_trades": 2,
+                        "win_count": 1,
                         "loss_count": 1,
                         "breakeven_count": 0,
-                        "win_rate_pct": 0.0,
-                        "loss_rate_pct": 100.0,
-                        "total_pnl": -32.73,
-                        "closed_position_pnl": -58.11,
-                        "avg_pnl_per_trade": -58.11,
-                        "avg_win": 0.0,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": -33.21,
+                        "closed_position_pnl": -33.21,
+                        "avg_pnl_per_trade": -16.61,
+                        "avg_win": 24.9,
                         "avg_loss": -58.11,
-                        "realized_exit_count": 2,
+                        "realized_exit_count": 3,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 25.38,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 1,
+                        "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "MSFT-16",
-                                "symbol": "MSFT",
-                                "side": "LONG",
-                                "entry_price": 494.58,
-                                "remaining": 6.0,
-                                "sl": 490.44,
-                                "tp1": 498.72,
-                                "tp2": 500.78,
-                                "last_event": "TP1_HIT"
-                            },
                             {
                                 "trade_id": "CRM-7",
                                 "symbol": "CRM",
@@ -47723,6 +47726,14 @@
                             }
                         ],
                         "by_symbol": {
+                            "MSFT": {
+                                "trades": 1,
+                                "pnl": 24.9,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "JPM": {
                                 "trades": 1,
                                 "pnl": -58.11,
@@ -47730,14 +47741,6 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
-                            },
-                            "MSFT": {
-                                "trades": 0,
-                                "pnl": 25.38,
-                                "wins": 0,
-                                "losses": 0,
-                                "breakeven": 0,
-                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -47810,49 +47813,52 @@
                                 "total_pnl": "-168.3013",
                                 "balance": "99831.7",
                                 "notes": "remaining=6 shares alpaca_order=ac3d4ef6-8e9b-492d-bcbb-af4200b7248e status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-16",
+                                "timestamp": "2026-08-06 16:13:12",
+                                "symbol": "MSFT",
+                                "event": "SL_HIT",
+                                "side": "LONG",
+                                "price": "494.5001",
+                                "shares": "6.0",
+                                "usd_qty": "2967.0",
+                                "pnl": "-0.4794",
+                                "total_pnl": "-168.7807",
+                                "balance": "99831.22",
+                                "notes": "entry=494.58 exit=494.50 alpaca_order=1a56ffd3-86d9-4bcb-9fb8-4b576d0bb2f5 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -66.67,
-                        "total_pnl_delta": 12.55,
-                        "trade_count_delta": -2,
+                        "win_rate_delta_pct": -16.67,
+                        "total_pnl_delta": 12.07,
+                        "trade_count_delta": -1,
                         "direction": "mixed"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 1,
-                "win_count": 0,
+                "total_trades": 2,
+                "win_count": 1,
                 "loss_count": 1,
                 "breakeven_count": 0,
-                "win_rate_pct": 0.0,
-                "loss_rate_pct": 100.0,
-                "total_pnl": -32.73,
-                "closed_position_pnl": -58.11,
-                "avg_pnl_per_trade": -58.11,
-                "avg_win": 0.0,
+                "win_rate_pct": 50.0,
+                "loss_rate_pct": 50.0,
+                "total_pnl": -33.21,
+                "closed_position_pnl": -33.21,
+                "avg_pnl_per_trade": -16.61,
+                "avg_win": 24.9,
                 "avg_loss": -58.11,
-                "realized_exit_count": 2,
+                "realized_exit_count": 3,
                 "eod_close_count": 0,
                 "tp1_hit_count": 1,
                 "tp1_realized_pnl": 25.38,
                 "tp2_hit_count": 0,
                 "tp2_realized_pnl": 0,
-                "open_partial_count": 1,
+                "open_partial_count": 0,
                 "open_positions": [
-                    {
-                        "trade_id": "MSFT-16",
-                        "symbol": "MSFT",
-                        "side": "LONG",
-                        "entry_price": 494.58,
-                        "remaining": 6.0,
-                        "sl": 490.44,
-                        "tp1": 498.72,
-                        "tp2": 500.78,
-                        "last_event": "TP1_HIT"
-                    },
                     {
                         "trade_id": "CRM-7",
                         "symbol": "CRM",
@@ -47866,6 +47872,14 @@
                     }
                 ],
                 "by_symbol": {
+                    "MSFT": {
+                        "trades": 1,
+                        "pnl": 24.9,
+                        "wins": 1,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
                     "JPM": {
                         "trades": 1,
                         "pnl": -58.11,
@@ -47873,14 +47887,6 @@
                         "losses": 1,
                         "breakeven": 0,
                         "open_partial": 0
-                    },
-                    "MSFT": {
-                        "trades": 0,
-                        "pnl": 25.38,
-                        "wins": 0,
-                        "losses": 0,
-                        "breakeven": 0,
-                        "open_partial": 1
                     }
                 },
                 "recent_trades": [
@@ -47953,6 +47959,20 @@
                         "total_pnl": "-168.3013",
                         "balance": "99831.7",
                         "notes": "remaining=6 shares alpaca_order=ac3d4ef6-8e9b-492d-bcbb-af4200b7248e status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "MSFT-16",
+                        "timestamp": "2026-08-06 16:13:12",
+                        "symbol": "MSFT",
+                        "event": "SL_HIT",
+                        "side": "LONG",
+                        "price": "494.5001",
+                        "shares": "6.0",
+                        "usd_qty": "2967.0",
+                        "pnl": "-0.4794",
+                        "total_pnl": "-168.7807",
+                        "balance": "99831.22",
+                        "notes": "entry=494.58 exit=494.50 alpaca_order=1a56ffd3-86d9-4bcb-9fb8-4b576d0bb2f5 status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -47969,9 +47989,9 @@
             },
             "trend": {
                 "has_previous_day": true,
-                "win_rate_delta_pct": -66.67,
-                "total_pnl_delta": 12.55,
-                "trade_count_delta": -2,
+                "win_rate_delta_pct": -16.67,
+                "total_pnl_delta": 12.07,
+                "trade_count_delta": -1,
                 "direction": "mixed"
             }
         }
