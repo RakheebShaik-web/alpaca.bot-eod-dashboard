@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-06T14:37:39.532237+00:00",
+    "generated_at": "2026-08-06T15:00:58.018125+00:00",
     "latest_date": "2026-08-06",
     "days": [
         {
@@ -47471,6 +47471,20 @@
                                 "total_pnl": "3.5762",
                                 "balance": "100003.58",
                                 "notes": "entry=360.67 exit=358.51 alpaca_order=ecd0a2d7-8250-4882-a337-d1118d08151a status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "CRM-7",
+                                "timestamp": "2026-08-06 15:00:57",
+                                "symbol": "CRM",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "184.4501",
+                                "shares": "19.0",
+                                "usd_qty": "3504.55",
+                                "pnl": "0.0",
+                                "total_pnl": "-77.1228",
+                                "balance": "99922.88",
+                                "notes": "TP1=181.89 TP2=180.61 SL=187.01 shares=19 risk\u00e2\u2030\u02c6$48.64 signal=2026-08-06 15:00:00 atr=1.4629 atr_pct=0.7934 volume_ratio=1.3555 ema_sep_atr=0.5188 ema_slope_atr=-0.2846 alpaca_order=60001918-2cf5-439b-979c-84fba828a3ed status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -47637,6 +47651,17 @@
                                 "tp1": 498.72,
                                 "tp2": 500.78,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "CRM-7",
+                                "symbol": "CRM",
+                                "side": "SHORT",
+                                "entry_price": 184.4501,
+                                "remaining": 19.0,
+                                "sl": 187.01,
+                                "tp1": 181.89,
+                                "tp2": 180.61,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -47691,6 +47716,20 @@
                                 "total_pnl": "3.5762",
                                 "balance": "100003.58",
                                 "notes": "entry=360.67 exit=358.51 alpaca_order=ecd0a2d7-8250-4882-a337-d1118d08151a status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "CRM-7",
+                                "timestamp": "2026-08-06 15:00:57",
+                                "symbol": "CRM",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "184.4501",
+                                "shares": "19.0",
+                                "usd_qty": "3504.55",
+                                "pnl": "0.0",
+                                "total_pnl": "-77.1228",
+                                "balance": "99922.88",
+                                "notes": "TP1=181.89 TP2=180.61 SL=187.01 shares=19 risk\u00e2\u2030\u02c6$48.64 signal=2026-08-06 15:00:00 atr=1.4629 atr_pct=0.7934 volume_ratio=1.3555 ema_sep_atr=0.5188 ema_slope_atr=-0.2846 alpaca_order=60001918-2cf5-439b-979c-84fba828a3ed status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -47733,6 +47772,17 @@
                         "tp1": 498.72,
                         "tp2": 500.78,
                         "last_event": "ENTRY_LONG"
+                    },
+                    {
+                        "trade_id": "CRM-7",
+                        "symbol": "CRM",
+                        "side": "SHORT",
+                        "entry_price": 184.4501,
+                        "remaining": 19.0,
+                        "sl": 187.01,
+                        "tp1": 181.89,
+                        "tp2": 180.61,
+                        "last_event": "ENTRY_SHORT"
                     }
                 ],
                 "by_symbol": {
@@ -47787,6 +47837,20 @@
                         "total_pnl": "3.5762",
                         "balance": "100003.58",
                         "notes": "entry=360.67 exit=358.51 alpaca_order=ecd0a2d7-8250-4882-a337-d1118d08151a status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "CRM-7",
+                        "timestamp": "2026-08-06 15:00:57",
+                        "symbol": "CRM",
+                        "event": "ENTRY_SHORT",
+                        "side": "SHORT",
+                        "price": "184.4501",
+                        "shares": "19.0",
+                        "usd_qty": "3504.55",
+                        "pnl": "0.0",
+                        "total_pnl": "-77.1228",
+                        "balance": "99922.88",
+                        "notes": "TP1=181.89 TP2=180.61 SL=187.01 shares=19 risk\u00e2\u2030\u02c6$48.64 signal=2026-08-06 15:00:00 atr=1.4629 atr_pct=0.7934 volume_ratio=1.3555 ema_sep_atr=0.5188 ema_slope_atr=-0.2846 alpaca_order=60001918-2cf5-439b-979c-84fba828a3ed status=OrderStatus.FILLED"
                     }
                 ]
             },
