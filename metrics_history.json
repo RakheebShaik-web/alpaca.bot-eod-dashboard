@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-06T16:13:13.547483+00:00",
+    "generated_at": "2026-08-06T16:18:13.401325+00:00",
     "latest_date": "2026-08-06",
     "days": [
         {
@@ -47419,15 +47419,15 @@
                                 "last_event": "ENTRY_SHORT"
                             },
                             {
-                                "trade_id": "MSFT-16",
-                                "symbol": "MSFT",
-                                "side": "LONG",
-                                "entry_price": 494.58,
-                                "remaining": 6.0,
-                                "sl": 494.58,
-                                "tp1": 498.715,
-                                "tp2": 500.7825,
-                                "last_event": "SL_HIT"
+                                "trade_id": "V-3",
+                                "symbol": "V",
+                                "side": "SHORT",
+                                "entry_price": 366.6518,
+                                "remaining": 24.0,
+                                "sl": 368.7168,
+                                "tp1": 364.5868,
+                                "tp2": 363.5543,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -47532,6 +47532,20 @@
                                 "total_pnl": "-168.7807",
                                 "balance": "99831.22",
                                 "notes": "entry=494.58 exit=494.50 alpaca_order=1a56ffd3-86d9-4bcb-9fb8-4b576d0bb2f5 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "V-3",
+                                "timestamp": "2026-08-06 16:15:33",
+                                "symbol": "V",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "366.6518",
+                                "shares": "24.0",
+                                "usd_qty": "8799.64",
+                                "pnl": "0.0",
+                                "total_pnl": "-438.9",
+                                "balance": "99561.1",
+                                "notes": "TP1=364.59 TP2=363.55 SL=368.72 shares=24 risk\u00e2\u2030\u02c6$49.56 signal=2026-08-06 16:15:00 atr=1.1800 atr_pct=0.3218 volume_ratio=1.0621 ema_sep_atr=0.2435 ema_slope_atr=-0.0710 alpaca_order=59fd4b62-40b4-417b-8638-a65951105e44 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -47723,6 +47737,17 @@
                                 "tp1": 181.89,
                                 "tp2": 180.61,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "V-3",
+                                "symbol": "V",
+                                "side": "SHORT",
+                                "entry_price": 366.6518,
+                                "remaining": 24.0,
+                                "sl": 368.72,
+                                "tp1": 364.59,
+                                "tp2": 363.55,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -47827,6 +47852,20 @@
                                 "total_pnl": "-168.7807",
                                 "balance": "99831.22",
                                 "notes": "entry=494.58 exit=494.50 alpaca_order=1a56ffd3-86d9-4bcb-9fb8-4b576d0bb2f5 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "V-3",
+                                "timestamp": "2026-08-06 16:15:33",
+                                "symbol": "V",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "366.6518",
+                                "shares": "24.0",
+                                "usd_qty": "8799.64",
+                                "pnl": "0.0",
+                                "total_pnl": "-438.9",
+                                "balance": "99561.1",
+                                "notes": "TP1=364.59 TP2=363.55 SL=368.72 shares=24 risk\u00e2\u2030\u02c6$49.56 signal=2026-08-06 16:15:00 atr=1.1800 atr_pct=0.3218 volume_ratio=1.0621 ema_sep_atr=0.2435 ema_slope_atr=-0.0710 alpaca_order=59fd4b62-40b4-417b-8638-a65951105e44 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -47868,6 +47907,17 @@
                         "sl": 187.01,
                         "tp1": 181.89,
                         "tp2": 180.61,
+                        "last_event": "ENTRY_SHORT"
+                    },
+                    {
+                        "trade_id": "V-3",
+                        "symbol": "V",
+                        "side": "SHORT",
+                        "entry_price": 366.6518,
+                        "remaining": 24.0,
+                        "sl": 368.72,
+                        "tp1": 364.59,
+                        "tp2": 363.55,
                         "last_event": "ENTRY_SHORT"
                     }
                 ],
@@ -47973,6 +48023,20 @@
                         "total_pnl": "-168.7807",
                         "balance": "99831.22",
                         "notes": "entry=494.58 exit=494.50 alpaca_order=1a56ffd3-86d9-4bcb-9fb8-4b576d0bb2f5 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "V-3",
+                        "timestamp": "2026-08-06 16:15:33",
+                        "symbol": "V",
+                        "event": "ENTRY_SHORT",
+                        "side": "SHORT",
+                        "price": "366.6518",
+                        "shares": "24.0",
+                        "usd_qty": "8799.64",
+                        "pnl": "0.0",
+                        "total_pnl": "-438.9",
+                        "balance": "99561.1",
+                        "notes": "TP1=364.59 TP2=363.55 SL=368.72 shares=24 risk\u00e2\u2030\u02c6$49.56 signal=2026-08-06 16:15:00 atr=1.1800 atr_pct=0.3218 volume_ratio=1.0621 ema_sep_atr=0.2435 ema_slope_atr=-0.0710 alpaca_order=59fd4b62-40b4-417b-8638-a65951105e44 status=OrderStatus.FILLED"
                     }
                 ]
             },
