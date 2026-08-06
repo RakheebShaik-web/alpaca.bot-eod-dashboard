@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-06T14:32:25.669759+00:00",
+    "generated_at": "2026-08-06T14:37:39.532237+00:00",
     "latest_date": "2026-08-06",
     "days": [
         {
@@ -47388,36 +47388,25 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 0,
+                        "total_trades": 1,
                         "win_count": 0,
-                        "loss_count": 0,
+                        "loss_count": 1,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
-                        "closed_position_pnl": 0,
-                        "avg_pnl_per_trade": 0.0,
+                        "loss_rate_pct": 100.0,
+                        "total_pnl": -58.11,
+                        "closed_position_pnl": -58.11,
+                        "avg_pnl_per_trade": -58.11,
                         "avg_win": 0.0,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "avg_loss": -58.11,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
                         "tp1_hit_count": 0,
                         "tp1_realized_pnl": 0,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 2,
+                        "open_partial_count": 1,
                         "open_positions": [
-                            {
-                                "trade_id": "JPM-9",
-                                "symbol": "JPM",
-                                "side": "LONG",
-                                "entry_price": 360.665,
-                                "remaining": 27.0,
-                                "sl": 358.8625,
-                                "tp1": 362.4675,
-                                "tp2": 363.3687,
-                                "last_event": "ENTRY_LONG"
-                            },
                             {
                                 "trade_id": "MSFT-16",
                                 "symbol": "MSFT",
@@ -47430,7 +47419,16 @@
                                 "last_event": "ENTRY_LONG"
                             }
                         ],
-                        "by_symbol": {},
+                        "by_symbol": {
+                            "JPM": {
+                                "trades": 1,
+                                "pnl": -58.11,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "MSFT-16",
@@ -47459,15 +47457,29 @@
                                 "total_pnl": "61.691",
                                 "balance": "100061.69",
                                 "notes": "TP1=362.47 TP2=363.37 SL=358.86 shares=27 risk\u00e2\u2030\u02c6$48.67 signal=2026-08-06 14:15:00 atr=1.0300 atr_pct=0.2853 volume_ratio=2.6510 ema_sep_atr=0.8597 ema_slope_atr=0.0335 alpaca_order=9d719af5-8d03-49b1-bc6a-10eb7f02bd64 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "JPM-9",
+                                "timestamp": "2026-08-06 14:37:38",
+                                "symbol": "JPM",
+                                "event": "SL_HIT",
+                                "side": "LONG",
+                                "price": "358.5126",
+                                "shares": "27.0",
+                                "usd_qty": "9679.84",
+                                "pnl": "-58.1148",
+                                "total_pnl": "3.5762",
+                                "balance": "100003.58",
+                                "notes": "entry=360.67 exit=358.51 alpaca_order=ecd0a2d7-8250-4882-a337-d1118d08151a status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -66.67,
-                        "total_pnl_delta": 45.28,
-                        "trade_count_delta": -3,
-                        "direction": "mixed"
+                        "total_pnl_delta": -12.83,
+                        "trade_count_delta": -2,
+                        "direction": "declining"
                     }
                 },
                 "alpaca_paper": {
@@ -47596,18 +47608,18 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 0,
+                        "total_trades": 1,
                         "win_count": 0,
-                        "loss_count": 0,
+                        "loss_count": 1,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
-                        "closed_position_pnl": 0,
-                        "avg_pnl_per_trade": 0.0,
+                        "loss_rate_pct": 100.0,
+                        "total_pnl": -58.11,
+                        "closed_position_pnl": -58.11,
+                        "avg_pnl_per_trade": -58.11,
                         "avg_win": 0.0,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "avg_loss": -58.11,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
                         "tp1_hit_count": 0,
                         "tp1_realized_pnl": 0,
@@ -47625,20 +47637,18 @@
                                 "tp1": 498.72,
                                 "tp2": 500.78,
                                 "last_event": "ENTRY_LONG"
-                            },
-                            {
-                                "trade_id": "JPM-9",
-                                "symbol": "JPM",
-                                "side": "LONG",
-                                "entry_price": 360.665,
-                                "remaining": 27.0,
-                                "sl": 358.86,
-                                "tp1": 362.47,
-                                "tp2": 363.37,
-                                "last_event": "ENTRY_LONG"
                             }
                         ],
-                        "by_symbol": {},
+                        "by_symbol": {
+                            "JPM": {
+                                "trades": 1,
+                                "pnl": -58.11,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "MSFT-16",
@@ -47667,31 +47677,45 @@
                                 "total_pnl": "61.691",
                                 "balance": "100061.69",
                                 "notes": "TP1=362.47 TP2=363.37 SL=358.86 shares=27 risk\u00e2\u2030\u02c6$48.67 signal=2026-08-06 14:15:00 atr=1.0300 atr_pct=0.2853 volume_ratio=2.6510 ema_sep_atr=0.8597 ema_slope_atr=0.0335 alpaca_order=9d719af5-8d03-49b1-bc6a-10eb7f02bd64 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "JPM-9",
+                                "timestamp": "2026-08-06 14:37:38",
+                                "symbol": "JPM",
+                                "event": "SL_HIT",
+                                "side": "LONG",
+                                "price": "358.5126",
+                                "shares": "27.0",
+                                "usd_qty": "9679.84",
+                                "pnl": "-58.1148",
+                                "total_pnl": "3.5762",
+                                "balance": "100003.58",
+                                "notes": "entry=360.67 exit=358.51 alpaca_order=ecd0a2d7-8250-4882-a337-d1118d08151a status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -66.67,
-                        "total_pnl_delta": 45.28,
-                        "trade_count_delta": -3,
-                        "direction": "mixed"
+                        "total_pnl_delta": -12.83,
+                        "trade_count_delta": -2,
+                        "direction": "declining"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 0,
+                "total_trades": 1,
                 "win_count": 0,
-                "loss_count": 0,
+                "loss_count": 1,
                 "breakeven_count": 0,
                 "win_rate_pct": 0.0,
-                "loss_rate_pct": 0.0,
-                "total_pnl": 0,
-                "closed_position_pnl": 0,
-                "avg_pnl_per_trade": 0.0,
+                "loss_rate_pct": 100.0,
+                "total_pnl": -58.11,
+                "closed_position_pnl": -58.11,
+                "avg_pnl_per_trade": -58.11,
                 "avg_win": 0.0,
-                "avg_loss": 0.0,
-                "realized_exit_count": 0,
+                "avg_loss": -58.11,
+                "realized_exit_count": 1,
                 "eod_close_count": 0,
                 "tp1_hit_count": 0,
                 "tp1_realized_pnl": 0,
@@ -47709,20 +47733,18 @@
                         "tp1": 498.72,
                         "tp2": 500.78,
                         "last_event": "ENTRY_LONG"
-                    },
-                    {
-                        "trade_id": "JPM-9",
-                        "symbol": "JPM",
-                        "side": "LONG",
-                        "entry_price": 360.665,
-                        "remaining": 27.0,
-                        "sl": 358.86,
-                        "tp1": 362.47,
-                        "tp2": 363.37,
-                        "last_event": "ENTRY_LONG"
                     }
                 ],
-                "by_symbol": {},
+                "by_symbol": {
+                    "JPM": {
+                        "trades": 1,
+                        "pnl": -58.11,
+                        "wins": 0,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    }
+                },
                 "recent_trades": [
                     {
                         "trade_id": "MSFT-16",
@@ -47751,6 +47773,20 @@
                         "total_pnl": "61.691",
                         "balance": "100061.69",
                         "notes": "TP1=362.47 TP2=363.37 SL=358.86 shares=27 risk\u00e2\u2030\u02c6$48.67 signal=2026-08-06 14:15:00 atr=1.0300 atr_pct=0.2853 volume_ratio=2.6510 ema_sep_atr=0.8597 ema_slope_atr=0.0335 alpaca_order=9d719af5-8d03-49b1-bc6a-10eb7f02bd64 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "JPM-9",
+                        "timestamp": "2026-08-06 14:37:38",
+                        "symbol": "JPM",
+                        "event": "SL_HIT",
+                        "side": "LONG",
+                        "price": "358.5126",
+                        "shares": "27.0",
+                        "usd_qty": "9679.84",
+                        "pnl": "-58.1148",
+                        "total_pnl": "3.5762",
+                        "balance": "100003.58",
+                        "notes": "entry=360.67 exit=358.51 alpaca_order=ecd0a2d7-8250-4882-a337-d1118d08151a status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -47768,9 +47804,9 @@
             "trend": {
                 "has_previous_day": true,
                 "win_rate_delta_pct": -66.67,
-                "total_pnl_delta": 45.28,
-                "trade_count_delta": -3,
-                "direction": "mixed"
+                "total_pnl_delta": -12.83,
+                "trade_count_delta": -2,
+                "direction": "declining"
             }
         }
     ]
