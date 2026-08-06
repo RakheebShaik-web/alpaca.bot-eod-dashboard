@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-06T16:18:13.401325+00:00",
+    "generated_at": "2026-08-06T17:50:52.962398+00:00",
     "latest_date": "2026-08-06",
     "days": [
         {
@@ -47388,18 +47388,18 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 2,
+                        "total_trades": 3,
                         "win_count": 1,
-                        "loss_count": 1,
+                        "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 50.0,
-                        "loss_rate_pct": 50.0,
-                        "total_pnl": -33.21,
-                        "closed_position_pnl": -33.21,
-                        "avg_pnl_per_trade": -16.61,
+                        "win_rate_pct": 33.33,
+                        "loss_rate_pct": 66.67,
+                        "total_pnl": -85.73,
+                        "closed_position_pnl": -85.73,
+                        "avg_pnl_per_trade": -28.58,
                         "avg_win": 24.9,
-                        "avg_loss": -58.11,
-                        "realized_exit_count": 3,
+                        "avg_loss": -55.32,
+                        "realized_exit_count": 4,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 25.38,
@@ -47427,7 +47427,7 @@
                                 "sl": 368.7168,
                                 "tp1": 364.5868,
                                 "tp2": 363.5543,
-                                "last_event": "ENTRY_SHORT"
+                                "last_event": "SL_HIT"
                             }
                         ],
                         "by_symbol": {
@@ -47442,6 +47442,14 @@
                             "JPM": {
                                 "trades": 1,
                                 "pnl": -58.11,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "V": {
+                                "trades": 1,
+                                "pnl": -52.52,
                                 "wins": 0,
                                 "losses": 1,
                                 "breakeven": 0,
@@ -47546,15 +47554,29 @@
                                 "total_pnl": "-438.9",
                                 "balance": "99561.1",
                                 "notes": "TP1=364.59 TP2=363.55 SL=368.72 shares=24 risk\u00e2\u2030\u02c6$49.56 signal=2026-08-06 16:15:00 atr=1.1800 atr_pct=0.3218 volume_ratio=1.0621 ema_sep_atr=0.2435 ema_slope_atr=-0.0710 alpaca_order=59fd4b62-40b4-417b-8638-a65951105e44 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "V-3",
+                                "timestamp": "2026-08-06 17:50:51",
+                                "symbol": "V",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "368.84",
+                                "shares": "24.0",
+                                "usd_qty": "8852.16",
+                                "pnl": "-52.5168",
+                                "total_pnl": "-491.4168",
+                                "balance": "99508.58",
+                                "notes": "entry=366.65 exit=368.84 alpaca_order=eef2122e-3f2d-49c1-8723-924d1d3c3685 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -16.67,
-                        "total_pnl_delta": 12.07,
-                        "trade_count_delta": -1,
-                        "direction": "mixed"
+                        "win_rate_delta_pct": -33.34,
+                        "total_pnl_delta": -40.45,
+                        "trade_count_delta": 0,
+                        "direction": "declining"
                     }
                 },
                 "alpaca_paper": {
@@ -47708,18 +47730,18 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 2,
+                        "total_trades": 3,
                         "win_count": 1,
-                        "loss_count": 1,
+                        "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 50.0,
-                        "loss_rate_pct": 50.0,
-                        "total_pnl": -33.21,
-                        "closed_position_pnl": -33.21,
-                        "avg_pnl_per_trade": -16.61,
+                        "win_rate_pct": 33.33,
+                        "loss_rate_pct": 66.67,
+                        "total_pnl": -85.73,
+                        "closed_position_pnl": -85.73,
+                        "avg_pnl_per_trade": -28.58,
                         "avg_win": 24.9,
-                        "avg_loss": -58.11,
-                        "realized_exit_count": 3,
+                        "avg_loss": -55.32,
+                        "realized_exit_count": 4,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 25.38,
@@ -47737,17 +47759,6 @@
                                 "tp1": 181.89,
                                 "tp2": 180.61,
                                 "last_event": "ENTRY_SHORT"
-                            },
-                            {
-                                "trade_id": "V-3",
-                                "symbol": "V",
-                                "side": "SHORT",
-                                "entry_price": 366.6518,
-                                "remaining": 24.0,
-                                "sl": 368.72,
-                                "tp1": 364.59,
-                                "tp2": 363.55,
-                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -47762,6 +47773,14 @@
                             "JPM": {
                                 "trades": 1,
                                 "pnl": -58.11,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "V": {
+                                "trades": 1,
+                                "pnl": -52.52,
                                 "wins": 0,
                                 "losses": 1,
                                 "breakeven": 0,
@@ -47866,31 +47885,45 @@
                                 "total_pnl": "-438.9",
                                 "balance": "99561.1",
                                 "notes": "TP1=364.59 TP2=363.55 SL=368.72 shares=24 risk\u00e2\u2030\u02c6$49.56 signal=2026-08-06 16:15:00 atr=1.1800 atr_pct=0.3218 volume_ratio=1.0621 ema_sep_atr=0.2435 ema_slope_atr=-0.0710 alpaca_order=59fd4b62-40b4-417b-8638-a65951105e44 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "V-3",
+                                "timestamp": "2026-08-06 17:50:51",
+                                "symbol": "V",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "368.84",
+                                "shares": "24.0",
+                                "usd_qty": "8852.16",
+                                "pnl": "-52.5168",
+                                "total_pnl": "-491.4168",
+                                "balance": "99508.58",
+                                "notes": "entry=366.65 exit=368.84 alpaca_order=eef2122e-3f2d-49c1-8723-924d1d3c3685 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -16.67,
-                        "total_pnl_delta": 12.07,
-                        "trade_count_delta": -1,
-                        "direction": "mixed"
+                        "win_rate_delta_pct": -33.34,
+                        "total_pnl_delta": -40.45,
+                        "trade_count_delta": 0,
+                        "direction": "declining"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 2,
+                "total_trades": 3,
                 "win_count": 1,
-                "loss_count": 1,
+                "loss_count": 2,
                 "breakeven_count": 0,
-                "win_rate_pct": 50.0,
-                "loss_rate_pct": 50.0,
-                "total_pnl": -33.21,
-                "closed_position_pnl": -33.21,
-                "avg_pnl_per_trade": -16.61,
+                "win_rate_pct": 33.33,
+                "loss_rate_pct": 66.67,
+                "total_pnl": -85.73,
+                "closed_position_pnl": -85.73,
+                "avg_pnl_per_trade": -28.58,
                 "avg_win": 24.9,
-                "avg_loss": -58.11,
-                "realized_exit_count": 3,
+                "avg_loss": -55.32,
+                "realized_exit_count": 4,
                 "eod_close_count": 0,
                 "tp1_hit_count": 1,
                 "tp1_realized_pnl": 25.38,
@@ -47908,17 +47941,6 @@
                         "tp1": 181.89,
                         "tp2": 180.61,
                         "last_event": "ENTRY_SHORT"
-                    },
-                    {
-                        "trade_id": "V-3",
-                        "symbol": "V",
-                        "side": "SHORT",
-                        "entry_price": 366.6518,
-                        "remaining": 24.0,
-                        "sl": 368.72,
-                        "tp1": 364.59,
-                        "tp2": 363.55,
-                        "last_event": "ENTRY_SHORT"
                     }
                 ],
                 "by_symbol": {
@@ -47933,6 +47955,14 @@
                     "JPM": {
                         "trades": 1,
                         "pnl": -58.11,
+                        "wins": 0,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "V": {
+                        "trades": 1,
+                        "pnl": -52.52,
                         "wins": 0,
                         "losses": 1,
                         "breakeven": 0,
@@ -48037,6 +48067,20 @@
                         "total_pnl": "-438.9",
                         "balance": "99561.1",
                         "notes": "TP1=364.59 TP2=363.55 SL=368.72 shares=24 risk\u00e2\u2030\u02c6$49.56 signal=2026-08-06 16:15:00 atr=1.1800 atr_pct=0.3218 volume_ratio=1.0621 ema_sep_atr=0.2435 ema_slope_atr=-0.0710 alpaca_order=59fd4b62-40b4-417b-8638-a65951105e44 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "V-3",
+                        "timestamp": "2026-08-06 17:50:51",
+                        "symbol": "V",
+                        "event": "SL_HIT",
+                        "side": "SHORT",
+                        "price": "368.84",
+                        "shares": "24.0",
+                        "usd_qty": "8852.16",
+                        "pnl": "-52.5168",
+                        "total_pnl": "-491.4168",
+                        "balance": "99508.58",
+                        "notes": "entry=366.65 exit=368.84 alpaca_order=eef2122e-3f2d-49c1-8723-924d1d3c3685 status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -48053,10 +48097,10 @@
             },
             "trend": {
                 "has_previous_day": true,
-                "win_rate_delta_pct": -16.67,
-                "total_pnl_delta": 12.07,
-                "trade_count_delta": -1,
-                "direction": "mixed"
+                "win_rate_delta_pct": -33.34,
+                "total_pnl_delta": -40.45,
+                "trade_count_delta": 0,
+                "direction": "declining"
             }
         }
     ]
