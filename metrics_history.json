@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-06T19:52:01.001924+00:00",
+    "generated_at": "2026-08-06T19:52:36.212981+00:00",
     "latest_date": "2026-08-06",
     "days": [
         {
@@ -47405,20 +47405,8 @@
                         "tp1_realized_pnl": 25.38,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 1,
-                        "open_positions": [
-                            {
-                                "trade_id": "CRM-7",
-                                "symbol": "CRM",
-                                "side": "SHORT",
-                                "entry_price": 184.4501,
-                                "remaining": 19.0,
-                                "sl": 187.0101,
-                                "tp1": 181.8901,
-                                "tp2": 180.6101,
-                                "last_event": "CLOSE_EOD"
-                            }
-                        ],
+                        "open_partial_count": 0,
+                        "open_positions": [],
                         "by_symbol": {
                             "MSFT": {
                                 "trades": 1,
