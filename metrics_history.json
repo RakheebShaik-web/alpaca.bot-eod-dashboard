@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-06T15:00:58.018125+00:00",
+    "generated_at": "2026-08-06T15:01:19.945257+00:00",
     "latest_date": "2026-08-06",
     "days": [
         {
@@ -47527,6 +47527,17 @@
                                 "tp1": 498.83,
                                 "tp2": 500.89,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "CRM-10",
+                                "symbol": "CRM",
+                                "side": "SHORT",
+                                "entry_price": 184.44,
+                                "remaining": 19.0,
+                                "sl": 187.0,
+                                "tp1": 181.88,
+                                "tp2": 180.6,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -47581,6 +47592,20 @@
                                 "total_pnl": "104.26",
                                 "balance": "100104.26",
                                 "notes": "entry=360.80 exit=358.80 alpaca_order=88ea5147-549e-4e5c-9774-9816fbc7282f status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "CRM-10",
+                                "timestamp": "2026-08-06 15:01:15",
+                                "symbol": "CRM",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "184.44",
+                                "shares": "19.0",
+                                "usd_qty": "3504.36",
+                                "pnl": "0.0",
+                                "total_pnl": "-14.35",
+                                "balance": "99985.65",
+                                "notes": "TP1=181.88 TP2=180.60 SL=187.00 shares=19 risk\u00e2\u2030\u02c6$48.64 signal=2026-08-06 15:00:00 atr=1.4629 atr_pct=0.7934 volume_ratio=1.3555 ema_sep_atr=0.5188 ema_slope_atr=-0.2846 alpaca_order=d63d534f-da5e-4fdf-b4ab-4ba08235bb75 status=OrderStatus.FILLED"
                             }
                         ]
                     },
