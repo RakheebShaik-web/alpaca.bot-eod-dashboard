@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-07T16:16:28.106772+00:00",
+    "generated_at": "2026-08-07T16:16:29.001294+00:00",
     "latest_date": "2026-08-07",
     "days": [
         {
@@ -48267,6 +48267,20 @@
                                 "total_pnl": "-91.0905",
                                 "balance": "99908.91",
                                 "notes": "entry=314.07 exit=312.50 alpaca_order=d15c8bdb-c358-4b14-91ff-93fb03815ea1 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "ASTS-3",
+                                "timestamp": "2026-08-07 16:16:28",
+                                "symbol": "ASTS",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "71.8151",
+                                "shares": "24.0",
+                                "usd_qty": "1723.56",
+                                "pnl": "0.0",
+                                "total_pnl": "-45.2652",
+                                "balance": "99954.73",
+                                "notes": "TP1=73.86 TP2=74.88 SL=69.77 shares=24 risk\u00e2\u2030\u02c6$49.08 signal=2026-08-07 16:15:00 atr=1.1686 atr_pct=1.6320 volume_ratio=1.3052 ema_sep_atr=0.4254 ema_slope_atr=0.1581 alpaca_order=7caa7214-30c1-4053-8f78-d722fd83d61c status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -48480,6 +48494,17 @@
                                 "tp1": 333.51,
                                 "tp2": 335.42,
                                 "last_event": "TP1_HIT"
+                            },
+                            {
+                                "trade_id": "ASTS-3",
+                                "symbol": "ASTS",
+                                "side": "LONG",
+                                "entry_price": 71.8151,
+                                "remaining": 24.0,
+                                "sl": 69.77,
+                                "tp1": 73.86,
+                                "tp2": 74.88,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -48556,6 +48581,20 @@
                                 "total_pnl": "-91.0905",
                                 "balance": "99908.91",
                                 "notes": "entry=314.07 exit=312.50 alpaca_order=d15c8bdb-c358-4b14-91ff-93fb03815ea1 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "ASTS-3",
+                                "timestamp": "2026-08-07 16:16:28",
+                                "symbol": "ASTS",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "71.8151",
+                                "shares": "24.0",
+                                "usd_qty": "1723.56",
+                                "pnl": "0.0",
+                                "total_pnl": "-45.2652",
+                                "balance": "99954.73",
+                                "notes": "TP1=73.86 TP2=74.88 SL=69.77 shares=24 risk\u00e2\u2030\u02c6$49.08 signal=2026-08-07 16:15:00 atr=1.1686 atr_pct=1.6320 volume_ratio=1.3052 ema_sep_atr=0.4254 ema_slope_atr=0.1581 alpaca_order=7caa7214-30c1-4053-8f78-d722fd83d61c status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -48598,6 +48637,17 @@
                         "tp1": 333.51,
                         "tp2": 335.42,
                         "last_event": "TP1_HIT"
+                    },
+                    {
+                        "trade_id": "ASTS-3",
+                        "symbol": "ASTS",
+                        "side": "LONG",
+                        "entry_price": 71.8151,
+                        "remaining": 24.0,
+                        "sl": 69.77,
+                        "tp1": 73.86,
+                        "tp2": 74.88,
+                        "last_event": "ENTRY_LONG"
                     }
                 ],
                 "by_symbol": {
@@ -48674,6 +48724,20 @@
                         "total_pnl": "-91.0905",
                         "balance": "99908.91",
                         "notes": "entry=314.07 exit=312.50 alpaca_order=d15c8bdb-c358-4b14-91ff-93fb03815ea1 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "ASTS-3",
+                        "timestamp": "2026-08-07 16:16:28",
+                        "symbol": "ASTS",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "71.8151",
+                        "shares": "24.0",
+                        "usd_qty": "1723.56",
+                        "pnl": "0.0",
+                        "total_pnl": "-45.2652",
+                        "balance": "99954.73",
+                        "notes": "TP1=73.86 TP2=74.88 SL=69.77 shares=24 risk\u00e2\u2030\u02c6$49.08 signal=2026-08-07 16:15:00 atr=1.1686 atr_pct=1.6320 volume_ratio=1.3052 ema_sep_atr=0.4254 ema_slope_atr=0.1581 alpaca_order=7caa7214-30c1-4053-8f78-d722fd83d61c status=OrderStatus.FILLED"
                     }
                 ]
             },
