@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-07T19:17:03.195323+00:00",
+    "generated_at": "2026-08-07T19:50:35.663121+00:00",
     "latest_date": "2026-08-07",
     "days": [
         {
@@ -48322,19 +48322,19 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 2,
+                        "total_trades": 3,
                         "win_count": 1,
-                        "loss_count": 1,
+                        "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 50.0,
-                        "loss_rate_pct": 50.0,
-                        "total_pnl": -32.34,
-                        "closed_position_pnl": -32.34,
-                        "avg_pnl_per_trade": -16.17,
+                        "win_rate_pct": 33.33,
+                        "loss_rate_pct": 66.67,
+                        "total_pnl": -34.24,
+                        "closed_position_pnl": -34.24,
+                        "avg_pnl_per_trade": -11.41,
                         "avg_win": 17.81,
-                        "avg_loss": -50.15,
-                        "realized_exit_count": 3,
-                        "eod_close_count": 0,
+                        "avg_loss": -26.02,
+                        "realized_exit_count": 4,
+                        "eod_close_count": 1,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 24.24,
                         "tp2_hit_count": 0,
@@ -48350,17 +48350,6 @@
                                 "sl": 69.77,
                                 "tp1": 73.86,
                                 "tp2": 74.88,
-                                "last_event": "ENTRY_LONG"
-                            },
-                            {
-                                "trade_id": "NVDA-12",
-                                "symbol": "NVDA",
-                                "side": "LONG",
-                                "entry_price": 222.97,
-                                "remaining": 44.0,
-                                "sl": 221.84,
-                                "tp1": 224.1,
-                                "tp2": 224.67,
                                 "last_event": "ENTRY_LONG"
                             }
                         ],
@@ -48378,6 +48367,14 @@
                                 "pnl": 17.81,
                                 "wins": 1,
                                 "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "NVDA": {
+                                "trades": 1,
+                                "pnl": -1.9,
+                                "wins": 0,
+                                "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
                             }
@@ -48480,15 +48477,29 @@
                                 "total_pnl": "-91.47",
                                 "balance": "99908.53",
                                 "notes": "TP1=224.10 TP2=224.67 SL=221.84 shares=44 risk\u00e2\u2030\u02c6$49.83 signal=2026-08-07 19:15:00 atr=0.6471 atr_pct=0.2904 volume_ratio=1.0100 ema_sep_atr=1.9253 ema_slope_atr=0.0441 alpaca_order=efe7fb1a-3e50-482f-a963-30ad29d5cbc0 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-12",
+                                "timestamp": "2026-08-07 19:50:31",
+                                "symbol": "NVDA",
+                                "event": "CLOSE_EOD",
+                                "side": "LONG",
+                                "price": "222.9268",
+                                "shares": "44.0",
+                                "usd_qty": "9808.78",
+                                "pnl": "-1.9",
+                                "total_pnl": "-93.37",
+                                "balance": "99906.63",
+                                "notes": "entry=222.97 exit=222.93 alpaca_order=91ffc3d0-7243-48a1-bbb3-fa25f3671dc0 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 16.67,
-                        "total_pnl_delta": 11.72,
-                        "trade_count_delta": -1,
-                        "direction": "improving"
+                        "win_rate_delta_pct": 0.0,
+                        "total_pnl_delta": 9.82,
+                        "trade_count_delta": 0,
+                        "direction": "mixed"
                     }
                 },
                 "legacy_simulation": {
