@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-07T15:43:28.285909+00:00",
+    "generated_at": "2026-08-07T16:16:28.106772+00:00",
     "latest_date": "2026-08-07",
     "days": [
         {
@@ -48309,6 +48309,17 @@
                                 "tp1": 333.42,
                                 "tp2": 335.33,
                                 "last_event": "TP1_HIT"
+                            },
+                            {
+                                "trade_id": "ASTS-7",
+                                "symbol": "ASTS",
+                                "side": "LONG",
+                                "entry_price": 71.8117,
+                                "remaining": 24.0,
+                                "sl": 69.77,
+                                "tp1": 73.86,
+                                "tp2": 74.88,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -48385,6 +48396,20 @@
                                 "total_pnl": "-35.27",
                                 "balance": "99964.73",
                                 "notes": "entry=314.10 exit=312.48 alpaca_order=61c94c16-408a-41d7-b6cc-b462715a5128 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "ASTS-7",
+                                "timestamp": "2026-08-07 16:16:23",
+                                "symbol": "ASTS",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "71.8117",
+                                "shares": "24.0",
+                                "usd_qty": "1723.48",
+                                "pnl": "0.0",
+                                "total_pnl": "46.07",
+                                "balance": "100046.07",
+                                "notes": "TP1=73.86 TP2=74.88 SL=69.77 shares=24 risk\u00e2\u2030\u02c6$49.08 signal=2026-08-07 16:15:00 atr=1.1686 atr_pct=1.6320 volume_ratio=1.3052 ema_sep_atr=0.4254 ema_slope_atr=0.1581 alpaca_order=2a40811f-3b84-41f9-a2ee-747a2e50b048 status=OrderStatus.FILLED"
                             }
                         ]
                     },
