@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-07T14:47:00.968733+00:00",
+    "generated_at": "2026-08-07T15:33:08.443533+00:00",
     "latest_date": "2026-08-07",
     "days": [
         {
@@ -48241,18 +48241,18 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
+                        "total_pnl": 24.24,
                         "closed_position_pnl": 0,
                         "avg_pnl_per_trade": 0.0,
                         "avg_win": 0.0,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 24.24,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "AAPL-10",
@@ -48270,14 +48270,23 @@
                                 "symbol": "TSLA",
                                 "side": "LONG",
                                 "entry_price": 329.6,
-                                "remaining": 13.0,
+                                "remaining": 7.0,
                                 "sl": 325.78,
                                 "tp1": 333.42,
                                 "tp2": 335.33,
-                                "last_event": "ENTRY_LONG"
+                                "last_event": "TP1_HIT"
                             }
                         ],
-                        "by_symbol": {},
+                        "by_symbol": {
+                            "TSLA": {
+                                "trades": 0,
+                                "pnl": 24.24,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "AAPL-10",
@@ -48306,13 +48315,27 @@
                                 "total_pnl": "123.91",
                                 "balance": "100123.91",
                                 "notes": "TP1=333.42 TP2=335.33 SL=325.78 shares=13 risk\u00e2\u2030\u02c6$49.64 signal=2026-08-07 14:45:00 atr=2.1818 atr_pct=0.6640 volume_ratio=2.7284 ema_sep_atr=0.2630 ema_slope_atr=0.2356 alpaca_order=57bc899a-91de-4ac9-b458-ffb8fece4bdd status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "TSLA-13",
+                                "timestamp": "2026-08-07 15:33:04",
+                                "symbol": "TSLA",
+                                "event": "TP1_HIT",
+                                "side": "LONG",
+                                "price": "333.64",
+                                "shares": "6.0",
+                                "usd_qty": "2001.84",
+                                "pnl": "24.24",
+                                "total_pnl": "148.15",
+                                "balance": "100148.15",
+                                "notes": "remaining=7 shares alpaca_order=cdaf87c6-0163-4ea8-a0b5-a018405e058f status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -33.33,
-                        "total_pnl_delta": 44.06,
+                        "total_pnl_delta": 68.3,
                         "trade_count_delta": -3,
                         "direction": "mixed"
                     }
