@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-13T15:34:56.922455+00:00",
+    "generated_at": "2026-08-13T15:35:14.440475+00:00",
     "latest_date": "2026-08-13",
     "days": [
         {
@@ -49111,18 +49111,18 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 1,
+                        "total_trades": 2,
                         "win_count": 0,
-                        "loss_count": 1,
+                        "loss_count": 2,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -52.84,
-                        "closed_position_pnl": -52.84,
-                        "avg_pnl_per_trade": -52.84,
+                        "total_pnl": -105.59,
+                        "closed_position_pnl": -105.59,
+                        "avg_pnl_per_trade": -52.8,
                         "avg_win": 0.0,
-                        "avg_loss": -52.84,
-                        "realized_exit_count": 1,
+                        "avg_loss": -52.8,
+                        "realized_exit_count": 2,
                         "eod_close_count": 0,
                         "tp1_hit_count": 0,
                         "tp1_realized_pnl": 0,
@@ -49130,17 +49130,6 @@
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "NVDA-13",
-                                "symbol": "NVDA",
-                                "side": "LONG",
-                                "entry_price": 225.54,
-                                "remaining": 31.0,
-                                "sl": 223.96,
-                                "tp1": 227.12,
-                                "tp2": 227.91,
-                                "last_event": "ENTRY_LONG"
-                            },
                             {
                                 "trade_id": "TSLA-14",
                                 "symbol": "TSLA",
@@ -49154,6 +49143,14 @@
                             }
                         ],
                         "by_symbol": {
+                            "NVDA": {
+                                "trades": 1,
+                                "pnl": -52.75,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "ASTS": {
                                 "trades": 1,
                                 "pnl": -52.84,
@@ -49219,6 +49216,20 @@
                                 "total_pnl": "141.72",
                                 "balance": "100141.72",
                                 "notes": "TP1=338.28 TP2=339.77 SL=332.31 shares=16 risk\u00e2\u2030\u02c6$47.78 signal=2026-08-13 15:00:00 atr=1.7064 atr_pct=0.5100 volume_ratio=1.3597 ema_sep_atr=0.3742 ema_slope_atr=0.2761 alpaca_order=4456ad35-d38b-475f-b6a0-5d007b464727 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-13",
+                                "timestamp": "2026-08-13 15:35:11",
+                                "symbol": "NVDA",
+                                "event": "SL_HIT",
+                                "side": "LONG",
+                                "price": "223.8384",
+                                "shares": "31.0",
+                                "usd_qty": "6938.99",
+                                "pnl": "-52.75",
+                                "total_pnl": "-146.12",
+                                "balance": "99853.88",
+                                "notes": "entry=225.54 exit=223.84 alpaca_order=629ce5fd-6b0c-478b-935b-46757ec67d0f status=OrderStatus.FILLED"
                             }
                         ]
                     },
