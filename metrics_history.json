@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-13T15:01:19.056692+00:00",
+    "generated_at": "2026-08-13T15:34:56.922455+00:00",
     "latest_date": "2026-08-13",
     "days": [
         {
@@ -48972,24 +48972,24 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 1,
+                        "total_trades": 2,
                         "win_count": 0,
-                        "loss_count": 1,
+                        "loss_count": 2,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -61.28,
-                        "closed_position_pnl": -61.28,
-                        "avg_pnl_per_trade": -61.28,
+                        "total_pnl": -111.86,
+                        "closed_position_pnl": -111.86,
+                        "avg_pnl_per_trade": -55.93,
                         "avg_win": 0.0,
-                        "avg_loss": -61.28,
-                        "realized_exit_count": 1,
+                        "avg_loss": -55.93,
+                        "realized_exit_count": 2,
                         "eod_close_count": 0,
                         "tp1_hit_count": 0,
                         "tp1_realized_pnl": 0,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 1,
+                        "open_partial_count": 2,
                         "open_positions": [
                             {
                                 "trade_id": "NVDA-20",
@@ -49000,10 +49000,29 @@
                                 "sl": 224.0494,
                                 "tp1": 227.2106,
                                 "tp2": 228.0009,
+                                "last_event": "SL_HIT"
+                            },
+                            {
+                                "trade_id": "TSLA-17",
+                                "symbol": "TSLA",
+                                "side": "LONG",
+                                "entry_price": 335.2667,
+                                "remaining": 16.0,
+                                "sl": 332.2805,
+                                "tp1": 338.2529,
+                                "tp2": 339.7461,
                                 "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
+                            "NVDA": {
+                                "trades": 1,
+                                "pnl": -50.58,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "ASTS": {
                                 "trades": 1,
                                 "pnl": -61.28,
@@ -49069,6 +49088,20 @@
                                 "total_pnl": "-148.1569",
                                 "balance": "99851.84",
                                 "notes": "TP1=338.25 TP2=339.75 SL=332.28 shares=16 risk\u00e2\u2030\u02c6$47.78 signal=2026-08-13 15:00:00 atr=1.7064 atr_pct=0.5100 volume_ratio=1.3597 ema_sep_atr=0.3742 ema_slope_atr=0.2761 alpaca_order=693bac85-0228-4959-b9c9-e42856b113fe status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-20",
+                                "timestamp": "2026-08-13 15:34:56",
+                                "symbol": "NVDA",
+                                "event": "SL_HIT",
+                                "side": "LONG",
+                                "price": "223.9983",
+                                "shares": "31.0",
+                                "usd_qty": "6943.95",
+                                "pnl": "-50.5827",
+                                "total_pnl": "-198.1942",
+                                "balance": "99801.81",
+                                "notes": "entry=225.63 exit=224.00 alpaca_order=9882dca6-99c5-4798-9088-f7068141cc24 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -49223,18 +49256,18 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 1,
+                        "total_trades": 2,
                         "win_count": 0,
-                        "loss_count": 1,
+                        "loss_count": 2,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -61.28,
-                        "closed_position_pnl": -61.28,
-                        "avg_pnl_per_trade": -61.28,
+                        "total_pnl": -111.86,
+                        "closed_position_pnl": -111.86,
+                        "avg_pnl_per_trade": -55.93,
                         "avg_win": 0.0,
-                        "avg_loss": -61.28,
-                        "realized_exit_count": 1,
+                        "avg_loss": -55.93,
+                        "realized_exit_count": 2,
                         "eod_close_count": 0,
                         "tp1_hit_count": 0,
                         "tp1_realized_pnl": 0,
@@ -49242,17 +49275,6 @@
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "NVDA-20",
-                                "symbol": "NVDA",
-                                "side": "LONG",
-                                "entry_price": 225.63,
-                                "remaining": 31.0,
-                                "sl": 224.05,
-                                "tp1": 227.21,
-                                "tp2": 228.0,
-                                "last_event": "ENTRY_LONG"
-                            },
                             {
                                 "trade_id": "TSLA-17",
                                 "symbol": "TSLA",
@@ -49266,6 +49288,14 @@
                             }
                         ],
                         "by_symbol": {
+                            "NVDA": {
+                                "trades": 1,
+                                "pnl": -50.58,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "ASTS": {
                                 "trades": 1,
                                 "pnl": -61.28,
@@ -49331,6 +49361,20 @@
                                 "total_pnl": "-148.1569",
                                 "balance": "99851.84",
                                 "notes": "TP1=338.25 TP2=339.75 SL=332.28 shares=16 risk\u00e2\u2030\u02c6$47.78 signal=2026-08-13 15:00:00 atr=1.7064 atr_pct=0.5100 volume_ratio=1.3597 ema_sep_atr=0.3742 ema_slope_atr=0.2761 alpaca_order=693bac85-0228-4959-b9c9-e42856b113fe status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-20",
+                                "timestamp": "2026-08-13 15:34:56",
+                                "symbol": "NVDA",
+                                "event": "SL_HIT",
+                                "side": "LONG",
+                                "price": "223.9983",
+                                "shares": "31.0",
+                                "usd_qty": "6943.95",
+                                "pnl": "-50.5827",
+                                "total_pnl": "-198.1942",
+                                "balance": "99801.81",
+                                "notes": "entry=225.63 exit=224.00 alpaca_order=9882dca6-99c5-4798-9088-f7068141cc24 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -49340,18 +49384,18 @@
                 }
             },
             "trade_metrics": {
-                "total_trades": 1,
+                "total_trades": 2,
                 "win_count": 0,
-                "loss_count": 1,
+                "loss_count": 2,
                 "breakeven_count": 0,
                 "win_rate_pct": 0.0,
                 "loss_rate_pct": 100.0,
-                "total_pnl": -61.28,
-                "closed_position_pnl": -61.28,
-                "avg_pnl_per_trade": -61.28,
+                "total_pnl": -111.86,
+                "closed_position_pnl": -111.86,
+                "avg_pnl_per_trade": -55.93,
                 "avg_win": 0.0,
-                "avg_loss": -61.28,
-                "realized_exit_count": 1,
+                "avg_loss": -55.93,
+                "realized_exit_count": 2,
                 "eod_close_count": 0,
                 "tp1_hit_count": 0,
                 "tp1_realized_pnl": 0,
@@ -49359,17 +49403,6 @@
                 "tp2_realized_pnl": 0,
                 "open_partial_count": 0,
                 "open_positions": [
-                    {
-                        "trade_id": "NVDA-20",
-                        "symbol": "NVDA",
-                        "side": "LONG",
-                        "entry_price": 225.63,
-                        "remaining": 31.0,
-                        "sl": 224.05,
-                        "tp1": 227.21,
-                        "tp2": 228.0,
-                        "last_event": "ENTRY_LONG"
-                    },
                     {
                         "trade_id": "TSLA-17",
                         "symbol": "TSLA",
@@ -49383,6 +49416,14 @@
                     }
                 ],
                 "by_symbol": {
+                    "NVDA": {
+                        "trades": 1,
+                        "pnl": -50.58,
+                        "wins": 0,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
                     "ASTS": {
                         "trades": 1,
                         "pnl": -61.28,
@@ -49448,6 +49489,20 @@
                         "total_pnl": "-148.1569",
                         "balance": "99851.84",
                         "notes": "TP1=338.25 TP2=339.75 SL=332.28 shares=16 risk\u00e2\u2030\u02c6$47.78 signal=2026-08-13 15:00:00 atr=1.7064 atr_pct=0.5100 volume_ratio=1.3597 ema_sep_atr=0.3742 ema_slope_atr=0.2761 alpaca_order=693bac85-0228-4959-b9c9-e42856b113fe status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "NVDA-20",
+                        "timestamp": "2026-08-13 15:34:56",
+                        "symbol": "NVDA",
+                        "event": "SL_HIT",
+                        "side": "LONG",
+                        "price": "223.9983",
+                        "shares": "31.0",
+                        "usd_qty": "6943.95",
+                        "pnl": "-50.5827",
+                        "total_pnl": "-198.1942",
+                        "balance": "99801.81",
+                        "notes": "entry=225.63 exit=224.00 alpaca_order=9882dca6-99c5-4798-9088-f7068141cc24 status=OrderStatus.FILLED"
                     }
                 ]
             },
