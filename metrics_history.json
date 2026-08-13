@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-13T19:01:19.933036+00:00",
+    "generated_at": "2026-08-13T19:16:03.025330+00:00",
     "latest_date": "2026-08-13",
     "days": [
         {
@@ -48989,20 +48989,8 @@
                         "tp1_realized_pnl": 24.52,
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 38.77,
-                        "open_partial_count": 1,
-                        "open_positions": [
-                            {
-                                "trade_id": "TSLA-17",
-                                "symbol": "TSLA",
-                                "side": "LONG",
-                                "entry_price": 335.2667,
-                                "remaining": 8.0,
-                                "sl": 335.2667,
-                                "tp1": 338.2529,
-                                "tp2": 339.7461,
-                                "last_event": "TP2_HIT"
-                            }
-                        ],
+                        "open_partial_count": 0,
+                        "open_positions": [],
                         "by_symbol": {
                             "NVDA": {
                                 "trades": 1,
@@ -49163,6 +49151,20 @@
                                 "total_pnl": "-84.8729",
                                 "balance": "99915.13",
                                 "notes": "entry=335.27 exit=340.11 alpaca_order=3fe74757-1e57-490c-83b3-8fac3e3a542f status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "TSLA-18",
+                                "timestamp": "2026-08-13 19:16:02",
+                                "symbol": "TSLA",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "339.545",
+                                "shares": "21.0",
+                                "usd_qty": "7130.45",
+                                "pnl": "0.0",
+                                "total_pnl": "-84.8729",
+                                "balance": "99915.13",
+                                "notes": "TP1=341.85 TP2=343.00 SL=337.24 shares=21 risk\u00e2\u2030\u02c6$48.34 signal=2026-08-13 19:15:00 atr=1.3154 atr_pct=0.3873 volume_ratio=2.2798 ema_sep_atr=2.2467 ema_slope_atr=0.3154 alpaca_order=82f174a5-4250-4a23-9fb6-b1f07b330318 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -49432,7 +49434,19 @@
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 38.77,
                         "open_partial_count": 0,
-                        "open_positions": [],
+                        "open_positions": [
+                            {
+                                "trade_id": "TSLA-18",
+                                "symbol": "TSLA",
+                                "side": "LONG",
+                                "entry_price": 339.545,
+                                "remaining": 21.0,
+                                "sl": 337.24,
+                                "tp1": 341.85,
+                                "tp2": 343.0,
+                                "last_event": "ENTRY_LONG"
+                            }
+                        ],
                         "by_symbol": {
                             "NVDA": {
                                 "trades": 1,
@@ -49593,6 +49607,20 @@
                                 "total_pnl": "-84.8729",
                                 "balance": "99915.13",
                                 "notes": "entry=335.27 exit=340.11 alpaca_order=3fe74757-1e57-490c-83b3-8fac3e3a542f status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "TSLA-18",
+                                "timestamp": "2026-08-13 19:16:02",
+                                "symbol": "TSLA",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "339.545",
+                                "shares": "21.0",
+                                "usd_qty": "7130.45",
+                                "pnl": "0.0",
+                                "total_pnl": "-84.8729",
+                                "balance": "99915.13",
+                                "notes": "TP1=341.85 TP2=343.00 SL=337.24 shares=21 risk\u00e2\u2030\u02c6$48.34 signal=2026-08-13 19:15:00 atr=1.3154 atr_pct=0.3873 volume_ratio=2.2798 ema_sep_atr=2.2467 ema_slope_atr=0.3154 alpaca_order=82f174a5-4250-4a23-9fb6-b1f07b330318 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -49620,7 +49648,19 @@
                 "tp2_hit_count": 1,
                 "tp2_realized_pnl": 38.77,
                 "open_partial_count": 0,
-                "open_positions": [],
+                "open_positions": [
+                    {
+                        "trade_id": "TSLA-18",
+                        "symbol": "TSLA",
+                        "side": "LONG",
+                        "entry_price": 339.545,
+                        "remaining": 21.0,
+                        "sl": 337.24,
+                        "tp1": 341.85,
+                        "tp2": 343.0,
+                        "last_event": "ENTRY_LONG"
+                    }
+                ],
                 "by_symbol": {
                     "NVDA": {
                         "trades": 1,
@@ -49781,6 +49821,20 @@
                         "total_pnl": "-84.8729",
                         "balance": "99915.13",
                         "notes": "entry=335.27 exit=340.11 alpaca_order=3fe74757-1e57-490c-83b3-8fac3e3a542f status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "TSLA-18",
+                        "timestamp": "2026-08-13 19:16:02",
+                        "symbol": "TSLA",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "339.545",
+                        "shares": "21.0",
+                        "usd_qty": "7130.45",
+                        "pnl": "0.0",
+                        "total_pnl": "-84.8729",
+                        "balance": "99915.13",
+                        "notes": "TP1=341.85 TP2=343.00 SL=337.24 shares=21 risk\u00e2\u2030\u02c6$48.34 signal=2026-08-13 19:15:00 atr=1.3154 atr_pct=0.3873 volume_ratio=2.2798 ema_sep_atr=2.2467 ema_slope_atr=0.3154 alpaca_order=82f174a5-4250-4a23-9fb6-b1f07b330318 status=OrderStatus.FILLED"
                     }
                 ]
             },
