@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-13T15:01:04.340330+00:00",
+    "generated_at": "2026-08-13T15:01:19.056692+00:00",
     "latest_date": "2026-08-13",
     "days": [
         {
@@ -49107,6 +49107,17 @@
                                 "tp1": 227.12,
                                 "tp2": 227.91,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "TSLA-14",
+                                "symbol": "TSLA",
+                                "side": "LONG",
+                                "entry_price": 335.295,
+                                "remaining": 16.0,
+                                "sl": 332.31,
+                                "tp1": 338.28,
+                                "tp2": 339.77,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -49161,6 +49172,20 @@
                                 "total_pnl": "-17.11",
                                 "balance": "99982.89",
                                 "notes": "entry=74.00 exit=72.74 alpaca_order=971e8b4d-6f49-4a01-b9b2-bcd443514ccf status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "TSLA-14",
+                                "timestamp": "2026-08-13 15:01:14",
+                                "symbol": "TSLA",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "335.295",
+                                "shares": "16.0",
+                                "usd_qty": "5364.72",
+                                "pnl": "0.0",
+                                "total_pnl": "141.72",
+                                "balance": "100141.72",
+                                "notes": "TP1=338.28 TP2=339.77 SL=332.31 shares=16 risk\u00e2\u2030\u02c6$47.78 signal=2026-08-13 15:00:00 atr=1.7064 atr_pct=0.5100 volume_ratio=1.3597 ema_sep_atr=0.3742 ema_slope_atr=0.2761 alpaca_order=4456ad35-d38b-475f-b6a0-5d007b464727 status=OrderStatus.FILLED"
                             }
                         ]
                     },
