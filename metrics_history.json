@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-13T19:51:51.370458+00:00",
+    "generated_at": "2026-08-13T19:52:26.830106+00:00",
     "latest_date": "2026-08-13",
     "days": [
         {
@@ -48989,20 +48989,8 @@
                         "tp1_realized_pnl": 24.52,
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 38.77,
-                        "open_partial_count": 1,
-                        "open_positions": [
-                            {
-                                "trade_id": "TSLA-18",
-                                "symbol": "TSLA",
-                                "side": "LONG",
-                                "entry_price": 339.545,
-                                "remaining": 21.0,
-                                "sl": 337.2431,
-                                "tp1": 341.8469,
-                                "tp2": 342.9978,
-                                "last_event": "CLOSE_EOD"
-                            }
-                        ],
+                        "open_partial_count": 0,
+                        "open_positions": [],
                         "by_symbol": {
                             "NVDA": {
                                 "trades": 1,
