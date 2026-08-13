@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-13T18:33:59.849047+00:00",
+    "generated_at": "2026-08-13T18:35:07.836085+00:00",
     "latest_date": "2026-08-13",
     "days": [
         {
@@ -48972,18 +48972,18 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 2,
+                        "total_trades": 3,
                         "win_count": 0,
-                        "loss_count": 2,
+                        "loss_count": 3,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -87.34,
-                        "closed_position_pnl": -111.86,
-                        "avg_pnl_per_trade": -55.93,
+                        "total_pnl": -161.47,
+                        "closed_position_pnl": -185.99,
+                        "avg_pnl_per_trade": -62.0,
                         "avg_win": 0.0,
-                        "avg_loss": -55.93,
-                        "realized_exit_count": 3,
+                        "avg_loss": -62.0,
+                        "realized_exit_count": 4,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 24.52,
@@ -49000,7 +49000,7 @@
                                 "sl": 193.644,
                                 "tp1": 189.724,
                                 "tp2": 188.744,
-                                "last_event": "ENTRY_SHORT"
+                                "last_event": "SL_HIT"
                             },
                             {
                                 "trade_id": "TSLA-17",
@@ -49026,6 +49026,14 @@
                             "ASTS": {
                                 "trades": 1,
                                 "pnl": -61.28,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "CRM": {
+                                "trades": 1,
+                                "pnl": -74.12,
                                 "wins": 0,
                                 "losses": 1,
                                 "breakeven": 0,
@@ -49138,6 +49146,20 @@
                                 "total_pnl": "-123.6393",
                                 "balance": "99876.36",
                                 "notes": "remaining=8 shares alpaca_order=7bbab4be-4006-4662-a594-8d15bf119e4d status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "CRM-9",
+                                "timestamp": "2026-08-13 18:35:07",
+                                "symbol": "CRM",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "194.649",
+                                "shares": "25.0",
+                                "usd_qty": "4866.23",
+                                "pnl": "-74.125",
+                                "total_pnl": "-184.6859",
+                                "balance": "99815.31",
+                                "notes": "entry=191.68 exit=194.65 alpaca_order=56c8819e-d696-4278-bde9-e2f6d61fb6d0 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -49361,18 +49383,18 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 2,
+                        "total_trades": 3,
                         "win_count": 0,
-                        "loss_count": 2,
+                        "loss_count": 3,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -87.34,
-                        "closed_position_pnl": -111.86,
-                        "avg_pnl_per_trade": -55.93,
+                        "total_pnl": -161.47,
+                        "closed_position_pnl": -185.99,
+                        "avg_pnl_per_trade": -62.0,
                         "avg_win": 0.0,
-                        "avg_loss": -55.93,
-                        "realized_exit_count": 3,
+                        "avg_loss": -62.0,
+                        "realized_exit_count": 4,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 24.52,
@@ -49390,17 +49412,6 @@
                                 "tp1": 338.25,
                                 "tp2": 339.75,
                                 "last_event": "TP1_HIT"
-                            },
-                            {
-                                "trade_id": "CRM-9",
-                                "symbol": "CRM",
-                                "side": "SHORT",
-                                "entry_price": 191.684,
-                                "remaining": 25.0,
-                                "sl": 193.64,
-                                "tp1": 189.72,
-                                "tp2": 188.74,
-                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -49415,6 +49426,14 @@
                             "ASTS": {
                                 "trades": 1,
                                 "pnl": -61.28,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "CRM": {
+                                "trades": 1,
+                                "pnl": -74.12,
                                 "wins": 0,
                                 "losses": 1,
                                 "breakeven": 0,
@@ -49527,6 +49546,20 @@
                                 "total_pnl": "-123.6393",
                                 "balance": "99876.36",
                                 "notes": "remaining=8 shares alpaca_order=7bbab4be-4006-4662-a594-8d15bf119e4d status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "CRM-9",
+                                "timestamp": "2026-08-13 18:35:07",
+                                "symbol": "CRM",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "194.649",
+                                "shares": "25.0",
+                                "usd_qty": "4866.23",
+                                "pnl": "-74.125",
+                                "total_pnl": "-184.6859",
+                                "balance": "99815.31",
+                                "notes": "entry=191.68 exit=194.65 alpaca_order=56c8819e-d696-4278-bde9-e2f6d61fb6d0 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -49536,18 +49569,18 @@
                 }
             },
             "trade_metrics": {
-                "total_trades": 2,
+                "total_trades": 3,
                 "win_count": 0,
-                "loss_count": 2,
+                "loss_count": 3,
                 "breakeven_count": 0,
                 "win_rate_pct": 0.0,
                 "loss_rate_pct": 100.0,
-                "total_pnl": -87.34,
-                "closed_position_pnl": -111.86,
-                "avg_pnl_per_trade": -55.93,
+                "total_pnl": -161.47,
+                "closed_position_pnl": -185.99,
+                "avg_pnl_per_trade": -62.0,
                 "avg_win": 0.0,
-                "avg_loss": -55.93,
-                "realized_exit_count": 3,
+                "avg_loss": -62.0,
+                "realized_exit_count": 4,
                 "eod_close_count": 0,
                 "tp1_hit_count": 1,
                 "tp1_realized_pnl": 24.52,
@@ -49565,17 +49598,6 @@
                         "tp1": 338.25,
                         "tp2": 339.75,
                         "last_event": "TP1_HIT"
-                    },
-                    {
-                        "trade_id": "CRM-9",
-                        "symbol": "CRM",
-                        "side": "SHORT",
-                        "entry_price": 191.684,
-                        "remaining": 25.0,
-                        "sl": 193.64,
-                        "tp1": 189.72,
-                        "tp2": 188.74,
-                        "last_event": "ENTRY_SHORT"
                     }
                 ],
                 "by_symbol": {
@@ -49590,6 +49612,14 @@
                     "ASTS": {
                         "trades": 1,
                         "pnl": -61.28,
+                        "wins": 0,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "CRM": {
+                        "trades": 1,
+                        "pnl": -74.12,
                         "wins": 0,
                         "losses": 1,
                         "breakeven": 0,
@@ -49702,6 +49732,20 @@
                         "total_pnl": "-123.6393",
                         "balance": "99876.36",
                         "notes": "remaining=8 shares alpaca_order=7bbab4be-4006-4662-a594-8d15bf119e4d status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "CRM-9",
+                        "timestamp": "2026-08-13 18:35:07",
+                        "symbol": "CRM",
+                        "event": "SL_HIT",
+                        "side": "SHORT",
+                        "price": "194.649",
+                        "shares": "25.0",
+                        "usd_qty": "4866.23",
+                        "pnl": "-74.125",
+                        "total_pnl": "-184.6859",
+                        "balance": "99815.31",
+                        "notes": "entry=191.68 exit=194.65 alpaca_order=56c8819e-d696-4278-bde9-e2f6d61fb6d0 status=OrderStatus.FILLED"
                     }
                 ]
             },
