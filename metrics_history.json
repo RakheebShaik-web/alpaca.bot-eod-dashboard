@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-13T19:16:03.025330+00:00",
+    "generated_at": "2026-08-13T19:50:41.648330+00:00",
     "latest_date": "2026-08-13",
     "days": [
         {
@@ -49174,37 +49174,25 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 4,
+                        "total_trades": 5,
                         "win_count": 1,
-                        "loss_count": 3,
+                        "loss_count": 4,
                         "breakeven_count": 0,
-                        "win_rate_pct": 25.0,
-                        "loss_rate_pct": 75.0,
-                        "total_pnl": -105.82,
-                        "closed_position_pnl": -105.82,
-                        "avg_pnl_per_trade": -26.46,
+                        "win_rate_pct": 20.0,
+                        "loss_rate_pct": 80.0,
+                        "total_pnl": -106.2,
+                        "closed_position_pnl": -106.2,
+                        "avg_pnl_per_trade": -21.24,
                         "avg_win": 61.52,
-                        "avg_loss": -55.78,
-                        "realized_exit_count": 5,
-                        "eod_close_count": 0,
+                        "avg_loss": -41.93,
+                        "realized_exit_count": 6,
+                        "eod_close_count": 1,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 25.56,
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 35.96,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "TSLA-15",
-                                "symbol": "TSLA",
-                                "side": "LONG",
-                                "entry_price": 339.4691,
-                                "remaining": 23.0,
-                                "sl": 337.32,
-                                "tp1": 341.62,
-                                "tp2": 342.7,
-                                "last_event": "ENTRY_LONG"
-                            }
-                        ],
+                        "open_positions": [],
                         "by_symbol": {
                             "NVDA": {
                                 "trades": 1,
@@ -49223,10 +49211,10 @@
                                 "open_partial": 0
                             },
                             "TSLA": {
-                                "trades": 1,
-                                "pnl": 61.52,
+                                "trades": 2,
+                                "pnl": 61.14,
                                 "wins": 1,
-                                "losses": 0,
+                                "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
                             },
@@ -49379,6 +49367,20 @@
                                 "total_pnl": "203.24",
                                 "balance": "100203.24",
                                 "notes": "TP1=341.62 TP2=342.70 SL=337.32 shares=23 risk\u00e2\u2030\u02c6$49.46 signal=2026-08-13 19:00:00 atr=1.2289 atr_pct=0.3619 volume_ratio=1.5469 ema_sep_atr=2.2942 ema_slope_atr=0.3370 alpaca_order=55265f96-ea7a-4e09-b5d5-2839b71701fc status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "TSLA-15",
+                                "timestamp": "2026-08-13 19:50:37",
+                                "symbol": "TSLA",
+                                "event": "CLOSE_EOD",
+                                "side": "LONG",
+                                "price": "339.4526",
+                                "shares": "23.0",
+                                "usd_qty": "7807.41",
+                                "pnl": "-0.38",
+                                "total_pnl": "202.86",
+                                "balance": "100202.86",
+                                "notes": "entry=339.47 exit=339.45 alpaca_order=e0936c68-888f-4b9b-b766-62b9b1743c1d status=OrderStatus.FILLED"
                             }
                         ]
                     },
