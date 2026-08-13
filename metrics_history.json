@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-13T18:35:07.836085+00:00",
+    "generated_at": "2026-08-13T18:50:54.844952+00:00",
     "latest_date": "2026-08-13",
     "days": [
         {
@@ -49169,37 +49169,25 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 3,
-                        "win_count": 0,
+                        "total_trades": 4,
+                        "win_count": 1,
                         "loss_count": 3,
                         "breakeven_count": 0,
-                        "win_rate_pct": 0.0,
-                        "loss_rate_pct": 100.0,
-                        "total_pnl": -141.78,
-                        "closed_position_pnl": -167.34,
-                        "avg_pnl_per_trade": -55.78,
-                        "avg_win": 0.0,
+                        "win_rate_pct": 25.0,
+                        "loss_rate_pct": 75.0,
+                        "total_pnl": -105.82,
+                        "closed_position_pnl": -105.82,
+                        "avg_pnl_per_trade": -26.46,
+                        "avg_win": 61.52,
                         "avg_loss": -55.78,
-                        "realized_exit_count": 4,
+                        "realized_exit_count": 5,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 25.56,
-                        "tp2_hit_count": 0,
-                        "tp2_realized_pnl": 0,
-                        "open_partial_count": 1,
-                        "open_positions": [
-                            {
-                                "trade_id": "TSLA-14",
-                                "symbol": "TSLA",
-                                "side": "LONG",
-                                "entry_price": 335.295,
-                                "remaining": 8.0,
-                                "sl": 332.31,
-                                "tp1": 338.28,
-                                "tp2": 339.77,
-                                "last_event": "TP1_HIT"
-                            }
-                        ],
+                        "tp2_hit_count": 1,
+                        "tp2_realized_pnl": 35.96,
+                        "open_partial_count": 0,
+                        "open_positions": [],
                         "by_symbol": {
                             "NVDA": {
                                 "trades": 1,
@@ -49217,6 +49205,14 @@
                                 "breakeven": 0,
                                 "open_partial": 0
                             },
+                            "TSLA": {
+                                "trades": 1,
+                                "pnl": 61.52,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "CRM": {
                                 "trades": 1,
                                 "pnl": -61.75,
@@ -49224,14 +49220,6 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
-                            },
-                            "TSLA": {
-                                "trades": 0,
-                                "pnl": 25.56,
-                                "wins": 0,
-                                "losses": 0,
-                                "breakeven": 0,
-                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -49346,6 +49334,20 @@
                                 "total_pnl": "-107.64",
                                 "balance": "99892.36",
                                 "notes": "entry=191.67 exit=194.14 alpaca_order=94b79795-54dd-4412-b915-de28e17cb595 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "TSLA-14",
+                                "timestamp": "2026-08-13 18:50:50",
+                                "symbol": "TSLA",
+                                "event": "TP2_HIT",
+                                "side": "LONG",
+                                "price": "339.79",
+                                "shares": "8.0",
+                                "usd_qty": "2718.32",
+                                "pnl": "35.96",
+                                "total_pnl": "203.24",
+                                "balance": "100203.24",
+                                "notes": "entry=335.30 exit=339.79 alpaca_order=68443ce6-2469-42dc-8ead-28fb266a0210 status=OrderStatus.FILLED"
                             }
                         ]
                     },
