@@ -1,6 +1,6 @@
 {
-    "generated_at": "2026-08-13T19:52:58.483603+00:00",
-    "latest_date": "2026-08-13",
+    "generated_at": "2026-08-14T14:00:46.050262+00:00",
+    "latest_date": "2026-08-14",
     "days": [
         {
             "date": "2026-06-26",
@@ -49871,6 +49871,70 @@
             },
             "trend": {
                 "has_previous_day": false
+            }
+        },
+        {
+            "date": "2026-08-14",
+            "datasets": {
+                "alpaca_paper": {
+                    "trade_metrics": {
+                        "total_trades": 0,
+                        "win_count": 0,
+                        "loss_count": 0,
+                        "breakeven_count": 0,
+                        "win_rate_pct": 0.0,
+                        "loss_rate_pct": 0.0,
+                        "total_pnl": 0,
+                        "closed_position_pnl": 0,
+                        "avg_pnl_per_trade": 0.0,
+                        "avg_win": 0.0,
+                        "avg_loss": 0.0,
+                        "realized_exit_count": 0,
+                        "eod_close_count": 0,
+                        "tp1_hit_count": 0,
+                        "tp1_realized_pnl": 0,
+                        "tp2_hit_count": 0,
+                        "tp2_realized_pnl": 0,
+                        "open_partial_count": 0,
+                        "open_positions": [
+                            {
+                                "trade_id": "TSLA-16",
+                                "symbol": "TSLA",
+                                "side": "LONG",
+                                "entry_price": 350.19,
+                                "remaining": 14.0,
+                                "sl": 346.66,
+                                "tp1": 353.72,
+                                "tp2": 355.48,
+                                "last_event": "ENTRY_LONG"
+                            }
+                        ],
+                        "by_symbol": {},
+                        "recent_trades": [
+                            {
+                                "trade_id": "TSLA-16",
+                                "timestamp": "2026-08-14 14:00:41",
+                                "symbol": "TSLA",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "350.19",
+                                "shares": "14.0",
+                                "usd_qty": "4902.66",
+                                "pnl": "0.0",
+                                "total_pnl": "202.86",
+                                "balance": "100202.86",
+                                "notes": "TP1=353.72 TP2=355.48 SL=346.66 shares=14 risk\u00e2\u2030\u02c6$49.39 signal=2026-08-14 14:00:00 atr=2.0161 atr_pct=0.5763 volume_ratio=2.3946 ema_sep_atr=2.0859 ema_slope_atr=0.4235 alpaca_order=5862bf27-9d33-4a5d-aafa-3b80fca538ec status=OrderStatus.FILLED"
+                            }
+                        ]
+                    },
+                    "trend": {
+                        "has_previous_day": true,
+                        "win_rate_delta_pct": -20.0,
+                        "total_pnl_delta": 106.2,
+                        "trade_count_delta": -5,
+                        "direction": "mixed"
+                    }
+                }
             }
         }
     ]
