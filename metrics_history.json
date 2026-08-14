@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-14T15:35:58.616691+00:00",
+    "generated_at": "2026-08-14T16:45:33.965700+00:00",
     "latest_date": "2026-08-14",
     "days": [
         {
@@ -50067,6 +50067,17 @@
                                 "tp1": 67.75,
                                 "tp2": 67.05,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "XOM-8",
+                                "symbol": "XOM",
+                                "side": "LONG",
+                                "entry_price": 161.08,
+                                "remaining": 62.0,
+                                "sl": 160.28,
+                                "tp1": 161.88,
+                                "tp2": 162.28,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -50207,6 +50218,20 @@
                                 "total_pnl": "-133.37",
                                 "balance": "99866.63",
                                 "notes": "entry=505.69 exit=498.72 alpaca_order=63d97cc6-c153-4653-963b-bff4c37c40dc status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "XOM-8",
+                                "timestamp": "2026-08-14 16:45:29",
+                                "symbol": "XOM",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "161.08",
+                                "shares": "62.0",
+                                "usd_qty": "9986.96",
+                                "pnl": "0.0",
+                                "total_pnl": "-57.82",
+                                "balance": "99942.18",
+                                "notes": "TP1=161.88 TP2=162.28 SL=160.28 shares=62 risk\u00e2\u2030\u02c6$49.68 signal=2026-08-14 16:45:00 atr=0.4579 atr_pct=0.2843 volume_ratio=1.2640 ema_sep_atr=1.1847 ema_slope_atr=0.1821 alpaca_order=f0259e27-46a0-4a30-a4eb-32f2b20ed58f status=OrderStatus.FILLED"
                             }
                         ]
                     },
