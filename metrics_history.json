@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-14T14:25:22.585046+00:00",
+    "generated_at": "2026-08-14T14:30:34.463458+00:00",
     "latest_date": "2026-08-14",
     "days": [
         {
@@ -50025,6 +50025,17 @@
                                 "tp1": 396.77,
                                 "tp2": 394.56,
                                 "last_event": "TP1_HIT"
+                            },
+                            {
+                                "trade_id": "AMD-5",
+                                "symbol": "AMD",
+                                "side": "LONG",
+                                "entry_price": 505.69,
+                                "remaining": 7.0,
+                                "sl": 498.9,
+                                "tp1": 512.48,
+                                "tp2": 515.88,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -50101,6 +50112,20 @@
                                 "total_pnl": "135.93",
                                 "balance": "100135.93",
                                 "notes": "remaining=5 shares alpaca_order=311ecd93-acc5-4117-aed7-46d181521c1d status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMD-5",
+                                "timestamp": "2026-08-14 14:30:30",
+                                "symbol": "AMD",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "505.69",
+                                "shares": "7.0",
+                                "usd_qty": "3539.83",
+                                "pnl": "0.0",
+                                "total_pnl": "-84.58",
+                                "balance": "99915.42",
+                                "notes": "TP1=512.48 TP2=515.88 SL=498.90 shares=7 risk\u00e2\u2030\u02c6$47.56 signal=2026-08-14 14:30:00 atr=3.8825 atr_pct=0.7693 volume_ratio=2.6895 ema_sep_atr=0.8997 ema_slope_atr=0.2537 alpaca_order=a64efd0d-c091-4d95-bc96-692a968eda84 status=OrderStatus.FILLED"
                             }
                         ]
                     },
