@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-14T15:32:03.087737+00:00",
+    "generated_at": "2026-08-14T15:35:58.616691+00:00",
     "latest_date": "2026-08-14",
     "days": [
         {
@@ -50038,18 +50038,18 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 2,
+                        "total_trades": 3,
                         "win_count": 1,
-                        "loss_count": 1,
+                        "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 50.0,
-                        "loss_rate_pct": 50.0,
-                        "total_pnl": 13.05,
-                        "closed_position_pnl": 13.05,
-                        "avg_pnl_per_trade": 6.53,
+                        "win_rate_pct": 33.33,
+                        "loss_rate_pct": 66.67,
+                        "total_pnl": -35.74,
+                        "closed_position_pnl": -35.74,
+                        "avg_pnl_per_trade": -11.91,
                         "avg_win": 65.87,
-                        "avg_loss": -52.82,
-                        "realized_exit_count": 3,
+                        "avg_loss": -50.8,
+                        "realized_exit_count": 4,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 30.42,
@@ -50057,17 +50057,6 @@
                         "tp2_realized_pnl": 35.45,
                         "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "AMD-5",
-                                "symbol": "AMD",
-                                "side": "LONG",
-                                "entry_price": 505.69,
-                                "remaining": 7.0,
-                                "sl": 498.9,
-                                "tp1": 512.48,
-                                "tp2": 515.88,
-                                "last_event": "ENTRY_LONG"
-                            },
                             {
                                 "trade_id": "ASTS-9",
                                 "symbol": "ASTS",
@@ -50094,6 +50083,14 @@
                                 "pnl": 65.87,
                                 "wins": 1,
                                 "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "AMD": {
+                                "trades": 1,
+                                "pnl": -48.79,
+                                "wins": 0,
+                                "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
                             }
@@ -50196,14 +50193,28 @@
                                 "total_pnl": "-17.11",
                                 "balance": "99982.89",
                                 "notes": "TP1=67.75 TP2=67.05 SL=70.54 shares=35 risk\u00e2\u2030\u02c6$48.85 signal=2026-08-14 15:30:00 atr=0.7975 atr_pct=1.1481 volume_ratio=1.8504 ema_sep_atr=0.5917 ema_slope_atr=-0.2337 alpaca_order=77fefcaa-eb45-44c1-a9c4-312673850fc4 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMD-5",
+                                "timestamp": "2026-08-14 15:35:54",
+                                "symbol": "AMD",
+                                "event": "SL_HIT",
+                                "side": "LONG",
+                                "price": "498.72",
+                                "shares": "7.0",
+                                "usd_qty": "3491.04",
+                                "pnl": "-48.79",
+                                "total_pnl": "-133.37",
+                                "balance": "99866.63",
+                                "notes": "entry=505.69 exit=498.72 alpaca_order=63d97cc6-c153-4653-963b-bff4c37c40dc status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 30.0,
-                        "total_pnl_delta": 119.25,
-                        "trade_count_delta": -3,
+                        "win_rate_delta_pct": 13.33,
+                        "total_pnl_delta": 70.46,
+                        "trade_count_delta": -2,
                         "direction": "improving"
                     }
                 },
