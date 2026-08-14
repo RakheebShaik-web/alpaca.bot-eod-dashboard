@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-14T14:00:48.872378+00:00",
+    "generated_at": "2026-08-14T14:01:44.819522+00:00",
     "latest_date": "2026-08-14",
     "days": [
         {
@@ -49954,6 +49954,17 @@
                                 "tp1": 353.72,
                                 "tp2": 355.48,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "AVGO-5",
+                                "symbol": "AVGO",
+                                "side": "SHORT",
+                                "entry_price": 401.18,
+                                "remaining": 11.0,
+                                "sl": 405.59,
+                                "tp1": 396.77,
+                                "tp2": 394.56,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {},
@@ -49971,6 +49982,20 @@
                                 "total_pnl": "202.86",
                                 "balance": "100202.86",
                                 "notes": "TP1=353.72 TP2=355.48 SL=346.66 shares=14 risk\u00e2\u2030\u02c6$49.39 signal=2026-08-14 14:00:00 atr=2.0161 atr_pct=0.5763 volume_ratio=2.3946 ema_sep_atr=2.0859 ema_slope_atr=0.4235 alpaca_order=5862bf27-9d33-4a5d-aafa-3b80fca538ec status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AVGO-5",
+                                "timestamp": "2026-08-14 14:01:04",
+                                "symbol": "AVGO",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "401.18",
+                                "shares": "11.0",
+                                "usd_qty": "4412.98",
+                                "pnl": "0.0",
+                                "total_pnl": "105.51",
+                                "balance": "100105.51",
+                                "notes": "TP1=396.77 TP2=394.56 SL=405.59 shares=11 risk\u00e2\u2030\u02c6$48.53 signal=2026-08-14 14:00:00 atr=2.5211 atr_pct=0.6305 volume_ratio=3.3247 ema_sep_atr=0.7531 ema_slope_atr=-0.4469 alpaca_order=647ed99d-2450-449e-b854-260885e8b92f status=OrderStatus.FILLED"
                             }
                         ]
                     },
