@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-14T14:30:34.463458+00:00",
+    "generated_at": "2026-08-14T14:31:33.208244+00:00",
     "latest_date": "2026-08-14",
     "days": [
         {
@@ -49983,6 +49983,20 @@
                                 "total_pnl": "-27.5346",
                                 "balance": "99972.47",
                                 "notes": "remaining=5 shares alpaca_order=fd7647db-136c-4d86-9db0-aed2fad5cc59 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "XOM-9",
+                                "timestamp": "2026-08-14 14:31:32",
+                                "symbol": "XOM",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "161.0222",
+                                "shares": "62.0",
+                                "usd_qty": "9983.38",
+                                "pnl": "0.0",
+                                "total_pnl": "-104.5268",
+                                "balance": "99895.47",
+                                "notes": "TP1=161.82 TP2=162.23 SL=160.22 shares=62 risk\u00e2\u2030\u02c6$49.72 signal=2026-08-14 14:30:00 atr=0.4582 atr_pct=0.2846 volume_ratio=1.4419 ema_sep_atr=0.4177 ema_slope_atr=0.3452 alpaca_order=627e40d8-8fe9-48a3-9873-b2549798271a status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -50196,6 +50210,17 @@
                                 "tp1": 396.8,
                                 "tp2": 394.6,
                                 "last_event": "TP1_HIT"
+                            },
+                            {
+                                "trade_id": "XOM-9",
+                                "symbol": "XOM",
+                                "side": "LONG",
+                                "entry_price": 161.0222,
+                                "remaining": 62.0,
+                                "sl": 160.22,
+                                "tp1": 161.82,
+                                "tp2": 162.23,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -50272,6 +50297,20 @@
                                 "total_pnl": "-27.5346",
                                 "balance": "99972.47",
                                 "notes": "remaining=5 shares alpaca_order=fd7647db-136c-4d86-9db0-aed2fad5cc59 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "XOM-9",
+                                "timestamp": "2026-08-14 14:31:32",
+                                "symbol": "XOM",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "161.0222",
+                                "shares": "62.0",
+                                "usd_qty": "9983.38",
+                                "pnl": "0.0",
+                                "total_pnl": "-104.5268",
+                                "balance": "99895.47",
+                                "notes": "TP1=161.82 TP2=162.23 SL=160.22 shares=62 risk\u00e2\u2030\u02c6$49.72 signal=2026-08-14 14:30:00 atr=0.4582 atr_pct=0.2846 volume_ratio=1.4419 ema_sep_atr=0.4177 ema_slope_atr=0.3452 alpaca_order=627e40d8-8fe9-48a3-9873-b2549798271a status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -50314,6 +50353,17 @@
                         "tp1": 396.8,
                         "tp2": 394.6,
                         "last_event": "TP1_HIT"
+                    },
+                    {
+                        "trade_id": "XOM-9",
+                        "symbol": "XOM",
+                        "side": "LONG",
+                        "entry_price": 161.0222,
+                        "remaining": 62.0,
+                        "sl": 160.22,
+                        "tp1": 161.82,
+                        "tp2": 162.23,
+                        "last_event": "ENTRY_LONG"
                     }
                 ],
                 "by_symbol": {
@@ -50390,6 +50440,20 @@
                         "total_pnl": "-27.5346",
                         "balance": "99972.47",
                         "notes": "remaining=5 shares alpaca_order=fd7647db-136c-4d86-9db0-aed2fad5cc59 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "XOM-9",
+                        "timestamp": "2026-08-14 14:31:32",
+                        "symbol": "XOM",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "161.0222",
+                        "shares": "62.0",
+                        "usd_qty": "9983.38",
+                        "pnl": "0.0",
+                        "total_pnl": "-104.5268",
+                        "balance": "99895.47",
+                        "notes": "TP1=161.82 TP2=162.23 SL=160.22 shares=62 risk\u00e2\u2030\u02c6$49.72 signal=2026-08-14 14:30:00 atr=0.4582 atr_pct=0.2846 volume_ratio=1.4419 ema_sep_atr=0.4177 ema_slope_atr=0.3452 alpaca_order=627e40d8-8fe9-48a3-9873-b2549798271a status=OrderStatus.FILLED"
                     }
                 ]
             },
