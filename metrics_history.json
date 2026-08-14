@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-14T19:50:12.438580+00:00",
+    "generated_at": "2026-08-14T19:51:29.444684+00:00",
     "latest_date": "2026-08-14",
     "days": [
         {
@@ -49895,20 +49895,8 @@
                         "tp1_realized_pnl": 27.79,
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 33.13,
-                        "open_partial_count": 1,
-                        "open_positions": [
-                            {
-                                "trade_id": "ASTS-5",
-                                "symbol": "ASTS",
-                                "side": "SHORT",
-                                "entry_price": 69.525,
-                                "remaining": 35.0,
-                                "sl": 70.9206,
-                                "tp1": 68.1294,
-                                "tp2": 67.4316,
-                                "last_event": "SL_HIT"
-                            }
-                        ],
+                        "open_partial_count": 0,
+                        "open_positions": [],
                         "by_symbol": {
                             "TSLA": {
                                 "trades": 1,
