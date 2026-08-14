@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-14T15:24:33.970282+00:00",
+    "generated_at": "2026-08-14T15:30:59.121662+00:00",
     "latest_date": "2026-08-14",
     "days": [
         {
@@ -49895,19 +49895,8 @@
                         "tp1_realized_pnl": 27.79,
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 33.13,
-                        "open_partial_count": 2,
+                        "open_partial_count": 1,
                         "open_positions": [
-                            {
-                                "trade_id": "AVGO-3",
-                                "symbol": "AVGO",
-                                "side": "SHORT",
-                                "entry_price": 401.2164,
-                                "remaining": 5.0,
-                                "sl": 401.2164,
-                                "tp1": 396.8045,
-                                "tp2": 394.5986,
-                                "last_event": "TP2_HIT"
-                            },
                             {
                                 "trade_id": "XOM-9",
                                 "symbol": "XOM",
@@ -50022,6 +50011,20 @@
                                 "total_pnl": "5.5924",
                                 "balance": "100005.59",
                                 "notes": "entry=401.22 exit=394.59 alpaca_order=47de52f0-ed62-4b35-9faf-1952a050b4e5 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "ASTS-5",
+                                "timestamp": "2026-08-14 15:30:57",
+                                "symbol": "ASTS",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "69.525",
+                                "shares": "35.0",
+                                "usd_qty": "2433.38",
+                                "pnl": "0.0",
+                                "total_pnl": "-115.4256",
+                                "balance": "99884.57",
+                                "notes": "TP1=68.13 TP2=67.43 SL=70.92 shares=35 risk\u00e2\u2030\u02c6$48.85 signal=2026-08-14 15:30:00 atr=0.7975 atr_pct=1.1481 volume_ratio=1.8504 ema_sep_atr=0.5917 ema_slope_atr=-0.2337 alpaca_order=e7e23524-bdf2-492c-8b7a-a264d0b6aac4 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -50238,6 +50241,17 @@
                                 "tp1": 161.82,
                                 "tp2": 162.23,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "ASTS-5",
+                                "symbol": "ASTS",
+                                "side": "SHORT",
+                                "entry_price": 69.525,
+                                "remaining": 35.0,
+                                "sl": 70.92,
+                                "tp1": 68.13,
+                                "tp2": 67.43,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -50342,6 +50356,20 @@
                                 "total_pnl": "5.5924",
                                 "balance": "100005.59",
                                 "notes": "entry=401.22 exit=394.59 alpaca_order=47de52f0-ed62-4b35-9faf-1952a050b4e5 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "ASTS-5",
+                                "timestamp": "2026-08-14 15:30:57",
+                                "symbol": "ASTS",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "69.525",
+                                "shares": "35.0",
+                                "usd_qty": "2433.38",
+                                "pnl": "0.0",
+                                "total_pnl": "-115.4256",
+                                "balance": "99884.57",
+                                "notes": "TP1=68.13 TP2=67.43 SL=70.92 shares=35 risk\u00e2\u2030\u02c6$48.85 signal=2026-08-14 15:30:00 atr=0.7975 atr_pct=1.1481 volume_ratio=1.8504 ema_sep_atr=0.5917 ema_slope_atr=-0.2337 alpaca_order=e7e23524-bdf2-492c-8b7a-a264d0b6aac4 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -50384,6 +50412,17 @@
                         "tp1": 161.82,
                         "tp2": 162.23,
                         "last_event": "ENTRY_LONG"
+                    },
+                    {
+                        "trade_id": "ASTS-5",
+                        "symbol": "ASTS",
+                        "side": "SHORT",
+                        "entry_price": 69.525,
+                        "remaining": 35.0,
+                        "sl": 70.92,
+                        "tp1": 68.13,
+                        "tp2": 67.43,
+                        "last_event": "ENTRY_SHORT"
                     }
                 ],
                 "by_symbol": {
@@ -50488,6 +50527,20 @@
                         "total_pnl": "5.5924",
                         "balance": "100005.59",
                         "notes": "entry=401.22 exit=394.59 alpaca_order=47de52f0-ed62-4b35-9faf-1952a050b4e5 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "ASTS-5",
+                        "timestamp": "2026-08-14 15:30:57",
+                        "symbol": "ASTS",
+                        "event": "ENTRY_SHORT",
+                        "side": "SHORT",
+                        "price": "69.525",
+                        "shares": "35.0",
+                        "usd_qty": "2433.38",
+                        "pnl": "0.0",
+                        "total_pnl": "-115.4256",
+                        "balance": "99884.57",
+                        "notes": "TP1=68.13 TP2=67.43 SL=70.92 shares=35 risk\u00e2\u2030\u02c6$48.85 signal=2026-08-14 15:30:00 atr=0.7975 atr_pct=1.1481 volume_ratio=1.8504 ema_sep_atr=0.5917 ema_slope_atr=-0.2337 alpaca_order=e7e23524-bdf2-492c-8b7a-a264d0b6aac4 status=OrderStatus.FILLED"
                     }
                 ]
             },
