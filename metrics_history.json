@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-14T19:22:48.423221+00:00",
+    "generated_at": "2026-08-14T19:50:12.438580+00:00",
     "latest_date": "2026-08-14",
     "days": [
         {
@@ -49878,24 +49878,24 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 3,
+                        "total_trades": 4,
                         "win_count": 1,
-                        "loss_count": 2,
+                        "loss_count": 3,
                         "breakeven_count": 0,
-                        "win_rate_pct": 33.33,
-                        "loss_rate_pct": 66.67,
-                        "total_pnl": -42.58,
-                        "closed_position_pnl": -42.58,
-                        "avg_pnl_per_trade": -14.19,
+                        "win_rate_pct": 25.0,
+                        "loss_rate_pct": 75.0,
+                        "total_pnl": -96.83,
+                        "closed_position_pnl": -96.83,
+                        "avg_pnl_per_trade": -24.21,
                         "avg_win": 60.92,
-                        "avg_loss": -51.75,
-                        "realized_exit_count": 4,
+                        "avg_loss": -52.58,
+                        "realized_exit_count": 5,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 27.79,
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 33.13,
-                        "open_partial_count": 2,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "ASTS-5",
@@ -49906,17 +49906,6 @@
                                 "sl": 70.9206,
                                 "tp1": 68.1294,
                                 "tp2": 67.4316,
-                                "last_event": "ENTRY_SHORT"
-                            },
-                            {
-                                "trade_id": "XOM-9",
-                                "symbol": "XOM",
-                                "side": "LONG",
-                                "entry_price": 161.0222,
-                                "remaining": 62.0,
-                                "sl": 160.2203,
-                                "tp1": 161.8241,
-                                "tp2": 162.225,
                                 "last_event": "SL_HIT"
                             }
                         ],
@@ -49940,6 +49929,14 @@
                             "XOM": {
                                 "trades": 1,
                                 "pnl": -52.21,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "ASTS": {
+                                "trades": 1,
+                                "pnl": -54.25,
                                 "wins": 0,
                                 "losses": 1,
                                 "breakeven": 0,
@@ -50058,14 +50055,28 @@
                                 "total_pnl": "-156.737",
                                 "balance": "99843.26",
                                 "notes": "entry=161.02 exit=160.18 alpaca_order=d3531d2d-a4e1-4620-8ba8-31c4a2244a39 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "ASTS-5",
+                                "timestamp": "2026-08-14 19:50:11",
+                                "symbol": "ASTS",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "71.075",
+                                "shares": "35.0",
+                                "usd_qty": "2487.62",
+                                "pnl": "-54.25",
+                                "total_pnl": "-169.6756",
+                                "balance": "99830.32",
+                                "notes": "entry=69.53 exit=71.08 alpaca_order=da1e85ce-7922-4f94-aaed-1e638fa6e730 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 13.33,
-                        "total_pnl_delta": 91.46,
-                        "trade_count_delta": -2,
+                        "win_rate_delta_pct": 5.0,
+                        "total_pnl_delta": 37.21,
+                        "trade_count_delta": -1,
                         "direction": "improving"
                     }
                 },
@@ -50355,37 +50366,25 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 3,
+                        "total_trades": 4,
                         "win_count": 1,
-                        "loss_count": 2,
+                        "loss_count": 3,
                         "breakeven_count": 0,
-                        "win_rate_pct": 33.33,
-                        "loss_rate_pct": 66.67,
-                        "total_pnl": -42.58,
-                        "closed_position_pnl": -42.58,
-                        "avg_pnl_per_trade": -14.19,
+                        "win_rate_pct": 25.0,
+                        "loss_rate_pct": 75.0,
+                        "total_pnl": -96.83,
+                        "closed_position_pnl": -96.83,
+                        "avg_pnl_per_trade": -24.21,
                         "avg_win": 60.92,
-                        "avg_loss": -51.75,
-                        "realized_exit_count": 4,
+                        "avg_loss": -52.58,
+                        "realized_exit_count": 5,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 27.79,
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 33.13,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "ASTS-5",
-                                "symbol": "ASTS",
-                                "side": "SHORT",
-                                "entry_price": 69.525,
-                                "remaining": 35.0,
-                                "sl": 70.92,
-                                "tp1": 68.13,
-                                "tp2": 67.43,
-                                "last_event": "ENTRY_SHORT"
-                            }
-                        ],
+                        "open_positions": [],
                         "by_symbol": {
                             "TSLA": {
                                 "trades": 1,
@@ -50406,6 +50405,14 @@
                             "XOM": {
                                 "trades": 1,
                                 "pnl": -52.21,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "ASTS": {
+                                "trades": 1,
+                                "pnl": -54.25,
                                 "wins": 0,
                                 "losses": 1,
                                 "breakeven": 0,
@@ -50524,50 +50531,52 @@
                                 "total_pnl": "-156.737",
                                 "balance": "99843.26",
                                 "notes": "entry=161.02 exit=160.18 alpaca_order=d3531d2d-a4e1-4620-8ba8-31c4a2244a39 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "ASTS-5",
+                                "timestamp": "2026-08-14 19:50:11",
+                                "symbol": "ASTS",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "71.075",
+                                "shares": "35.0",
+                                "usd_qty": "2487.62",
+                                "pnl": "-54.25",
+                                "total_pnl": "-169.6756",
+                                "balance": "99830.32",
+                                "notes": "entry=69.53 exit=71.08 alpaca_order=da1e85ce-7922-4f94-aaed-1e638fa6e730 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 13.33,
-                        "total_pnl_delta": 91.46,
-                        "trade_count_delta": -2,
+                        "win_rate_delta_pct": 5.0,
+                        "total_pnl_delta": 37.21,
+                        "trade_count_delta": -1,
                         "direction": "improving"
                     }
                 }
             },
             "trade_metrics": {
-                "total_trades": 3,
+                "total_trades": 4,
                 "win_count": 1,
-                "loss_count": 2,
+                "loss_count": 3,
                 "breakeven_count": 0,
-                "win_rate_pct": 33.33,
-                "loss_rate_pct": 66.67,
-                "total_pnl": -42.58,
-                "closed_position_pnl": -42.58,
-                "avg_pnl_per_trade": -14.19,
+                "win_rate_pct": 25.0,
+                "loss_rate_pct": 75.0,
+                "total_pnl": -96.83,
+                "closed_position_pnl": -96.83,
+                "avg_pnl_per_trade": -24.21,
                 "avg_win": 60.92,
-                "avg_loss": -51.75,
-                "realized_exit_count": 4,
+                "avg_loss": -52.58,
+                "realized_exit_count": 5,
                 "eod_close_count": 0,
                 "tp1_hit_count": 1,
                 "tp1_realized_pnl": 27.79,
                 "tp2_hit_count": 1,
                 "tp2_realized_pnl": 33.13,
                 "open_partial_count": 0,
-                "open_positions": [
-                    {
-                        "trade_id": "ASTS-5",
-                        "symbol": "ASTS",
-                        "side": "SHORT",
-                        "entry_price": 69.525,
-                        "remaining": 35.0,
-                        "sl": 70.92,
-                        "tp1": 68.13,
-                        "tp2": 67.43,
-                        "last_event": "ENTRY_SHORT"
-                    }
-                ],
+                "open_positions": [],
                 "by_symbol": {
                     "TSLA": {
                         "trades": 1,
@@ -50588,6 +50597,14 @@
                     "XOM": {
                         "trades": 1,
                         "pnl": -52.21,
+                        "wins": 0,
+                        "losses": 1,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "ASTS": {
+                        "trades": 1,
+                        "pnl": -54.25,
                         "wins": 0,
                         "losses": 1,
                         "breakeven": 0,
@@ -50706,6 +50723,20 @@
                         "total_pnl": "-156.737",
                         "balance": "99843.26",
                         "notes": "entry=161.02 exit=160.18 alpaca_order=d3531d2d-a4e1-4620-8ba8-31c4a2244a39 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "ASTS-5",
+                        "timestamp": "2026-08-14 19:50:11",
+                        "symbol": "ASTS",
+                        "event": "SL_HIT",
+                        "side": "SHORT",
+                        "price": "71.075",
+                        "shares": "35.0",
+                        "usd_qty": "2487.62",
+                        "pnl": "-54.25",
+                        "total_pnl": "-169.6756",
+                        "balance": "99830.32",
+                        "notes": "entry=69.53 exit=71.08 alpaca_order=da1e85ce-7922-4f94-aaed-1e638fa6e730 status=OrderStatus.FILLED"
                     }
                 ]
             },
@@ -50722,9 +50753,9 @@
             },
             "trend": {
                 "has_previous_day": true,
-                "win_rate_delta_pct": 13.33,
-                "total_pnl_delta": 91.46,
-                "trade_count_delta": -2,
+                "win_rate_delta_pct": 5.0,
+                "total_pnl_delta": 37.21,
+                "trade_count_delta": -1,
                 "direction": "improving"
             }
         }
