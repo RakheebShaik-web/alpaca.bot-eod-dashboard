@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-17T13:56:54.291664+00:00",
+    "generated_at": "2026-08-17T14:00:39.587489+00:00",
     "latest_date": "2026-08-17",
     "days": [
         {
@@ -50781,6 +50781,17 @@
                                 "tp1": 261.46,
                                 "tp2": 260.74,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "MSFT-18",
+                                "symbol": "MSFT",
+                                "side": "SHORT",
+                                "entry_price": 484.6732,
+                                "remaining": 19.0,
+                                "sl": 487.18,
+                                "tp1": 482.17,
+                                "tp2": 480.91,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -50835,6 +50846,20 @@
                                 "total_pnl": "96.56",
                                 "balance": "100096.56",
                                 "notes": "entry=342.41 exit=339.44 alpaca_order=955bae7e-9da9-45b5-bd86-28be908ee7c4 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-18",
+                                "timestamp": "2026-08-17 14:00:35",
+                                "symbol": "MSFT",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "484.6732",
+                                "shares": "19.0",
+                                "usd_qty": "9208.79",
+                                "pnl": "0.0",
+                                "total_pnl": "30.22",
+                                "balance": "100030.22",
+                                "notes": "TP1=482.17 TP2=480.91 SL=487.18 shares=19 risk\u00e2\u2030\u02c6$47.65 signal=2026-08-17 14:00:00 atr=1.4332 atr_pct=0.2956 volume_ratio=2.1613 ema_sep_atr=1.0418 ema_slope_atr=-0.4744 alpaca_order=ed5f99c3-0242-4e65-aa64-899a9b2546de status=OrderStatus.FILLED"
                             }
                         ]
                     },
