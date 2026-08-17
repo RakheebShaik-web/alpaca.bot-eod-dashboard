@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-17T15:01:37.736881+00:00",
+    "generated_at": "2026-08-17T15:20:30.085731+00:00",
     "latest_date": "2026-08-17",
     "days": [
         {
@@ -50752,36 +50752,25 @@
             "datasets": {
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 3,
-                        "win_count": 1,
+                        "total_trades": 4,
+                        "win_count": 2,
                         "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 33.33,
-                        "loss_rate_pct": 66.67,
-                        "total_pnl": -12.49,
-                        "closed_position_pnl": -40.72,
-                        "avg_pnl_per_trade": -13.57,
-                        "avg_win": 63.84,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": -13.52,
+                        "closed_position_pnl": -13.52,
+                        "avg_pnl_per_trade": -3.38,
+                        "avg_win": 45.52,
                         "avg_loss": -52.28,
-                        "realized_exit_count": 5,
+                        "realized_exit_count": 6,
                         "eod_close_count": 0,
                         "tp1_hit_count": 2,
                         "tp1_realized_pnl": 55.18,
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 36.89,
-                        "open_partial_count": 1,
+                        "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "MSFT-18",
-                                "symbol": "MSFT",
-                                "side": "SHORT",
-                                "entry_price": 484.6732,
-                                "remaining": 9.0,
-                                "sl": 487.18,
-                                "tp1": 482.17,
-                                "tp2": 480.91,
-                                "last_event": "TP1_HIT"
-                            },
                             {
                                 "trade_id": "UNH-12",
                                 "symbol": "UNH",
@@ -50811,6 +50800,14 @@
                                 "breakeven": 0,
                                 "open_partial": 0
                             },
+                            "MSFT": {
+                                "trades": 1,
+                                "pnl": 27.2,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "NVDA": {
                                 "trades": 1,
                                 "pnl": -51.08,
@@ -50818,14 +50815,6 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
-                            },
-                            "MSFT": {
-                                "trades": 0,
-                                "pnl": 28.23,
-                                "wins": 0,
-                                "losses": 0,
-                                "breakeven": 0,
-                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -50968,14 +50957,28 @@
                                 "total_pnl": "78.74",
                                 "balance": "100078.74",
                                 "notes": "TP1=391.51 TP2=389.93 SL=397.83 shares=15 risk\u00e2\u2030\u02c6$47.35 signal=2026-08-17 15:00:00 atr=1.8039 atr_pct=0.4571 volume_ratio=2.6533 ema_sep_atr=0.9359 ema_slope_atr=-0.2553 alpaca_order=38e08667-c4ad-49d4-be3a-34d464640586 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "MSFT-18",
+                                "timestamp": "2026-08-17 15:20:26",
+                                "symbol": "MSFT",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "484.7878",
+                                "shares": "9.0",
+                                "usd_qty": "4363.09",
+                                "pnl": "-1.0316",
+                                "total_pnl": "57.42",
+                                "balance": "100057.42",
+                                "notes": "entry=484.67 exit=484.79 alpaca_order=13638cbc-14f7-4442-aadf-971d71e1150c status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 16.66,
-                        "total_pnl_delta": 180.96,
-                        "trade_count_delta": -3,
+                        "win_rate_delta_pct": 33.33,
+                        "total_pnl_delta": 179.93,
+                        "trade_count_delta": -2,
                         "direction": "improving"
                     }
                 }
