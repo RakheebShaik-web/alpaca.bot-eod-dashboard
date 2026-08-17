@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-17T14:35:21.194682+00:00",
+    "generated_at": "2026-08-17T14:46:11.015042+00:00",
     "latest_date": "2026-08-17",
     "days": [
         {
@@ -50781,6 +50781,17 @@
                                 "tp1": 482.17,
                                 "tp2": 480.91,
                                 "last_event": "TP1_HIT"
+                            },
+                            {
+                                "trade_id": "NVDA-14",
+                                "symbol": "NVDA",
+                                "side": "LONG",
+                                "entry_price": 227.1489,
+                                "remaining": 35.0,
+                                "sl": 225.74,
+                                "tp1": 228.56,
+                                "tp2": 229.26,
+                                "last_event": "ENTRY_LONG"
                             }
                         ],
                         "by_symbol": {
@@ -50907,6 +50918,20 @@
                                 "total_pnl": "84.8434",
                                 "balance": "100084.84",
                                 "notes": "entry=262.88 exit=260.71 alpaca_order=801c3cb2-c39b-4661-87c7-f2f10e027f8e status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-14",
+                                "timestamp": "2026-08-17 14:46:05",
+                                "symbol": "NVDA",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "227.1489",
+                                "shares": "35.0",
+                                "usd_qty": "7950.21",
+                                "pnl": "0.0",
+                                "total_pnl": "-146.12",
+                                "balance": "99853.88",
+                                "notes": "TP1=228.56 TP2=229.26 SL=225.74 shares=35 risk\u00e2\u2030\u02c6$49.22 signal=2026-08-17 14:45:00 atr=0.8036 atr_pct=0.3540 volume_ratio=2.0918 ema_sep_atr=0.6650 ema_slope_atr=0.1332 alpaca_order=5aa864c9-8694-4e17-96bb-f23037b51d74 status=OrderStatus.FILLED"
                             }
                         ]
                     },
