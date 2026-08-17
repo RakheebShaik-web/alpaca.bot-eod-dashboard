@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-17T14:55:34.525098+00:00",
+    "generated_at": "2026-08-17T15:01:37.736881+00:00",
     "latest_date": "2026-08-17",
     "days": [
         {
@@ -50781,6 +50781,17 @@
                                 "tp1": 482.17,
                                 "tp2": 480.91,
                                 "last_event": "TP1_HIT"
+                            },
+                            {
+                                "trade_id": "UNH-12",
+                                "symbol": "UNH",
+                                "side": "SHORT",
+                                "entry_price": 394.67,
+                                "remaining": 15.0,
+                                "sl": 397.83,
+                                "tp1": 391.51,
+                                "tp2": 389.93,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -50943,6 +50954,20 @@
                                 "total_pnl": "-197.2",
                                 "balance": "99802.8",
                                 "notes": "entry=227.15 exit=225.69 alpaca_order=a311d33f-b641-4d02-943b-0e74935c4673 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "UNH-12",
+                                "timestamp": "2026-08-17 15:01:34",
+                                "symbol": "UNH",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "394.67",
+                                "shares": "15.0",
+                                "usd_qty": "5920.05",
+                                "pnl": "0.0",
+                                "total_pnl": "78.74",
+                                "balance": "100078.74",
+                                "notes": "TP1=391.51 TP2=389.93 SL=397.83 shares=15 risk\u00e2\u2030\u02c6$47.35 signal=2026-08-17 15:00:00 atr=1.8039 atr_pct=0.4571 volume_ratio=2.6533 ema_sep_atr=0.9359 ema_slope_atr=-0.2553 alpaca_order=38e08667-c4ad-49d4-be3a-34d464640586 status=OrderStatus.FILLED"
                             }
                         ]
                     },
