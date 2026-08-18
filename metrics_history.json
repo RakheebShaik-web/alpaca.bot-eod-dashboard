@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-18T15:56:45.498432+00:00",
+    "generated_at": "2026-08-18T16:15:46.140450+00:00",
     "latest_date": "2026-08-18",
     "days": [
         {
@@ -50898,6 +50898,17 @@
                                 "tp1": 65.82,
                                 "tp2": 65.23,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "BAC-10",
+                                "symbol": "BAC",
+                                "side": "SHORT",
+                                "entry_price": 63.64,
+                                "remaining": 139.0,
+                                "sl": 64.0,
+                                "tp1": 63.28,
+                                "tp2": 63.1,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -50966,6 +50977,20 @@
                                 "total_pnl": "145.62",
                                 "balance": "100145.62",
                                 "notes": "entry=381.56 exit=381.69 alpaca_order=adaaae8b-00fd-45c7-927e-114afd17a215 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "BAC-10",
+                                "timestamp": "2026-08-18 16:15:42",
+                                "symbol": "BAC",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "63.64",
+                                "shares": "139.0",
+                                "usd_qty": "8845.96",
+                                "pnl": "0.0",
+                                "total_pnl": "-76.06",
+                                "balance": "99923.94",
+                                "notes": "TP1=63.28 TP2=63.10 SL=64.00 shares=139 risk\u00e2\u2030\u02c6$49.87 signal=2026-08-18 16:15:00 atr=0.2050 atr_pct=0.3221 volume_ratio=1.0970 ema_sep_atr=1.0455 ema_slope_atr=-0.1881 alpaca_order=30e2c7e5-60a8-4dd3-93b3-4c4e78c25dd5 status=OrderStatus.FILLED"
                             }
                         ]
                     },
