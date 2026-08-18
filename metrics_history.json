@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-18T13:50:34.291809+00:00",
+    "generated_at": "2026-08-18T14:11:33.206688+00:00",
     "latest_date": "2026-08-18",
     "days": [
         {
@@ -50838,29 +50838,29 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
+                        "total_pnl": 29.26,
                         "closed_position_pnl": 0,
                         "avg_pnl_per_trade": 0.0,
                         "avg_win": 0.0,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 29.26,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "AVGO-7",
                                 "symbol": "AVGO",
                                 "side": "SHORT",
                                 "entry_price": 381.56,
-                                "remaining": 16.0,
+                                "remaining": 8.0,
                                 "sl": 384.61,
                                 "tp1": 378.51,
                                 "tp2": 376.99,
-                                "last_event": "ENTRY_SHORT"
+                                "last_event": "TP1_HIT"
                             },
                             {
                                 "trade_id": "ASTS-10",
@@ -50874,7 +50874,16 @@
                                 "last_event": "ENTRY_SHORT"
                             }
                         ],
-                        "by_symbol": {},
+                        "by_symbol": {
+                            "AVGO": {
+                                "trades": 0,
+                                "pnl": 29.26,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "AVGO-7",
@@ -50903,13 +50912,27 @@
                                 "total_pnl": "-68.64",
                                 "balance": "99931.36",
                                 "notes": "TP1=65.82 TP2=65.23 SL=68.16 shares=42 risk\u00e2\u2030\u02c6$49.17 signal=2026-08-18 13:45:00 atr=0.6689 atr_pct=0.9984 volume_ratio=3.1363 ema_sep_atr=0.4489 ema_slope_atr=-0.2594 alpaca_order=189cad7c-589d-4ba3-8c00-5d511c273e4b status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AVGO-7",
+                                "timestamp": "2026-08-18 14:11:28",
+                                "symbol": "AVGO",
+                                "event": "TP1_HIT",
+                                "side": "SHORT",
+                                "price": "377.9025",
+                                "shares": "8.0",
+                                "usd_qty": "3023.22",
+                                "pnl": "29.26",
+                                "total_pnl": "146.66",
+                                "balance": "100146.66",
+                                "notes": "remaining=8 shares alpaca_order=ebec2f91-3338-49f4-a427-b7773496c8cf status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -50.0,
-                        "total_pnl_delta": 13.52,
+                        "total_pnl_delta": 42.78,
                         "trade_count_delta": -4,
                         "direction": "mixed"
                     }
