@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-18T13:45:34.903534+00:00",
+    "generated_at": "2026-08-18T13:46:39.580293+00:00",
     "latest_date": "2026-08-18",
     "days": [
         {
@@ -50813,12 +50813,68 @@
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
-                        "open_positions": [],
+                        "open_positions": [
+                            {
+                                "trade_id": "AVGO-7",
+                                "symbol": "AVGO",
+                                "side": "SHORT",
+                                "entry_price": 381.56,
+                                "remaining": 16.0,
+                                "sl": 384.61,
+                                "tp1": 378.51,
+                                "tp2": 376.99,
+                                "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "ASTS-10",
+                                "symbol": "ASTS",
+                                "side": "SHORT",
+                                "entry_price": 66.99,
+                                "remaining": 42.0,
+                                "sl": 68.16,
+                                "tp1": 65.82,
+                                "tp2": 65.23,
+                                "last_event": "ENTRY_SHORT"
+                            }
+                        ],
                         "by_symbol": {},
-                        "recent_trades": []
+                        "recent_trades": [
+                            {
+                                "trade_id": "AVGO-7",
+                                "timestamp": "2026-08-18 13:45:35",
+                                "symbol": "AVGO",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "381.56",
+                                "shares": "16.0",
+                                "usd_qty": "6104.96",
+                                "pnl": "0.0",
+                                "total_pnl": "117.4",
+                                "balance": "100117.4",
+                                "notes": "TP1=378.51 TP2=376.99 SL=384.61 shares=16 risk\u00e2\u2030\u02c6$48.75 signal=2026-08-18 13:45:00 atr=1.7411 atr_pct=0.4561 volume_ratio=2.1198 ema_sep_atr=2.1632 ema_slope_atr=-0.3104 alpaca_order=c3275928-3453-4c8d-9647-fe718f2fd5d9 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "ASTS-10",
+                                "timestamp": "2026-08-18 13:46:10",
+                                "symbol": "ASTS",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "66.99",
+                                "shares": "42.0",
+                                "usd_qty": "2813.58",
+                                "pnl": "0.0",
+                                "total_pnl": "-68.64",
+                                "balance": "99931.36",
+                                "notes": "TP1=65.82 TP2=65.23 SL=68.16 shares=42 risk\u00e2\u2030\u02c6$49.17 signal=2026-08-18 13:45:00 atr=0.6689 atr_pct=0.9984 volume_ratio=3.1363 ema_sep_atr=0.4489 ema_slope_atr=-0.2594 alpaca_order=189cad7c-589d-4ba3-8c00-5d511c273e4b status=OrderStatus.FILLED"
+                            }
+                        ]
                     },
                     "trend": {
-                        "has_previous_day": false
+                        "has_previous_day": true,
+                        "win_rate_delta_pct": -50.0,
+                        "total_pnl_delta": 13.52,
+                        "trade_count_delta": -4,
+                        "direction": "mixed"
                     }
                 },
                 "legacy_simulation": {
