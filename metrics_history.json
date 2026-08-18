@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-18T16:16:47.565180+00:00",
+    "generated_at": "2026-08-18T17:01:33.879387+00:00",
     "latest_date": "2026-08-18",
     "days": [
         {
@@ -50752,24 +50752,24 @@
             "datasets": {
                 "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 1,
+                        "total_trades": 2,
                         "win_count": 1,
-                        "loss_count": 0,
+                        "loss_count": 1,
                         "breakeven_count": 0,
-                        "win_rate_pct": 100.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 27.38,
-                        "closed_position_pnl": 27.38,
-                        "avg_pnl_per_trade": 27.38,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": -22.54,
+                        "closed_position_pnl": -22.54,
+                        "avg_pnl_per_trade": -11.27,
                         "avg_win": 27.38,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 2,
+                        "avg_loss": -49.91,
+                        "realized_exit_count": 3,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 29.79,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 1,
+                        "open_partial_count": 2,
                         "open_positions": [
                             {
                                 "trade_id": "ASTS-6",
@@ -50780,6 +50780,17 @@
                                 "sl": 68.1819,
                                 "tp1": 65.8407,
                                 "tp2": 65.2554,
+                                "last_event": "SL_HIT"
+                            },
+                            {
+                                "trade_id": "BAC-10",
+                                "symbol": "BAC",
+                                "side": "SHORT",
+                                "entry_price": 63.6508,
+                                "remaining": 139.0,
+                                "sl": 64.0095,
+                                "tp1": 63.292,
+                                "tp2": 63.1127,
                                 "last_event": "ENTRY_SHORT"
                             }
                         ],
@@ -50789,6 +50800,14 @@
                                 "pnl": 27.38,
                                 "wins": 1,
                                 "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "ASTS": {
+                                "trades": 1,
+                                "pnl": -49.91,
+                                "wins": 0,
+                                "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
                             }
@@ -50863,6 +50882,20 @@
                                 "total_pnl": "64.4805",
                                 "balance": "100064.48",
                                 "notes": "TP1=63.29 TP2=63.11 SL=64.01 shares=139 risk\u00e2\u2030\u02c6$49.87 signal=2026-08-18 16:15:00 atr=0.2050 atr_pct=0.3221 volume_ratio=1.0970 ema_sep_atr=1.0455 ema_slope_atr=-0.1881 alpaca_order=69a0d8ee-6055-40c4-b68b-c057ad69aa33 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "ASTS-6",
+                                "timestamp": "2026-08-18 17:01:29",
+                                "symbol": "ASTS",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "68.1997",
+                                "shares": "42.0",
+                                "usd_qty": "2864.39",
+                                "pnl": "-49.9128",
+                                "total_pnl": "-219.5884",
+                                "balance": "99780.41",
+                                "notes": "entry=67.01 exit=68.20 alpaca_order=e2aa2895-2928-4728-a350-04e8bc484d30 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -50872,18 +50905,18 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 1,
+                        "total_trades": 2,
                         "win_count": 1,
-                        "loss_count": 0,
+                        "loss_count": 1,
                         "breakeven_count": 0,
-                        "win_rate_pct": 100.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 28.22,
-                        "closed_position_pnl": 28.22,
-                        "avg_pnl_per_trade": 28.22,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": -22.6,
+                        "closed_position_pnl": -22.6,
+                        "avg_pnl_per_trade": -11.3,
                         "avg_win": 28.22,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 2,
+                        "avg_loss": -50.82,
+                        "realized_exit_count": 3,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 29.26,
@@ -50891,17 +50924,6 @@
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "ASTS-10",
-                                "symbol": "ASTS",
-                                "side": "SHORT",
-                                "entry_price": 66.99,
-                                "remaining": 42.0,
-                                "sl": 68.16,
-                                "tp1": 65.82,
-                                "tp2": 65.23,
-                                "last_event": "ENTRY_SHORT"
-                            },
                             {
                                 "trade_id": "BAC-10",
                                 "symbol": "BAC",
@@ -50920,6 +50942,14 @@
                                 "pnl": 28.22,
                                 "wins": 1,
                                 "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "ASTS": {
+                                "trades": 1,
+                                "pnl": -50.82,
+                                "wins": 0,
+                                "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
                             }
@@ -50994,15 +51024,29 @@
                                 "total_pnl": "-76.06",
                                 "balance": "99923.94",
                                 "notes": "TP1=63.28 TP2=63.10 SL=64.00 shares=139 risk\u00e2\u2030\u02c6$49.87 signal=2026-08-18 16:15:00 atr=0.2050 atr_pct=0.3221 volume_ratio=1.0970 ema_sep_atr=1.0455 ema_slope_atr=-0.1881 alpaca_order=30e2c7e5-60a8-4dd3-93b3-4c4e78c25dd5 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "ASTS-10",
+                                "timestamp": "2026-08-18 17:01:29",
+                                "symbol": "ASTS",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "68.2",
+                                "shares": "42.0",
+                                "usd_qty": "2864.4",
+                                "pnl": "-50.82",
+                                "total_pnl": "-119.46",
+                                "balance": "99880.54",
+                                "notes": "entry=66.99 exit=68.20 alpaca_order=cbe40520-2319-4404-a411-21ad6acaabd5 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 50.0,
-                        "total_pnl_delta": 41.74,
-                        "trade_count_delta": -3,
-                        "direction": "improving"
+                        "win_rate_delta_pct": 0.0,
+                        "total_pnl_delta": -9.08,
+                        "trade_count_delta": -2,
+                        "direction": "mixed"
                     }
                 },
                 "legacy_simulation": {
@@ -51035,18 +51079,18 @@
                 },
                 "all": {
                     "trade_metrics": {
-                        "total_trades": 1,
+                        "total_trades": 2,
                         "win_count": 1,
-                        "loss_count": 0,
+                        "loss_count": 1,
                         "breakeven_count": 0,
-                        "win_rate_pct": 100.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 27.38,
-                        "closed_position_pnl": 27.38,
-                        "avg_pnl_per_trade": 27.38,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": -22.54,
+                        "closed_position_pnl": -22.54,
+                        "avg_pnl_per_trade": -11.27,
                         "avg_win": 27.38,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 2,
+                        "avg_loss": -49.91,
+                        "realized_exit_count": 3,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 29.79,
@@ -51054,17 +51098,6 @@
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "ASTS-6",
-                                "symbol": "ASTS",
-                                "side": "SHORT",
-                                "entry_price": 67.0113,
-                                "remaining": 42.0,
-                                "sl": 68.18,
-                                "tp1": 65.84,
-                                "tp2": 65.26,
-                                "last_event": "ENTRY_SHORT"
-                            },
                             {
                                 "trade_id": "BAC-10",
                                 "symbol": "BAC",
@@ -51083,6 +51116,14 @@
                                 "pnl": 27.38,
                                 "wins": 1,
                                 "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "ASTS": {
+                                "trades": 1,
+                                "pnl": -49.91,
+                                "wins": 0,
+                                "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
                             }
@@ -51157,6 +51198,20 @@
                                 "total_pnl": "64.4805",
                                 "balance": "100064.48",
                                 "notes": "TP1=63.29 TP2=63.11 SL=64.01 shares=139 risk\u00e2\u2030\u02c6$49.87 signal=2026-08-18 16:15:00 atr=0.2050 atr_pct=0.3221 volume_ratio=1.0970 ema_sep_atr=1.0455 ema_slope_atr=-0.1881 alpaca_order=69a0d8ee-6055-40c4-b68b-c057ad69aa33 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "ASTS-6",
+                                "timestamp": "2026-08-18 17:01:29",
+                                "symbol": "ASTS",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "68.1997",
+                                "shares": "42.0",
+                                "usd_qty": "2864.39",
+                                "pnl": "-49.9128",
+                                "total_pnl": "-219.5884",
+                                "balance": "99780.41",
+                                "notes": "entry=67.01 exit=68.20 alpaca_order=e2aa2895-2928-4728-a350-04e8bc484d30 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -51166,18 +51221,18 @@
                 }
             },
             "trade_metrics": {
-                "total_trades": 1,
+                "total_trades": 2,
                 "win_count": 1,
-                "loss_count": 0,
+                "loss_count": 1,
                 "breakeven_count": 0,
-                "win_rate_pct": 100.0,
-                "loss_rate_pct": 0.0,
-                "total_pnl": 27.38,
-                "closed_position_pnl": 27.38,
-                "avg_pnl_per_trade": 27.38,
+                "win_rate_pct": 50.0,
+                "loss_rate_pct": 50.0,
+                "total_pnl": -22.54,
+                "closed_position_pnl": -22.54,
+                "avg_pnl_per_trade": -11.27,
                 "avg_win": 27.38,
-                "avg_loss": 0.0,
-                "realized_exit_count": 2,
+                "avg_loss": -49.91,
+                "realized_exit_count": 3,
                 "eod_close_count": 0,
                 "tp1_hit_count": 1,
                 "tp1_realized_pnl": 29.79,
@@ -51185,17 +51240,6 @@
                 "tp2_realized_pnl": 0,
                 "open_partial_count": 0,
                 "open_positions": [
-                    {
-                        "trade_id": "ASTS-6",
-                        "symbol": "ASTS",
-                        "side": "SHORT",
-                        "entry_price": 67.0113,
-                        "remaining": 42.0,
-                        "sl": 68.18,
-                        "tp1": 65.84,
-                        "tp2": 65.26,
-                        "last_event": "ENTRY_SHORT"
-                    },
                     {
                         "trade_id": "BAC-10",
                         "symbol": "BAC",
@@ -51214,6 +51258,14 @@
                         "pnl": 27.38,
                         "wins": 1,
                         "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 0
+                    },
+                    "ASTS": {
+                        "trades": 1,
+                        "pnl": -49.91,
+                        "wins": 0,
+                        "losses": 1,
                         "breakeven": 0,
                         "open_partial": 0
                     }
@@ -51288,6 +51340,20 @@
                         "total_pnl": "64.4805",
                         "balance": "100064.48",
                         "notes": "TP1=63.29 TP2=63.11 SL=64.01 shares=139 risk\u00e2\u2030\u02c6$49.87 signal=2026-08-18 16:15:00 atr=0.2050 atr_pct=0.3221 volume_ratio=1.0970 ema_sep_atr=1.0455 ema_slope_atr=-0.1881 alpaca_order=69a0d8ee-6055-40c4-b68b-c057ad69aa33 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "ASTS-6",
+                        "timestamp": "2026-08-18 17:01:29",
+                        "symbol": "ASTS",
+                        "event": "SL_HIT",
+                        "side": "SHORT",
+                        "price": "68.1997",
+                        "shares": "42.0",
+                        "usd_qty": "2864.39",
+                        "pnl": "-49.9128",
+                        "total_pnl": "-219.5884",
+                        "balance": "99780.41",
+                        "notes": "entry=67.01 exit=68.20 alpaca_order=e2aa2895-2928-4728-a350-04e8bc484d30 status=OrderStatus.FILLED"
                     }
                 ]
             },
