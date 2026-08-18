@@ -1,6 +1,6 @@
 {
-    "generated_at": "2026-08-17T15:20:30.085731+00:00",
-    "latest_date": "2026-08-17",
+    "generated_at": "2026-08-18T13:45:34.903534+00:00",
+    "latest_date": "2026-08-18",
     "days": [
         {
             "date": "2026-06-26",
@@ -50748,240 +50748,226 @@
             }
         },
         {
-            "date": "2026-08-17",
+            "date": "2026-08-18",
             "datasets": {
-                "alpaca_paper": {
+                "alpaca_live": {
                     "trade_metrics": {
-                        "total_trades": 4,
-                        "win_count": 2,
-                        "loss_count": 2,
+                        "total_trades": 0,
+                        "win_count": 0,
+                        "loss_count": 0,
                         "breakeven_count": 0,
-                        "win_rate_pct": 50.0,
-                        "loss_rate_pct": 50.0,
-                        "total_pnl": -13.52,
-                        "closed_position_pnl": -13.52,
-                        "avg_pnl_per_trade": -3.38,
-                        "avg_win": 45.52,
-                        "avg_loss": -52.28,
-                        "realized_exit_count": 6,
+                        "win_rate_pct": 0.0,
+                        "loss_rate_pct": 0.0,
+                        "total_pnl": 0,
+                        "closed_position_pnl": 0,
+                        "avg_pnl_per_trade": 0.0,
+                        "avg_win": 0.0,
+                        "avg_loss": 0.0,
+                        "realized_exit_count": 0,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 2,
-                        "tp1_realized_pnl": 55.18,
-                        "tp2_hit_count": 1,
-                        "tp2_realized_pnl": 36.89,
+                        "tp1_hit_count": 0,
+                        "tp1_realized_pnl": 0,
+                        "tp2_hit_count": 0,
+                        "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "UNH-12",
-                                "symbol": "UNH",
-                                "side": "SHORT",
-                                "entry_price": 394.67,
-                                "remaining": 15.0,
-                                "sl": 397.83,
-                                "tp1": 391.51,
-                                "tp2": 389.93,
-                                "last_event": "ENTRY_SHORT"
-                            }
-                        ],
-                        "by_symbol": {
-                            "AMZN": {
-                                "trades": 1,
-                                "pnl": 63.84,
-                                "wins": 1,
-                                "losses": 0,
-                                "breakeven": 0,
-                                "open_partial": 0
-                            },
-                            "TSLA": {
-                                "trades": 1,
-                                "pnl": -53.48,
-                                "wins": 0,
-                                "losses": 1,
-                                "breakeven": 0,
-                                "open_partial": 0
-                            },
-                            "MSFT": {
-                                "trades": 1,
-                                "pnl": 27.2,
-                                "wins": 1,
-                                "losses": 0,
-                                "breakeven": 0,
-                                "open_partial": 0
-                            },
-                            "NVDA": {
-                                "trades": 1,
-                                "pnl": -51.08,
-                                "wins": 0,
-                                "losses": 1,
-                                "breakeven": 0,
-                                "open_partial": 0
-                            }
-                        },
+                        "open_positions": [],
+                        "by_symbol": {},
                         "recent_trades": [
                             {
-                                "trade_id": "AMZN-15",
-                                "timestamp": "2026-08-17 13:50:35",
-                                "symbol": "AMZN",
+                                "trade_id": "AVGO-4",
+                                "timestamp": "2026-08-18 13:45:33",
+                                "symbol": "AVGO",
                                 "event": "ENTRY_SHORT",
                                 "side": "SHORT",
-                                "price": "262.8763",
-                                "shares": "35.0",
-                                "usd_qty": "9200.67",
+                                "price": "381.3835",
+                                "shares": "16.0",
+                                "usd_qty": "6102.14",
                                 "pnl": "0.0",
-                                "total_pnl": "21.0034",
-                                "balance": "100021.0",
-                                "notes": "TP1=261.46 TP2=260.74 SL=264.30 shares=35 risk\u00e2\u2030\u02c6$49.74 signal=2026-08-17 13:45:00 atr=0.8121 atr_pct=0.3099 volume_ratio=7.3932 ema_sep_atr=1.8305 ema_slope_atr=-0.1089 alpaca_order=8b04a92c-c2fc-4d2c-b8d5-36f2540354f1 status=OrderStatus.FILLED"
-                            },
-                            {
-                                "trade_id": "TSLA-17",
-                                "timestamp": "2026-08-17 13:51:02",
-                                "symbol": "TSLA",
-                                "event": "ENTRY_LONG",
-                                "side": "LONG",
-                                "price": "342.4111",
-                                "shares": "18.0",
-                                "usd_qty": "6163.4",
-                                "pnl": "0.0",
-                                "total_pnl": "150.04",
-                                "balance": "100150.04",
-                                "notes": "TP1=345.05 TP2=346.37 SL=339.77 shares=18 risk\u00e2\u2030\u02c6$47.47 signal=2026-08-17 13:45:00 atr=1.5071 atr_pct=0.4424 volume_ratio=1.0879 ema_sep_atr=1.4896 ema_slope_atr=0.0476 alpaca_order=629ecbd5-bc9d-4cb0-8230-c0dde24fcab8 status=OrderStatus.FILLED"
-                            },
-                            {
-                                "trade_id": "TSLA-17",
-                                "timestamp": "2026-08-17 13:56:48",
-                                "symbol": "TSLA",
-                                "event": "SL_HIT",
-                                "side": "LONG",
-                                "price": "339.44",
-                                "shares": "18.0",
-                                "usd_qty": "6109.92",
-                                "pnl": "-53.48",
-                                "total_pnl": "96.56",
-                                "balance": "100096.56",
-                                "notes": "entry=342.41 exit=339.44 alpaca_order=955bae7e-9da9-45b5-bd86-28be908ee7c4 status=OrderStatus.FILLED"
-                            },
-                            {
-                                "trade_id": "MSFT-18",
-                                "timestamp": "2026-08-17 14:00:35",
-                                "symbol": "MSFT",
-                                "event": "ENTRY_SHORT",
-                                "side": "SHORT",
-                                "price": "484.6732",
-                                "shares": "19.0",
-                                "usd_qty": "9208.79",
-                                "pnl": "0.0",
-                                "total_pnl": "30.22",
-                                "balance": "100030.22",
-                                "notes": "TP1=482.17 TP2=480.91 SL=487.18 shares=19 risk\u00e2\u2030\u02c6$47.65 signal=2026-08-17 14:00:00 atr=1.4332 atr_pct=0.2956 volume_ratio=2.1613 ema_sep_atr=1.0418 ema_slope_atr=-0.4744 alpaca_order=ed5f99c3-0242-4e65-aa64-899a9b2546de status=OrderStatus.FILLED"
-                            },
-                            {
-                                "trade_id": "AMZN-15",
-                                "timestamp": "2026-08-17 14:01:04",
-                                "symbol": "AMZN",
-                                "event": "TP1_HIT",
-                                "side": "SHORT",
-                                "price": "261.3789",
-                                "shares": "18.0",
-                                "usd_qty": "4704.82",
-                                "pnl": "26.9531",
-                                "total_pnl": "47.9565",
-                                "balance": "100047.96",
-                                "notes": "remaining=17 shares alpaca_order=6ed6e330-012a-4c9a-911a-56f713ce377e status=OrderStatus.FILLED"
-                            },
-                            {
-                                "trade_id": "MSFT-18",
-                                "timestamp": "2026-08-17 14:34:12",
-                                "symbol": "MSFT",
-                                "event": "TP1_HIT",
-                                "side": "SHORT",
-                                "price": "481.85",
-                                "shares": "10.0",
-                                "usd_qty": "4818.5",
-                                "pnl": "28.2316",
-                                "total_pnl": "58.4516",
-                                "balance": "100058.45",
-                                "notes": "remaining=9 shares alpaca_order=1e94f2be-46b4-483d-9355-1bcacc65398a status=OrderStatus.FILLED"
-                            },
-                            {
-                                "trade_id": "AMZN-15",
-                                "timestamp": "2026-08-17 14:34:39",
-                                "symbol": "AMZN",
-                                "event": "TP2_HIT",
-                                "side": "SHORT",
-                                "price": "260.7065",
-                                "shares": "17.0",
-                                "usd_qty": "4432.01",
-                                "pnl": "36.8869",
-                                "total_pnl": "84.8434",
-                                "balance": "100084.84",
-                                "notes": "entry=262.88 exit=260.71 alpaca_order=801c3cb2-c39b-4661-87c7-f2f10e027f8e status=OrderStatus.FILLED"
-                            },
-                            {
-                                "trade_id": "NVDA-14",
-                                "timestamp": "2026-08-17 14:46:05",
-                                "symbol": "NVDA",
-                                "event": "ENTRY_LONG",
-                                "side": "LONG",
-                                "price": "227.1489",
-                                "shares": "35.0",
-                                "usd_qty": "7950.21",
-                                "pnl": "0.0",
-                                "total_pnl": "-146.12",
-                                "balance": "99853.88",
-                                "notes": "TP1=228.56 TP2=229.26 SL=225.74 shares=35 risk\u00e2\u2030\u02c6$49.22 signal=2026-08-17 14:45:00 atr=0.8036 atr_pct=0.3540 volume_ratio=2.0918 ema_sep_atr=0.6650 ema_slope_atr=0.1332 alpaca_order=5aa864c9-8694-4e17-96bb-f23037b51d74 status=OrderStatus.FILLED"
-                            },
-                            {
-                                "trade_id": "NVDA-14",
-                                "timestamp": "2026-08-17 14:55:30",
-                                "symbol": "NVDA",
-                                "event": "SL_HIT",
-                                "side": "LONG",
-                                "price": "225.6894",
-                                "shares": "35.0",
-                                "usd_qty": "7899.13",
-                                "pnl": "-51.08",
-                                "total_pnl": "-197.2",
-                                "balance": "99802.8",
-                                "notes": "entry=227.15 exit=225.69 alpaca_order=a311d33f-b641-4d02-943b-0e74935c4673 status=OrderStatus.FILLED"
-                            },
-                            {
-                                "trade_id": "UNH-12",
-                                "timestamp": "2026-08-17 15:01:34",
-                                "symbol": "UNH",
-                                "event": "ENTRY_SHORT",
-                                "side": "SHORT",
-                                "price": "394.67",
-                                "shares": "15.0",
-                                "usd_qty": "5920.05",
-                                "pnl": "0.0",
-                                "total_pnl": "78.74",
-                                "balance": "100078.74",
-                                "notes": "TP1=391.51 TP2=389.93 SL=397.83 shares=15 risk\u00e2\u2030\u02c6$47.35 signal=2026-08-17 15:00:00 atr=1.8039 atr_pct=0.4571 volume_ratio=2.6533 ema_sep_atr=0.9359 ema_slope_atr=-0.2553 alpaca_order=38e08667-c4ad-49d4-be3a-34d464640586 status=OrderStatus.FILLED"
-                            },
-                            {
-                                "trade_id": "MSFT-18",
-                                "timestamp": "2026-08-17 15:20:26",
-                                "symbol": "MSFT",
-                                "event": "SL_HIT",
-                                "side": "SHORT",
-                                "price": "484.7878",
-                                "shares": "9.0",
-                                "usd_qty": "4363.09",
-                                "pnl": "-1.0316",
-                                "total_pnl": "57.42",
-                                "balance": "100057.42",
-                                "notes": "entry=484.67 exit=484.79 alpaca_order=13638cbc-14f7-4442-aadf-971d71e1150c status=OrderStatus.FILLED"
+                                "total_pnl": "5.5924",
+                                "balance": "100005.59",
+                                "notes": "TP1=378.34 TP2=376.81 SL=384.43 shares=16 risk\u00e2\u2030\u02c6$48.75 signal=2026-08-18 13:45:00 atr=1.7411 atr_pct=0.4561 volume_ratio=2.1198 ema_sep_atr=2.1632 ema_slope_atr=-0.3104 alpaca_order=103941a2-eafb-4bd2-983c-84654b995b6e status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
-                        "has_previous_day": true,
-                        "win_rate_delta_pct": 33.33,
-                        "total_pnl_delta": 179.93,
-                        "trade_count_delta": -2,
-                        "direction": "improving"
+                        "has_previous_day": false
+                    }
+                },
+                "alpaca_paper": {
+                    "trade_metrics": {
+                        "total_trades": 0,
+                        "win_count": 0,
+                        "loss_count": 0,
+                        "breakeven_count": 0,
+                        "win_rate_pct": 0.0,
+                        "loss_rate_pct": 0.0,
+                        "total_pnl": 0,
+                        "closed_position_pnl": 0,
+                        "avg_pnl_per_trade": 0.0,
+                        "avg_win": 0.0,
+                        "avg_loss": 0.0,
+                        "realized_exit_count": 0,
+                        "eod_close_count": 0,
+                        "tp1_hit_count": 0,
+                        "tp1_realized_pnl": 0,
+                        "tp2_hit_count": 0,
+                        "tp2_realized_pnl": 0,
+                        "open_partial_count": 0,
+                        "open_positions": [],
+                        "by_symbol": {},
+                        "recent_trades": []
+                    },
+                    "trend": {
+                        "has_previous_day": false
+                    }
+                },
+                "legacy_simulation": {
+                    "trade_metrics": {
+                        "total_trades": 0,
+                        "win_count": 0,
+                        "loss_count": 0,
+                        "breakeven_count": 0,
+                        "win_rate_pct": 0.0,
+                        "loss_rate_pct": 0.0,
+                        "total_pnl": 0,
+                        "closed_position_pnl": 0,
+                        "avg_pnl_per_trade": 0.0,
+                        "avg_win": 0.0,
+                        "avg_loss": 0.0,
+                        "realized_exit_count": 0,
+                        "eod_close_count": 0,
+                        "tp1_hit_count": 0,
+                        "tp1_realized_pnl": 0,
+                        "tp2_hit_count": 0,
+                        "tp2_realized_pnl": 0,
+                        "open_partial_count": 0,
+                        "open_positions": [],
+                        "by_symbol": {},
+                        "recent_trades": []
+                    },
+                    "trend": {
+                        "has_previous_day": false
+                    }
+                },
+                "all": {
+                    "trade_metrics": {
+                        "total_trades": 0,
+                        "win_count": 0,
+                        "loss_count": 0,
+                        "breakeven_count": 0,
+                        "win_rate_pct": 0.0,
+                        "loss_rate_pct": 0.0,
+                        "total_pnl": 0,
+                        "closed_position_pnl": 0,
+                        "avg_pnl_per_trade": 0.0,
+                        "avg_win": 0.0,
+                        "avg_loss": 0.0,
+                        "realized_exit_count": 0,
+                        "eod_close_count": 0,
+                        "tp1_hit_count": 0,
+                        "tp1_realized_pnl": 0,
+                        "tp2_hit_count": 0,
+                        "tp2_realized_pnl": 0,
+                        "open_partial_count": 0,
+                        "open_positions": [
+                            {
+                                "trade_id": "AVGO-4",
+                                "symbol": "AVGO",
+                                "side": "SHORT",
+                                "entry_price": 381.3835,
+                                "remaining": 16.0,
+                                "sl": 384.43,
+                                "tp1": 378.34,
+                                "tp2": 376.81,
+                                "last_event": "ENTRY_SHORT"
+                            }
+                        ],
+                        "by_symbol": {},
+                        "recent_trades": [
+                            {
+                                "trade_id": "AVGO-4",
+                                "timestamp": "2026-08-18 13:45:33",
+                                "symbol": "AVGO",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "381.3835",
+                                "shares": "16.0",
+                                "usd_qty": "6102.14",
+                                "pnl": "0.0",
+                                "total_pnl": "5.5924",
+                                "balance": "100005.59",
+                                "notes": "TP1=378.34 TP2=376.81 SL=384.43 shares=16 risk\u00e2\u2030\u02c6$48.75 signal=2026-08-18 13:45:00 atr=1.7411 atr_pct=0.4561 volume_ratio=2.1198 ema_sep_atr=2.1632 ema_slope_atr=-0.3104 alpaca_order=103941a2-eafb-4bd2-983c-84654b995b6e status=OrderStatus.FILLED"
+                            }
+                        ]
+                    },
+                    "trend": {
+                        "has_previous_day": false
                     }
                 }
+            },
+            "trade_metrics": {
+                "total_trades": 0,
+                "win_count": 0,
+                "loss_count": 0,
+                "breakeven_count": 0,
+                "win_rate_pct": 0.0,
+                "loss_rate_pct": 0.0,
+                "total_pnl": 0,
+                "closed_position_pnl": 0,
+                "avg_pnl_per_trade": 0.0,
+                "avg_win": 0.0,
+                "avg_loss": 0.0,
+                "realized_exit_count": 0,
+                "eod_close_count": 0,
+                "tp1_hit_count": 0,
+                "tp1_realized_pnl": 0,
+                "tp2_hit_count": 0,
+                "tp2_realized_pnl": 0,
+                "open_partial_count": 0,
+                "open_positions": [
+                    {
+                        "trade_id": "AVGO-4",
+                        "symbol": "AVGO",
+                        "side": "SHORT",
+                        "entry_price": 381.3835,
+                        "remaining": 16.0,
+                        "sl": 384.43,
+                        "tp1": 378.34,
+                        "tp2": 376.81,
+                        "last_event": "ENTRY_SHORT"
+                    }
+                ],
+                "by_symbol": {},
+                "recent_trades": [
+                    {
+                        "trade_id": "AVGO-4",
+                        "timestamp": "2026-08-18 13:45:33",
+                        "symbol": "AVGO",
+                        "event": "ENTRY_SHORT",
+                        "side": "SHORT",
+                        "price": "381.3835",
+                        "shares": "16.0",
+                        "usd_qty": "6102.14",
+                        "pnl": "0.0",
+                        "total_pnl": "5.5924",
+                        "balance": "100005.59",
+                        "notes": "TP1=378.34 TP2=376.81 SL=384.43 shares=16 risk\u00e2\u2030\u02c6$48.75 signal=2026-08-18 13:45:00 atr=1.7411 atr_pct=0.4561 volume_ratio=2.1198 ema_sep_atr=2.1632 ema_slope_atr=-0.3104 alpaca_order=103941a2-eafb-4bd2-983c-84654b995b6e status=OrderStatus.FILLED"
+                    }
+                ]
+            },
+            "signal_metrics": {
+                "risk_rejected_count": 0,
+                "risk_passed_count": 0,
+                "ai_accepted_count": 0,
+                "ai_rejected_count": 0,
+                "ai_accept_rate_pct": null,
+                "ml_gate_passed_count": 0,
+                "ml_gate_rejected_count": 0,
+                "by_filter": {},
+                "has_signal_data": false
+            },
+            "trend": {
+                "has_previous_day": false
             }
         }
     ]
