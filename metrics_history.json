@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-18T14:11:33.206688+00:00",
+    "generated_at": "2026-08-18T14:12:34.235914+00:00",
     "latest_date": "2026-08-18",
     "days": [
         {
@@ -50758,15 +50758,15 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
+                        "total_pnl": 29.79,
                         "closed_position_pnl": 0,
                         "avg_pnl_per_trade": 0.0,
                         "avg_win": 0.0,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 29.79,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 2,
@@ -50791,10 +50791,19 @@
                                 "sl": 384.4304,
                                 "tp1": 378.3366,
                                 "tp2": 376.8132,
-                                "last_event": "ENTRY_SHORT"
+                                "last_event": "TP1_HIT"
                             }
                         ],
-                        "by_symbol": {},
+                        "by_symbol": {
+                            "AVGO": {
+                                "trades": 0,
+                                "pnl": 29.79,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "AVGO-4",
@@ -50823,6 +50832,20 @@
                                 "total_pnl": "-169.6756",
                                 "balance": "99830.32",
                                 "notes": "TP1=65.84 TP2=65.26 SL=68.18 shares=42 risk\u00e2\u2030\u02c6$49.17 signal=2026-08-18 13:45:00 atr=0.6689 atr_pct=0.9984 volume_ratio=3.1363 ema_sep_atr=0.4489 ema_slope_atr=-0.2594 alpaca_order=4e5f8731-0a74-46c0-a99f-279ed21610e7 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AVGO-4",
+                                "timestamp": "2026-08-18 14:12:33",
+                                "symbol": "AVGO",
+                                "event": "TP1_HIT",
+                                "side": "SHORT",
+                                "price": "377.66",
+                                "shares": "8.0",
+                                "usd_qty": "3021.28",
+                                "pnl": "29.788",
+                                "total_pnl": "35.3804",
+                                "balance": "100035.38",
+                                "notes": "remaining=8 shares alpaca_order=e90f79d5-d3aa-4a24-86fb-a70a8289008b status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -50973,29 +50996,29 @@
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
+                        "total_pnl": 29.79,
                         "closed_position_pnl": 0,
                         "avg_pnl_per_trade": 0.0,
                         "avg_win": 0.0,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
-                        "tp1_hit_count": 0,
-                        "tp1_realized_pnl": 0,
+                        "tp1_hit_count": 1,
+                        "tp1_realized_pnl": 29.79,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 0,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "AVGO-4",
                                 "symbol": "AVGO",
                                 "side": "SHORT",
                                 "entry_price": 381.3835,
-                                "remaining": 16.0,
+                                "remaining": 8.0,
                                 "sl": 384.43,
                                 "tp1": 378.34,
                                 "tp2": 376.81,
-                                "last_event": "ENTRY_SHORT"
+                                "last_event": "TP1_HIT"
                             },
                             {
                                 "trade_id": "ASTS-6",
@@ -51009,7 +51032,16 @@
                                 "last_event": "ENTRY_SHORT"
                             }
                         ],
-                        "by_symbol": {},
+                        "by_symbol": {
+                            "AVGO": {
+                                "trades": 0,
+                                "pnl": 29.79,
+                                "wins": 0,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 1
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "AVGO-4",
@@ -51038,6 +51070,20 @@
                                 "total_pnl": "-169.6756",
                                 "balance": "99830.32",
                                 "notes": "TP1=65.84 TP2=65.26 SL=68.18 shares=42 risk\u00e2\u2030\u02c6$49.17 signal=2026-08-18 13:45:00 atr=0.6689 atr_pct=0.9984 volume_ratio=3.1363 ema_sep_atr=0.4489 ema_slope_atr=-0.2594 alpaca_order=4e5f8731-0a74-46c0-a99f-279ed21610e7 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AVGO-4",
+                                "timestamp": "2026-08-18 14:12:33",
+                                "symbol": "AVGO",
+                                "event": "TP1_HIT",
+                                "side": "SHORT",
+                                "price": "377.66",
+                                "shares": "8.0",
+                                "usd_qty": "3021.28",
+                                "pnl": "29.788",
+                                "total_pnl": "35.3804",
+                                "balance": "100035.38",
+                                "notes": "remaining=8 shares alpaca_order=e90f79d5-d3aa-4a24-86fb-a70a8289008b status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -51053,29 +51099,29 @@
                 "breakeven_count": 0,
                 "win_rate_pct": 0.0,
                 "loss_rate_pct": 0.0,
-                "total_pnl": 0,
+                "total_pnl": 29.79,
                 "closed_position_pnl": 0,
                 "avg_pnl_per_trade": 0.0,
                 "avg_win": 0.0,
                 "avg_loss": 0.0,
-                "realized_exit_count": 0,
+                "realized_exit_count": 1,
                 "eod_close_count": 0,
-                "tp1_hit_count": 0,
-                "tp1_realized_pnl": 0,
+                "tp1_hit_count": 1,
+                "tp1_realized_pnl": 29.79,
                 "tp2_hit_count": 0,
                 "tp2_realized_pnl": 0,
-                "open_partial_count": 0,
+                "open_partial_count": 1,
                 "open_positions": [
                     {
                         "trade_id": "AVGO-4",
                         "symbol": "AVGO",
                         "side": "SHORT",
                         "entry_price": 381.3835,
-                        "remaining": 16.0,
+                        "remaining": 8.0,
                         "sl": 384.43,
                         "tp1": 378.34,
                         "tp2": 376.81,
-                        "last_event": "ENTRY_SHORT"
+                        "last_event": "TP1_HIT"
                     },
                     {
                         "trade_id": "ASTS-6",
@@ -51089,7 +51135,16 @@
                         "last_event": "ENTRY_SHORT"
                     }
                 ],
-                "by_symbol": {},
+                "by_symbol": {
+                    "AVGO": {
+                        "trades": 0,
+                        "pnl": 29.79,
+                        "wins": 0,
+                        "losses": 0,
+                        "breakeven": 0,
+                        "open_partial": 1
+                    }
+                },
                 "recent_trades": [
                     {
                         "trade_id": "AVGO-4",
@@ -51118,6 +51173,20 @@
                         "total_pnl": "-169.6756",
                         "balance": "99830.32",
                         "notes": "TP1=65.84 TP2=65.26 SL=68.18 shares=42 risk\u00e2\u2030\u02c6$49.17 signal=2026-08-18 13:45:00 atr=0.6689 atr_pct=0.9984 volume_ratio=3.1363 ema_sep_atr=0.4489 ema_slope_atr=-0.2594 alpaca_order=4e5f8731-0a74-46c0-a99f-279ed21610e7 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "AVGO-4",
+                        "timestamp": "2026-08-18 14:12:33",
+                        "symbol": "AVGO",
+                        "event": "TP1_HIT",
+                        "side": "SHORT",
+                        "price": "377.66",
+                        "shares": "8.0",
+                        "usd_qty": "3021.28",
+                        "pnl": "29.788",
+                        "total_pnl": "35.3804",
+                        "balance": "100035.38",
+                        "notes": "remaining=8 shares alpaca_order=e90f79d5-d3aa-4a24-86fb-a70a8289008b status=OrderStatus.FILLED"
                     }
                 ]
             },
