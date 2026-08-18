@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-18T16:15:46.140450+00:00",
+    "generated_at": "2026-08-18T16:16:47.565180+00:00",
     "latest_date": "2026-08-18",
     "days": [
         {
@@ -50769,7 +50769,7 @@
                         "tp1_realized_pnl": 29.79,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 2,
+                        "open_partial_count": 1,
                         "open_positions": [
                             {
                                 "trade_id": "ASTS-6",
@@ -50781,17 +50781,6 @@
                                 "tp1": 65.8407,
                                 "tp2": 65.2554,
                                 "last_event": "ENTRY_SHORT"
-                            },
-                            {
-                                "trade_id": "AVGO-4",
-                                "symbol": "AVGO",
-                                "side": "SHORT",
-                                "entry_price": 381.3835,
-                                "remaining": 8.0,
-                                "sl": 381.3835,
-                                "tp1": 378.3366,
-                                "tp2": 376.8132,
-                                "last_event": "SL_HIT"
                             }
                         ],
                         "by_symbol": {
@@ -50860,6 +50849,20 @@
                                 "total_pnl": "32.9684",
                                 "balance": "100032.97",
                                 "notes": "entry=381.38 exit=381.69 alpaca_order=9108b183-9704-4423-9875-32dde8b42ca0 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "BAC-10",
+                                "timestamp": "2026-08-18 16:16:47",
+                                "symbol": "BAC",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "63.6508",
+                                "shares": "139.0",
+                                "usd_qty": "8847.46",
+                                "pnl": "0.0",
+                                "total_pnl": "64.4805",
+                                "balance": "100064.48",
+                                "notes": "TP1=63.29 TP2=63.11 SL=64.01 shares=139 risk\u00e2\u2030\u02c6$49.87 signal=2026-08-18 16:15:00 atr=0.2050 atr_pct=0.3221 volume_ratio=1.0970 ema_sep_atr=1.0455 ema_slope_atr=-0.1881 alpaca_order=69a0d8ee-6055-40c4-b68b-c057ad69aa33 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -51061,6 +51064,17 @@
                                 "tp1": 65.84,
                                 "tp2": 65.26,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "BAC-10",
+                                "symbol": "BAC",
+                                "side": "SHORT",
+                                "entry_price": 63.6508,
+                                "remaining": 139.0,
+                                "sl": 64.01,
+                                "tp1": 63.29,
+                                "tp2": 63.11,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -51129,6 +51143,20 @@
                                 "total_pnl": "32.9684",
                                 "balance": "100032.97",
                                 "notes": "entry=381.38 exit=381.69 alpaca_order=9108b183-9704-4423-9875-32dde8b42ca0 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "BAC-10",
+                                "timestamp": "2026-08-18 16:16:47",
+                                "symbol": "BAC",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "63.6508",
+                                "shares": "139.0",
+                                "usd_qty": "8847.46",
+                                "pnl": "0.0",
+                                "total_pnl": "64.4805",
+                                "balance": "100064.48",
+                                "notes": "TP1=63.29 TP2=63.11 SL=64.01 shares=139 risk\u00e2\u2030\u02c6$49.87 signal=2026-08-18 16:15:00 atr=0.2050 atr_pct=0.3221 volume_ratio=1.0970 ema_sep_atr=1.0455 ema_slope_atr=-0.1881 alpaca_order=69a0d8ee-6055-40c4-b68b-c057ad69aa33 status=OrderStatus.FILLED"
                             }
                         ]
                     },
@@ -51166,6 +51194,17 @@
                         "sl": 68.18,
                         "tp1": 65.84,
                         "tp2": 65.26,
+                        "last_event": "ENTRY_SHORT"
+                    },
+                    {
+                        "trade_id": "BAC-10",
+                        "symbol": "BAC",
+                        "side": "SHORT",
+                        "entry_price": 63.6508,
+                        "remaining": 139.0,
+                        "sl": 64.01,
+                        "tp1": 63.29,
+                        "tp2": 63.11,
                         "last_event": "ENTRY_SHORT"
                     }
                 ],
@@ -51235,6 +51274,20 @@
                         "total_pnl": "32.9684",
                         "balance": "100032.97",
                         "notes": "entry=381.38 exit=381.69 alpaca_order=9108b183-9704-4423-9875-32dde8b42ca0 status=OrderStatus.FILLED"
+                    },
+                    {
+                        "trade_id": "BAC-10",
+                        "timestamp": "2026-08-18 16:16:47",
+                        "symbol": "BAC",
+                        "event": "ENTRY_SHORT",
+                        "side": "SHORT",
+                        "price": "63.6508",
+                        "shares": "139.0",
+                        "usd_qty": "8847.46",
+                        "pnl": "0.0",
+                        "total_pnl": "64.4805",
+                        "balance": "100064.48",
+                        "notes": "TP1=63.29 TP2=63.11 SL=64.01 shares=139 risk\u00e2\u2030\u02c6$49.87 signal=2026-08-18 16:15:00 atr=0.2050 atr_pct=0.3221 volume_ratio=1.0970 ema_sep_atr=1.0455 ema_slope_atr=-0.1881 alpaca_order=69a0d8ee-6055-40c4-b68b-c057ad69aa33 status=OrderStatus.FILLED"
                     }
                 ]
             },
