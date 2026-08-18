@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-18T18:13:47.034113+00:00",
+    "generated_at": "2026-08-18T19:50:55.361051+00:00",
     "latest_date": "2026-08-18",
     "days": [
         {
@@ -50769,20 +50769,8 @@
                         "tp1_realized_pnl": 29.79,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 1,
-                        "open_positions": [
-                            {
-                                "trade_id": "BAC-10",
-                                "symbol": "BAC",
-                                "side": "SHORT",
-                                "entry_price": 63.6508,
-                                "remaining": 139.0,
-                                "sl": 64.0095,
-                                "tp1": 63.292,
-                                "tp2": 63.1127,
-                                "last_event": "SL_HIT"
-                            }
-                        ],
+                        "open_partial_count": 0,
+                        "open_positions": [],
                         "by_symbol": {
                             "AVGO": {
                                 "trades": 1,
