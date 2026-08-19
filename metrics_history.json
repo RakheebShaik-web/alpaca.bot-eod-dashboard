@@ -1,6 +1,6 @@
 {
-    "generated_at": "2026-08-18T19:50:55.361051+00:00",
-    "latest_date": "2026-08-18",
+    "generated_at": "2026-08-19T14:46:42.867938+00:00",
+    "latest_date": "2026-08-19",
     "days": [
         {
             "date": "2026-06-26",
@@ -51399,6 +51399,309 @@
             },
             "trend": {
                 "has_previous_day": false
+            }
+        },
+        {
+            "date": "2026-08-19",
+            "datasets": {
+                "alpaca_live": {
+                    "trade_metrics": {
+                        "total_trades": 0,
+                        "win_count": 0,
+                        "loss_count": 0,
+                        "breakeven_count": 0,
+                        "win_rate_pct": 0.0,
+                        "loss_rate_pct": 0.0,
+                        "total_pnl": 0,
+                        "closed_position_pnl": 0,
+                        "avg_pnl_per_trade": 0.0,
+                        "avg_win": 0.0,
+                        "avg_loss": 0.0,
+                        "realized_exit_count": 0,
+                        "eod_close_count": 0,
+                        "tp1_hit_count": 0,
+                        "tp1_realized_pnl": 0,
+                        "tp2_hit_count": 0,
+                        "tp2_realized_pnl": 0,
+                        "open_partial_count": 1,
+                        "open_positions": [
+                            {
+                                "trade_id": "TSLA-20",
+                                "symbol": "TSLA",
+                                "side": "LONG",
+                                "entry_price": 347.56,
+                                "remaining": 13.0,
+                                "sl": 343.7494,
+                                "tp1": 351.3706,
+                                "tp2": 353.2759,
+                                "last_event": "ENTRY_LONG"
+                            }
+                        ],
+                        "by_symbol": {},
+                        "recent_trades": [
+                            {
+                                "trade_id": "TSLA-20",
+                                "timestamp": "2026-08-19 14:45:37",
+                                "symbol": "TSLA",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "347.56",
+                                "shares": "13.0",
+                                "usd_qty": "4518.28",
+                                "pnl": "0.0",
+                                "total_pnl": "-147.5019",
+                                "balance": "99852.5",
+                                "notes": "TP1=351.37 TP2=353.28 SL=343.75 shares=13 risk\u00e2\u2030\u02c6$49.54 signal=2026-08-19 14:45:00 atr=2.1775 atr_pct=0.6280 volume_ratio=2.2278 ema_sep_atr=0.1322 ema_slope_atr=0.2079 alpaca_order=1af1eab5-53c0-407d-8587-33b4b5836e6b status=OrderStatus.FILLED"
+                            }
+                        ]
+                    },
+                    "trend": {
+                        "has_previous_day": true,
+                        "win_rate_delta_pct": -33.33,
+                        "total_pnl_delta": 77.33,
+                        "trade_count_delta": -3,
+                        "direction": "mixed"
+                    }
+                },
+                "alpaca_paper": {
+                    "trade_metrics": {
+                        "total_trades": 0,
+                        "win_count": 0,
+                        "loss_count": 0,
+                        "breakeven_count": 0,
+                        "win_rate_pct": 0.0,
+                        "loss_rate_pct": 0.0,
+                        "total_pnl": 0,
+                        "closed_position_pnl": 0,
+                        "avg_pnl_per_trade": 0.0,
+                        "avg_win": 0.0,
+                        "avg_loss": 0.0,
+                        "realized_exit_count": 0,
+                        "eod_close_count": 0,
+                        "tp1_hit_count": 0,
+                        "tp1_realized_pnl": 0,
+                        "tp2_hit_count": 0,
+                        "tp2_realized_pnl": 0,
+                        "open_partial_count": 0,
+                        "open_positions": [
+                            {
+                                "trade_id": "TSLA-18",
+                                "symbol": "TSLA",
+                                "side": "LONG",
+                                "entry_price": 347.4246,
+                                "remaining": 13.0,
+                                "sl": 343.61,
+                                "tp1": 351.24,
+                                "tp2": 353.14,
+                                "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "JPM-12",
+                                "symbol": "JPM",
+                                "side": "SHORT",
+                                "entry_price": 359.85,
+                                "remaining": 23.0,
+                                "sl": 362.02,
+                                "tp1": 357.68,
+                                "tp2": 356.6,
+                                "last_event": "ENTRY_SHORT"
+                            }
+                        ],
+                        "by_symbol": {},
+                        "recent_trades": [
+                            {
+                                "trade_id": "TSLA-18",
+                                "timestamp": "2026-08-19 14:45:39",
+                                "symbol": "TSLA",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "347.4246",
+                                "shares": "13.0",
+                                "usd_qty": "4516.52",
+                                "pnl": "0.0",
+                                "total_pnl": "96.56",
+                                "balance": "100096.56",
+                                "notes": "TP1=351.24 TP2=353.14 SL=343.61 shares=13 risk\u00e2\u2030\u02c6$49.54 signal=2026-08-19 14:45:00 atr=2.1775 atr_pct=0.6280 volume_ratio=2.2278 ema_sep_atr=0.1322 ema_slope_atr=0.2079 alpaca_order=30452bcc-bf8e-4b2f-ba83-fcaf2cc859eb status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "JPM-12",
+                                "timestamp": "2026-08-19 14:46:04",
+                                "symbol": "JPM",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "359.85",
+                                "shares": "23.0",
+                                "usd_qty": "8276.55",
+                                "pnl": "0.0",
+                                "total_pnl": "104.26",
+                                "balance": "100104.26",
+                                "notes": "TP1=357.68 TP2=356.60 SL=362.02 shares=23 risk\u00e2\u2030\u02c6$49.88 signal=2026-08-19 14:45:00 atr=1.2393 atr_pct=0.3441 volume_ratio=1.7816 ema_sep_atr=0.3916 ema_slope_atr=-0.0488 alpaca_order=58f20dd9-7521-4b28-af75-79483a1b7821 status=OrderStatus.FILLED"
+                            }
+                        ]
+                    },
+                    "trend": {
+                        "has_previous_day": true,
+                        "win_rate_delta_pct": -33.33,
+                        "total_pnl_delta": 74.03,
+                        "trade_count_delta": -3,
+                        "direction": "mixed"
+                    }
+                },
+                "legacy_simulation": {
+                    "trade_metrics": {
+                        "total_trades": 0,
+                        "win_count": 0,
+                        "loss_count": 0,
+                        "breakeven_count": 0,
+                        "win_rate_pct": 0.0,
+                        "loss_rate_pct": 0.0,
+                        "total_pnl": 0,
+                        "closed_position_pnl": 0,
+                        "avg_pnl_per_trade": 0.0,
+                        "avg_win": 0.0,
+                        "avg_loss": 0.0,
+                        "realized_exit_count": 0,
+                        "eod_close_count": 0,
+                        "tp1_hit_count": 0,
+                        "tp1_realized_pnl": 0,
+                        "tp2_hit_count": 0,
+                        "tp2_realized_pnl": 0,
+                        "open_partial_count": 0,
+                        "open_positions": [],
+                        "by_symbol": {},
+                        "recent_trades": []
+                    },
+                    "trend": {
+                        "has_previous_day": false
+                    }
+                },
+                "all": {
+                    "trade_metrics": {
+                        "total_trades": 0,
+                        "win_count": 0,
+                        "loss_count": 0,
+                        "breakeven_count": 0,
+                        "win_rate_pct": 0.0,
+                        "loss_rate_pct": 0.0,
+                        "total_pnl": 0,
+                        "closed_position_pnl": 0,
+                        "avg_pnl_per_trade": 0.0,
+                        "avg_win": 0.0,
+                        "avg_loss": 0.0,
+                        "realized_exit_count": 0,
+                        "eod_close_count": 0,
+                        "tp1_hit_count": 0,
+                        "tp1_realized_pnl": 0,
+                        "tp2_hit_count": 0,
+                        "tp2_realized_pnl": 0,
+                        "open_partial_count": 0,
+                        "open_positions": [
+                            {
+                                "trade_id": "TSLA-20",
+                                "symbol": "TSLA",
+                                "side": "LONG",
+                                "entry_price": 347.56,
+                                "remaining": 13.0,
+                                "sl": 343.75,
+                                "tp1": 351.37,
+                                "tp2": 353.28,
+                                "last_event": "ENTRY_LONG"
+                            }
+                        ],
+                        "by_symbol": {},
+                        "recent_trades": [
+                            {
+                                "trade_id": "TSLA-20",
+                                "timestamp": "2026-08-19 14:45:37",
+                                "symbol": "TSLA",
+                                "event": "ENTRY_LONG",
+                                "side": "LONG",
+                                "price": "347.56",
+                                "shares": "13.0",
+                                "usd_qty": "4518.28",
+                                "pnl": "0.0",
+                                "total_pnl": "-147.5019",
+                                "balance": "99852.5",
+                                "notes": "TP1=351.37 TP2=353.28 SL=343.75 shares=13 risk\u00e2\u2030\u02c6$49.54 signal=2026-08-19 14:45:00 atr=2.1775 atr_pct=0.6280 volume_ratio=2.2278 ema_sep_atr=0.1322 ema_slope_atr=0.2079 alpaca_order=1af1eab5-53c0-407d-8587-33b4b5836e6b status=OrderStatus.FILLED"
+                            }
+                        ]
+                    },
+                    "trend": {
+                        "has_previous_day": true,
+                        "win_rate_delta_pct": -33.33,
+                        "total_pnl_delta": 77.33,
+                        "trade_count_delta": -3,
+                        "direction": "mixed"
+                    }
+                }
+            },
+            "trade_metrics": {
+                "total_trades": 0,
+                "win_count": 0,
+                "loss_count": 0,
+                "breakeven_count": 0,
+                "win_rate_pct": 0.0,
+                "loss_rate_pct": 0.0,
+                "total_pnl": 0,
+                "closed_position_pnl": 0,
+                "avg_pnl_per_trade": 0.0,
+                "avg_win": 0.0,
+                "avg_loss": 0.0,
+                "realized_exit_count": 0,
+                "eod_close_count": 0,
+                "tp1_hit_count": 0,
+                "tp1_realized_pnl": 0,
+                "tp2_hit_count": 0,
+                "tp2_realized_pnl": 0,
+                "open_partial_count": 0,
+                "open_positions": [
+                    {
+                        "trade_id": "TSLA-20",
+                        "symbol": "TSLA",
+                        "side": "LONG",
+                        "entry_price": 347.56,
+                        "remaining": 13.0,
+                        "sl": 343.75,
+                        "tp1": 351.37,
+                        "tp2": 353.28,
+                        "last_event": "ENTRY_LONG"
+                    }
+                ],
+                "by_symbol": {},
+                "recent_trades": [
+                    {
+                        "trade_id": "TSLA-20",
+                        "timestamp": "2026-08-19 14:45:37",
+                        "symbol": "TSLA",
+                        "event": "ENTRY_LONG",
+                        "side": "LONG",
+                        "price": "347.56",
+                        "shares": "13.0",
+                        "usd_qty": "4518.28",
+                        "pnl": "0.0",
+                        "total_pnl": "-147.5019",
+                        "balance": "99852.5",
+                        "notes": "TP1=351.37 TP2=353.28 SL=343.75 shares=13 risk\u00e2\u2030\u02c6$49.54 signal=2026-08-19 14:45:00 atr=2.1775 atr_pct=0.6280 volume_ratio=2.2278 ema_sep_atr=0.1322 ema_slope_atr=0.2079 alpaca_order=1af1eab5-53c0-407d-8587-33b4b5836e6b status=OrderStatus.FILLED"
+                    }
+                ]
+            },
+            "signal_metrics": {
+                "risk_rejected_count": 0,
+                "risk_passed_count": 0,
+                "ai_accepted_count": 0,
+                "ai_rejected_count": 0,
+                "ai_accept_rate_pct": null,
+                "ml_gate_passed_count": 0,
+                "ml_gate_rejected_count": 0,
+                "by_filter": {},
+                "has_signal_data": false
+            },
+            "trend": {
+                "has_previous_day": true,
+                "win_rate_delta_pct": -33.33,
+                "total_pnl_delta": 77.33,
+                "trade_count_delta": -3,
+                "direction": "mixed"
             }
         }
     ]
