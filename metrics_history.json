@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-19T19:52:06.340880+00:00",
+    "generated_at": "2026-08-19T19:53:07.562827+00:00",
     "latest_date": "2026-08-19",
     "days": [
         {
@@ -51562,37 +51562,25 @@
                 },
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 2,
-                        "win_count": 2,
+                        "total_trades": 3,
+                        "win_count": 3,
                         "loss_count": 0,
                         "breakeven_count": 0,
                         "win_rate_pct": 100.0,
                         "loss_rate_pct": 0.0,
-                        "total_pnl": 72.04,
-                        "closed_position_pnl": 72.04,
-                        "avg_pnl_per_trade": 36.02,
-                        "avg_win": 36.02,
+                        "total_pnl": 80.14,
+                        "closed_position_pnl": 80.14,
+                        "avg_pnl_per_trade": 26.71,
+                        "avg_win": 26.71,
                         "avg_loss": 0.0,
-                        "realized_exit_count": 3,
-                        "eod_close_count": 1,
+                        "realized_exit_count": 4,
+                        "eod_close_count": 2,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 22.8,
                         "tp2_hit_count": 1,
                         "tp2_realized_pnl": 39.16,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "UNH-13",
-                                "symbol": "UNH",
-                                "side": "SHORT",
-                                "entry_price": 388.3336,
-                                "remaining": 22.0,
-                                "sl": 390.56,
-                                "tp1": 386.11,
-                                "tp2": 385.0,
-                                "last_event": "ENTRY_SHORT"
-                            }
-                        ],
+                        "open_positions": [],
                         "by_symbol": {
                             "TSLA": {
                                 "trades": 1,
@@ -51605,6 +51593,14 @@
                             "JPM": {
                                 "trades": 1,
                                 "pnl": 61.96,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "UNH": {
+                                "trades": 1,
+                                "pnl": 8.1,
                                 "wins": 1,
                                 "losses": 0,
                                 "breakeven": 0,
@@ -51695,14 +51691,28 @@
                                 "total_pnl": "106.64",
                                 "balance": "100106.64",
                                 "notes": "entry=347.42 exit=348.20 alpaca_order=fc595c4a-4b33-41bc-bc57-65ede81c0c8c status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "UNH-13",
+                                "timestamp": "2026-08-19 19:52:24",
+                                "symbol": "UNH",
+                                "event": "CLOSE_EOD",
+                                "side": "SHORT",
+                                "price": "387.9655",
+                                "shares": "22.0",
+                                "usd_qty": "8535.24",
+                                "pnl": "8.1",
+                                "total_pnl": "86.84",
+                                "balance": "100086.84",
+                                "notes": "entry=388.33 exit=387.97 alpaca_order=c63e1a16-bcd3-4d9e-b651-55f99389644d status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": 66.67,
-                        "total_pnl_delta": 146.07,
-                        "trade_count_delta": -1,
+                        "total_pnl_delta": 154.17,
+                        "trade_count_delta": 0,
                         "direction": "improving"
                     }
                 },
