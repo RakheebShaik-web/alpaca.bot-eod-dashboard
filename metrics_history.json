@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-20T14:09:33.310352+00:00",
+    "generated_at": "2026-08-20T14:13:26.903167+00:00",
     "latest_date": "2026-08-20",
     "days": [
         {
@@ -52072,41 +52072,37 @@
             "datasets": {
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 1,
+                        "total_trades": 2,
                         "win_count": 0,
-                        "loss_count": 1,
+                        "loss_count": 2,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
                         "loss_rate_pct": 100.0,
-                        "total_pnl": -53.36,
-                        "closed_position_pnl": -53.36,
-                        "avg_pnl_per_trade": -53.36,
+                        "total_pnl": -106.9,
+                        "closed_position_pnl": -106.9,
+                        "avg_pnl_per_trade": -53.45,
                         "avg_win": 0.0,
-                        "avg_loss": -53.36,
-                        "realized_exit_count": 1,
+                        "avg_loss": -53.45,
+                        "realized_exit_count": 2,
                         "eod_close_count": 0,
                         "tp1_hit_count": 0,
                         "tp1_realized_pnl": 0,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "AMZN-18",
-                                "symbol": "AMZN",
-                                "side": "LONG",
-                                "entry_price": 263.0747,
-                                "remaining": 30.0,
-                                "sl": 261.42,
-                                "tp1": 264.73,
-                                "tp2": 265.56,
-                                "last_event": "ENTRY_LONG"
-                            }
-                        ],
+                        "open_positions": [],
                         "by_symbol": {
                             "AAPL": {
                                 "trades": 1,
                                 "pnl": -53.36,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "AMZN": {
+                                "trades": 1,
+                                "pnl": -53.54,
                                 "wins": 0,
                                 "losses": 1,
                                 "breakeven": 0,
@@ -52155,14 +52151,28 @@
                                 "total_pnl": "-88.63",
                                 "balance": "99911.37",
                                 "notes": "entry=318.34 exit=316.43 alpaca_order=bf678a51-4469-4270-9677-d1f13f88d0c2 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMZN-18",
+                                "timestamp": "2026-08-20 14:13:21",
+                                "symbol": "AMZN",
+                                "event": "SL_HIT",
+                                "side": "LONG",
+                                "price": "261.29",
+                                "shares": "30.0",
+                                "usd_qty": "7838.7",
+                                "pnl": "-53.54",
+                                "total_pnl": "31.3034",
+                                "balance": "100031.3",
+                                "notes": "entry=263.07 exit=261.29 alpaca_order=ce66f89d-fd40-4f6f-acba-c401d81545f5 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -100.0,
-                        "total_pnl_delta": -133.5,
-                        "trade_count_delta": -2,
+                        "total_pnl_delta": -187.04,
+                        "trade_count_delta": -1,
                         "direction": "declining"
                     }
                 }
