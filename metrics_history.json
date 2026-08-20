@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-20T13:47:27.148455+00:00",
+    "generated_at": "2026-08-20T14:09:33.310352+00:00",
     "latest_date": "2026-08-20",
     "days": [
         {
@@ -52072,18 +52072,18 @@
             "datasets": {
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 0,
+                        "total_trades": 1,
                         "win_count": 0,
-                        "loss_count": 0,
+                        "loss_count": 1,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 0,
-                        "closed_position_pnl": 0,
-                        "avg_pnl_per_trade": 0.0,
+                        "loss_rate_pct": 100.0,
+                        "total_pnl": -53.36,
+                        "closed_position_pnl": -53.36,
+                        "avg_pnl_per_trade": -53.36,
                         "avg_win": 0.0,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 0,
+                        "avg_loss": -53.36,
+                        "realized_exit_count": 1,
                         "eod_close_count": 0,
                         "tp1_hit_count": 0,
                         "tp1_realized_pnl": 0,
@@ -52091,17 +52091,6 @@
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "AAPL-14",
-                                "symbol": "AAPL",
-                                "side": "LONG",
-                                "entry_price": 318.3386,
-                                "remaining": 28.0,
-                                "sl": 316.59,
-                                "tp1": 320.08,
-                                "tp2": 320.96,
-                                "last_event": "ENTRY_LONG"
-                            },
                             {
                                 "trade_id": "AMZN-18",
                                 "symbol": "AMZN",
@@ -52114,7 +52103,16 @@
                                 "last_event": "ENTRY_LONG"
                             }
                         ],
-                        "by_symbol": {},
+                        "by_symbol": {
+                            "AAPL": {
+                                "trades": 1,
+                                "pnl": -53.36,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            }
+                        },
                         "recent_trades": [
                             {
                                 "trade_id": "AAPL-14",
@@ -52143,14 +52141,28 @@
                                 "total_pnl": "84.8434",
                                 "balance": "100084.84",
                                 "notes": "TP1=264.73 TP2=265.56 SL=261.42 shares=30 risk\u00e2\u2030\u02c6$49.73 signal=2026-08-20 13:45:00 atr=0.9471 atr_pct=0.3598 volume_ratio=2.1501 ema_sep_atr=1.1390 ema_slope_atr=0.0720 alpaca_order=d2988036-6bfe-4cc7-9e97-e121a71f4d35 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AAPL-14",
+                                "timestamp": "2026-08-20 14:09:28",
+                                "symbol": "AAPL",
+                                "event": "SL_HIT",
+                                "side": "LONG",
+                                "price": "316.4329",
+                                "shares": "28.0",
+                                "usd_qty": "8860.12",
+                                "pnl": "-53.36",
+                                "total_pnl": "-88.63",
+                                "balance": "99911.37",
+                                "notes": "entry=318.34 exit=316.43 alpaca_order=bf678a51-4469-4270-9677-d1f13f88d0c2 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -100.0,
-                        "total_pnl_delta": -80.14,
-                        "trade_count_delta": -3,
+                        "total_pnl_delta": -133.5,
+                        "trade_count_delta": -2,
                         "direction": "declining"
                     }
                 }
