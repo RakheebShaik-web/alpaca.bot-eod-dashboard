@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-20T15:40:34.634276+00:00",
+    "generated_at": "2026-08-20T19:51:25.851988+00:00",
     "latest_date": "2026-08-20",
     "days": [
         {
@@ -52072,36 +52072,25 @@
             "datasets": {
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 3,
-                        "win_count": 0,
+                        "total_trades": 4,
+                        "win_count": 1,
                         "loss_count": 3,
                         "breakeven_count": 0,
-                        "win_rate_pct": 0.0,
-                        "loss_rate_pct": 100.0,
-                        "total_pnl": -132.95,
-                        "closed_position_pnl": -158.73,
-                        "avg_pnl_per_trade": -52.91,
-                        "avg_win": 0.0,
+                        "win_rate_pct": 25.0,
+                        "loss_rate_pct": 75.0,
+                        "total_pnl": -116.88,
+                        "closed_position_pnl": -116.88,
+                        "avg_pnl_per_trade": -29.22,
+                        "avg_win": 41.85,
                         "avg_loss": -52.91,
-                        "realized_exit_count": 4,
-                        "eod_close_count": 0,
+                        "realized_exit_count": 5,
+                        "eod_close_count": 1,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 25.78,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
-                        "open_partial_count": 1,
+                        "open_partial_count": 0,
                         "open_positions": [
-                            {
-                                "trade_id": "NVDA-16",
-                                "symbol": "NVDA",
-                                "side": "SHORT",
-                                "entry_price": 217.8487,
-                                "remaining": 15.0,
-                                "sl": 219.48,
-                                "tp1": 216.21,
-                                "tp2": 215.4,
-                                "last_event": "TP1_HIT"
-                            },
                             {
                                 "trade_id": "ASTS-11",
                                 "symbol": "ASTS",
@@ -52131,6 +52120,14 @@
                                 "breakeven": 0,
                                 "open_partial": 0
                             },
+                            "NVDA": {
+                                "trades": 1,
+                                "pnl": 41.85,
+                                "wins": 1,
+                                "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "JPM": {
                                 "trades": 1,
                                 "pnl": -51.83,
@@ -52138,14 +52135,6 @@
                                 "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
-                            },
-                            "NVDA": {
-                                "trades": 0,
-                                "pnl": 25.78,
-                                "wins": 0,
-                                "losses": 0,
-                                "breakeven": 0,
-                                "open_partial": 1
                             }
                         },
                         "recent_trades": [
@@ -52274,14 +52263,28 @@
                                 "total_pnl": "-171.42",
                                 "balance": "99828.58",
                                 "notes": "remaining=15 shares alpaca_order=cb330109-25a0-489d-94bc-49f54c637761 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "NVDA-16",
+                                "timestamp": "2026-08-20 19:51:20",
+                                "symbol": "NVDA",
+                                "event": "CLOSE_EOD",
+                                "side": "SHORT",
+                                "price": "216.7773",
+                                "shares": "15.0",
+                                "usd_qty": "3251.66",
+                                "pnl": "16.07",
+                                "total_pnl": "-155.35",
+                                "balance": "99844.65",
+                                "notes": "entry=217.85 exit=216.78 alpaca_order=79b5f63d-6f51-469c-89ab-fb09aeb77ea7 status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": -100.0,
-                        "total_pnl_delta": -213.09,
-                        "trade_count_delta": 0,
+                        "win_rate_delta_pct": -75.0,
+                        "total_pnl_delta": -197.02,
+                        "trade_count_delta": 1,
                         "direction": "declining"
                     }
                 }
