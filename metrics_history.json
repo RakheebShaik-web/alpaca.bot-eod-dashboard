@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-20T14:15:29.550592+00:00",
+    "generated_at": "2026-08-20T14:16:29.196123+00:00",
     "latest_date": "2026-08-20",
     "days": [
         {
@@ -52101,6 +52101,17 @@
                                 "tp1": 216.21,
                                 "tp2": 215.4,
                                 "last_event": "ENTRY_SHORT"
+                            },
+                            {
+                                "trade_id": "JPM-13",
+                                "symbol": "JPM",
+                                "side": "SHORT",
+                                "entry_price": 354.97,
+                                "remaining": 27.0,
+                                "sl": 356.81,
+                                "tp1": 353.14,
+                                "tp2": 352.22,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -52191,6 +52202,20 @@
                                 "total_pnl": "-197.2",
                                 "balance": "99802.8",
                                 "notes": "TP1=216.21 TP2=215.40 SL=219.48 shares=30 risk\u00e2\u2030\u02c6$49.03 signal=2026-08-20 14:15:00 atr=0.9339 atr_pct=0.4287 volume_ratio=1.3929 ema_sep_atr=1.0293 ema_slope_atr=-0.0892 alpaca_order=a51d73dc-4dfe-41f7-b039-9dd1d6b231a4 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "JPM-13",
+                                "timestamp": "2026-08-20 14:15:58",
+                                "symbol": "JPM",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "354.97",
+                                "shares": "27.0",
+                                "usd_qty": "9584.19",
+                                "pnl": "0.0",
+                                "total_pnl": "166.22",
+                                "balance": "100166.22",
+                                "notes": "TP1=353.14 TP2=352.22 SL=356.81 shares=27 risk\u00e2\u2030\u02c6$49.54 signal=2026-08-20 14:15:00 atr=1.0486 atr_pct=0.2955 volume_ratio=2.1296 ema_sep_atr=1.7483 ema_slope_atr=-0.2226 alpaca_order=7fa86c14-b5aa-44f2-86ed-e9b08b1791da status=OrderStatus.FILLED"
                             }
                         ]
                     },
