@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-21T15:40:37.775537+00:00",
+    "generated_at": "2026-08-21T16:16:26.449985+00:00",
     "latest_date": "2026-08-21",
     "days": [
         {
@@ -52324,6 +52324,17 @@
                                 "tp1": 366.91,
                                 "tp2": 369.81,
                                 "last_event": "ENTRY_LONG"
+                            },
+                            {
+                                "trade_id": "JPM-14",
+                                "symbol": "JPM",
+                                "side": "SHORT",
+                                "entry_price": 351.4243,
+                                "remaining": 21.0,
+                                "sl": 353.71,
+                                "tp1": 349.14,
+                                "tp2": 348.0,
+                                "last_event": "ENTRY_SHORT"
                             }
                         ],
                         "by_symbol": {
@@ -52428,6 +52439,20 @@
                                 "total_pnl": "-124.68",
                                 "balance": "99875.32",
                                 "notes": "entry=216.50 exit=216.54 alpaca_order=28585c77-5588-411e-bc9b-079f6ad7009c status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "JPM-14",
+                                "timestamp": "2026-08-21 16:16:21",
+                                "symbol": "JPM",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "351.4243",
+                                "shares": "21.0",
+                                "usd_qty": "7379.91",
+                                "pnl": "0.0",
+                                "total_pnl": "114.39",
+                                "balance": "100114.39",
+                                "notes": "TP1=349.14 TP2=348.00 SL=353.71 shares=21 risk\u00e2\u2030\u02c6$47.93 signal=2026-08-21 16:15:00 atr=1.3043 atr_pct=0.3711 volume_ratio=1.3869 ema_sep_atr=1.1880 ema_slope_atr=-0.0907 alpaca_order=1165a034-46c6-4409-a7e3-59dd8971765f status=OrderStatus.FILLED"
                             }
                         ]
                     },
