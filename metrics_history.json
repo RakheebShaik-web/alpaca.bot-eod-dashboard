@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-21T19:51:12.599521+00:00",
+    "generated_at": "2026-08-21T19:52:09.729955+00:00",
     "latest_date": "2026-08-21",
     "days": [
         {
@@ -52295,37 +52295,25 @@
             "datasets": {
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 3,
+                        "total_trades": 4,
                         "win_count": 2,
-                        "loss_count": 1,
+                        "loss_count": 2,
                         "breakeven_count": 0,
-                        "win_rate_pct": 66.67,
-                        "loss_rate_pct": 33.33,
-                        "total_pnl": 9.18,
-                        "closed_position_pnl": 9.18,
-                        "avg_pnl_per_trade": 3.06,
+                        "win_rate_pct": 50.0,
+                        "loss_rate_pct": 50.0,
+                        "total_pnl": 3.18,
+                        "closed_position_pnl": 3.18,
+                        "avg_pnl_per_trade": 0.79,
                         "avg_win": 29.09,
-                        "avg_loss": -49.01,
-                        "realized_exit_count": 4,
-                        "eod_close_count": 1,
+                        "avg_loss": -27.5,
+                        "realized_exit_count": 5,
+                        "eod_close_count": 2,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 31.43,
                         "tp2_hit_count": 0,
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 0,
-                        "open_positions": [
-                            {
-                                "trade_id": "JPM-14",
-                                "symbol": "JPM",
-                                "side": "SHORT",
-                                "entry_price": 351.4243,
-                                "remaining": 21.0,
-                                "sl": 353.71,
-                                "tp1": 349.14,
-                                "tp2": 348.0,
-                                "last_event": "ENTRY_SHORT"
-                            }
-                        ],
+                        "open_positions": [],
                         "by_symbol": {
                             "AMZN": {
                                 "trades": 1,
@@ -52348,6 +52336,14 @@
                                 "pnl": 27.52,
                                 "wins": 1,
                                 "losses": 0,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
+                            "JPM": {
+                                "trades": 1,
+                                "pnl": -6.0,
+                                "wins": 0,
+                                "losses": 1,
                                 "breakeven": 0,
                                 "open_partial": 0
                             }
@@ -52464,14 +52460,28 @@
                                 "total_pnl": "134.16",
                                 "balance": "100134.16",
                                 "notes": "entry=361.11 exit=364.55 alpaca_order=3f76af92-8084-4188-b74b-b7a9ff154572 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "JPM-14",
+                                "timestamp": "2026-08-21 19:51:29",
+                                "symbol": "JPM",
+                                "event": "CLOSE_EOD",
+                                "side": "SHORT",
+                                "price": "351.71",
+                                "shares": "21.0",
+                                "usd_qty": "7385.91",
+                                "pnl": "-6.0",
+                                "total_pnl": "108.39",
+                                "balance": "100108.39",
+                                "notes": "entry=351.42 exit=351.71 alpaca_order=87b6ee69-0982-43e9-a18b-ea49da96881b status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
-                        "win_rate_delta_pct": 46.67,
-                        "total_pnl_delta": 172.34,
-                        "trade_count_delta": -2,
+                        "win_rate_delta_pct": 30.0,
+                        "total_pnl_delta": 166.34,
+                        "trade_count_delta": -1,
                         "direction": "improving"
                     }
                 }
