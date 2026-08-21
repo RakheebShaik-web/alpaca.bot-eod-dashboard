@@ -1,6 +1,6 @@
 {
-    "generated_at": "2026-08-20T19:51:25.851988+00:00",
-    "latest_date": "2026-08-20",
+    "generated_at": "2026-08-21T13:52:08.283038+00:00",
+    "latest_date": "2026-08-21",
     "days": [
         {
             "date": "2026-06-26",
@@ -52286,6 +52286,70 @@
                         "total_pnl_delta": -197.02,
                         "trade_count_delta": 1,
                         "direction": "declining"
+                    }
+                }
+            }
+        },
+        {
+            "date": "2026-08-21",
+            "datasets": {
+                "alpaca_paper": {
+                    "trade_metrics": {
+                        "total_trades": 0,
+                        "win_count": 0,
+                        "loss_count": 0,
+                        "breakeven_count": 0,
+                        "win_rate_pct": 0.0,
+                        "loss_rate_pct": 0.0,
+                        "total_pnl": 0,
+                        "closed_position_pnl": 0,
+                        "avg_pnl_per_trade": 0.0,
+                        "avg_win": 0.0,
+                        "avg_loss": 0.0,
+                        "realized_exit_count": 0,
+                        "eod_close_count": 0,
+                        "tp1_hit_count": 0,
+                        "tp1_realized_pnl": 0,
+                        "tp2_hit_count": 0,
+                        "tp2_realized_pnl": 0,
+                        "open_partial_count": 0,
+                        "open_positions": [
+                            {
+                                "trade_id": "AMZN-19",
+                                "symbol": "AMZN",
+                                "side": "SHORT",
+                                "entry_price": 258.59,
+                                "remaining": 29.0,
+                                "sl": 260.26,
+                                "tp1": 256.92,
+                                "tp2": 256.08,
+                                "last_event": "ENTRY_SHORT"
+                            }
+                        ],
+                        "by_symbol": {},
+                        "recent_trades": [
+                            {
+                                "trade_id": "AMZN-19",
+                                "timestamp": "2026-08-21 13:52:02",
+                                "symbol": "AMZN",
+                                "event": "ENTRY_SHORT",
+                                "side": "SHORT",
+                                "price": "258.59",
+                                "shares": "29.0",
+                                "usd_qty": "7499.11",
+                                "pnl": "0.0",
+                                "total_pnl": "31.3034",
+                                "balance": "100031.3",
+                                "notes": "TP1=256.92 TP2=256.08 SL=260.26 shares=29 risk\u00e2\u2030\u02c6$48.45 signal=2026-08-21 13:45:00 atr=0.9546 atr_pct=0.3700 volume_ratio=3.5909 ema_sep_atr=0.7417 ema_slope_atr=-0.1840 alpaca_order=385fea56-27cc-414d-9dfb-98983fd6382b status=OrderStatus.FILLED"
+                            }
+                        ]
+                    },
+                    "trend": {
+                        "has_previous_day": true,
+                        "win_rate_delta_pct": -20.0,
+                        "total_pnl_delta": 163.16,
+                        "trade_count_delta": -5,
+                        "direction": "mixed"
                     }
                 }
             }
