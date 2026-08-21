@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-21T14:25:58.723791+00:00",
+    "generated_at": "2026-08-21T15:00:43.737022+00:00",
     "latest_date": "2026-08-21",
     "days": [
         {
@@ -52295,18 +52295,18 @@
             "datasets": {
                 "alpaca_paper": {
                     "trade_metrics": {
-                        "total_trades": 0,
+                        "total_trades": 1,
                         "win_count": 0,
-                        "loss_count": 0,
+                        "loss_count": 1,
                         "breakeven_count": 0,
                         "win_rate_pct": 0.0,
-                        "loss_rate_pct": 0.0,
-                        "total_pnl": 31.43,
-                        "closed_position_pnl": 0,
-                        "avg_pnl_per_trade": 0.0,
+                        "loss_rate_pct": 100.0,
+                        "total_pnl": -17.58,
+                        "closed_position_pnl": -49.01,
+                        "avg_pnl_per_trade": -49.01,
                         "avg_win": 0.0,
-                        "avg_loss": 0.0,
-                        "realized_exit_count": 1,
+                        "avg_loss": -49.01,
+                        "realized_exit_count": 2,
                         "eod_close_count": 0,
                         "tp1_hit_count": 1,
                         "tp1_realized_pnl": 31.43,
@@ -52314,17 +52314,6 @@
                         "tp2_realized_pnl": 0,
                         "open_partial_count": 1,
                         "open_positions": [
-                            {
-                                "trade_id": "AMZN-19",
-                                "symbol": "AMZN",
-                                "side": "SHORT",
-                                "entry_price": 258.59,
-                                "remaining": 29.0,
-                                "sl": 260.26,
-                                "tp1": 256.92,
-                                "tp2": 256.08,
-                                "last_event": "ENTRY_SHORT"
-                            },
                             {
                                 "trade_id": "NVDA-17",
                                 "symbol": "NVDA",
@@ -52338,6 +52327,14 @@
                             }
                         ],
                         "by_symbol": {
+                            "AMZN": {
+                                "trades": 1,
+                                "pnl": -49.01,
+                                "wins": 0,
+                                "losses": 1,
+                                "breakeven": 0,
+                                "open_partial": 0
+                            },
                             "NVDA": {
                                 "trades": 0,
                                 "pnl": 31.43,
@@ -52389,14 +52386,28 @@
                                 "total_pnl": "-123.92",
                                 "balance": "99876.08",
                                 "notes": "remaining=19 shares alpaca_order=c8d53011-0a17-47e8-8db9-a8a713da9285 status=OrderStatus.FILLED"
+                            },
+                            {
+                                "trade_id": "AMZN-19",
+                                "timestamp": "2026-08-21 15:00:39",
+                                "symbol": "AMZN",
+                                "event": "SL_HIT",
+                                "side": "SHORT",
+                                "price": "260.28",
+                                "shares": "29.0",
+                                "usd_qty": "7548.12",
+                                "pnl": "-49.01",
+                                "total_pnl": "-17.7066",
+                                "balance": "99982.29",
+                                "notes": "entry=258.59 exit=260.28 alpaca_order=39366bb1-c518-4ab1-8c16-bca131c5a0cf status=OrderStatus.FILLED"
                             }
                         ]
                     },
                     "trend": {
                         "has_previous_day": true,
                         "win_rate_delta_pct": -20.0,
-                        "total_pnl_delta": 194.59,
-                        "trade_count_delta": -5,
+                        "total_pnl_delta": 145.58,
+                        "trade_count_delta": -4,
                         "direction": "mixed"
                     }
                 }
